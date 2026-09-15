@@ -216,6 +216,8 @@ async function main() {
 
   const existing = new Set(data.items.map((i) => i.id))
   const existingTitles = data.items.map((i) => i.title.toLowerCase())
+  const prevItemsKey = JSON.stringify(data.items.map((i) => i.id))
+  const prevSources = JSON.stringify(data.sources)
   const now = Date.now()
   const minAgeMs = (meta.window.minAgeHours || 12) * 36e5
   const maxAgeMs = (meta.window.maxAgeDays || 400) * 864e5
@@ -281,7 +283,13 @@ async function main() {
 
   data.items.sort((a, b) => new Date(b.date) - new Date(a.date))
   if (data.items.length > (meta.maxItems || 500)) data.items = data.items.slice(0, meta.maxItems)
-  data.generatedAt = new Date().toISOString()
+
+  // git-idempotencia: solo renovar generatedAt si items o sources cambiaron de verdad.
+  // (evita commits vacíos de `data: refresh` en CI cuando una corrida no agrega nada)
+  const itemsChanged = JSON.stringify(data.items.map((i) => i.id)) !== prevItemsKey
+  const sourcesChanged = JSON.stringify(data.sources) !== prevSources
+  const changed = itemsChanged || sourcesChanged
+  if (changed) data.generatedAt = new Date().toISOString()
   recompute(data)
 
   const json = JSON.stringify(data, null, 2) + '\n'
@@ -290,7 +298,7 @@ async function main() {
 
   log(`✓ feeds: ${sources.length} · ítemes parseados: ${fetched} · agregados: +${added} · total: ${data.items.length}`)
   log(`✓ fuentes vivas: ${data.feedStats.alive}/${data.feedStats.sources}`)
-  return { added, total: data.items.length, changed: added > 0 }
+  return { added, total: data.items.length, changed }
 }
 
 const res = await main().catch((e) => {
