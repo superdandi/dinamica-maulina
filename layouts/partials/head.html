@@ -23,8 +23,12 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" absoluteURL="{{ .Permalink }}">
 <meta property="og:locale" content="es_CL">
+<meta property="og:image" content="{{ "img/og.png" | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:description" content="{{ .Site.Params.description }}">
+<meta name="twitter:image" content="{{ "img/og.png" | absURL }}">

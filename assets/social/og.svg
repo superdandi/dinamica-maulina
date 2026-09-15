@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1C1917"/>
+      <stop offset="1" stop-color="#2A1E18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <text x="72" y="120" font-family="Liberation Sans, sans-serif" font-size="30" font-weight="700" letter-spacing="9" fill="#C2593B">REVISTA DIGITAL DEL MAULE · CHILE</text>
+
+  <text x="68" y="330" font-family="Liberation Serif, serif" font-size="132" fill="#F2E9DC">La cultura</text>
+  <text x="68" y="455" font-family="Liberation Serif, serif" font-size="132" font-style="italic" fill="#C2593B">fluye por el Maule</text>
+
+  <text x="72" y="530" font-family="Liberation Sans, sans-serif" font-size="30" letter-spacing="6" fill="#A8A29E">superdandi.github.io/dinamica-maulina</text>
+
+  <g stroke-linecap="round" fill="none">
+    <path d="M0 590 Q150 560 300 580 T600 580 T900 578 T1200 585" stroke="#2C5F7C" stroke-width="22"/>
+    <path d="M0 612 Q180 588 360 606 T720 604 T1080 606 T1200 610" stroke="#5E2B3E" stroke-width="16"/>
+    <path d="M0 632 Q200 614 400 628 T800 626 T1200 630" stroke="#C2593B" stroke-width="10"/>
+  </g>
+</svg>

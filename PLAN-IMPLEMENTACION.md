@@ -506,17 +506,17 @@ dinamica-maulina/
 ### FASE 4 — Orquestación CI
 - [x] `update-data.yml` (cron 8h + dispatch + commit condicional + push)
 - [x] `deploy.yml` (on push → hugo build → gh-pages)
-- [ ] Configurar Pages en el repo (branch `gh-pages`)
-- [ ] Correr workflow Update manualmente (seed en CI)
-- [ ] Verificar deploy y URL `superdandi.github.io/dinamica-maulina/` en línea
-- [ ] Verificar contenido actualizado tras 1 ciclo cron (o force rerun)
+- [x] Configurar Pages en el repo (branch `gh-pages`)
+- [x] Correr workflow Update manualmente (seed en CI)
+- [x] Verificar deploy y URL `superdandi.github.io/dinamica-maulina/` en línea
+- [x] Verificar contenido actualizado tras 1 ciclo cron (o force rerun)
 
 ### FASE 5 — Lanzamiento y pulido
-- [ ] README completo (qué es, cómo funciona, cómo correr, cómo contribuir feeds)
-- [ ] Meta OG/Twitter + screenshot social (og-image)
-- [ ] Revisión accesibilidad y SEO (títulos, alt, lang, aria)
-- [ ] Prueba de carga/rendimiento del sitio desplegado
-- [ ] Rodar el pipeline 2× en remoto y confirmar idempotencia en Actions logs
+- [x] README completo (qué es, cómo funciona, cómo correr, cómo contribuir feeds)
+- [x] Meta OG/Twitter + screenshot social (og-image 1200×630 PNG, énfasis tipográfico)
+- [x] Revisión accesibilidad y SEO (títulos, alt, lang, aria)
+- [x] Prueba de carga/rendimiento del sitio desplegado
+- [x] Rodar el pipeline 2× en remoto y confirmar idempotencia en Actions logs
 - [ ] Retocar `sources.json` con cualquier feed que falle (dead/format change)
 - [ ] Notificar lanzamiento / validación final con el usuario
 
@@ -587,4 +587,6 @@ dinamica-maulina/
 | 2026-09-15 | Correcciones config | ✅ | `theme=''` eliminado; `languageCode`→`locale` (deprecado en v0.158+) |
 | 2026-09-15 | FASE 1 completa | ✅ | Probe 44 vivos /15 fallidos · sources.json 43 feeds · 600 items (2006→2026) · idempotencia +0 |
 | 2026-09-15 | FASE 2+3 base | ✅ | Tema completo: inicio/categorías/catálogo/nosotros/404/buscar · Cliente: Fuse.js + Open-Meteo |
+| 2026-09-15 | FASE 4 completa | ✅ | Workflows update-data (cron 8h) + deploy · Pages en `gh-pages` · sitio **en línea** · CI idempotente |
+| 2026-09-15 | FASE 5 (parcial) | ⏳ | README + og-image listos · accesibilidad/SEO y carga verificados · pendiente: retoque de feeds fallidos |
 | | | | |
