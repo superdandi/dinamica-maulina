@@ -227,6 +227,28 @@ img { max-width: 100%; height: auto; display: block; }
 /* --- Notas de sección ----------------------------------------------------------- */
 .section__note { font-size: .8rem; color: var(--tinta-500); }
 
+/* --- Agenda ----------------------------------------------------------------- */
+.agenda { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .75rem; }
+.agenda__item {
+  display: flex; gap: 1rem; align-items: flex-start;
+  background: var(--card-bg); border: 1px solid var(--arena-200); border-radius: var(--radius);
+  padding: .9rem 1.1rem; box-shadow: var(--shadow);
+}
+.agenda__when {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-width: 64px; height: 64px; border-radius: var(--radius-sm);
+  background: var(--tinta-900); color: var(--arena-50); text-decoration: none;
+}
+.agenda__when:hover { text-decoration: none; background: var(--rio-500); }
+.agenda__day { font-family: var(--font-display); font-size: 1.6rem; font-weight: 800; line-height: 1; }
+.agenda__mon { font-size: .72rem; font-weight: 700; letter-spacing: .18em; color: var(--arcilla-400); }
+.agenda__body { display: flex; flex-direction: column; gap: .35rem; min-width: 0; }
+.agenda__title { font-size: 1.08rem; margin: 0; }
+.agenda__title a { color: var(--tinta-900); }
+.agenda__meta { font-size: .8rem; color: var(--tinta-500); margin: 0; }
+.agenda__hint { font-size: .78rem; color: var(--arcilla-600); margin: 0; font-style: italic; }
+@media (max-width: 560px) { .agenda__item { flex-direction: column; } }
+
 /* --- Clima ---------------------------------------------------------------------- */
 .weather { background: var(--card-bg); border: 1px solid var(--arena-200); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.25rem; }
 .weather__cities { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
