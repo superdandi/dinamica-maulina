@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Install poppler-utils (pdftotext)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
       - name: Run pipeline
         run: node scripts/feed-sources.mjs
 

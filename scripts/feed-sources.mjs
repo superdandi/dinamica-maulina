@@ -9,9 +9,14 @@
  * Idempotente: correrlo 2 veces produce la 2ª +0 items.
  * Uso: node scripts/feed-sources.mjs [--quiet]
  */
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile, writeFile, unlink } from 'node:fs/promises'
 import path from 'node:path'
+import os from 'node:os'
 import { fileURLToPath } from 'node:url'
+import { execFile } from 'node:child_process'
+import { promisify } from 'node:util'
+
+const execFileP = promisify(execFile)
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const SOURCES_PATH = path.resolve(__dirname, './sources.json')
@@ -197,6 +202,167 @@ async function fetchFeed(url, meta) {
   }
 }
 
+// ─── Programa mensual de Extensión UTalca (PDF → pdftotext) ────────────────
+const PROGRAM_ID = 'ext-utalca-programa'
+const PROGRAM_SRC = {
+  id: PROGRAM_ID,
+  name: 'Extensión UTalca — Programa mensual',
+  url: 'https://mav.utalca.cl/',
+  feed: 'https://mav.utalca.cl/',
+  category: 'PATRIMONIO',
+  author: '',
+  active: true,
+}
+
+const MONTHS_ES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+const WEEKDAY_ONLY = /^(domingo|lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bados?)$/i
+// Marcador de día al inicio de línea: "1 y", "8", "2 - 9 / 23 - 30", "24Jueves"
+const DAY_PREFIX = /^(\d{1,2})(?:\s*(?:-|y|Y)\s*(\d{1,2}))?(?:\s*\/\s*(\d{1,2})\s*(?:-|y|Y)\s*(\d{1,2}))?(?!\d)(.*)$/
+
+const PROGRAM_NOISE = [
+  (l) => /^año\s+.*$/i.test(l),
+  (l) => /^n°?\s*\d+$/i.test(l),
+  (l) => /^(director|encargad|curador|corrector|gestora?|periodista|asistente|diseñador|coordinador)\b/i.test(l),
+  (l) => /^(únete|todas nuestras|culturales son)/i.test(l),
+  (l) => /^[a-záéíóúñ_.]+\.?utalca\.cl(\.)?$/i.test(l),
+  (l) => /^@\S+/i.test(l),
+  (l) => /^editorial\b/i.test(l) || /^editorialutalca$/i.test(l),
+  (l) => /\S+@\S+/.test(l),
+  (l) => /^extensi[oó]n\s+utalca$/i.test(l),
+]
+
+function parseProgramText(text) {
+  const blocks = []
+  let cur = null
+  const close = () => {
+    if (cur && cur.days.length && cur.lines.length) {
+      const joined = cur.lines.join(' ')
+      // cabecera/portada del PDF (direcciones), no un evento real
+      if (!/(Norte\s*685|Poniente\s*1141|Merced\s*437|Auxiliadora\s*380|Lircay|Quebec\s*415)/.test(joined)) blocks.push(cur)
+    }
+    cur = null
+  }
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.replace(/\s+/g, ' ').trim()
+    if (!line) continue
+    if (PROGRAM_NOISE.some((f) => f(line))) continue
+    if (WEEKDAY_ONLY.test(line)) {
+      if (cur && !cur.weekday) cur.weekday = line
+      continue
+    }
+    // hora al inicio de línea (a veces viene fusionada con texto del cuerpo)
+    const tm = line.match(/^(\d{1,2}:\d{2})(?:\s*(?:[ah]\s*\/\s*\d{1,2}:\d{2}\s*[ah]?|[ah]))?\s*(.*)$/)
+    if (tm) {
+      if (cur) {
+        if (!cur.times.length) cur.times.push(tm[1])
+        const rem = tm[2].trim()
+        if (rem && !PROGRAM_NOISE.some((f) => f(rem))) {
+          cur.lines.push(rem)
+          if (rem.length > 55) cur.header = false
+        }
+      }
+      continue
+    }
+    const dm = line.match(DAY_PREFIX)
+    if (dm) {
+      const days = [dm[1], dm[2], dm[3], dm[4]].filter(Boolean).map(Number)
+      const rest = (dm[5] || '').trim()
+      const weekdayRest = rest ? WEEKDAY_ONLY.test(rest) : false
+      const isPure = !rest || rest === 'y' || rest === 'Y' || weekdayRest
+      const seriesY = /^\d{1,2}\s+y$/i.test(line.trim())
+      const longProse = rest.length > 24 && /^[a-záéíóúñ]/.test(rest)
+      if (longProse && cur && !cur.header) {
+        cur.lines.push(rest)
+        continue
+      }
+      if (!cur) {
+        cur = { days, times: [], weekday: '', lines: [], header: true, seriesY }
+        if (!isPure) cur.lines.push(rest)
+      } else if (cur.header && !isPure) {
+        // "23 - 30 chileno": continuación de título con días (layout)
+        cur.days.push(...days)
+        cur.lines.push(rest)
+      } else if (isPure && cur.seriesY) {
+        // continuación de serie "1 y" → "8"
+        cur.days.push(...days)
+      } else {
+        close()
+        cur = { days, times: [], weekday: '', lines: [], header: true, seriesY }
+        if (!isPure) cur.lines.push(rest)
+      }
+      if (!isPure && rest.length > 55) cur.header = false
+      if (weekdayRest) cur.weekday = rest
+      continue
+    }
+    if (cur) {
+      cur.lines.push(line)
+      if (line.length > 55) cur.header = false
+    }
+  }
+  close()
+  return blocks
+}
+
+function buildProgramTitle(lines) {
+  const t = lines.filter(Boolean)
+  let title = t[0] || ''
+  for (let i = 1; i < t.length; i++) {
+    const l = t[i]
+    if (l.length > 55 || /[()·•]/.test(l)) break
+    if (/^(invitad\w*|imparte\w*|expositor\w*|entrada|actividad|inscripc\w*|hasta|en exhibici\w*|la muestra|gana)/i.test(l)) break
+    if (/^\d{1,2}\s+sesiones\b/i.test(l)) break
+    title += ' ' + l
+  }
+  return title.slice(0, 200)
+}
+
+async function fetchUtalcaProgram(meta) {
+  try {
+    const res = await fetch(PROGRAM_SRC.url, {
+      headers: { 'user-agent': meta.userAgent },
+      signal: AbortSignal.timeout((meta.timeoutSec || 30) * 1000),
+      redirect: 'follow',
+    })
+    if (!res.ok) throw new Error(`home HTTP ${res.status}`)
+    const html = await res.text()
+    const candidates = (html.match(/[^"'\s>]+\.pdf/gi) || []).map((u) => new URL(u, PROGRAM_SRC.url).href)
+    const progUrl = candidates.find((u) => /programa|agenda|cartelera/i.test(u)) || candidates[0]
+    if (!progUrl) throw new Error('sin PDF de programa en la home')
+
+    const pdf = await fetch(progUrl, {
+      headers: { 'user-agent': meta.userAgent },
+      signal: AbortSignal.timeout((meta.timeoutSec || 30) * 1000),
+      redirect: 'follow',
+    })
+    if (!pdf.ok) throw new Error(`PDF HTTP ${pdf.status}`)
+    const buf = Buffer.from(await pdf.arrayBuffer())
+
+    const nowDate = new Date()
+    const fn = progUrl.toLowerCase()
+    let monthIdx = MONTHS_ES.findIndex((m) => fn.includes(`_${m}_`))
+    if (monthIdx < 0) monthIdx = MONTHS_ES.findIndex((m) => fn.includes(m))
+    if (monthIdx < 0) monthIdx = nowDate.getUTCMonth()
+    const ym = fn.match(/(\d{4})/)
+    const year = ym ? Number(ym[1]) : nowDate.getUTCFullYear()
+
+    const tmp = path.join(os.tmpdir(), `dm-utalca-${Date.now()}.pdf`)
+    await writeFile(tmp, buf)
+    let stdout = ''
+    try {
+      ;({ stdout } = await execFileP('pdftotext', ['-layout', tmp, '-']))
+    } catch (e) {
+      throw new Error(`pdftotext: ${e.message}`)
+    } finally {
+      await unlink(tmp).catch(() => {})
+    }
+
+    return { url: progUrl, monthIdx, year, parseError: null, blocks: parseProgramText(stdout) }
+  } catch (e) {
+    log(`  ⚠ programa UTalca — ${e.message}`)
+    return { url: '', monthIdx: new Date().getUTCMonth(), year: new Date().getUTCFullYear(), parseError: e.message, blocks: [] }
+  }
+}
+
 // ─── Clasificación heurística a categoría ──────────────────────────────────
 function classifyCategory(text, fallback) {
   const lower = ` ${text.toLowerCase()} `
@@ -263,8 +429,8 @@ async function main() {
     data = { generatedAt: null, items: [], counts: {}, feedStats: {}, sources: [] }
   }
 
-  const existing = new Set(data.items.map((i) => i.id))
-  const existingTitles = data.items.map((i) => i.title.toLowerCase())
+  let existing = new Set(data.items.map((i) => i.id))
+  let existingTitles = data.items.map((i) => i.title.toLowerCase())
   const prevItemsKey = JSON.stringify(data.items.map((i) => i.id))
   const prevSources = JSON.stringify(data.sources)
   const now = Date.now()
@@ -325,6 +491,49 @@ async function main() {
     }
   }
 
+  // ─── Programa mensual de Extensión UTalca (PDF) ─────────────────────────
+  const prog = await fetchUtalcaProgram(meta)
+  let progItems = []
+  if (prog.blocks.length) {
+    const nowD = new Date()
+    const todayUTC = Date.UTC(nowD.getUTCFullYear(), nowD.getUTCMonth(), nowD.getUTCDate())
+    for (const b of prog.blocks) {
+      const days = [...new Set(b.days)].filter((d) => d >= 1 && d <= 31)
+        .filter((d) => Date.UTC(prog.year, prog.monthIdx, Math.min(d, 28), 12, 0, 0) >= todayUTC - 864e5)
+        .sort((a, b2) => a - b2)
+      if (!days.length) continue
+      const title = buildProgramTitle(b.lines)
+      if (!title) continue
+      const summary = b.lines.slice(1).join(' · ').replace(/\s+/g, ' ').trim().slice(0, 300)
+      const start = Date.UTC(prog.year, prog.monthIdx, Math.min(days[0], 28), 12, 0, 0)
+      if (isNaN(start)) continue
+      const timeStr = (b.times[0] || '').toLowerCase()
+      const text = `${days.join(', ')} de ${MONTHS_ES[prog.monthIdx]}${b.weekday ? ` (${b.weekday})` : ''}${timeStr ? ` · ${timeStr}` : ''}`
+      progItems.push({
+        id: '', title, summary,
+        link: prog.url,
+        author: '', category: classifyCategory(`${title} ${summary}`, PROGRAM_SRC.category),
+        source: PROGRAM_ID, date: new Date(start).toISOString(), image: '',
+        event: { kind: 'program', text, start: new Date(start).toISOString() },
+      })
+    }
+    if (progItems.length) {
+      data.items = data.items.filter((i) => i.source !== PROGRAM_ID)
+      existing = new Set(data.items.map((i) => i.id))
+      existingTitles = data.items.map((i) => i.title.toLowerCase())
+    }
+  }
+  aliveSources.push({ ...PROGRAM_SRC, alive: progItems.length > 0 })
+  for (const it of progItems) {
+    const id = makeId(it.title, it.date)
+    if (existing.has(id)) continue
+    if (existingTitles.some((t) => similarTitle(t, it.title))) continue
+    data.items.push({ ...it, id })
+    existing.add(id)
+    existingTitles.push(it.title.toLowerCase())
+    added++
+  }
+
   data.sources = aliveSources.map(({ id, name, url, feed, category, author, active, filter, alive }) => ({
     id, name, url, feed, category, author,
     alive, filter: !!filter,
@@ -340,6 +549,7 @@ async function main() {
       if ('event' in it) delete it.event
       continue
     }
+    if (it.event && it.event.kind === 'program') continue
     const ev = extractEvent(`${it.title} ${it.summary || ''}`)
     if (ev) it.event = { text: ev.text, start: ev.date.toISOString() }
     else if ('event' in it) delete it.event

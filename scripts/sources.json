@@ -444,6 +444,55 @@
    "category": "TERRITORIO",
    "author": "Alejandro Vega Santander",
    "active": true
+  },
+  {
+   "id": "ext-utalca-noticias",
+   "name": "UTalca — Noticias culturales",
+   "url": "https://utalca.cl/noticias",
+   "feed": "https://utalca.cl/noticias/feed/",
+   "category": "PATRIMONIO",
+   "author": "",
+   "filter": true,
+   "active": true
+  },
+  {
+   "id": "elmauleinforma",
+   "name": "El Maule Informa",
+   "url": "https://elmauleinforma.cl",
+   "feed": "https://elmauleinforma.cl/feed/",
+   "category": "PATRIMONIO",
+   "author": "",
+   "filter": true,
+   "active": true
+  },
+  {
+   "id": "diariotalca",
+   "name": "Diario Talca",
+   "url": "https://diariotalca.cl",
+   "feed": "https://diariotalca.cl/feed/",
+   "category": "PATRIMONIO",
+   "author": "",
+   "filter": true,
+   "active": true
+  },
+  {
+   "id": "soymaule-agenda",
+   "name": "Soy Maule — Agenda y cultura",
+   "url": "https://soymaule.cl",
+   "feed": "https://soymaule.cl/feed/",
+   "category": "PATRIMONIO",
+   "author": "",
+   "filter": true,
+   "active": true
+  },
+  {
+   "id": "lacandelariacultura",
+   "name": "Centro Cultural La Candelaria",
+   "url": "https://lacandelariacultura.cl",
+   "feed": "https://lacandelariacultura.cl/feed/",
+   "category": "PATRIMONIO",
+   "author": "",
+   "active": true
   }
  ]
 }
