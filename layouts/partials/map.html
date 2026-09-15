@@ -1,0 +1,14 @@
+<section class="section" aria-labelledby="mapa-titulo">
+  <div class="section__head">
+    <h2 id="mapa-titulo">El Maule en un vistazo</h2>
+  </div>
+  <div class="mapa" id="mapa-mapa" data-state="loading" aria-label="Mapa de la región del Maule">
+    <div class="state" id="mapa-loading"><div class="spinner" aria-hidden="true"></div><p>Dibujando el mapa maulino…</p></div>
+  </div>
+  <ul class="mapa__lista" id="mapa-lista" aria-label="Lista de lugares de la región"></ul>
+</section>
+
+<!-- Datos de lugares para el mapa (curados a mano) -->
+<script src="{{ "lib/leaflet/leaflet.js" | relURL }}" defer></script>
+<link rel="stylesheet" href="{{ "lib/leaflet/leaflet.css" | relURL }}">
+<script src="{{ "js/mapa.js" | relURL }}" defer></script>

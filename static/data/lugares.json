@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "region": "Región del Maule, Chile",
+    "capa": {
+      "ciudades": { "name": "Ciudades y comunas", "color": "arcilla" },
+      "escenarios": { "name": "Escenarios culturales", "color": "rio" },
+      "naturaleza": { "name": "Territorio y naturaleza", "color": "vinedo" },
+      "fuentes": { "name": "Fuentes del catálogo", "color": "tinta" },
+      "agenda": { "name": "Próximos eventos", "color": "agenda" }
+    },
+    "fitBounds": [[-36.55, -72.75], [-34.55, -70.35]]
+  },
+  "ciudades": [
+    { "id": "talca", "name": "Talca", "lat": -35.4264, "lon": -71.6554 },
+    { "id": "curico", "name": "Curicó", "lat": -34.9828, "lon": -71.2394 },
+    { "id": "linares", "name": "Linares", "lat": -35.8467, "lon": -71.5931 },
+    { "id": "constitucion", "name": "Constitución", "lat": -35.3333, "lon": -72.4117 },
+    { "id": "cauquenes", "name": "Cauquenes", "lat": -35.9669, "lon": -72.3225 },
+    { "id": "san-clemente", "name": "San Clemente", "lat": -35.5381, "lon": -71.4 },
+    { "id": "vilches", "name": "Vilches", "lat": -35.6088, "lon": -71.1178 },
+    { "id": "colbun", "name": "Colbún", "lat": -35.6964, "lon": -71.4689 },
+    { "id": "parral", "name": "Parral", "lat": -36.1393, "lon": -71.8264 },
+    { "id": "san-javier", "name": "San Javier", "lat": -35.5952, "lon": -71.7376 },
+    { "id": "molina", "name": "Molina", "lat": -35.1143, "lon": -71.2823 },
+    { "id": "romeral", "name": "Romeral", "lat": -35.0008, "lon": -71.2522 },
+    { "id": "villa-alegre", "name": "Villa Alegre", "lat": -35.6750, "lon": -71.7480 },
+    { "id": "pelluhue", "name": "Pelluhue", "lat": -35.8217, "lon": -72.5742 },
+    { "id": "chanco", "name": "Chanco", "lat": -35.7333, "lon": -72.5333 },
+    { "id": "licanten", "name": "Licantén", "lat": -34.9914, "lon": -72.0556 },
+    { "id": "vichuquen", "name": "Vichuquén", "lat": -34.8831, "lon": -71.9928 }
+  ],
+  "escenarios": [
+    { "id": "ext-utalca-talca", "name": "Centro de Extensión UTalca · Talca", "lat": -35.4272, "lon": -71.6632, "desc": "Sede de la Universidad de Talca (2 Norte 685).", "url": "https://mav.utalca.cl" },
+    { "id": "galeria-nuga", "name": "Galería NUGA", "lat": -35.4275, "lon": -71.6513, "desc": "Galería de arte de Extensión UTalca (1 Poniente 1141).", "url": "https://mav.utalca.cl" },
+    { "id": "teatro-abate-molina", "name": "Teatro Abate Molina", "lat": -35.4218, "lon": -71.6508, "desc": "Sala del Campus Talca de la UTalca.", "url": "https://mav.utalca.cl" },
+    { "id": "sala-pedro-olmos", "name": "Sala Pedro Olmos", "lat": -35.4212, "lon": -71.6510, "desc": "Sala de exposiciones del Campus Talca.", "url": "https://mav.utalca.cl" },
+    { "id": "sala-lily-garafulic", "name": "Sala Lily Garafulic", "lat": -35.4206, "lon": -71.6514, "desc": "Sala de exposiciones del Campus Talca (Av. Lircay s/n).", "url": "https://mav.utalca.cl" },
+    { "id": "ext-utalca-curico", "name": "Centro de Extensión UTalca · Curicó", "lat": -34.9834, "lon": -71.2362, "desc": "Sede de Extensión UTalca en Curicó (Merced 437).", "url": "https://mav.utalca.cl" },
+    { "id": "campus-utalca-linares", "name": "Campus Linares UTalca", "lat": -35.8445, "lon": -71.6030, "desc": "Sede de la Universidad de Talca en Linares (María Auxiliadora 380).", "url": "https://mav.utalca.cl" },
+    { "id": "teatro-regional-maule", "name": "Teatro Regional del Maule", "lat": -35.4269, "lon": -71.6524, "desc": "Teatro mayor de la región, en Talca.", "url": "https://teatroregional.cl" },
+    { "id": "teatro-municipal-curico", "name": "Teatro Municipal de Curicó", "lat": -34.9845, "lon": -71.2375, "desc": "Sala escénica principal de Curicó.", "url": "" },
+    { "id": "teatro-municipal-linares", "name": "Teatro Municipal de Linares", "lat": -35.8470, "lon": -71.5928, "desc": "Sala escénica de Linares.", "url": "" },
+    { "id": "museo-ohigginiano", "name": "Museo O'Higginiano y de Bellas Artes de Talca", "lat": -35.4265, "lon": -71.6630, "desc": "Museo histórico y de bellas artes en Talca.", "url": "" },
+    { "id": "espacio-cultural", "name": "El Espacio · Centro Cultural", "lat": -35.4275, "lon": -71.6545, "desc": "Espacio cultural independiente de Talca.", "url": "" }
+  ],
+  "naturaleza": [
+    { "id": "rio-maule", "name": "Río Maule", "lat": -35.4050, "lon": -71.6100, "desc": "El río que da nombre a la región, de la cordillera al mar." },
+    { "id": "rio-claro", "name": "Río Claro", "lat": -35.2600, "lon": -71.5700, "desc": "Afluente del Maule en el valle central." },
+    { "id": "laguna-maule", "name": "Laguna del Maule", "lat": -36.0497, "lon": -70.5054, "desc": "Andina, junto al volcán del mismo nombre." },
+    { "id": "radal-7-tazas", "name": "Radal Siete Tazas", "lat": -35.4500, "lon": -70.8300, "desc": "Cascadas y pozones del río Claro en la pre-cordillera." },
+    { "id": "altos-lircay", "name": "Reserva Nacional Altos de Lircay", "lat": -35.6020, "lon": -71.2010, "desc": "Senderos y bosques precordilleranos cerca de Vilches." },
+    { "id": "bellotos-melado", "name": "Reserva Nacional Los Bellotos del Melado", "lat": -35.8300, "lon": -71.1000, "desc": "Bosque de bellotos, uno de los árboles monumentos del Maule." },
+    { "id": "termas-panimavida", "name": "Termas de Panimávida", "lat": -35.7800, "lon": -71.4450, "desc": "Balneario termal histórico de Colbún." },
+    { "id": "embalse-colbun", "name": "Embalse Colbún", "lat": -35.7480, "lon": -71.4030, "desc": "El gran embalse del Maule medio." },
+    { "id": "humedal-putu", "name": "Humedal de Putú", "lat": -35.3600, "lon": -72.5500, "desc": "Humeda costero del sector Pelluhue." }
+  ],
+  "fuentes": [
+    { "id": "fuente-extension-ucm", "name": "Extensión UCM · Curicó", "lat": -34.9828, "lon": -71.2394, "sourceId": "extension-ucm", "url": "https://extensionucm.blogspot.com", "desc": "Extensión de la Universidad Católica del Maule (inactiva desde 2009)." },
+    { "id": "fuente-seremi", "name": "Seremi de las Culturas · Talca", "lat": -35.4280, "lon": -71.6590, "sourceId": "seremi-culturas", "url": "https://www.cultura.gob.cl", "desc": "Secretaría Regional Ministerial de las Culturas, las Artes y el Patrimonio." },
+    { "id": "fuente-candelaria", "name": "Centro Cultural La Candelaria", "lat": -35.4273, "lon": -71.6550, "sourceId": "lacandelariacultura", "url": "https://lacandelariacultura.cl", "desc": "Centro cultural de Talca." }
+  ],
+  "sedes": [
+    { "id": "sede-abate-molina", "name": "Teatro Abate Molina · Talca", "lat": -35.4218, "lon": -71.6508, "patron": ["abate molina"], "url": "https://mav.utalca.cl" },
+    { "id": "sede-pedro-olmos", "name": "Sala Pedro Olmos · Talca", "lat": -35.4212, "lon": -71.6510, "patron": ["pedro olmos"], "url": "https://mav.utalca.cl" },
+    { "id": "sede-lily-garafulic", "name": "Sala Lily Garafulic · Talca", "lat": -35.4206, "lon": -71.6514, "patron": ["lily garafulic"], "url": "https://mav.utalca.cl" },
+    { "id": "sede-nuga", "name": "Galería de Arte NUGA · Talca", "lat": -35.4275, "lon": -71.6513, "patron": ["nuga"], "url": "https://mav.utalca.cl" },
+    { "id": "sede-ext-talca", "name": "Centro de Extensión UTalca · Talca", "lat": -35.4272, "lon": -71.6632, "patron": ["extensión talca", "extension talca"], "url": "https://mav.utalca.cl" },
+    { "id": "sede-ext-curico", "name": "Centro de Extensión UTalca · Curicó", "lat": -34.9834, "lon": -71.2362, "patron": ["extensión curicó", "extension curicó"], "url": "https://mav.utalca.cl" },
+    { "id": "sede-campus-linares", "name": "Campus Linares · UTalca", "lat": -35.8445, "lon": -71.6030, "patron": ["campus linares"], "url": "https://mav.utalca.cl" },
+    { "id": "sede-san-rafael", "name": "Municipalidad de San Rafael", "lat": -35.2965, "lon": -71.7060, "patron": ["san rafael"], "url": "" },
+    { "id": "sede-talca", "name": "Talca", "lat": -35.4264, "lon": -71.6554, "patron": ["talca"], "fallback": true },
+    { "id": "sede-curico", "name": "Curicó", "lat": -34.9828, "lon": -71.2394, "patron": ["curicó", "curico"], "fallback": true },
+    { "id": "sede-linares", "name": "Linares", "lat": -35.8467, "lon": -71.5931, "patron": ["linares"], "fallback": true },
+    { "id": "sede-molina", "name": "Molina", "lat": -35.1143, "lon": -71.2823, "patron": ["molina"], "fallback": true },
+    { "id": "sede-san-javier", "name": "San Javier", "lat": -35.5952, "lon": -71.7376, "patron": ["san javier"], "fallback": true },
+    { "id": "sede-constitucion", "name": "Constitución", "lat": -35.3333, "lon": -72.4117, "patron": ["constitución", "constitucion"], "fallback": true },
+    { "id": "sede-cauquenes", "name": "Cauquenes", "lat": -35.9669, "lon": -72.3225, "patron": ["cauquenes"], "fallback": true },
+    { "id": "sede-parral", "name": "Parral", "lat": -36.1393, "lon": -71.8264, "patron": ["parral"], "fallback": true },
+    { "id": "sede-colbun", "name": "Colbún", "lat": -35.6964, "lon": -71.4689, "patron": ["colbún", "colbun"], "fallback": true },
+    { "id": "sede-pelluhue", "name": "Pelluhue", "lat": -35.8217, "lon": -72.5742, "patron": ["pelluhue"], "fallback": true },
+    { "id": "sede-villa-alegre", "name": "Villa Alegre", "lat": -35.6750, "lon": -71.7480, "patron": ["villa alegre"], "fallback": true }
+  ]
+}

@@ -551,6 +551,19 @@ dinamica-maulina/
 - [x] E15 (Bloque 1: +5 feeds — ext-utalca-noticias, elmauleinforma, diariotalca, soymaule-agenda (filter:true) y lacandelariacultura) Agregadores regionales + noticias UTalca + Candelaria en `sources.json`
 - [x] E16 (Bloque 2: `fetchUtalcaProgram` — home mav.utalca.cl → PDF mensual → `pdftotext -layout` → parser tolerante al layout (días+horas fusionadas con texto, títulos intercalados, series "1 y 8") → ítems con `event.kind:'program'` (inmunes al re-enriquecimiento) que entran a La Corriente y la Agenda) **Programa mensual de Extensión UTalca (PDF)** — reemplazo mensual idempotente (no genera commits vacíos)
 - [x] E17 (bug reportado por el usuario: los enlaces de categorías daban 404 — causa: slugs `artes_visuales`/`cine_medios` con guion bajo vs páginas reales `artes-visuales`/`cine-medios`, y `absURL` de rutas absolutas ignora la subruta `/dinamica-maulina/` → tiles y "Ver índice" ahora con ruta RELATIVA + `absURL`; header con `{{ .Permalink }}` absoluto; verificado: 0 enlaces internos rotos en `public/`) **Fix 404 categorías**
+- [x] E18 (Mapa "El Maule en un vistazo" embebido en la home — decisión del usuario: dentro de la home, no en el menú) **Mapa regional (decisión de ubicación)**
+- [x] E19 (Leaflet v1.9.4 vendored en `static/lib/leaflet/` incl. PNGs (marker-icon/layers) para cero dependencias CDN → bootstrap JS propio `js/mapa.js` con capa de marcadores CSS circulares (ciudades/escenarios/naturaleza/fuentes/agenda), tiles Esri World Light Gray + fallback OSM + estado de error elegante, popups con enlace, `fitBounds` regional) **Mapa regional (tech: Leaflet local + tiles online)**
+- [x] E20 (Datos curados a mano en `static/data/lugares.json`: 17 ciudades/comunas con lat/lon reales, 12 escenarios, 9 lugares de naturaleza, 3 fuentes presenciales del catálogo con `sourceId`, diccionario de 8 sedes UTalca + fallback por comuna → la Agenda futura detecta `sede` en título+summary y PIN de eventos; lista accesible de lugares bajo el mapa; sin cambios de pipeline) **Mapa regional (contenido + capas)**
+- [x] E21 (verificación: flujo completo de `mapa.js` validado en Node contra los datos reales (53 marcadores = 41 fijos + 12 eventos con sede) · en navegador se probó el fallback elegante) **Mapa regional (verificación lógica)**
+
+## 16. MAPA MAULINO — Notas de implementación
+
+- **Ubicación**: sección en `layouts/index.html` tras Categorías y antes del Clima, vía `layouts/partials/map.html` (patrón de `weather.html`). No es ítem de menú.
+- **Leaflet sin CDN**: `static/lib/leaflet/` (leaflet.js + leaflet.css + imágenes). Se carga solo donde existe `#mapa-mapa` (outline: `js/mapa.js` empieza con guard).
+- **Tiles**: Esri `Canvas/World_Light_Gray_Base` (gratis, sin key); ante >4 errores de tile se usa OpenStreetMap; si `lugares.json` no responde → estado de error con mensaje (sin mapa roto).
+- **Capas** (paleta del sitio): ciudades=arcilla, escenarios=rio, naturaleza=vinedo, fuentes=tinta, agenda=anillo arcilla (distinta visual de ciudades).
+- **Agenda en el mapa**: eventos con `event.start` futuros (hasta ~90 días, top 30), sede detectada en `title+summary` con diccionario de sedes (UTalca: Teatro Abate Molina, Sala Pedro Olmos, Sala Lily Garafulic, Galería NUGA, Centros de Extensión Talca/Curicó, Campus Linares, Municipalidad de San Rafael) + fallback por comuna; eventos sin sede no se pintean (seguimiento honesto).
+- **Accesibilidad**: lista HTML de lugares bajo el mapa (no solo canvas); popups con enlaces `target=_blank`.
 
 ---
 
@@ -626,4 +639,5 @@ dinamica-maulina/
 | 2026-09-15 | C+D completas | ✅ | Fuentes: 48 feeds (43 vivas), TERRITORIO 4→65 · Agenda: 3 eventos futuros detectados, /agenda/ + JSON-LD · corpus 717 items |
 | 2026-09-15 | Fix 404 categorías | ✅ | Usuario reporta enlaces rotos: slugs con `_` inexistentes + `absURL` ignorando subruta → rutas relativas + slugs con guiones; 0 enlaces internos rotos verificado |
 | 2026-09-15 | E: Centros culturales | ✅ | IG descartado · Bloque 1 (+5 agregadores, 54 fuentes) · Bloque 2 (programa mensual UTalca vía PDF, 8 eventos futuros → Agenda) · corpus 746 items · idempotencia confirmada |
+| 2026-09-15 | F: Mapa Maulino | ✅ | Mapa embebido en home (Leaflet local + tiles Esri/OSM) · 5 capas desde `data/lugares.json` curado · Agenda con detección de sede (diccionario UTalca + fallback comuna) · lista accesible bajo el mapa · lógica validada en Node contra datos reales (53 marcadores) |
 | | | | |
