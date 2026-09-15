@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="section">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+
+  {{ with hugo.Data.faust }}
+    <div class="catalog">
+      {{ range site.Params.categories }}
+        {{ $catID := .id }}
+        {{ $members := where hugo.Data.faust.sources "category" $catID }}
+        {{ if gt (len $members) 0 }}
+          <h2 class="catalog__cat">{{ .name }}</h2>
+          <ul class="catalog__list" role="list">
+            {{ range sort $members "name" }}
+              <li class="catalog__item">
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="catalog__link">
+                  <span class="catalog__name">{{ .name }}</span>
+                  {{ with .author }}<span class="catalog__author">{{ . }}</span>{{ end }}
+                </a>
+                <span class="catalog__badge {{ if .alive }}catalog__badge--alive{{ else }}catalog__badge--dead{{ end }}">
+                  {{ if .alive }}● viva{{ else }}○ inactiva{{ end }}
+                </span>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ else }}
+    <p class="state">El catálogo se poblará con la primera corrida de datos.</p>
+  {{ end }}
+</section>
+{{ end }}

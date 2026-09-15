@@ -6,7 +6,7 @@
   {{ with .Params.motto }}<p class="hero__lede">{{ . }}</p>{{ end }}
   <div class="prose">{{ .Content }}</div>
 
-  {{ with site.Data.faust }}
+  {{ with hugo.Data.faust }}
     {{ with .items }}
       {{ $items := where . "category" $catID }}
       <div class="section__head" style="margin-top:2rem">

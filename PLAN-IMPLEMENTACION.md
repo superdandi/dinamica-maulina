@@ -479,29 +479,29 @@ dinamica-maulina/
 - [x] **Prueba de idempotencia: 2ª corrida → +0 items** ✅
 
 ### FASE 2 — Tema Hugo y diseño "Río Maule"
-- [ ] `baseof.html` con head/header/footer + meta tags + OG
-- [ ] Sistema de diseño CSS (`assets/css/main.scss`): paleta §7.2 + tipografía §7.3
-- [ ] Logotipo/símbolo SVG "Dinámica Maulina" + favicon
-- [ ] Ticker/marquee "La Corriente" (nombres de localidades)
-- [ ] Divisores SVG "líneas de río" + textura de grano
-- [ ] `item-card.html` (imagen, label categoría, título serif, fuente+fecha)
-- [ ] `category-tile.html` (10 tiles) + grilla de categorías
-- [ ] Inicio: hero + La Corriente (top 24) + categorías + clima
-- [ ] Página Categorías + landing por categoría (build-time desde data)
-- [ ] Página Catálogo (directorio de fuentes estilo original)
-- [ ] Página Nosotros (historia, contacto, invitación)
-- [ ] 404 elegante
-- [ ] Responsive completo (640/768/1024) + `prefers-reduced-motion`
-- [ ] Render local: `hugo server` visual sin errores de layout
+- [x] `baseof.html` con head/header/footer + meta tags + OG
+- [x] Sistema de diseño CSS (`assets/css/main.css`): paleta §7.2 + tipografía §7.3 (main.css, no SCSS: evita dep dart-sass → menos piezas en CI)
+- [x] Marca/tipografía (wordmark "Dinámica MAULINA" + favicon SVG 🌊); todo en CSS/HTML
+- [x] Ticker/marquee "La Corriente" (nombres de localidades, reduced-motion)
+- [x] Divisores SVG "líneas de río" + textura
+- [x] `item-card.html` (imagen/lugar, pill categoría, título serif, fuente+fecha) — Hugo + JS
+- [x] `category-tile.html` (10 tiles con acento por color) + grilla de categorías
+- [x] Inicio: hero + La Corriente (top 24 vía JS) + categorías + clima
+- [x] Página Categorías + landing por categoría (build-time desde data) — layout `categoria/list.html`
+- [x] Página Catálogo (directorio de fuentes con estado viva/inactiva) — layout `catalogo/list.html`
+- [x] Página Nosotros (historia, contacto, invitación)
+- [x] 404 elegante
+- [x] Responsive completo (640/1024) + `prefers-reduced-motion`
+- [x] Render local: `hugo --gc --minify` sin errores (verificado: 37 páginas, 4 estáticos; categorías pobladas 4–124 items)
 
 ### FASE 3 — Cliente dinámico
-- [ ] Descargar y vender `fuse.min.js` en `static/lib/`
-- [ ] `static/js/app.js`: carga `/data/faust.json` con cache-busting + estados UI
-- [ ] Búsqueda Fuse.js (title+summary+author+source, threshold 0.4)
-- [ ] Filtro por categoría (pills) + orden por fecha
-- [ ] `static/js/weather.js`: Open-Meteo 6 ciudades (hoy + 3 días)
-- [ ] Mapeo weather_code → íconos SVG + estados cargando/error
-- [ ] Prueba local de búsqueda y clima (sin red de CI)
+- [x] `static/lib/fuse.min.js` vendored (**Fuse v6.6.2**, ~23 KB)
+- [x] `static/js/app.js`: carga `/data/faust.json` con cache-busting + estados UI
+- [x] Búsqueda Fuse.js (title+summary+author+source, weights, threshold 0.4)
+- [x] Filtro por categoría (pills) + render
+- [x] `static/js/weather.js`: Open-Meteo 6 ciudades (hoy + 3 días, WMO→íconos)
+- [x] Mapeo weather_code → íconos + estados cargando/error
+- [x] Prueba local (servido en `/dinamica-maulina/`, assets 200, categorías renderizadas)
 
 ### FASE 4 — Orquestación CI
 - [ ] `update-data.yml` (cron 8h + dispatch + commit condicional + push)
@@ -586,4 +586,5 @@ dinamica-maulina/
 | 2026-09-15 | FASE 0 casi completa | ✅ | esqueleto + config + categorías + build 37 páginas OK |
 | 2026-09-15 | Correcciones config | ✅ | `theme=''` eliminado; `languageCode`→`locale` (deprecado en v0.158+) |
 | 2026-09-15 | FASE 1 completa | ✅ | Probe 44 vivos /15 fallidos · sources.json 43 feeds · 600 items (2006→2026) · idempotencia +0 |
+| 2026-09-15 | FASE 2+3 base | ✅ | Tema completo: inicio/categorías/catálogo/nosotros/404/buscar · Cliente: Fuse.js + Open-Meteo |
 | | | | |

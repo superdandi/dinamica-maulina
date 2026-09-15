@@ -210,3 +210,41 @@ img { max-width: 100%; height: auto; display: block; }
 /* --- 404 ----------------------------------------------------------------------- */
 .notfound { text-align: center; padding: 4rem 1rem; }
 .notfound .hero__title { font-size: clamp(4rem, 12vw, 7rem); margin: 0; color: var(--rio-500); }
+
+/* --- Catálogo ---------------------------------------------------------------------- */
+.catalog { margin-top: 1.5rem; columns: 1; }
+@media (min-width: 860px) { .catalog { columns: 2; column-gap: 2.5rem; } }
+.catalog__cat { font-size: 1.05rem; letter-spacing: .06em; text-transform: uppercase; margin: 0 0 .5rem; display: inline-block; border-bottom: 2px solid var(--arcilla-400); padding-bottom: .15rem; break-after: avoid; }
+.catalog__list { list-style: none; margin: 0 0 1.4rem; padding: 0; }
+.catalog__item { display: flex; align-items: baseline; justify-content: space-between; gap: .6rem; padding: .3rem 0; border-bottom: 1px dotted var(--arena-200); break-inside: avoid; }
+.catalog__link { display: flex; flex-direction: column; min-width: 0; }
+.catalog__name { font-weight: 600; color: var(--tinta-900); }
+.catalog__author { font-size: .78rem; color: var(--tinta-500); }
+.catalog__badge { font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+.catalog__badge--alive { color: var(--vinedo-500); }
+.catalog__badge--dead { color: var(--tinta-500); opacity: .7; }
+
+/* --- Notas de sección ----------------------------------------------------------- */
+.section__note { font-size: .8rem; color: var(--tinta-500); }
+
+/* --- Clima ---------------------------------------------------------------------- */
+.weather { background: var(--card-bg); border: 1px solid var(--arena-200); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.25rem; }
+.weather__cities { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
+.weather__city {
+  border: 1px solid var(--arena-200); background: var(--arena-50); color: var(--tinta-600);
+  padding: .35rem .8rem; border-radius: 999px; font-size: .82rem; font-weight: 600; cursor: pointer;
+}
+.weather__city.active { background: var(--tinta-900); color: var(--arena-50); border-color: var(--tinta-900); }
+.weather__panel { display: flex; flex-direction: column; gap: 1rem; }
+.weather__cur { display: flex; gap: 1rem; align-items: center; }
+.weather__icon { font-size: 2.6rem; line-height: 1; }
+.weather__temp { font-family: var(--font-display); font-size: 2rem; font-weight: 800; margin: 0; }
+.weather__label { font-weight: 600; margin: 0; }
+.weather__extra { color: var(--tinta-500); font-size: .85rem; margin: 0; }
+.weather__days { display: grid; grid-template-columns: repeat(3, 1fr); gap: .6rem; }
+.weather__day { border-top: 1px dashed var(--arena-200); padding-top: .6rem; display: flex; flex-direction: column; gap: .1rem; }
+.weather__dayname { text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; font-weight: 700; color: var(--tinta-500); }
+.weather__dayicon { font-size: 1.5rem; }
+.weather__daytemp { font-weight: 600; }
+.weather__day small { color: var(--tinta-500); font-size: .78rem; }
+@media (max-width: 560px) { .weather__days { grid-template-columns: 1fr; } }

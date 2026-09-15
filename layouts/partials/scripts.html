@@ -1,1 +1,12 @@
-<script src="{{ relURL "js/app.js" }}" defer></script>
+<script>
+/* Globals del sitio para el JS del cliente */
+window.DM = {
+  base: {{ .Site.BaseURL | jsonify | safeJS }},
+  categories: {{ (slice .Site.Params.categories) | jsonify (dict "indent" "  ") | safeJS }},
+  cities: {{ (slice .Site.Params.cities) | jsonify (dict "indent" "  ") | safeJS }},
+  corpusPath: {{ "data/faust.json" | relURL | jsonify | safeJS }}
+};
+</script>
+<script src="{{ "lib/fuse.min.js" | relURL }}" defer></script>
+<script src="{{ "js/app.js" | relURL }}" defer></script>
+<script src="{{ "js/weather.js" | relURL }}" defer></script>
