@@ -1,15 +1,1121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+&lt;?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Dinámica Maulina</title>
-		<link>https://superdandi.github.io/dinamica-maulina/</link>
-		<description>Recent content on Dinámica Maulina</description>
-		<generator>Hugo</generator>
-		<language>es-CL</language>
-		
-		
-		
-		
-			<atom:link href="https://superdandi.github.io/dinamica-maulina/index.xml" rel="self" type="application/rss+xml" />
-	</channel>
+  <channel>
+    <title>Dinámica Maulina — La Corriente</title>
+    <link>https://superdandi.github.io/dinamica-maulina/</link>
+    <description>Revista/portal de cultura y arte de la Región del Maule, Chile. Autoalimentada desde las fuentes de la escena maulina.</description>
+    <language>es-CL</language>
+    <atom:link href="https://superdandi.github.io/dinamica-maulina/index.xml" rel="self" type="application/rss+xml"/>
+    <managingEditor>dcobosm@gmail.com</managingEditor>
+    <webMaster>Daniel Cobos (dcobosm@gmail.com)</webMaster>
+    
+      
+      
+      
+      
+
+      
+      
+        <item>
+          <title>Teatro de títeres llega a Yungay con función gratuita</title>
+          <link>https://www.cultura.gob.cl/agendacultural/teatro-de-titeres-llega-a-yungay-con-funcion-gratuita/</link>
+          <guid isPermaLink="false">2026-09-14-teatro-de-titeres-llega-a-yungay-con-funcion-gratuita</guid>
+          <pubDate>lun, 14 sept 2026 18:05:42 &#43;0000</pubDate>
+          <category>TEATRO</category>
+          <description>La obra “El Extraño Pasajero de Ojos Dorados” se presentará este sábado 26 de septiembre, a las 16:00 horas, en la Biblioteca Municipal de Yungay. La actividad es abierta y gratuita para mayores de 14 años. — nuble1</description>
+          
+          <source url="Seremi%20de%20las%20Culturas,%20las%20Artes%20y%20el%20Patrimonio%20%28Maule%29">Seremi de las Culturas, las Artes y el Patrimonio (Maule)</source>
+        </item>
+      
+        <item>
+          <title>Ministerios de las Culturas y Educación abren primera convocatoria al Sello de Educación Patrimonial para establecimientos educacionales</title>
+          <link>https://www.cultura.gob.cl/convocatorias/sello-educacion-patrimonial/</link>
+          <guid isPermaLink="false">2026-09-14-ministerios-de-las-culturas-y-educacion-abren-primera-convocatoria-al-sello-de-e</guid>
+          <pubDate>lun, 14 sept 2026 16:28:39 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>La iniciativa reconocerá a establecimientos de todo Chile que integran el patrimonio en sus proyectos educativos. Las postulaciones estarán abiertas desde el 14 de septiembre al 11 de octubre de 2026. — alecaros</description>
+          
+          <source url="Seremi%20de%20las%20Culturas,%20las%20Artes%20y%20el%20Patrimonio%20%28Maule%29">Seremi de las Culturas, las Artes y el Patrimonio (Maule)</source>
+        </item>
+      
+        <item>
+          <title>Convocatoria a los Premios Regionales de Arte y Cultura 2026 con nueva categoría dedicada a la infancia</title>
+          <link>https://www.cultura.gob.cl/convocatorias/convocatoria-a-los-premios-regionales-de-arte-y-cultura-2026-con-nueva-categoria-dedicada-a-la-infancia/</link>
+          <guid isPermaLink="false">2026-09-14-convocatoria-a-los-premios-regionales-de-arte-y-cultura-2026-con-nueva-categoria</guid>
+          <pubDate>lun, 14 sept 2026 15:12:11 &#43;0000</pubDate>
+          <category>TEATRO</category>
+          <description>Las postulaciones estarán abiertas hasta el 14 de octubre y este año se incorpora el Premio Regional de Arte y Cultura en la infancia. La ceremonia de premiación se realizará el 24 de noviembre en la Sala de Cámara del Teatro Biobío. — biobio</description>
+          
+          <source url="Seremi%20de%20las%20Culturas,%20las%20Artes%20y%20el%20Patrimonio%20%28Maule%29">Seremi de las Culturas, las Artes y el Patrimonio (Maule)</source>
+        </item>
+      
+        <item>
+          <title>12 artistas visuales de Ñuble dan vida a la exposición colectiva “Un río suena siempre cerca”</title>
+          <link>https://www.cultura.gob.cl/agendacultural/12-artistas-visuales-de-nuble-dan-vida-a-la-exposicion-colectiva-un-rio-suena-siempre-cerca/</link>
+          <guid isPermaLink="false">2026-09-14-12-artistas-visuales-de-nuble-dan-vida-a-la-exposicion-colectiva-un-rio-suena-si</guid>
+          <pubDate>lun, 14 sept 2026 12:25:11 &#43;0000</pubDate>
+          <category>ARTES_VISUALES</category>
+          <description>La muestra, curada por Diego Maureira, reúne obras de creadores de cinco comunas de la región y permanecerá abierta hasta el 20 de octubre en el Centro de Extensión de la Universidad del Bío-Bío. — nuble1</description>
+          
+          <source url="Seremi%20de%20las%20Culturas,%20las%20Artes%20y%20el%20Patrimonio%20%28Maule%29">Seremi de las Culturas, las Artes y el Patrimonio (Maule)</source>
+        </item>
+      
+        <item>
+          <title>Gobierno Regional y Seremi de las Culturas fortalecen la programación de espacios culturales del Maule</title>
+          <link>https://www.cultura.gob.cl/eventos-actividades/gobierno-regional-y-seremi-de-las-culturas-fortalecen-la-programacion-de-espacios-culturales-del-maule/</link>
+          <guid isPermaLink="false">2026-09-14-gobierno-regional-y-seremi-de-las-culturas-fortalecen-la-programacion-de-espacio</guid>
+          <pubDate>lun, 14 sept 2026 12:24:30 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>Maule Elige Cultura considera una inversión de 308 millones de pesos del Gobierno Regional del Maule para fortalecer espacios culturales, ampliar su programación y generar oportunidades de intercambio y vinculación internacional. — maule</description>
+          
+          <source url="Seremi%20de%20las%20Culturas,%20las%20Artes%20y%20el%20Patrimonio%20%28Maule%29">Seremi de las Culturas, las Artes y el Patrimonio (Maule)</source>
+        </item>
+      
+        <item>
+          <title>Mujeres de Arica y Parinacota reciben reconocimiento por preservar y transmitir saberes ancestrales</title>
+          <link>https://www.cultura.gob.cl/actualidad/mujeres-de-arica-y-parinacota-reciben-reconocimiento-por-preservar-y-transmitir-saberes-ancestrales/</link>
+          <guid isPermaLink="false">2026-09-11-mujeres-de-arica-y-parinacota-reciben-reconocimiento-por-preservar-y-transmitir-</guid>
+          <pubDate>vie, 11 sept 2026 17:34:55 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>En el marco de la conmemoración del Día Internacional de las Mujeres Indígenas, se realizó en Arica la ceremonia de entrega del reconocimiento ASÁT’AP 2026, iniciativa impulsada por el Servicio Nacional del Patrimonio Cultural (SERPAT), a través de la Subdirección Nacional de Pueblos Originarios y T — arica</description>
+          
+          <source url="Seremi%20de%20las%20Culturas,%20las%20Artes%20y%20el%20Patrimonio%20%28Maule%29">Seremi de las Culturas, las Artes y el Patrimonio (Maule)</source>
+        </item>
+      
+        <item>
+          <title>Música en Mi Jardín se presenta por primera vez en Cochamó</title>
+          <link>https://www.cultura.gob.cl/agendacultural/musica-en-mi-jardin-se-presenta-por-primera-vez-en-cochamo/</link>
+          <guid isPermaLink="false">2026-09-11-musica-en-mi-jardin-se-presenta-por-primera-vez-en-cochamo</guid>
+          <pubDate>vie, 11 sept 2026 14:11:48 &#43;0000</pubDate>
+          <category>MUSICA</category>
+          <description>La banda chilena para la infancia oriunda de Curacautín, realizará una gira por escuelas rurales de la comuna y un gran concierto en la Parroquia María Inmaculada, para toda la familia. — araucania</description>
+          
+          <source url="Seremi%20de%20las%20Culturas,%20las%20Artes%20y%20el%20Patrimonio%20%28Maule%29">Seremi de las Culturas, las Artes y el Patrimonio (Maule)</source>
+        </item>
+      
+        <item>
+          <title>LLUEVIA</title>
+          <link>https://dcobos.blogspot.com/feeds/5375029794771529373/comments/default</link>
+          <guid isPermaLink="false">2026-07-16-lluevia</guid>
+          <pubDate>jue, 16 jul 2026 07:41:37 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Nunca habia usado tanta ia como ia habia usado en mi vida, y quien lo diria, que yo estaria, que volveria y me enamoraria.&amp;nbsp; que yo veria la ia hoy dia y haria tanta maravilleria. jajaj wn kn lo diria.&amp;nbsp; — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>suficiente</title>
+          <link>https://dcobos.blogspot.com/feeds/7176293917978451943/comments/default</link>
+          <guid isPermaLink="false">2026-06-13-suficiente</guid>
+          <pubDate>sáb, 13 jun 2026 06:52:10 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Es suficiente&amp;nbsp; nacido de repente justo en un mundo inconsciente gente con miedo miedo a ser diferente en vez de buscar verdad buscar amor esta en tu mente donde esta tu mente nacimos juntos para sembrar el mundo presente amar el medioambiente — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Ursupitaik (aufler)</title>
+          <link>https://dcobos.blogspot.com/feeds/6255571733024872765/comments/default</link>
+          <guid isPermaLink="false">2026-05-07-ursupitaik-aufler</guid>
+          <pubDate>jue, 07 may 2026 07:26:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;ya tengo 42 años y saben que mas? ponganle weno. es en noches como esta que uno dice, donde puedo escribir, ponerme a escribir alguna wea, lo que sea. Me voy a poner a trabajar para darle todo. Lorena igual te Amo. es en noches como esta que uno dice igual le diria, hermano mira esa wea, pero  — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>las fuma vias</title>
+          <link>https://dcobos.blogspot.com/feeds/7796468361143129653/comments/default</link>
+          <guid isPermaLink="false">2026-05-02-las-fuma-vias</guid>
+          <pubDate>sáb, 02 may 2026 23:34:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;Ahora si que quiesiera pura decirle, si entienden a lo que me refiero, así imaginate llevaria como 20 discos de platino, oro, plata, bronce, cobre, silicio y otras tierras raras, las mas raras, las mas valiosas y yo solo, a unos minutos de distancia, un clic, un llamado un mensaje, un mensaje  — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Sin Nombre</title>
+          <link>https://dcobos.blogspot.com/feeds/6216980769321803659/comments/default</link>
+          <guid isPermaLink="false">2026-04-28-sin-nombre</guid>
+          <pubDate>mar, 28 abr 2026 07:39:00 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>ESTOY IMPRESIONADO lo estas haciendo muy bien las leyendas eran ciertas publicaciones censuradas. Jueves Sagrado Haz algo — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Fuerte convicción</title>
+          <link>https://dcobos.blogspot.com/feeds/2962298502707780893/comments/default</link>
+          <guid isPermaLink="false">2026-04-27-fuerte-conviccion</guid>
+          <pubDate>lun, 27 abr 2026 09:12:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>La naturaleza me llama, escribir es algo que el humano no ha perdido aun. Perdida y encontrada, aun no te olvido, la fortuna no me es extraña y para quien esta dispuesto a esperar esta comisión la misión es la misma siempre, vivir y sobrevivir, permanecer. Las plantas nos han de encontrar perdidos c — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Si o No?</title>
+          <link>https://dcobos.blogspot.com/feeds/5715652120451161720/comments/default</link>
+          <guid isPermaLink="false">2025-07-26-si-o-no</guid>
+          <pubDate>sáb, 26 jul 2025 08:25:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Sin a ver logrado otra nombre mejor para el titulo, comienzo hoy, permiso, sin sopermia, este vo dale kestara pasando realmente? en la cabeza, la cartulina, el lienzo de las palabras ke uno podria decir aer esta. no se po dime tu: ... xD q lata no hacer las largas xq es una Paja. — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>LAS MUSAS A LA DERIVA</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/2399693101458644205/comments/default</link>
+          <guid isPermaLink="false">2025-07-09-las-musas-a-la-deriva</guid>
+          <pubDate>mié, 09 jul 2025 22:51:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;LAS MUSAS A LA DERIVA&amp;nbsp; Diario La Prensa de Curicó 27 de abril de 1997 escrito de Samuel Maldonado de la Fuente &amp;nbsp;&amp;nbsp; &amp;nbsp; Las me meditaciones de principios del siglo, sobre la solidez y el sentido del arte conmovieron a toda la sociedad. De allí, nacieron diversas ponencias para  — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>Marcel Duchamp: El precursor</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/8860004579021823445/comments/default</link>
+          <guid isPermaLink="false">2025-07-09-marcel-duchamp-el-precursor</guid>
+          <pubDate>mié, 09 jul 2025 22:43:00 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Cambios en el concepto tradicional&amp;nbsp; del arte &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(Publicado en Revista “Signo”, 1988 por Samuel Maldonado de la Fuente) Marcel Duchamp: El  — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP30jmdYrILnvZwURfNW6Htp64J-qtGjek801FyUR0jfxfTJrkTYZeRiLHR22GgbaD9sV6aKi7yjQFCnRPh8TSm1zOZlJROWsTcPQNoQnLAKhFYBuqkg6K2Rwenn9Q4Rt-FwV8S4qwOq8h_3_CEPZgX6jzt59tvLh3FCCLIC3WfPG2iylX1owy9XtI_2YJ/s320/Duchanmp-Fountain.png" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>Dalí ha muerto ¡Viva Dalí!</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/1540973955094353875/comments/default</link>
+          <guid isPermaLink="false">2025-07-09-dali-ha-muerto-viva-dali</guid>
+          <pubDate>mié, 09 jul 2025 22:28:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dalí ha muerto ¡Viva Dalí! &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (Escrito de Samuel Ma — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCiuOiwpqlKEU9mLdBkjdRP47cKSHEwg3qaTwG45CvJJsRcfoYkj8p_0Mr0_bHmBJ78rDQ-z_LyeipxM9S5S8xLBj223vBIBauSqFD5Qgx-O-5whP5ojior8xh-VNXZbWD1RTdxxJ-XMPfbyScg147XrgKVJqWK4yPcQpKWVwM2RqM9xieTNTZrbZ1ABgb/w194-h240/dali1.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>MAHFUD MASSIS POETA EXILIADO</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/1980599510327942654/comments/default</link>
+          <guid isPermaLink="false">2025-07-09-mahfud-massis-poeta-exiliado</guid>
+          <pubDate>mié, 09 jul 2025 17:53:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp; Reviviendo al poeta Mahfúd Massís EL EXILIO Y MUERTE EN&amp;nbsp; MAHFUD MASSIS (1916-1990) Escribe: Samuel Maldonado de la Fuente “Entonces espantaos, queridos burgueses: un día el arte no será ya necesario”.&amp;nbsp; Mahfúd Massís &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbs — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="#ZgotmplZ" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>Todavia lo tengo</title>
+          <link>https://dcobos.blogspot.com/feeds/4044937618535220589/comments/default</link>
+          <guid isPermaLink="false">2025-03-31-todavia-lo-tengo</guid>
+          <pubDate>lun, 31 mar 2025 22:39:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>despierto contento con un vuelto incierto incansable y cito destapado los pitos&amp;nbsp; — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Mi Sangre</title>
+          <link>https://dcobos.blogspot.com/feeds/7690914673295465078/comments/default</link>
+          <guid isPermaLink="false">2025-03-05-mi-sangre</guid>
+          <pubDate>mié, 05 mar 2025 05:22:00 &#43;0000</pubDate>
+          <category>MUSICA</category>
+          <description>el maton buscando tus ojos espera tus labios desde una cancion estan con las frutas maravillas, estrellas, sospechas profundas mi vida mi sangre mi sangre rica tomarse fresquita caliente soy un pan. piro xD — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>CLASICA</title>
+          <link>https://dcobos.blogspot.com/feeds/6538732125052162071/comments/default</link>
+          <guid isPermaLink="false">2025-03-03-clasica</guid>
+          <pubDate>lun, 03 mar 2025 20:11:00 &#43;0000</pubDate>
+          <category>MUSICA</category>
+          <description>&amp;nbsp;musica clasica, musica clasica todo el tiempo, mientras hago todo mir yo le voy al clasicon del vivaldi no tan pavarotti, si sabes a lo que me refiero. sera esto realmente algo nuevo? mero mero, despues de un punto de vista bastante completo? con violines armonizando en contrapunto, mucho text — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>ESTUDIO Y BOMBAS RAP</title>
+          <link>https://dcobos.blogspot.com/feeds/4809221073446656780/comments/default</link>
+          <guid isPermaLink="false">2025-02-03-estudio-y-bombas-rap</guid>
+          <pubDate>lun, 03 feb 2025 01:41:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Cuantos temas se necesitan pa terminar una disca si solo con lo del bolsillo te rompo el destino y brillo una nueva realidad amanece en tu cristal, buena letal y si no te gustan los temas, bueno ya, no soy material 1 2 3 por todos mis amigos xD xd xd — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>turo tuturo turoro turu ra</title>
+          <link>https://dcobos.blogspot.com/feeds/4509910248406781142/comments/default</link>
+          <guid isPermaLink="false">2025-01-04-turo-tuturo-turoro-turu-ra</guid>
+          <pubDate>sáb, 04 ene 2025 09:23:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Mientras recibo estos sonidos espero juntos servidos, &amp;nbsp; lamentos juntos amoríos, princesa &amp;nbsp;estoy ido, enloquecido que rico beso amor quejidos rulitos ido &amp;nbsp;amor me das sentido&amp;nbsp; tierno calido camino amor dentro ido &amp;nbsp; — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>hace calor en el barrio</title>
+          <link>https://dcobos.blogspot.com/feeds/5759614260766490399/comments/default</link>
+          <guid isPermaLink="false">2024-12-21-hace-calor-en-el-barrio</guid>
+          <pubDate>sáb, 21 dic 2024 09:29:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Que calor de locos nena no me deja dormir no me deja pensar no me deja ni fumar a no olvidar nunca el barrio vieja — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Perhaps Perhaps Perhaps</title>
+          <link>https://dcobos.blogspot.com/feeds/1299792278520403872/comments/default</link>
+          <guid isPermaLink="false">2024-12-11-perhaps-perhaps-perhaps</guid>
+          <pubDate>mié, 11 dic 2024 07:50:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>kiero cantar sin miedo a nada en mi lindo pais mira tu raiz etcetera etcetera porfa cuida tu planeta y quizas quizas quizas dure una generacion mas — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>LLEGO EL GASFITER!</title>
+          <link>https://dcobos.blogspot.com/feeds/3499385778038655764/comments/default</link>
+          <guid isPermaLink="false">2024-12-02-llego-el-gasfiter</guid>
+          <pubDate>lun, 02 dic 2024 22:50:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;no es broma, es ver da. wena xq ahora vuelvo a tener awita caliente :D — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>CUARZO (tonaa)</title>
+          <link>https://dcobos.blogspot.com/feeds/2883717140874353955/comments/default</link>
+          <guid isPermaLink="false">2024-11-28-cuarzo-tonaa</guid>
+          <pubDate>jue, 28 nov 2024 15:15:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>UN CUARZO DE BOLSILLO QUEME CUIDE DELO MALO DE LA MIERDA DELO RICO Y LA ENVIDIA DEMI HERMANO — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>buenos dias mi amor</title>
+          <link>https://dcobos.blogspot.com/feeds/9155945081712352812/comments/default</link>
+          <guid isPermaLink="false">2024-11-28-buenos-dias-mi-amor</guid>
+          <pubDate>jue, 28 nov 2024 14:04:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Si despertai temprano y te vay temprano a la pega es entero pulento cuando la pega es vivir, por que terminai viviendo caleta was. No, no le doy color xD — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Ya es martes y estoy feliz :D</title>
+          <link>https://dcobos.blogspot.com/feeds/7180281933848480685/comments/default</link>
+          <guid isPermaLink="false">2024-10-29-ya-es-martes-y-estoy-feliz-d</guid>
+          <pubDate>mar, 29 oct 2024 06:44:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Que suite desventuras me han llegado, no es por ser complicado mas que por bien esta bienvenido y si asi siempre ha sido si estoy trasnochado trasnochando es xq he querido, no es por ser bandido, es martes, gracias por favor concedido. — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>mañana es lunes</title>
+          <link>https://dcobos.blogspot.com/feeds/8293905172483426388/comments/default</link>
+          <guid isPermaLink="false">2024-08-04-manana-es-lunes</guid>
+          <pubDate>dom, 04 ago 2024 17:01:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;amigo literalemente estoy traspasando de un lado pa otra la guea escucho le digo toma u pumba y tay bio que casi siempre hay alguna tech como pa decirle y en realidad si lo pensai bien, sin reirse ah, que opinan de eso? like y follow para mas contenido — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>visiones de sueño</title>
+          <link>https://dcobos.blogspot.com/feeds/6142985571087560776/comments/default</link>
+          <guid isPermaLink="false">2024-07-18-visiones-de-sueno</guid>
+          <pubDate>jue, 18 jul 2024 08:00:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>dulce sueño que no llega al que estuvo esperando tanto tiempo mientras creia que ese que esperaba un dia llegaria son muchas razones esas que esperan por ustedes — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>IAAAAA</title>
+          <link>https://dcobos.blogspot.com/feeds/7316197012033039215/comments/default</link>
+          <guid isPermaLink="false">2024-07-11-iaaaaa</guid>
+          <pubDate>jue, 11 jul 2024 06:12:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;me dijeron que habria ia esta vez tuviste razon espero que sea mañana ya se lo que va pasar nos vemos mañana amo tu sonrisa te espero nena mi vida para ti — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>ahora si</title>
+          <link>https://dcobos.blogspot.com/feeds/8147655399460864407/comments/default</link>
+          <guid isPermaLink="false">2024-05-27-ahora-si</guid>
+          <pubDate>lun, 27 may 2024 23:36:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;lo estamos pasando muy bien :D — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Otra vuelta mas</title>
+          <link>https://dcobos.blogspot.com/feeds/2308137095026435175/comments/default</link>
+          <guid isPermaLink="false">2024-05-13-otra-vuelta-mas</guid>
+          <pubDate>lun, 13 may 2024 13:26:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;quien m iba contar&amp;nbsp; una ultima pasa me dejo pa la caga muero y vuelvo a saltar muero y vuelvo a nacer desto no puedes ceder salir, saltar y&amp;nbsp; crecer amanecer anochecer ya no lo puedo creer esto es otro poder poder nacer y leer otro guion — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>MUJERES EN LA LITERATURA CURICANA</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/6853883225035135005/comments/default</link>
+          <guid isPermaLink="false">2024-05-01-mujeres-en-la-literatura-curicana</guid>
+          <pubDate>mié, 01 may 2024 21:34:00 &#43;0000</pubDate>
+          <category>LITERATURA</category>
+          <description>&amp;nbsp; Libro “MUJERES EN LA LITERATURA CURICANA” Autor Samuel Maldonado de la Fuente. &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; Escribe:&amp;nbsp; Eduardo Aramburú García.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Profesor-escritor El poeta, escritor investigador Samuel Maldonado  — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRjD0_Llyo0Xw9s3faYOTE4vlDPRrpXXvgUYrlNHCQyVpO2UkL9epYZcjCGk9vENNxYF-FiCz1zAYMajSLVhGJQjSSWaJGoHGun2Oajn89a17MDUgNtJ4A_vW12fxWiMBfSUDXX7rXj9baDteoJv67e4wvGxgQBxEoYh606WfzhxZ1In2gTQoUuJPl09YO/w148-h131/CARA%20SAM%20TIF.tif" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>dandi</title>
+          <link>https://dcobos.blogspot.com/feeds/4765302034445059464/comments/default</link>
+          <guid isPermaLink="false">2023-12-20-dandi</guid>
+          <pubDate>mié, 20 dic 2023 18:06:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Sera tan de ser dandi? 2024 bastante futurista es — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>tu mira tu mira</title>
+          <link>https://dcobos.blogspot.com/feeds/1533848327958531925/comments/default</link>
+          <guid isPermaLink="false">2023-12-18-tu-mira-tu-mira</guid>
+          <pubDate>lun, 18 dic 2023 19:10:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>tu mira tu mira me tiene loco me tiene loco tu mira tu mira me tiene loco me tiene loco nos vemos cuando nos encontremos — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Oprime para empezar</title>
+          <link>https://dcobos.blogspot.com/feeds/2397953844423963953/comments/default</link>
+          <guid isPermaLink="false">2023-12-03-oprime-para-empezar</guid>
+          <pubDate>dom, 03 dic 2023 10:10:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>reintentar, reintentar, oprime para empezar. iniciando sesion espera un poco mas, espera un poco mas esperando en cola durante la cola esta llena, espera — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Cargando</title>
+          <link>https://dcobos.blogspot.com/feeds/6075535462587891664/comments/default</link>
+          <guid isPermaLink="false">2023-12-03-cargando</guid>
+          <pubDate>dom, 03 dic 2023 08:31:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;Cargando, buscando, cuando me estas mirando, de tanto estar andando, hablando de como te gusto y estoy , cargando te, besando te, amando te, deseando te, tomando te — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>fondo fondo disi</title>
+          <link>https://dcobos.blogspot.com/feeds/8070002069752194281/comments/default</link>
+          <guid isPermaLink="false">2023-12-01-fondo-fondo-disi</guid>
+          <pubDate>vie, 01 dic 2023 19:04:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;Nada mas ya venia a BUSscar lo que pronto vamos todes a encontrar sale diciembre diciendo fili fili y no se si tanto realmente, doblemente aweonao es uno al kere &#43; sentiende? — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Audio libros broders</title>
+          <link>https://dcobos.blogspot.com/feeds/5372904017472610842/comments/default</link>
+          <guid isPermaLink="false">2023-11-15-audio-libros-broders</guid>
+          <pubDate>mié, 15 nov 2023 13:53:00 &#43;0000</pubDate>
+          <category>MUSICA</category>
+          <description>&amp;nbsp;Amigo la otra noche, despues de haber escuchado harta musica, asi caleta, no se me ocurrio nada mejor que hacer aseo wn a las 3 de la mañana, escuchando audiolibros, me lei 3, imaginense como deje ordenado. Seguiremos informando. 💅 — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Sismo lleva títeres a Pelarco</title>
+          <link>http://kurafwerken.blogspot.com/2005/12/sismo-lleva-tteres-pelarco.html</link>
+          <guid isPermaLink="false">2023-10-31-sismo-lleva-titeres-a-pelarco</guid>
+          <pubDate>mar, 31 oct 2023 02:49:00 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>El Consejo de la Cultura y las Artes de la Región del Maule, a través de su programa de itinerancia artística &#34;Sismo: Chile se mueve con arte&#34;, llevó a Pelarco el pasado 19 de Noviembre de 2005, a la compañía de teatro de títeres Newen Kimün del CENTRO CULTURAL KURAF WERKEN, CCKW. La presentación da — noreply@blogger.com (Bernaldi Cipec)</description>
+          <enclosure url="http://photos1.blogger.com/blogger/3989/1436/320/nukesismo.0.jpg" length="0" type="image/jpeg"/>
+          <source url="Centro%20Cultural%20y%20Social%20Kuraf%20Werken">Centro Cultural y Social Kuraf Werken</source>
+        </item>
+      
+        <item>
+          <title>BUSCANDO A MARIA DE TAPIHUE</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/4800689325638695760/comments/default</link>
+          <guid isPermaLink="false">2023-09-19-buscando-a-maria-de-tapihue</guid>
+          <pubDate>mar, 19 sept 2023 23:34:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Libro de Amparo Pozo MARIA DE TAPIHUE (Escrito por Samuel Maldonado de la Fuente) Amparo Pozo es una poet — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1lBXcQH5AAn6ce7d58BqBBIdknAyEqMWnYOWbKARicV6HFuKxT86RxXcBB2hMJMPvFG-zYMdpZPKaTTzjXXbQ8k-u20wJ2vfnMq2mgNkEK8iKJnF36Yde6ivE5dAupJZk6_bwKdqMC-WVLoRH3hK1tBxJilnDKSYKtpsZPpQyhdQgv9dE1j7AMsyU3-3C/w148-h145/Amparo%20Pozo%20foto%20joven.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>NUEVO ESPACIO DIGITAL</title>
+          <link>http://kurafwerken.blogspot.com/2023/07/nuevo-espacio-digital.html</link>
+          <guid isPermaLink="false">2023-07-03-nuevo-espacio-digital</guid>
+          <pubDate>lun, 03 jul 2023 05:26:00 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>&amp;nbsp; Amig@s, les recordamos que nuestro nuevo espacio digital se encuentra en&amp;nbsp; https://kurafwerken.home.blog/ Además, les dejamos cordialmente invitados a nuestro Punto de Observación de Aves Urbano en Talca (en imagen). Solicite su visita a kurafwerken@hotmail.com — noreply@blogger.com (Bernaldi Cipec)</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg81mrTYdP5YGSa31Y3mTCeHy44Kdf3PgEZZMGVw7xxkaUrnsJYUX0Tt2iRbKTsWp894xLhPdWCrk5-kZ0ImTQuzbphfvTcK32l4OxHbqwa_1SPx7YNVTpFnXkDK3GTqo4CyO0JgA2Q17qzV9FmcDahH50Z-HDUtd1sSU701zXHPoHqiPzPeymf4A/s320/PuntoObservacion.png" length="0" type="image/jpeg"/>
+          <source url="Centro%20Cultural%20y%20Social%20Kuraf%20Werken">Centro Cultural y Social Kuraf Werken</source>
+        </item>
+      
+        <item>
+          <title>Conversatorio Artificial inteligentonto</title>
+          <link>https://dcobos.blogspot.com/feeds/6007930236493455209/comments/default</link>
+          <guid isPermaLink="false">2023-04-24-conversatorio-artificial-inteligentonto</guid>
+          <pubDate>lun, 24 abr 2023 19:18:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;Las pa labras que usan están muy lindas pero por eso se trata de buscar a alguien en que busque algo mas extra ordi nario, noob stante obligatoriamente la version .. deberia estar mas orignal hasta el ano 2030 a las 11. — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>uno mas el numero prohibido</title>
+          <link>https://dcobos.blogspot.com/feeds/1041623504769460719/comments/default</link>
+          <guid isPermaLink="false">2023-04-24-uno-mas-el-numero-prohibido</guid>
+          <pubDate>lun, 24 abr 2023 19:15:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;ya estamos a mira, la bola volaita rica toda tusia dita mira me mira me mirame — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Muy rapido</title>
+          <link>https://dcobos.blogspot.com/feeds/3631872807375663841/comments/default</link>
+          <guid isPermaLink="false">2023-04-11-muy-rapido</guid>
+          <pubDate>mar, 11 abr 2023 10:32:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;Cuentas cuantas palabras vomitan los feos, buscas la palabra correcta o se termina la vida baby, se termina la semana y no estas listo, cafiola busca en otro lugar, cafiola encuentra otro sentido, tu no estas esperando nada nuevo, la caída es dura, la vida es dura, tu no estas dentro hasta que — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>POETISA VANGUARDISTA, GLADYS THEIN (Tegualda Pino) de Curicó</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/1181417546847013348/comments/default</link>
+          <guid isPermaLink="false">2023-03-06-poetisa-vanguardista-gladys-thein-tegualda-pino-de-curico</guid>
+          <pubDate>lun, 06 mar 2023 20:16:00 &#43;0000</pubDate>
+          <category>LITERATURA</category>
+          <description>&amp;nbsp; GLADYS THEIN (CURICÓ 1911-BUENOS AIRES 1969) Escribe:Samuel Maldonado de la Fuente Gladys Thein, es el seudónimo de María Inés Tegualda Pino Barrios, autora de poemas, novelas y cuentos, nació el 21 de marzo de 1911 en la ciudad de Curicó. Aunque nació en ESTA CIUDAD, realizó sus estudió de h — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTVbZgxKpBF9rHl6QzgpFS6ntGm_P_nPljS47z7fIBmtC4W7sSMwAeIuyYKTvSnMz4rFc25m5ff08nDbpSguHiwybSnSHZyMBF4QJKdIo9rHfRFpXsPuUG4z9x7kNcaPsq5No67KLToZctZY7P1EIO-Hdpi4tFybVsxIGkiQrsR0Owl6LfaJ-6VNPu7A/s320/Imagen1.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>POESIA EN BABLE</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/2337549952938418071/comments/default</link>
+          <guid isPermaLink="false">2023-03-05-poesia-en-bable</guid>
+          <pubDate>dom, 05 mar 2023 16:10:00 &#43;0000</pubDate>
+          <category>LITERATURA</category>
+          <description>Artículo del autor: Samuel Maldonado de la Fuente. &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;En mi libro &#34;Visión Personal de la literatura curicana&#34; editada en 2018 incorporo a éste autor asturiano. nacido en España, como una muestra de un lenguaje casi olvidado. El Bable tenía sus giros y expresiones muy parecida  — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/a/AVvXsEgcU1km9cxzaP9Oa8SOKjBxQrfLRXEnEvkQDHI_E_aTD6rcxKeuQrdyVVXZbCSBDEl7yHz9JB5o4ewAXBT2WO9hHiEIOaW3ntTXmrY7Ec2saMZcCbHQV65Ms8bJ0dRfve_Ea_7BT0ue6te35WVnJmob1CI3o3cXLwnfipKdRgIA_iqprVxsRXGUu4IKbA=w217-h149" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>sorpresa sorpresa!</title>
+          <link>https://dcobos.blogspot.com/feeds/2466631241212828818/comments/default</link>
+          <guid isPermaLink="false">2023-02-25-sorpresa-sorpresa</guid>
+          <pubDate>sáb, 25 feb 2023 19:49:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>En caso de que no me encuentren olvida la suerte en vida y si es esto lo que esperabas ACT bolita y rueda — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Pebrero</title>
+          <link>https://dcobos.blogspot.com/feeds/7761554381699798970/comments/default</link>
+          <guid isPermaLink="false">2023-02-02-pebrero</guid>
+          <pubDate>jue, 02 feb 2023 10:17:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp;No soy de apellido pedrero eso si me gusta mucho el pebre, han probado el de la señora Olga? ay! se las dejo, la mejor vecina que conocí y comodicen las gentes ya no las hacen como antes ;) — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>ou uau</title>
+          <link>https://dcobos.blogspot.com/feeds/7295517211805896725/comments/default</link>
+          <guid isPermaLink="false">2023-01-27-ou-uau</guid>
+          <pubDate>vie, 27 ene 2023 05:46:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Maybe it&#39;s not too late, or is it, another drink and another cig, No i&#39;m not alone in this path, We may don&#39;t know each other, that&#39;s just some useless issue, rather share exp than hide my own problems. I&#39;ll become just a man, no more no less. — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Pienso en positivo</title>
+          <link>https://dcobos.blogspot.com/feeds/8388487122815283381/comments/default</link>
+          <guid isPermaLink="false">2023-01-24-pienso-en-positivo</guid>
+          <pubDate>mar, 24 ene 2023 06:21:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>No se necesitan razones para hacer el bien y no debieramos tener razones que justifiquen hacer el mal — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Desactivado</title>
+          <link>https://dcobos.blogspot.com/feeds/325906549033502772/comments/default</link>
+          <guid isPermaLink="false">2023-01-05-desactivado</guid>
+          <pubDate>jue, 05 ene 2023 20:48:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>La atrapante sociedad nos gobierna hasta la salud y lo que opinamos, lo que podemos opinar dependiendo de las lineas imaginarias que nos atan. Echame a mi la culpa de tus inseguridades, te mando autografiada. Si vas a oprimirte elije tu propia droga. — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Don primerizo</title>
+          <link>https://dcobos.blogspot.com/feeds/949122788192924996/comments/default</link>
+          <guid isPermaLink="false">2023-01-02-don-primerizo</guid>
+          <pubDate>lun, 02 ene 2023 18:49:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Que nuevas sensaciones nos depararara este nueva añou, muy muy buena hasta que amanezca estare! fueron como 8, refrescantes combis. De las 10 a las 3 como si nada: bla bla bla estos dias de calor, estos dias tristes de adolescencia, juvenil deportivo, refrescante y sobretodo cansador sopeo, sospecho — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>UN LIBRO WN</title>
+          <link>https://dcobos.blogspot.com/feeds/7272935152489301735/comments/default</link>
+          <guid isPermaLink="false">2022-12-30-un-libro-wn</guid>
+          <pubDate>vie, 30 dic 2022 18:47:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>No mucho pero cuando mandaron el informe de los alcaloides visuales, tu decidiste comprarlo, comprandolo eres feliz, tu eres feliz, yo soy feliz, todos somos felices. Nadie quiere a millhouse? Necesitas escribir cada tanto en tanto, cualquier exasperación mental, un profeta con un norte, soy un soli — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>la misma roca</title>
+          <link>https://dcobos.blogspot.com/feeds/7431776444212094945/comments/default</link>
+          <guid isPermaLink="false">2022-12-17-la-misma-roca</guid>
+          <pubDate>sáb, 17 dic 2022 19:36:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>cuantas veces necesitas observar la misma escena para darte cuenta que no va cambiar, esperas mas de lo mismo, la misma roca. Sed en el desierto, la misma roca donde estoy que clase de br es este wn? la misma roca? u otro sabor — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>7am</title>
+          <link>https://dcobos.blogspot.com/feeds/5380312468415783817/comments/default</link>
+          <guid isPermaLink="false">2022-12-14-7am</guid>
+          <pubDate>mié, 14 dic 2022 10:07:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>7am y estoy curado Podria estar durmiendo si me hubiera volado, tantito o destapado.&amp;nbsp; Espero algo nuevo, todo el dia programado, aun no he dormido, cuantos tragos metomado No curado el insomnio he invocado, desalmado, tiriton poco, el copete meayudado Otro dia viene y busco, otra forma de pasar — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>dela nueva monster</title>
+          <link>https://dcobos.blogspot.com/feeds/3162295439761722868/comments/default</link>
+          <guid isPermaLink="false">2022-12-12-dela-nueva-monster</guid>
+          <pubDate>lun, 12 dic 2022 12:33:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>do ce do ce ke rico se go ce matamos ta denoche tomando tela monster casi ni se duerme tecito ya me prende mirando un lunes miercoles desa yuno puro eggs me muerco ya no meves doce doce doce que rica ta tu noche diciembre ta de mente — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>sara fraser</title>
+          <link>https://dcobos.blogspot.com/feeds/2132288801082443377/comments/default</link>
+          <guid isPermaLink="false">2022-10-02-sara-fraser</guid>
+          <pubDate>dom, 02 oct 2022 10:04:00 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>es este el dia que trate de vivir es necesario morir para vivir la bruja esta detras es necesario morir para vivir la leyenda de un pueblo la maldicion de la bruja la trilogia del terror la maldicion de un pueblo el dia que trate de vivir morir para que puedan vivir la bruja esta detras mi novia est — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Jaime González Sepulveda, poeta Curicano</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/3910663193085282675/comments/default</link>
+          <guid isPermaLink="false">2022-06-08-jaime-gonzalez-sepulveda-poeta-curicano</guid>
+          <pubDate>mié, 08 jun 2022 18:52:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>&amp;nbsp; EL OXIGENO INVISIBLE De la poesía curicana, Jaime González Sepúlveda. Escribe: Samuel Maldonado de la Fuente Parodiando el libro sobre Huidobro, escrito por Rafael Squirru, deseo demostrar como el poeta Jaime González Sepúlveda, es la más clara manifestación de la vivencia poética que irradia — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimEp6_sx4ypB8jlBjW7igjzs9YmtBmETieBE4rbUrotcOynM0xh1k2rnlr1teD_PeC6M2Q537i24LMU8i8eRbrU1GMU4n3NqB-wzG6XSEQBie5C6tq6Rss0JtCh3EIc43n6NZQEhrptdK7l0izMmYV_Y9G5gDURcH14Bu6fEQ8yhrOUw1W4J8vzGcfrg/w169-h212/Jaime%20Fumando.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>salvajia</title>
+          <link>https://dcobos.blogspot.com/feeds/1417082470507943226/comments/default</link>
+          <guid isPermaLink="false">2022-06-07-salvajia</guid>
+          <pubDate>mar, 07 jun 2022 08:31:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>podria decirse que acabo de inventar/descubrir las tostadas nadie puedo presagiar que quedarian tan buenardas en el sarten bro, tostadas, calentitasm queso derretido 10/10, mucho mejor que en tostar o en esa ondas con los pancitos verticales, como que se me ocurrio anoche cuando vi taxi driver. 50 p — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>la palmera en temporal</title>
+          <link>https://tejasedu.blogspot.com/feeds/5592376043366646277/comments/default</link>
+          <guid isPermaLink="false">2022-04-21-la-palmera-en-temporal</guid>
+          <pubDate>jue, 21 abr 2022 22:24:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description>&amp;nbsp; — &lt;name&gt;EDU&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/16119538931962363060&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8Cal5obf-CCCZHWsNwMdLXXVjcwBSKd2rI4JnRI_H4uWUUcA9lrtjlKa25v3gWBoQ9ZRjLGrXn5k8k6dht5zDNHYUGjKOcYGWyU1DLpmen2u3dvx5DDawV1AdCHg0G6KkC69xHJLxk8FtfRxaJmFA0xgeckIvnVcv2rZmkmy7os4Q9IHUOIhOBgBLnQ/s320/IMG_20220419_083710.jpg" length="0" type="image/jpeg"/>
+          <source url="Las%20Tejas%20del%20Edu">Las Tejas del Edu</source>
+        </item>
+      
+        <item>
+          <title>QUE ES ?</title>
+          <link>https://tejasedu.blogspot.com/feeds/2858442093135358953/comments/default</link>
+          <guid isPermaLink="false">2022-04-21-que-es</guid>
+          <pubDate>jue, 21 abr 2022 22:21:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description>&amp;nbsp; — &lt;name&gt;EDU&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/16119538931962363060&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwqb6J99tLpU4kdrt1GR9jXM0DJoTAAl94v4j9XlCivRkqGo7jjg7D7fgbiUo0vylDRwH5Goiq7NLBgXfzzi1OFrJhxh48QtnXE407kJDHiNSNV9CYCo7S717FJYW-tpUfJ42dM52j7PxEYRDDdxlorsWOcuMXrYHW6L1JM2q8a83zyis6kjV-nCJAYQ/s320/IMG_20220420_085015.jpg" length="0" type="image/jpeg"/>
+          <source url="Las%20Tejas%20del%20Edu">Las Tejas del Edu</source>
+        </item>
+      
+        <item>
+          <title>G U R T E L L L.......</title>
+          <link>https://tejasedu.blogspot.com/feeds/4258294053712281800/comments/default</link>
+          <guid isPermaLink="false">2022-04-21-g-u-r-t-e-l-l-l</guid>
+          <pubDate>jue, 21 abr 2022 22:17:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description>&amp;nbsp; — &lt;name&gt;EDU&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/16119538931962363060&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCzbMKQXOGo29v4-sdTbeO7lRM3Qq7yPdzI1TTj28aFsERl3AgbW1xXTAyvtYIbuGaf-zXRwN8pGbrobBz0I7_nxXAO6FRXU4Qfyx9TLxEtn8e3SqUSS9xLg0rar6o5TdvGuZ7KcFpQpCHiQrP9Aq1c0MhWZ3ieJBREwwA8C1kkaug7hxbyzgchhoJwA/s320/IMG_20220420_084901.jpg" length="0" type="image/jpeg"/>
+          <source url="Las%20Tejas%20del%20Edu">Las Tejas del Edu</source>
+        </item>
+      
+        <item>
+          <title>la térmica, malaga.</title>
+          <link>https://tejasedu.blogspot.com/feeds/1741615525096286197/comments/default</link>
+          <guid isPermaLink="false">2022-04-21-la-termica-malaga</guid>
+          <pubDate>jue, 21 abr 2022 22:13:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description>&amp;nbsp; — &lt;name&gt;EDU&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/16119538931962363060&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOr86nCy1k3E5vvJG3Y9v_h_Iaqj4zDORo4QcvJyHROEaMfHfGBYMdZ9z33kCnG1BPs-LFFirb9mHOuPhkTdkxhPIOfzZrIBwC1XOfxYVhtRj7DiX7UJXF-8vGuvcg2EzBuPQjUUCWroTVrRaTOPFUnmla6SHPqO63TKTQDm8dys4mCuQydlv2bgv45A/s320/IMG_20220420_085110.jpg" length="0" type="image/jpeg"/>
+          <source url="Las%20Tejas%20del%20Edu">Las Tejas del Edu</source>
+        </item>
+      
+        <item>
+          <title>casa de malaga año 22</title>
+          <link>https://tejasedu.blogspot.com/feeds/6374561592085239394/comments/default</link>
+          <guid isPermaLink="false">2022-04-21-casa-de-malaga-ano-22</guid>
+          <pubDate>jue, 21 abr 2022 22:09:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description>&amp;nbsp; — &lt;name&gt;EDU&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/16119538931962363060&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbIILkpRswdgxFpVYNDImmmaols8jsecKq3j2jjry7fZKifEdJ7vHQpuyfF_e7oqzkJjqR7-tVYywlEP3CDQGXfXhRSqVhqyOR_mhiTiCuRBKby1XOGi-y_DQRmbNcFQqtvjXnqB92HbE1SdCAcd_GZPYpXHyIu5zBYOD89j-LhuVaTat2ELePyAl7jQ/s320/IMG_20220222_103711.jpg" length="0" type="image/jpeg"/>
+          <source url="Las%20Tejas%20del%20Edu">Las Tejas del Edu</source>
+        </item>
+      
+        <item>
+          <title>Alta ansiedad</title>
+          <link>https://dcobos.blogspot.com/feeds/4003964664296814375/comments/default</link>
+          <guid isPermaLink="false">2022-03-27-alta-ansiedad</guid>
+          <pubDate>dom, 27 mar 2022 00:50:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>cuanto falta cuanto falta cuanta falta despues — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>no se si ya es hoy</title>
+          <link>https://dcobos.blogspot.com/feeds/2255423284737399713/comments/default</link>
+          <guid isPermaLink="false">2022-03-15-no-se-si-ya-es-hoy</guid>
+          <pubDate>mar, 15 mar 2022 17:57:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>aun no se si ya es hoy ya no se si va o no si el sol es o no ya ves lo que es (o no) es tu es tu — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>Si</title>
+          <link>https://dcobos.blogspot.com/feeds/1313205535952199780/comments/default</link>
+          <guid isPermaLink="false">2022-03-08-si</guid>
+          <pubDate>mar, 08 mar 2022 06:48:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Buenas noches mi querida estrella, todavía llegas y no pierdo el camino, solo tengo frío, pero ya he comenzado a amarlo también; Este un lugar frío pero la Soledad es un hielo que se derritió hace tiempo, te veo venir. — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>bb</title>
+          <link>https://dcobos.blogspot.com/feeds/699963239730273506/comments/default</link>
+          <guid isPermaLink="false">2022-03-08-bb</guid>
+          <pubDate>mar, 08 mar 2022 06:42:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>aqui esta mas frio es hermoso parque ingles q ojos tan grandes tienes cucu cucu en el bus en la oscuridad no se ve el azul o los peces nunca llegare verito bb verito bb — &lt;name&gt;Daniel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/04947278321638046398&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQE1yWB5rFkJr1pD4wJmHLsjXoUhfXyiLKiG7LrB7pd5-y0Vr_2voH1FiWydJIsbyK9oIxX4JfDFFwOgnzF1xJai0sMNf030ss6EGO93idxkrMSGNfj1jCMw8h5Wcpmeg/s151/*&#39;/&gt;</description>
+          
+          <source url="El%20rinc%c3%b3n%20literario%20de%20Daniel%20Cobos">El rincón literario de Daniel Cobos</source>
+        </item>
+      
+        <item>
+          <title>FENOMENOLOGIA DE LA BELLEZA (ENSAYO DE ESTETICA Y FILOSOFIA)</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/3430683249542655458/comments/default</link>
+          <guid isPermaLink="false">2019-08-28-fenomenologia-de-la-belleza-ensayo-de-estetica-y-filosofia</guid>
+          <pubDate>mié, 28 ago 2019 23:28:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>NUEVA OBRA DEL ESCRITOR LINARENSE JAIME MALDONADO DE LA FUENTE Hace poco tiempo salió a la luz la edición del ensayo &#34;Fenomenología de la belleza&#34; escrito por Jaime A. Maldonado de la Fuente, tema sobre el cual se ha escrito en forma abundante desde la antigua Grecia hasta nuestros tiempos; pero a j — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVnZTXbr8DfDOnWCF_PXSmDT1bw0rySKCiixNmDBxldYXDHGE0URuWDSlYKICzvOxZgAX0WpuzxS41yk8YcCkHtXH3gcKA5XrtUBkwS5hIa-yNl20L5e-owz4t1Vec3dmN5xLor0HWFQS3/s200/FENOMENOLOGIA&#43;DE&#43;LA&#43;BELLEZA.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>JUAN JOFRE BUSTAMANTE, UN POETA QUE VUELA EN EL VIENTO</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/1281630613995804107/comments/default</link>
+          <guid isPermaLink="false">2019-06-09-juan-jofre-bustamante-un-poeta-que-vuela-en-el-viento</guid>
+          <pubDate>dom, 09 jun 2019 00:58:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>ARRECIAN VERSOS EN EL VIENTO. Escribe: Samuel Maldonado de la Fuente En un día de abril, cuando arreciaban los vientos de otoño, mi buen amigo Juan Jofré Bustamante, me cuenta como, en un viaje por el viejo mundo, le hizo mirar el panorama misterioso y sugerente de una catedral y como el viento serp — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG8dSwHAxUezOadAyVgzVZT48gHK20lCnWdoZ40Pd2k_gsaO47G5okzbYKJ3dgnYZB406fPhyO-k-ez6c2r5tpo-gkPCwmlnE-b2ZqVSIrcLejAgpr0I71KrxRffZ-02lTHVarhg4Wcnr1/s200/Juan&#43;Jofre&#43;gris.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>CCKW capacita a Comité Ambiental de Colegio Clementinos</title>
+          <link>http://kurafwerken.blogspot.com/2019/05/cckw-capacita-comite-ambiental-de.html</link>
+          <guid isPermaLink="false">2019-05-20-cckw-capacita-a-comite-ambiental-de-colegio-clementinos</guid>
+          <pubDate>lun, 20 may 2019 01:20:00 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>Mamás y papás buscan fortalecer educación ambiental de la comunidad escolar. El Comité Ambiental de Padres del Colegio Clementinos de la comuna de San Clemente visitó el Centro Cultural Kuraf Werken (CCKW), el pasado viernes 10 de Mayo de 2019, instancia donde recibió capacitación sobre Gestión de R — noreply@blogger.com (Bernaldi Cipec)</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkpfzbzfCVPPJjXTONO4z2_7EjTclGGcwLOwLg7qE3ioZQpVx_Ibj6wjyokWVFrTocjIUg0B7sKBNiwgw7bSkZgcZwITvLw0VqASo8AwydjCmv5WWP0Qo4TpXRXF4NGQsP1vxK0Q/s320/visitaEscuelaClementinos2.jpeg" length="0" type="image/jpeg"/>
+          <source url="Centro%20Cultural%20y%20Social%20Kuraf%20Werken">Centro Cultural y Social Kuraf Werken</source>
+        </item>
+      
+        <item>
+          <title>30 AÑOS DE REVISTA SIGNO.</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/6735111997342777479/comments/default</link>
+          <guid isPermaLink="false">2019-05-14-30-anos-de-revista-signo</guid>
+          <pubDate>mar, 14 may 2019 16:56:00 &#43;0000</pubDate>
+          <category>PATRIMONIO</category>
+          <description>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ANIVERSARIO 30 DE REVISTA &#34;SIGNO&#34; &amp;nbsp;Escribe: Leonidas Rubio Imágenes y archivo: gentileza de Samuel Maldonado de la F. CONSTITUCIÓN MGM 1.- El juez está autorizado para recrear las leyes porque es una sociedad cr — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRphQ1V7NUE5eHsZgQOP_uNzxIj5zBpgWzPK-KzscvopeXP4nC3lkK9eN60PVb2wM3KRlxLuFk7qAcPYIYymx2aIY9FqfpL2GmmdNxkV6R0sDqMptruHZ3z9Ix3xwuMMGGT-fgWF4VxMjh/s320/revista&#43;seis&#43;a&#43;la&#43;deriva&#43;del&#43;maule.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>Sentimiento 120</title>
+          <link>http://poemasdeunangelcaido.blogspot.com/feeds/4037132188523139498/comments/default</link>
+          <guid isPermaLink="false">2019-01-09-sentimiento-120</guid>
+          <pubDate>mié, 09 ene 2019 21:43:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>Mil poemas para morir enamorado... — &lt;name&gt;Maritza Figueroa Saavedra&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/13913482428379627410&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL91wTZx_tXhAUq4vIwxuLCna4qjXxLk4IHXnnyQd3N1yP2MEzaRQY_GagfkDWdJ5zOEHoSBtOtLJ-g2znH8rZCd29XoxSMO26DrnK3NDKVEY9y3hK1p4CFDsq-mMulw/s220/27066910_1070724633273032_7298683204393764101_n&#43;%25281%2529.jpg&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-nML4vneNDGd-QX0cZrdDA2hM712qR-zMyE0DReK6erQRC8BLGPFAVC64MiJJIFLUs3xNa_aEyxbQ8fOVYpIQVvEac5hBgQlF6I5e2GipRoF0-25pLmY-RVFvIacuguMz2cm9/s640/IMG_20181101_235649_355.jpg" length="0" type="image/jpeg"/>
+          <source url="Poemas%20de%20un%20%c3%81ngel%20Ca%c3%addo">Poemas de un Ángel Caído</source>
+        </item>
+      
+        <item>
+          <title>Delamancha. Aros de plata. Fundida</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/5766895523156679038</link>
+          <guid isPermaLink="false">2017-09-04-delamancha-aros-de-plata-fundida</guid>
+          <pubDate>lun, 04 sept 2017 19:31:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7_nrzQQaaJ1s7GAMtIDqs1D2XRqY_tbtUaDEgiLpKMz2ze7KDdiA1rxDXWH7NwFt1u6ixBJ8aJPCE3gOvYUP5pa9NzVRuFabrCrl9QmUi3SPa8-KhbqH_v2c8tr6MGI4IfI-aupKi43c/s640/IMG_20170904_154425.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Fuccia. Pendientes de plata y crin</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/1321949321869025739</link>
+          <guid isPermaLink="false">2017-09-04-fuccia-pendientes-de-plata-y-crin</guid>
+          <pubDate>lun, 04 sept 2017 19:29:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4lRdEGeb9iSxuQUCICR9-LMwBj-OObq3ujq01QHgxVSB2_2AFW9HbMKHUiveLXdgQbKULax8bD43HFVtxJt7_hRIuVvObsJaVFMp1UWf58xbvVyna8zTG1WSXosBkwQ8oEUzUp9Fo0Cw/s640/IMG_20170904_154404.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Laaargo. Collar de plata de 72cm</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/3290823473598925181</link>
+          <guid isPermaLink="false">2017-09-04-laaargo-collar-de-plata-de-72cm</guid>
+          <pubDate>lun, 04 sept 2017 19:28:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIKNm1bmhVgT0fmUNQuOxo4TR9W0uCLkJnr6Ny98f71KefKUuTeGdkOdlAYH0Qb0l1cnO8wjvNCbpX94mYzmSElj3_vMXk-5BSx4a8Pf3H2Q7_kGIL-9p8n3bJCBm4EyuVnq2fs0QCGtQ/s640/IMG_20170830_171708.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Aritos de plata. Listos para hacer pendientes, coolares, pulceras o lo que se les ocurra</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/1457977606370814161</link>
+          <guid isPermaLink="false">2017-09-04-aritos-de-plata-listos-para-hacer-pendientes-coolares-pulceras-o-lo-que-se-les-o</guid>
+          <pubDate>lun, 04 sept 2017 19:25:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhM4JF2KMcmT_H3BR5GRc2dxldYDvKF4JKAFj6RNyW4GK5RLzEl9XH4fN_LhfWYepK9dFVU9HBreiyLxe-m9F2yygf7qbyTZ7fUFPZ8bVFGukAziT9itZ9LFxc_WpZIep7yyOS3r7Vov0/s640/IMG_20170830_121535.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>LA PALABRA FLUYE COMO UN RIO</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/6894547496937516812/comments/default</link>
+          <guid isPermaLink="false">2017-09-03-la-palabra-fluye-como-un-rio</guid>
+          <pubDate>dom, 03 sept 2017 03:13:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>LA PALABRA FLUYE COMO UN RIO por Samuel Maldonado de la Fuente El tiempo deambula por nuestras vidas pasan las estaciones como aves migrantes, los arboles, conversan con otros arboles, los días presurosos nos inquietan, nada se detiene ante nuestros ojos. La palabra en cambio permanece inalterable a — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>Corazones. Conjunto de plata</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/5301132616818728617</link>
+          <guid isPermaLink="false">2017-06-27-corazones-conjunto-de-plata</guid>
+          <pubDate>mar, 27 jun 2017 18:32:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji7Ffl44pUC3PzMgrtneU3ywQWqqL1twikAyawAIAwfvhvREqFqPWYemGz9ytasG7garJClVYEQvogjAcsWjbZ2sDjxbSGhXuWy5iiVJi7R9RwAZsOs9MhFtXiY2CMv6RhcUhcnvV8Dq4/s640/IMG_20170627_143143.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>avd de la paloma nº 5</title>
+          <link>https://tejasedu.blogspot.com/feeds/4274797887260543454/comments/default</link>
+          <guid isPermaLink="false">2017-06-22-avd-de-la-paloma-n-5</guid>
+          <pubDate>jue, 22 jun 2017 18:31:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;EDU&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/16119538931962363060&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0ZFx__4A072-Ynemk82g76Es0URbrJwOKe4faOEMk-V0_SOWXVU9CWHiVVbHi35CHNj3VQ6mSXHtlTWTrLgP8dKucP76yvdAQH-tb_2IDZEs-JF5LsPlse4ansGYS-1vndA-X3VCSMpw1/s320/DSC_0837.JPG" length="0" type="image/jpeg"/>
+          <source url="Las%20Tejas%20del%20Edu">Las Tejas del Edu</source>
+        </item>
+      
+        <item>
+          <title>torre agbar</title>
+          <link>https://tejasedu.blogspot.com/feeds/7549939919888271764/comments/default</link>
+          <guid isPermaLink="false">2017-06-22-torre-agbar</guid>
+          <pubDate>jue, 22 jun 2017 18:19:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;EDU&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/16119538931962363060&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKEBL4Y4ad22VsXE7ld0UJE5DsZkfrzjcIlSUWTksN852QiEA98UzbzG0NbFFxWLNsdLRuLyr4wn1m5PhIrs3mOJ4CJ4O9DQRDH0RkJA6IE7qMrBw71cQQ_rnKJMQ3MXwZ2mju-gFksGOf/s320/DSC_0806.JPG" length="0" type="image/jpeg"/>
+          <source url="Las%20Tejas%20del%20Edu">Las Tejas del Edu</source>
+        </item>
+      
+        <item>
+          <title>Rosario de perlas y plata</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/654903198516307432</link>
+          <guid isPermaLink="false">2017-06-20-rosario-de-perlas-y-plata</guid>
+          <pubDate>mar, 20 jun 2017 18:12:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkrhrEH7lWqoeaLeC_zXlocuBU7SKDSdsqetjlezSC6fWkuNnA6nhRBvwHiZo0BixtHk_IJL-41ckmTKP21BfYP2wiIBcLMzoXdlO-ymXNxxD7Ks64mBlzLIm6dcEW3-FWM48_nBHSCRk/s640/IMG_20170502_170625.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>DANIEL BARROS GREZ, UN ILUMINADO EN EL TIEMPO</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/4133984669626846104/comments/default</link>
+          <guid isPermaLink="false">2017-06-07-daniel-barros-grez-un-iluminado-en-el-tiempo</guid>
+          <pubDate>mié, 07 jun 2017 17:50:00 &#43;0000</pubDate>
+          <category>LITERATURA</category>
+          <description>Daniel Barros Grez (Vichuquén, 1834-1904) &amp;nbsp;&amp;nbsp; Representa uno de los primeros poetas propios de esta zona, aunque fue también cuentista, novelista y dramaturgo, cuya obra la desarrolló fuera de estas tierras. La extensión de su obra está radicada en la narrativa, donde le dedica profundidad. — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqy-w3h4i3L1vO1Xe4wDG2FaA0bFDRgh2E6tEziT1K0_SD0xdAPbQxdEBYE-fE0AjUxgS14zHK1g01z8U2MHiXQsGQGv7je9KaoPI2ChJ_Xx9L11tjXczdABHUDeWNSsOOYQFaQ8ehyGjQ/s200/DANIEL&#43;BARROS&#43;GREZ.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>NUEVAS GENERACIONES POETICAS EN CURICO</title>
+          <link>https://samuelmaldonado33.blogspot.com/feeds/5803266048432299783/comments/default</link>
+          <guid isPermaLink="false">2017-05-10-nuevas-generaciones-poeticas-en-curico</guid>
+          <pubDate>mié, 10 may 2017 15:27:00 &#43;0000</pubDate>
+          <category>POESIA</category>
+          <description>POETAS CURICANOS 2017 Escribe: Samuel Maldonado de la Fuente. Eduardo Klein Báez &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Nació en 1964. en Talca y se radicó hace más de diez años en Curicó. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp — &lt;name&gt;samuel&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/18005610633996592923&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;32&#39; src=&#39;//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHnV4-UepI9ig4smqPYEOuO7v1EcUPQBFa8v7h0y-jrYT0vGFFsAG4v69rDP-YEs-kn_xaZHR_dYunXPvgfhBW7Png7fgE5tHK2HRiRYiX7RPGzW3cJCIFNtocHopkg9w/s220/SAMY.JPG&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRqCxnoqb6nwlSggYl3hkPvMmjty9Dm3W4XkaIItVVDYOPoRx-vyqHrVK65QfprwxRBb3VnwOp4YfVwG8Se1uDrc7C1bKazXeK9KrdSTzYV_PDdp9LUF9Jqvat9Xp2kNsjt-8k-6R19vlQ/s200/klein2.jpg" length="0" type="image/jpeg"/>
+          <source url="Poes%c3%ada%20Maulina">Poesía Maulina</source>
+        </item>
+      
+        <item>
+          <title>Bolitas de alegria. Collar. Cobre &#43; fieltro. $48.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/5976583818890788099</link>
+          <guid isPermaLink="false">2017-03-29-bolitas-de-alegria-collar-cobre-fieltro-48-000</guid>
+          <pubDate>mié, 29 mar 2017 11:23:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7O5ZVpbmi2Ey2wS4mrbk8VKEffnQxfGBTHxUjgUcyN2iuEM1hh_RqchXeoYnhEwBZnenwaqKPV6bUYXq__heoFs3N6otS939RYXWpJmMzwotiQtv8tCFwRMyO9t8mhyphenhyphenV_-lATe2D7x3E/s640/IMG_20170217_122743.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Clásico. Collar largo. Plata &#43; perlas. $68.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/4018048770211311523</link>
+          <guid isPermaLink="false">2017-03-29-clasico-collar-largo-plata-perlas-68-000</guid>
+          <pubDate>mié, 29 mar 2017 11:21:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiin9ocAoue-gYwrQCwIkj0VVVn6NnG4fuux8pwUK2P0RxZzYy5vFuCLLxN9j0tOBDXDIDQGlohWudntzcxTsiVVWY9vM6X9aK4g9ol3hwdo7xUCZvbv2o3YSMFWow4ajQaYvvN7cC5llU/s640/IMG_20170214_161206.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Floral. Aros plata y crin. $38.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/6199747872961205527</link>
+          <guid isPermaLink="false">2017-03-29-floral-aros-plata-y-crin-38-000</guid>
+          <pubDate>mié, 29 mar 2017 10:48:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZNAtK5UoIZLDqUbWJXiYJ42ZFPc-HOlnnQRohTXhInB4tjlH_YdCM8JUHYCipwPkso3tt7anDfK7TaHiysyvGTSZHYWW71C2M96NJ96H_oz5tIlpocz1zvl3mmDd6P74OTHlN2zJOgjE/s640/IMG_20170327_130345.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Esclavas laura. 6 pulceras unidas. $48.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/3468360730725976314</link>
+          <guid isPermaLink="false">2017-01-26-esclavas-laura-6-pulceras-unidas-48-000</guid>
+          <pubDate>jue, 26 ene 2017 21:05:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhejUhJcz3bEKjs2czj09mLAtd63ETc6EztaUR4fsQjaCuvXVCmjKykT5RXAbOE6O9STNeO5Rq9q_HiRXE9Pab7UJsqnM3cLGm0cpnDPNGDlRdxRMmfek9dfdwgvR3H67l3E33wdTPYvNA/s640/IMG_20170124_151017.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Platos limpios. Aros.$42.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/5654020109317352394</link>
+          <guid isPermaLink="false">2017-01-26-platos-limpios-aros-42-000</guid>
+          <pubDate>jue, 26 ene 2017 21:04:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfgfNjjUrpM4R4ROuONkamlsAAyN2-bYQ8OgRs4T-AIYYjtK7f97pZ8CweZv4QCG9rS2fqWb2-KYAqc-j0Cgf2MfvZpJMe6ZF9WR3TlQduoJo0FvxjeanwcKuok0FnyZd_1kMxmZDSaPk/s640/IMG_20170124_151130.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Retazos simples. Collar.$30.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/3698129483467570141</link>
+          <guid isPermaLink="false">2017-01-26-retazos-simples-collar-30-000</guid>
+          <pubDate>jue, 26 ene 2017 21:03:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyJ1YenKeAl1JYIcgwMKYgEuayawWTT2pYAm4KBS8pjCIP38zMQHww7presgY1M2E-f6ZQQwBi_EoZaU1zLI_lNXaLxD71rWBbLttcPX4TB2D0NaVa169BVtNQ9ce974EsEmnwhO5HtmQ/s640/IMG_20170124_152011.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Retazos. Corrar. $38.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/4680102852467943553</link>
+          <guid isPermaLink="false">2017-01-26-retazos-corrar-38-000</guid>
+          <pubDate>jue, 26 ene 2017 21:02:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivah4Plh5y58qfL96SwqJPYCYbEB-r0jJmvyq6qmP0Mp9BxUhl2-7JyBse-xADIprOjZ08e9Gb905lA_zmvCvOZbFHBjTfY-YJspNpWstsjGA3C0f-3kQjcArMfWQXTs9olj44-NWurEM/s640/IMG_20170124_152039.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Coqueta y morada. Collar largo. $45.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/1988313662426727483</link>
+          <guid isPermaLink="false">2017-01-26-coqueta-y-morada-collar-largo-45-000</guid>
+          <pubDate>jue, 26 ene 2017 21:01:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhog0jcKdamSOKq1ntB4AdQBYOE7lP5VhBa9JMOboUAsjR0bl0lmaHKl7ppjD3pd1jF2EEMMftRGFSnqmChyp6wcMrWmMjHOcwhGhnLpDctOnLjvKUJlnLLvT28nsBHmIrHXrePI1FeiDs/s640/IMG_20170124_152543.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>&#34;LAS OFRENDAS del otro lado&#34;-proceso de murales tematicos entre la vida y la muerte y entre un continente a otro.-</title>
+          <link>https://www.blogger.com/feeds/19156720/posts/default/1605404654346731637</link>
+          <guid isPermaLink="false">2017-01-09-las-ofrendas-del-otro-lado-proceso-de-murales-tematicos-entre-la-vida-y-la-muert</guid>
+          <pubDate>lun, 09 ene 2017 16:24:00 &#43;0000</pubDate>
+          <category>ARTES_VISUALES</category>
+          <description>PRIMER LADO SUDAMERICA Cementerio La Paz -Bolivia-Octubre 2016 La invitación&amp;nbsp;a un encuentro poco común y menos frecuente para los pintores urbanos como soporte &amp;nbsp;fue pintar&amp;nbsp;&amp;nbsp;interviniendo &amp;nbsp;en el cementerio&amp;nbsp;de&amp;nbsp;&amp;nbsp;La Paz del 24 de octubre para terminar&amp;nbsp; el 27&amp; — &lt;name&gt;mono gonzalez&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/15288919110680263135&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;32&#39; height=&#39;24&#39; src=&#39;http://bp2.blogger.com/_OBVVeP3xt5c/SJHKT0MgWxI/AAAAAAAACEQ/t7v-Sfx_L6M/S220/FOTOS&#43;SAN&#43;ANTONIO&#43;12&#43;NOVIEMBRE&#43;2005&#43;013.jpg&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt101gjDwxDuiAszdsGiii6wbyim6RoK2t4jggi9oRaoYqgKqzaDn6_7aQFSGM171JrBQnxhFtmEEGw6JcOPCHk4-u50y1PvDF7mKzqQBMo1bPlHhULRLCEKYz08kLi0iKDzNekQ/s320/14591576_688022808014022_5067558990782875539_n.jpg" length="0" type="image/jpeg"/>
+          <source url="Mono%20Gonz%c3%a1lez">Mono González</source>
+        </item>
+      
+        <item>
+          <title>Pura energia. Aros. $36.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/173262654576629780</link>
+          <guid isPermaLink="false">2016-12-02-pura-energia-aros-36-000</guid>
+          <pubDate>vie, 02 dic 2016 12:06:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMhcPV40ESUBdt0H6Q3GXBdwPndYKfeCaCE3QMRwXIv91NtRjtrErmFYUxZ6Os9d3rqeZHq35VmXSJoobDbm_vFvohiwCmG59NakzSfoR7AOw2nSJmHZCucfxX5YnqTgYuvNhbXDXVpIw/s640/IMG_20161202_090233.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Aritos plata&#43;cacho.$32.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/724781109746546031</link>
+          <guid isPermaLink="false">2016-11-30-aritos-plata-cacho-32-000</guid>
+          <pubDate>mié, 30 nov 2016 17:04:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMxokaW5xd_VwKjt05_lEWvKg70x1Xo0CkbXX_WtJjN4i0-2fVcHVRmmtj0Xs_EA3uhn95Y_6dzlXeYutbSxD4v0fB6G2QzO4bE0Yje4g9KHmvZzWL89yb6H7qZi287G3ZQzVTCHXCRVE/s640/IMG_20161130_135524.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Brazalete. Macrame&#43;plata. $42.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/5434437373425869708</link>
+          <guid isPermaLink="false">2016-11-24-brazalete-macrame-plata-42-000</guid>
+          <pubDate>jue, 24 nov 2016 16:46:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKZQMK68cXB_yPnToKwjlHb-pnr4kR9CUMIFRuXiBw6x6AtW-Q2K6038FpNdUnF13d3AUk1hHzQdkxQkCzqdqY0798yo-bVGaWQ5OCEoL2mQ5mPjvJ0hn0n3cllhcqeP9fo4xewEUTBs4/s640/IMG_20161124_134133.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+        <item>
+          <title>Aguita de lago. Aros. $34.000</title>
+          <link>https://www.blogger.com/feeds/350508433981250975/posts/default/2484447248599565994</link>
+          <guid isPermaLink="false">2016-11-16-aguita-de-lago-aros-34-000</guid>
+          <pubDate>mié, 16 nov 2016 14:06:00 &#43;0000</pubDate>
+          <category>ARTESANIAS</category>
+          <description> — &lt;name&gt;Andrea Vargas Guerrero&lt;/name&gt;&lt;uri&gt;http://www.blogger.com/profile/01758632781546236836&lt;/uri&gt;&lt;email&gt;noreply@blogger.com&lt;/email&gt;&lt;gd:image rel=&#39;http://schemas.google.com/g/2005#thumbnail&#39; width=&#39;16&#39; height=&#39;16&#39; src=&#39;https://img1.blogblog.com/img/b16-rounded.gif&#39;/&gt;</description>
+          <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4iOaLsW6_94Ekw8IUxRiyLnFaLmiXJt7sD7ZlpbJEzMW5sCPEvJ3g4Ns5yJjD9FypAT0YW0MQQ8Yjsc7CQnz3iV1cNmNBmFXsLjx1WPeybF1eenuUwCqx_fk2PqED83kLYU2tNKb_Fmk/s640/IMG_20161116_110135.jpg" length="0" type="image/jpeg"/>
+          <source url="Joyer%c3%ada%20Original%20AVG">Joyería Original AVG</source>
+        </item>
+      
+    
+  </channel>
 </rss>
