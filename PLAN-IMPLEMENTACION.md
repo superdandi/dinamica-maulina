@@ -517,6 +517,7 @@ dinamica-maulina/
 - [x] Revisión accesibilidad y SEO (títulos, alt, lang, aria)
 - [x] Prueba de carga/rendimiento del sitio desplegado
 - [x] Rodar el pipeline 2× en remoto y confirmar idempotencia en Actions logs
+- [x] Fix de git-idempotencia del pipeline (`generatedAt` solo cambia si items/sources cambian) + doble verificación en CI con dispatch
 - [ ] Retocar `sources.json` con cualquier feed que falle (dead/format change)
 - [ ] Notificar lanzamiento / validación final con el usuario
 
@@ -588,5 +589,5 @@ dinamica-maulina/
 | 2026-09-15 | FASE 1 completa | ✅ | Probe 44 vivos /15 fallidos · sources.json 43 feeds · 600 items (2006→2026) · idempotencia +0 |
 | 2026-09-15 | FASE 2+3 base | ✅ | Tema completo: inicio/categorías/catálogo/nosotros/404/buscar · Cliente: Fuse.js + Open-Meteo |
 | 2026-09-15 | FASE 4 completa | ✅ | Workflows update-data (cron 8h) + deploy · Pages en `gh-pages` · sitio **en línea** · CI idempotente |
-| 2026-09-15 | FASE 5 (parcial) | ⏳ | README + og-image listos · accesibilidad/SEO y carga verificados · pendiente: retoque de feeds fallidos |
+| 2026-09-15 | FASE 5 (parcial) | ⏳ | README + og-image listos · accesibilidad/SEO y carga verificados · CI idempotente confirmado · pendiente: retoque de feeds fallidos |
 | | | | |
