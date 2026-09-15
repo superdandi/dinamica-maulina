@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:20:04.068Z",
+  "generatedAt": "2026-09-15T20:26:32.229Z",
   "items": [
     {
       "id": "2026-09-14-teatro-de-titeres-llega-a-yungay-con-funcion-gratuita",
@@ -13,7 +13,7 @@
       "image": "",
       "event": {
         "text": "26 de septiembre",
-        "start": "2026-09-26T15:00:00.000Z"
+        "start": "2026-09-26T12:00:00.000Z"
       }
     },
     {
@@ -28,7 +28,7 @@
       "image": "",
       "event": {
         "text": "el 14 de septiembre",
-        "start": "2026-09-14T15:00:00.000Z"
+        "start": "2026-09-14T12:00:00.000Z"
       }
     },
     {
@@ -43,7 +43,7 @@
       "image": "",
       "event": {
         "text": "el 14 de octubre",
-        "start": "2026-10-14T15:00:00.000Z"
+        "start": "2026-10-14T12:00:00.000Z"
       }
     },
     {
@@ -58,7 +58,7 @@
       "image": "",
       "event": {
         "text": "el 20 de octubre",
-        "start": "2026-10-20T15:00:00.000Z"
+        "start": "2026-10-20T12:00:00.000Z"
       }
     },
     {
@@ -7919,7 +7919,7 @@
   },
   "feedStats": {
     "sources": 48,
-    "alive": 43,
+    "alive": 42,
     "itemsPerSource": {
       "seremi-culturas": 7,
       "rincon-literario": 48,
@@ -8233,7 +8233,7 @@
       "feed": "https://carmenartesaniatejas.blogspot.com/feeds/posts/default",
       "category": "ARTESANIAS",
       "author": "Carmen",
-      "alive": true,
+      "alive": false,
       "filter": false
     },
     {
