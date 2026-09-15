@@ -360,6 +360,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils   # pdftotext (programa UTalca)
       - run: node scripts/feed-sources.mjs
       - run: |
           git config user.name "dm-data-bot"
@@ -544,6 +545,13 @@ dinamica-maulina/
 - [x] D11 (extractEvent: "12 de marzo", "sábado 12", "este jueves" → campo `event` en ítems de <90 días) Detección de fechas en `feed-sources.mjs` (regex meses es + relativos) → campo `event`
 - [x] D12 (página /agenda/ server-rendered + JSON-LD ItemList/Event + menú + CSS calendario) Página `/agenda/` server-rendered (próximos eventos) + JSON-LD `Event` + menú
 
+**E — Centros culturales locales (fuentes dinámicas)**
+- [x] E13 (IG cancelada: cuentas mezclan lo personal/profesional; la API oficial solo sirve cuentas B2B/pro; scraping de IG es frágil para un cron determinista → útiles solo vía monitoreo manual. Alternativa documentada: Agenda Maulina para convocatorias) Evaluación Instagram para El Espacio/La Candelaria/UTalca/UCM → **DESCARTADO**
+- [ ] E14 (4 centros: El Espacio no tiene web (cobertura indirecta vía agregadores), La Candelaria WordPress con WAF 403 intermitente, UTalca con programa mensual PDF + feed de noticias, UCM sin RSS/API y blogspot ex-extensionucm muerto desde 2009) Auditoría de fuentes de Centros Culturales de El Espacio, La Candelaria, Extensión UTalca y Extensión UCM
+- [x] E15 (Bloque 1: +5 feeds — ext-utalca-noticias, elmauleinforma, diariotalca, soymaule-agenda (filter:true) y lacandelariacultura) Agregadores regionales + noticias UTalca + Candelaria en `sources.json`
+- [x] E16 (Bloque 2: `fetchUtalcaProgram` — home mav.utalca.cl → PDF mensual → `pdftotext -layout` → parser tolerante al layout (días+horas fusionadas con texto, títulos intercalados, series "1 y 8") → ítems con `event.kind:'program'` (inmunes al re-enriquecimiento) que entran a La Corriente y la Agenda) **Programa mensual de Extensión UTalca (PDF)** — reemplazo mensual idempotente (no genera commits vacíos)
+- [x] E17 (bug reportado por el usuario: los enlaces de categorías daban 404 — causa: slugs `artes_visuales`/`cine_medios` con guion bajo vs páginas reales `artes-visuales`/`cine-medios`, y `absURL` de rutas absolutas ignora la subruta `/dinamica-maulina/` → tiles y "Ver índice" ahora con ruta RELATIVA + `absURL`; header con `{{ .Permalink }}` absoluto; verificado: 0 enlaces internos rotos en `public/`) **Fix 404 categorías**
+
 ---
 
 ## 12. CRITERIOS DE ACEPTACIÓN (Definition of Done global)
@@ -616,4 +624,6 @@ dinamica-maulina/
 | 2026-09-15 | Evaluación exhaustiva | ✅ | Hallazgos: RSS propio vacío (0 items), /categories/ fantasma, 617KB sin gzip + cache-busting destructivo, home solo-JS, slug en tarjetas, TERRITORIO/FOTOGRAFIA pobres |
 | 2026-09-15 | FASE 6 confirmada | ✅ | Usuario: parches+rendimiento juntos · Corriente=12 meses · v2: reforzar categorías pobres → Agenda Maulina |
 | 2026-09-15 | C+D completas | ✅ | Fuentes: 48 feeds (43 vivas), TERRITORIO 4→65 · Agenda: 3 eventos futuros detectados, /agenda/ + JSON-LD · corpus 717 items |
+| 2026-09-15 | Fix 404 categorías | ✅ | Usuario reporta enlaces rotos: slugs con `_` inexistentes + `absURL` ignorando subruta → rutas relativas + slugs con guiones; 0 enlaces internos rotos verificado |
+| 2026-09-15 | E: Centros culturales | ✅ | IG descartado · Bloque 1 (+5 agregadores, 54 fuentes) · Bloque 2 (programa mensual UTalca vía PDF, 8 eventos futuros → Agenda) · corpus 746 items · idempotencia confirmada |
 | | | | |
