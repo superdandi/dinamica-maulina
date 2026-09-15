@@ -462,21 +462,21 @@ dinamica-maulina/
 - [x] Estructura base de directorios (layouts, assets, static, content, scripts, data, config)
 - [x] `hugo.toml` con parámetros base (title, baseURL, locale, params) + `config/_default/params.toml` (10 categorías, 6 ciudades clima, ticker)
 - [x] Páginas base + layouts base: `hugo --gc --minify` compila 37 páginas sin errores (verificado 2026-09-15)
-- [ ] Primer commit + push a main
+- [x] Primer commit + push a main (`chore: esqueleto…` — rama main trackeando origin)
 
 ### FASE 1 — Pipeline de datos
-- [ ] Auditoría de feeds: validar cada candidato responde XML/Atom válido (script de sondeo `_probe-feeds.mjs`)
-- [ ] Curaduría final: `scripts/sources.json` con feeds vivos del catálogo original (curados)
-- [ ] Expansión: agregar colectivos culturales activos 2026 (muralismo, tocatas, FONDART, editoriales, ferias)
-- [ ] `parseRSS()` con soporte RSS 2.0 + Atom + CDATA + thumbnails
-- [ ] Clasificador heurístico → 10 categorías + fallback `categoryDefault` (sin `undefined`)
-- [ ] `NOISE_BLOCKERS` (avisos, sorteos, patrocinados, repetitivos)
-- [ ] Dedupe por ID estable + similitud de tokens ≥ 45%
-- [ ] Ventana temporal configurable (12h a 120 días) + `maxItems`
-- [ ] Recálculo de agregados (`counts`, `sources` alive flag, `generatedAt`)
-- [ ] Escritura `data/faust.json` + copia `static/data/faust.json` (solo si cambio)
-- [ ] Ejecutar local: seed inicial con datos reales (~>30 items)
-- [ ] **Prueba de idempotencia: 2ª corrida → +0 items**
+- [x] Auditoría de feeds: `scripts/probe-feeds.mjs` — **44 feeds válidos / 15 fallidos** (401/404/token bloqueado)
+- [x] Curaduría final: `scripts/sources.json` con **43 feeds** del legado vivo + expansión (Seremi de las Culturas, Diario El Centro)
+- [x] Expansión: fuentes activas 2026 incorporadas (Seremi MinCultura Maule, Diario El Centro)
+- [x] `parseRSS()` con soporte RSS 2.0 + Atom + CDATA + thumbnails (item-card HTML / media / enclosure)
+- [x] Clasificador heurístico → 10 categorías + fallback `categoryDefault`; fuentes noticiero con `filter:true` exigen relevancia cultural
+- [x] `NOISE_BLOCKERS` (sorteos, fútbol, política, inmobiliario, policial…)
+- [x] Dedupe por ID estable + similitud de tokens ≥ 45%
+- [x] Ventana temporal configurable (12h a 9999d = histórico completo) + `maxItems: 1500`
+- [x] Recálculo de agregados (`counts`, fuentes, `feedStats.itemsPerSource`, `generatedAt`)
+- [x] Escritura `data/faust.json` + copia `static/data/faust.json` (solo si cambio)
+- [x] Ejecutar local: seed **600 ítemes reales** (2006→2026) · 38/43 fuentes vivas
+- [x] **Prueba de idempotencia: 2ª corrida → +0 items** ✅
 
 ### FASE 2 — Tema Hugo y diseño "Río Maule"
 - [ ] `baseof.html` con head/header/footer + meta tags + OG
@@ -585,4 +585,5 @@ dinamica-maulina/
 | 2026-09-15 | Hugo instalado | ✅ | v0.166.0+extended (pacman, mirrors sincronizados previamente) |
 | 2026-09-15 | FASE 0 casi completa | ✅ | esqueleto + config + categorías + build 37 páginas OK |
 | 2026-09-15 | Correcciones config | ✅ | `theme=''` eliminado; `languageCode`→`locale` (deprecado en v0.158+) |
+| 2026-09-15 | FASE 1 completa | ✅ | Probe 44 vivos /15 fallidos · sources.json 43 feeds · 600 items (2006→2026) · idempotencia +0 |
 | | | | |

@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "region": "Región del Maule, Chile",
+    "window": { "minAgeHours": 12, "maxAgeDays": 9999 },
+    "maxItems": 1500,
+    "defaultCategory": "PATRIMONIO",
+    "timeoutSec": 30,
+    "userAgent": "dinamica-maulina-bot/1.0 (dcobosm@gmail.com)"
+  },
+  "feeds": [
+    {
+      "id": "poesia-maulina",
+      "name": "Poesía Maulina",
+      "url": "https://samuelmaldonado33.blogspot.com",
+      "feed": "https://samuelmaldonado33.blogspot.com/feeds/posts/default",
+      "category": "POESIA",
+      "author": "Samuel Maldonado",
+      "active": true
+    },
+    {
+      "id": "rincon-literario",
+      "name": "El rincón literario de Daniel Cobos",
+      "url": "https://dcobos.blogspot.com",
+      "feed": "https://dcobos.blogspot.com/feeds/posts/default",
+      "category": "POESIA",
+      "author": "Daniel Cobos",
+      "active": true
+    },
+    {
+      "id": "poemas-angel",
+      "name": "Poemas de un Ángel Caído",
+      "url": "https://poemasdeunangelcaido.blogspot.com",
+      "feed": "https://poemasdeunangelcaido.blogspot.com/feeds/posts/default",
+      "category": "POESIA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "sinfonica-caotica",
+      "name": "Sinfónica Caótica",
+      "url": "https://sinfonicacaotica.blogspot.com",
+      "feed": "https://sinfonicacaotica.blogspot.com/feeds/posts/default",
+      "category": "POESIA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "casa-poeta",
+      "name": "La casa del poeta sin nombre",
+      "url": "https://thanatoschile.blogspot.com",
+      "feed": "https://thanatoschile.blogspot.com/feeds/posts/default",
+      "category": "POESIA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "anarcopoiesis",
+      "name": "Anarcopoiesis",
+      "url": "https://anarcopoiesis.blogspot.com",
+      "feed": "https://anarcopoiesis.blogspot.com/feeds/posts/default",
+      "category": "POESIA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "descentralizacion-poetica",
+      "name": "Descentralización Poética Maule",
+      "url": "https://descentralizacionmaule.blogspot.com",
+      "feed": "https://descentralizacionmaule.blogspot.com/feeds/posts/default",
+      "category": "POESIA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "cuadernos-maule",
+      "name": "Cuadernos del Maule",
+      "url": "https://cuadernosdelmaule.blogspot.com",
+      "feed": "https://cuadernosdelmaule.blogspot.com/feeds/posts/default",
+      "category": "LITERATURA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "navero-maulino",
+      "name": "Návero Maulino",
+      "url": "https://naveromaulino.blogspot.com",
+      "feed": "https://naveromaulino.blogspot.com/feeds/posts/default",
+      "category": "LITERATURA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "mundo-volador",
+      "name": "Mundo Volador",
+      "url": "https://mundovolador.blogspot.com",
+      "feed": "https://mundovolador.blogspot.com/feeds/posts/default",
+      "category": "MUSICA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "evelyn-cornejo",
+      "name": "Evelyn Cornejo",
+      "url": "https://evelyncornejo.blogspot.com",
+      "feed": "https://evelyncornejo.blogspot.com/feeds/posts/default",
+      "category": "MUSICA",
+      "author": "Evelyn Cornejo",
+      "active": true
+    },
+    {
+      "id": "la-buscaglione",
+      "name": "La Buscaglione",
+      "url": "https://labuscaglione.blogspot.com",
+      "feed": "https://labuscaglione.blogspot.com/feeds/posts/default",
+      "category": "MUSICA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "teatrofiado",
+      "name": "Teatrofiado",
+      "url": "https://teatrofiado.blogspot.com",
+      "feed": "https://teatrofiado.blogspot.com/feeds/posts/default",
+      "category": "TEATRO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "teatro-altoque",
+      "name": "Teatro Altoque",
+      "url": "https://teatroaltoque.blogspot.com",
+      "feed": "https://teatroaltoque.blogspot.com/feeds/posts/default",
+      "category": "TEATRO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "si-quiero-voy",
+      "name": "Si Quiero Voy",
+      "url": "https://siquierovoy.wordpress.com",
+      "feed": "https://siquierovoy.wordpress.com/feed/",
+      "category": "TEATRO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "mono-gonzalez",
+      "name": "Mono González",
+      "url": "https://monogonzalez.blogspot.com",
+      "feed": "https://monogonzalez.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "Mono González",
+      "active": true
+    },
+    {
+      "id": "romina-ortega",
+      "name": "Romina Ortega (RO)",
+      "url": "https://rominaortegamella.blogspot.com",
+      "feed": "https://rominaortegamella.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "Romina Ortega",
+      "active": true
+    },
+    {
+      "id": "romigrafa",
+      "name": "ROMIGRAFA",
+      "url": "https://romigrafa.blogspot.com",
+      "feed": "https://romigrafa.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "patricio-chamorro",
+      "name": "Patricio Chamorro",
+      "url": "https://patriciografico.blogspot.com",
+      "feed": "https://patriciografico.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "Patricio Chamorro",
+      "active": true
+    },
+    {
+      "id": "galeria-mediagua",
+      "name": "Galería MediaAgua",
+      "url": "https://galeriamediagua.blogspot.com",
+      "feed": "https://galeriamediagua.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "galeria-gabriel-pando",
+      "name": "Galería Gabriel Pando",
+      "url": "https://galeriagabrielpando.blogspot.com",
+      "feed": "https://galeriagabrielpando.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "Gabriel Pando",
+      "active": true
+    },
+    {
+      "id": "sinsopermia",
+      "name": "Sinsopermia",
+      "url": "https://sinsopermia.blogspot.com",
+      "feed": "https://sinsopermia.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "desblokeo-creativo",
+      "name": "Desblokeo Creativo (Ricardo Núñez)",
+      "url": "https://desblokeocreativo.blogspot.com",
+      "feed": "https://desblokeocreativo.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "Ricardo Núñez",
+      "active": true
+    },
+    {
+      "id": "con-esto-la-mato",
+      "name": "Con esto la mato (diseño)",
+      "url": "https://conestolamato.blogspot.com",
+      "feed": "https://conestolamato.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "telares-chile",
+      "name": "Telares para Chile",
+      "url": "https://telaresparachile.blogspot.com",
+      "feed": "https://telaresparachile.blogspot.com/feeds/posts/default",
+      "category": "ARTESANIAS",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "carla-macrame",
+      "name": "Carla Macramé",
+      "url": "https://macrarlamacrame.blogspot.com",
+      "feed": "https://macrarlamacrame.blogspot.com/feeds/posts/default",
+      "category": "ARTESANIAS",
+      "author": "Carla",
+      "active": true
+    },
+    {
+      "id": "decoupage-tejas",
+      "name": "Decoupage en Tejas",
+      "url": "https://carmenartesaniatejas.blogspot.com",
+      "feed": "https://carmenartesaniatejas.blogspot.com/feeds/posts/default",
+      "category": "ARTESANIAS",
+      "author": "Carmen",
+      "active": true
+    },
+    {
+      "id": "joyeria-avg",
+      "name": "Joyería Original AVG",
+      "url": "https://avargasguerrero.blogspot.com",
+      "feed": "https://avargasguerrero.blogspot.com/feeds/posts/default",
+      "category": "ARTESANIAS",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "sastreria-gonzalez",
+      "name": "Sastrería González",
+      "url": "https://sastreriagonzalez.blogspot.com",
+      "feed": "https://sastreriagonzalez.blogspot.com/feeds/posts/default",
+      "category": "ARTESANIAS",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "tejas-edu",
+      "name": "Las Tejas del Edu",
+      "url": "https://tejasedu.blogspot.com",
+      "feed": "https://tejasedu.blogspot.com/feeds/posts/default",
+      "category": "ARTESANIAS",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "kuraf-werken",
+      "name": "Centro Cultural y Social Kuraf Werken",
+      "url": "https://kurafwerken.blogspot.com",
+      "feed": "https://kurafwerken.blogspot.com/feeds/posts/default",
+      "category": "PATRIMONIO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "conventillo",
+      "name": "Centro Cultural El Conventillo",
+      "url": "https://centroculturalelconventillo.blogspot.com",
+      "feed": "https://centroculturalelconventillo.blogspot.com/feeds/posts/default",
+      "category": "PATRIMONIO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "mitos-leyendas",
+      "name": "Mitos y leyendas del Maule",
+      "url": "https://mitosyleyendasdelmaule.blogspot.com",
+      "feed": "https://mitosyleyendasdelmaule.blogspot.com/feeds/posts/default",
+      "category": "PATRIMONIO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "refranes-maule",
+      "name": "Refranes populares del Maule",
+      "url": "https://refranespopularesdelmaule.blogspot.com",
+      "feed": "https://refranespopularesdelmaule.blogspot.com/feeds/posts/default",
+      "category": "PATRIMONIO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "seremi-culturas",
+      "name": "Seremi de las Culturas, las Artes y el Patrimonio (Maule)",
+      "url": "https://www.cultura.gob.cl",
+      "feed": "https://www.cultura.gob.cl/feed/?region=maule",
+      "category": "PATRIMONIO",
+      "author": "",
+      "filter": true,
+      "active": true
+    },
+    {
+      "id": "extension-ucm",
+      "name": "Extensión UCM",
+      "url": "https://extensionucm.blogspot.com",
+      "feed": "https://extensionucm.blogspot.com/feeds/posts/default",
+      "category": "PATRIMONIO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "picadas-talca",
+      "name": "Picadas de Talca",
+      "url": "https://picadasdetalca.blogspot.com",
+      "feed": "https://picadasdetalca.blogspot.com/feeds/posts/default",
+      "category": "PATRIMONIO",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "foto-callejera",
+      "name": "Foto Callejera",
+      "url": "https://fotocallejera.blogspot.com",
+      "feed": "https://fotocallejera.blogspot.com/feeds/posts/default",
+      "category": "FOTOGRAFIA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "moreno-aruta",
+      "name": "Antonia Moreno Aruta",
+      "url": "https://morenoaruta.blogspot.com",
+      "feed": "https://morenoaruta.blogspot.com/feeds/posts/default",
+      "category": "FOTOGRAFIA",
+      "author": "Antonia Moreno",
+      "active": true
+    },
+    {
+      "id": "macro-foto",
+      "name": "MACRO",
+      "url": "https://captura-macro.blogspot.com",
+      "feed": "https://captura-macro.blogspot.com/feeds/posts/default",
+      "category": "FOTOGRAFIA",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "diario-el-centro",
+      "name": "Diario El Centro",
+      "url": "https://www.diarioelcentro.cl",
+      "feed": "https://www.diarioelcentro.cl/feed/",
+      "category": "CINE_MEDIOS",
+      "author": "",
+      "filter": true,
+      "active": true
+    },
+    {
+      "id": "villalegre-grafico",
+      "name": "Villalegre Gráfico",
+      "url": "https://villalegregrafico.blogspot.com",
+      "feed": "https://villalegregrafico.blogspot.com/feeds/posts/default",
+      "category": "CINE_MEDIOS",
+      "author": "",
+      "active": true
+    },
+    {
+      "id": "poleron-a-luka",
+      "name": "Polerón a luka",
+      "url": "https://poleronaluka.blogspot.com",
+      "feed": "https://poleronaluka.blogspot.com/feeds/posts/default",
+      "category": "ARTES_VISUALES",
+      "author": "",
+      "active": true
+    }
+  ]
+}
