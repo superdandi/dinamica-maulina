@@ -249,6 +249,32 @@ img { max-width: 100%; height: auto; display: block; }
 .agenda__hint { font-size: .78rem; color: var(--arcilla-600); margin: 0; font-style: italic; }
 @media (max-width: 560px) { .agenda__item { flex-direction: column; } }
 
+/* --- Mapa ---------------------------------------------------------------------- */
+.mapa { position: relative; background: var(--card-bg); border: 1px solid var(--arena-200); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.mapa__canvas { height: 440px; width: 100%; }
+@media (max-width: 640px) { .mapa__canvas { height: 340px; } }
+.mapa__punto { background: transparent; border: none; }
+.mapa__punto-nucleo {
+  display: block; width: 12px; height: 12px; border-radius: 50%;
+  border: 2px solid var(--arena-50); margin: 3px auto;
+  box-shadow: 0 1px 3px rgba(28, 25, 23, .35);
+}
+.mapa__punto--agenda .mapa__punto-nucleo { background: transparent; border: 3px solid var(--arcilla-400); width: 10px; height: 10px; }
+.mapa__fecha { color: var(--tinta-500); font-size: .8rem; font-style: italic; display: block; }
+.mapa__punto + .leaflet-popup .leaflet-popup-content p { margin: .35rem 0 0; font-size: .85rem; color: var(--tinta-600); }
+.mapadata { display: none; }
+.mapa__lista { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: .75rem; }
+@media (min-width: 720px) { .mapa__lista { grid-template-columns: repeat(2, 1fr); } }
+.mapa__grupo {
+  background: var(--card-bg); border: 1px solid var(--arena-200); border-radius: var(--radius);
+  padding: .9rem 1.1rem; box-shadow: var(--shadow);
+}
+.mapa__grupo h3 { font-size: .82rem; text-transform: uppercase; letter-spacing: .14em; margin: 0 0 .5rem; color: var(--tinta-600); display: flex; align-items: baseline; justify-content: space-between; gap: .5rem; border-bottom: 1px dotted var(--arena-200); padding-bottom: .35rem; }
+.mapa__cuenta { font-size: .72rem; color: var(--arcilla-600); }
+.mapa__grupo ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem .9rem; max-height: none; overflow: visible; }
+.mapa__grupo li { font-size: .86rem; }
+.mapa__grupo li a { color: var(--rio-500); }
+
 /* --- Clima ---------------------------------------------------------------------- */
 .weather { background: var(--card-bg); border: 1px solid var(--arena-200); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.25rem; }
 .weather__cities { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
