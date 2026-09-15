@@ -1,0 +1,73 @@
+{{ define "main" }}
+<section class="section">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+
+  {{ $items := hugo.Data.faust.items | default slice }}
+  {{ $nowISO := now.UTC.Format "2006-01-02T15:04:05.000Z" }}
+
+  {{ $withEvent := slice }}
+  {{ range $items }}
+    {{ if .event }}{{ $withEvent = $withEvent | append . }}{{ end }}
+  {{ end }}
+
+  {{ $up := slice }}
+  {{ range $withEvent }}
+    {{ if ge .event.start $nowISO }}{{ $up = $up | append . }}{{ end }}
+  {{ end }}
+  {{ $up = sort $up "event.start" "asc" }}
+
+  {{ $months := dict "01" "ENE" "02" "FEB" "03" "MAR" "04" "ABR" "05" "MAY" "06" "JUN" "07" "JUL" "08" "AGO" "09" "SEP" "10" "OCT" "11" "NOV" "12" "DIC" }}
+
+  {{ if $up }}
+    <h2 class="section__head" style="border:0;margin:2rem 0 1.25rem">Próximos eventos</h2>
+    <ol class="agenda" role="list">
+      {{ range $up }}
+        {{ $srcName := .source }}
+        {{ range hugo.Data.faust.sources }}{{ if eq .id $srcName }}{{ $srcName = .name }}{{ end }}{{ end }}
+        {{ $day := dateFormat "02" .event.start }}
+        {{ $mon := index $months (dateFormat "01" .event.start) }}
+        {{ $catID := .category }}
+        {{ $cat := index (where site.Params.categories "id" $catID) 0 }}
+        <li class="agenda__item">
+          <a class="agenda__when" href="{{ .link }}" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+            <span class="agenda__day">{{ $day }}</span>
+            <span class="agenda__mon">{{ $mon }}</span>
+          </a>
+          <div class="agenda__body">
+            <span class="pill pill--{{ with $cat.color }}{{ . }}{{ else }}rio{{ end }}">{{ with $cat.icon }}{{ . }} {{ end }}{{ with $cat.name }}{{ . }}{{ end }}</span>
+            <h3 class="agenda__title"><a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a></h3>
+            <p class="agenda__meta">{{ $srcName }} · {{ time.Format "02/01/2006" .date }}</p>
+            {{ with .event.text }}<p class="agenda__hint">Fecha detectada: «{{ . }}»</p>{{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ol>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Agenda Maulina — próximos eventos",
+      "numberOfItems": {{ len $up }},
+      "itemListElement": [
+        {{ range $i, $e := $up }}
+        {
+          "@type": "ListItem",
+          "position": {{ add $i 1 }},
+          "item": {
+            "@type": "Event",
+            "name": {{ $e.title | jsonify | safeJS }},
+            "startDate": {{ dateFormat "2006-01-02T15:04:05-07:00" $e.event.start | jsonify | safeJS }},
+            "url": {{ $e.link | jsonify | safeJS }}
+          }
+        }{{ if lt (add $i 1) (len $up) }},{{ end }}
+        {{ end }}
+      ]
+    }
+    </script>
+  {{ else }}
+    <p class="state">La agenda se llena cuando las fuentes adelantan fechas — volvé en unos días.</p>
+  {{ end }}
+</section>
+{{ end }}

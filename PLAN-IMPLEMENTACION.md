@@ -538,11 +538,11 @@ dinamica-maulina/
 - [ ] B9 Verificar TTFB/peso de tránsito y re-confirmar idempotencia CI
 
 **C — Reforzar categorías pobres**
-- [ ] C10 (en curso) Sondear (`probe-feeds.mjs`) candidatas para **TERRITORIO (4)** y **FOTOGRAFIA (23)**; agregar solo las vivas; ajustar ventana/requisitos por categoría si hace falta
+- [x] C10 (5 blogs maulinos agregados: 48 feeds · 43 vivas · TERRITORIO 4→65) Sondear (`probe-feeds.mjs`) candidatas para **TERRITORIO (4)** y **FOTOGRAFIA (23)**; agregar solo las vivas; ajustar ventana/requisitos por categoría si hace falta
 
 **D — Agenda Maulina (eventos)**
-- [ ] D11 Detección de fechas en `feed-sources.mjs` (regex meses es + relativos) → campo `event`
-- [ ] D12 Página `/agenda/` server-rendered (próximos eventos) + JSON-LD `Event` + menú
+- [x] D11 (extractEvent: "12 de marzo", "sábado 12", "este jueves" → campo `event` en ítems de <90 días) Detección de fechas en `feed-sources.mjs` (regex meses es + relativos) → campo `event`
+- [x] D12 (página /agenda/ server-rendered + JSON-LD ItemList/Event + menú + CSS calendario) Página `/agenda/` server-rendered (próximos eventos) + JSON-LD `Event` + menú
 
 ---
 
@@ -615,4 +615,5 @@ dinamica-maulina/
 | 2026-09-15 | FASE 5 (parcial) | ⏳ | README + og-image listos · accesibilidad/SEO y carga verificados · CI idempotente confirmado · pendiente: retoque de feeds fallidos |
 | 2026-09-15 | Evaluación exhaustiva | ✅ | Hallazgos: RSS propio vacío (0 items), /categories/ fantasma, 617KB sin gzip + cache-busting destructivo, home solo-JS, slug en tarjetas, TERRITORIO/FOTOGRAFIA pobres |
 | 2026-09-15 | FASE 6 confirmada | ✅ | Usuario: parches+rendimiento juntos · Corriente=12 meses · v2: reforzar categorías pobres → Agenda Maulina |
+| 2026-09-15 | C+D completas | ✅ | Fuentes: 48 feeds (43 vivas), TERRITORIO 4→65 · Agenda: 3 eventos futuros detectados, /agenda/ + JSON-LD · corpus 717 items |
 | | | | |

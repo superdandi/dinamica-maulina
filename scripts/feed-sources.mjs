@@ -89,6 +89,49 @@ function firstImage(description = '', extra = '') {
   return ''
 }
 
+// ─── Detección de eventos (Agenda Maulina) ─────────────────────────────
+// Patrones en español: "12 de marzo", "viernes 12", "sábado 25 de abril".
+const MONTHS = { ene: 1, feb: 2, mar: 3, abr: 4, may: 5, jun: 6, jul: 7, ago: 8, sep: 9, oct: 10, nov: 11, dic: 12 }
+const WEEKDAYS = { domingo: 0, lunes: 1, martes: 2, miercoles: 3, miércoles: 3, jueves: 4, viernes: 5, sabado: 6, sábado: 6 }
+
+function nextWeekdayDate(dayNum, from = new Date()) {
+  const d = new Date(from.getFullYear(), from.getMonth(), from.getDate(), 12, 0, 0)
+  const diff = (dayNum - d.getDay() + 7) % 7
+  d.setDate(d.getDate() + diff)
+  return d
+}
+
+function monthDayDate(monthNum, day, from = new Date()) {
+  let d = new Date(from.getFullYear(), monthNum - 1, Math.min(day, 28), 12, 0, 0)
+  if (d.getTime() - from.getTime() < -30 * 864e5) d = new Date(from.getFullYear() + 1, monthNum - 1, Math.min(day, 28), 12, 0, 0)
+  return d
+}
+
+// Retorna { text, date } o null
+function extractEvent(text) {
+  const t = String(text || '').toLowerCase()
+  let m
+
+  // "12 de marzo" / "del 8 de julio" / "el 15 de agosto"
+  m = t.match(/(?:\b(?:el|del|desde|al)\s+)?(\d{1,2})\s+de\s+([a-záéíóúñ]{3,})/i)
+  if (m && MONTHS[m[2].slice(0, 3)]) {
+    const day = parseInt(m[1], 10)
+    const monthNum = MONTHS[m[2].slice(0, 3)]
+    return { text: m[0].trim(), date: monthDayDate(monthNum, day) }
+  }
+
+  // "sábado 12" / "el viernes 25"
+  const wdNames = Object.keys(WEEKDAYS).join('|')
+  m = t.match(new RegExp(`\\b(${wdNames})\\s+(\\d{1,2})\\b`, 'i'))
+  if (m) return { text: m[0], date: nextWeekdayDate(WEEKDAYS[m[1].toLowerCase()]) }
+
+  // solo día de semana con prefijo: "este sábado" / "el jueves" / "próximo viernes"
+  m = t.match(new RegExp(`\\b(?:este|el|próximo|proximo|pasado)\\s+(${wdNames})\\b`, 'i'))
+  if (m) return { text: m[0], date: nextWeekdayDate(WEEKDAYS[m[1].toLowerCase()]) }
+
+  return null
+}
+
 // ─── Parseo de feeds (RSS 2.0 + Atom) ──────────────────────────────────────
 function parseFeed(xml) {
   const items = []
@@ -284,6 +327,18 @@ async function main() {
 
   data.items.sort((a, b) => new Date(b.date) - new Date(a.date))
   if (data.items.length > (meta.maxItems || 500)) data.items = data.items.slice(0, meta.maxItems)
+
+  // Enriquecimiento: eventos para la Agenda (solo ítemes recientes, < 90 días)
+  const eventWindowMs = 90 * 864e5
+  for (const it of data.items) {
+    if (now - new Date(it.date).getTime() > eventWindowMs) {
+      if ('event' in it) delete it.event
+      continue
+    }
+    const ev = extractEvent(`${it.title} ${it.summary || ''}`)
+    if (ev) it.event = { text: ev.text, start: ev.date.toISOString() }
+    else if ('event' in it) delete it.event
+  }
 
   // git-idempotencia: solo renovar generatedAt si items o sources cambiaron de verdad.
   // (evita commits vacíos de `data: refresh` en CI cuando una corrida no agrega nada)

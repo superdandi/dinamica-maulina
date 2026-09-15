@@ -10,7 +10,11 @@
       "category": "TEATRO",
       "source": "seremi-culturas",
       "date": "2026-09-14T18:05:42.000Z",
-      "image": ""
+      "image": "",
+      "event": {
+        "text": "26 de septiembre",
+        "start": "2026-09-26T15:00:00.000Z"
+      }
     },
     {
       "id": "2026-09-14-ministerios-de-las-culturas-y-educacion-abren-primera-convocatoria-al-sello-de-e",
@@ -21,7 +25,11 @@
       "category": "PATRIMONIO",
       "source": "seremi-culturas",
       "date": "2026-09-14T16:28:39.000Z",
-      "image": ""
+      "image": "",
+      "event": {
+        "text": "el 14 de septiembre",
+        "start": "2026-09-14T15:00:00.000Z"
+      }
     },
     {
       "id": "2026-09-14-convocatoria-a-los-premios-regionales-de-arte-y-cultura-2026-con-nueva-categoria",
@@ -32,7 +40,11 @@
       "category": "TEATRO",
       "source": "seremi-culturas",
       "date": "2026-09-14T15:12:11.000Z",
-      "image": ""
+      "image": "",
+      "event": {
+        "text": "el 14 de octubre",
+        "start": "2026-10-14T15:00:00.000Z"
+      }
     },
     {
       "id": "2026-09-14-12-artistas-visuales-de-nuble-dan-vida-a-la-exposicion-colectiva-un-rio-suena-si",
@@ -43,7 +55,11 @@
       "category": "ARTES_VISUALES",
       "source": "seremi-culturas",
       "date": "2026-09-14T12:25:11.000Z",
-      "image": ""
+      "image": "",
+      "event": {
+        "text": "el 20 de octubre",
+        "start": "2026-10-20T15:00:00.000Z"
+      }
     },
     {
       "id": "2026-09-14-gobierno-regional-y-seremi-de-las-culturas-fortalecen-la-programacion-de-espacio",
