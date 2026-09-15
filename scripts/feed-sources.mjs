@@ -94,17 +94,22 @@ function firstImage(description = '', extra = '') {
 const MONTHS = { ene: 1, feb: 2, mar: 3, abr: 4, may: 5, jun: 6, jul: 7, ago: 8, sep: 9, oct: 10, nov: 11, dic: 12 }
 const WEEKDAYS = { domingo: 0, lunes: 1, martes: 2, miercoles: 3, miércoles: 3, jueves: 4, viernes: 5, sabado: 6, sábado: 6 }
 
-function nextWeekdayDate(dayNum, from = new Date()) {
-  const d = new Date(from.getFullYear(), from.getMonth(), from.getDate(), 12, 0, 0)
-  const diff = (dayNum - d.getDay() + 7) % 7
-  d.setDate(d.getDate() + diff)
-  return d
+function todayUTCMs() {
+  const n = new Date()
+  return Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate())
 }
 
-function monthDayDate(monthNum, day, from = new Date()) {
-  let d = new Date(from.getFullYear(), monthNum - 1, Math.min(day, 28), 12, 0, 0)
-  if (d.getTime() - from.getTime() < -30 * 864e5) d = new Date(from.getFullYear() + 1, monthNum - 1, Math.min(day, 28), 12, 0, 0)
-  return d
+function nextWeekdayDate(dayNum, from = todayUTCMs()) {
+  const base = new Date(from)
+  const diff = (dayNum - base.getUTCDay() + 7) % 7
+  return new Date(from + diff * 864e5 + 12 * 36e5)
+}
+
+function monthDayDate(monthNum, day, from = todayUTCMs()) {
+  const base = new Date(from)
+  let t = Date.UTC(base.getUTCFullYear(), monthNum - 1, Math.min(day, 28), 12, 0, 0)
+  if (t - from < -30 * 864e5) t = Date.UTC(base.getUTCFullYear() + 1, monthNum - 1, Math.min(day, 28), 12, 0, 0)
+  return new Date(t)
 }
 
 // Retorna { text, date } o null
