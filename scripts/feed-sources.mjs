@@ -17,6 +17,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const SOURCES_PATH = path.resolve(__dirname, './sources.json')
 const DATA_PATH = path.resolve(__dirname, '../data/faust.json')
 const STATIC_PATH = path.resolve(__dirname, '../static/data/faust.json')
+const SEARCH_PATH = path.resolve(__dirname, '../static/data/search.json')
 
 const quiet = process.argv.includes('--quiet')
 const log = (m) => { if (!quiet) console.log(m) }
@@ -295,6 +296,10 @@ async function main() {
   const json = JSON.stringify(data, null, 2) + '\n'
   await writeFile(DATA_PATH, json, 'utf8')
   await writeFile(STATIC_PATH, json, 'utf8')
+
+  // Corpus slim para el runtime (búsqueda): mismo contenido, MINIFICADO (~-35%).
+  // La home ya no lo consume: "La Corriente" se renderiza en build-time.
+  await writeFile(SEARCH_PATH, JSON.stringify(data) + '\n', 'utf8')
 
   log(`✓ feeds: ${sources.length} · ítemes parseados: ${fetched} · agregados: +${added} · total: ${data.items.length}`)
   log(`✓ fuentes vivas: ${data.feedStats.alive}/${data.feedStats.sources}`)

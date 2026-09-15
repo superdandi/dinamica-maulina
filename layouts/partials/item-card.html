@@ -1,8 +1,12 @@
 {{ $item := . }}
 {{ $cat := index (where site.Params.categories "id" $item.category) 0 }}
+{{ $src := index (where (hugo.Data.faust.sources | default slice) "id" $item.source) 0 }}
+{{ $srcName := $item.source }}
+{{ with $src }}{{ $srcName = .name }}{{ end }}
 <article class="card">
   {{ if $item.image }}
-    <img class="card__img" src="{{ $item.image }}" alt="" loading="lazy" decoding="async">
+    <img class="card__img" src="{{ $item.image }}" alt="" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+    <div class="card__ph" aria-hidden="true" style="display:none"><span style="font-size:2rem;opacity:.35">🌊</span></div>
   {{ else }}
     <div class="card__ph" aria-hidden="true"><span style="font-size:2rem;opacity:.35">🌊</span></div>
   {{ end }}
@@ -11,7 +15,7 @@
     <h3 class="card__title"><a href="{{ $item.link }}" target="_blank" rel="noopener noreferrer">{{ $item.title }}</a></h3>
     {{ with $item.summary }}<p class="card__summary" style="font-size:.9rem;color:var(--tinta-500);margin:0">{{ . }}</p>{{ end }}
     <div class="card__meta">
-      <span>{{ $item.source }}</span>
+      <span>{{ $srcName }}</span>
       <time datetime="{{ $item.date }}">{{ dateFormat "02/01/2006" $item.date }}</time>
     </div>
   </div>

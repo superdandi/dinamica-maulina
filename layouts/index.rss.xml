@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }} — La Corriente</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ .Site.Params.description }}</description>
+    <language>es-CL</language>
+    <atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml"/>
+    {{ with .Site.Params.email }}<managingEditor>{{ . }}</managingEditor>{{ end }}
+    {{ with .Site.Params.author }}<webMaster>{{ . }} ({{ $.Site.Params.email }})</webMaster>{{ end }}
+    {{ if hugo.Data.faust }}
+      {{ $sources := hugo.Data.faust.sources }}
+      {{ $srcName := dict }}
+      {{/* Mapa id → nombre para legibilidad */}}
+      {{ range $sources }}{{ $srcName = merge $srcName (dict .id .name) }}{{ end }}
+
+      {{ $items := hugo.Data.faust.items }}
+      {{ range first 100 (sort $items "date" "desc") }}
+        <item>
+          <title>{{ .title }}</title>
+          <link>{{ .link }}</link>
+          <guid isPermaLink="false">{{ .id }}</guid>
+          <pubDate>{{ time.Format "Mon, 02 Jan 2006 15:04:05 -0700" .date }}</pubDate>
+          <category>{{ .category }}</category>
+          <description>{{ with .summary }}{{ . }}{{ end }}{{ with .author }} — {{ . }}{{ end }}</description>
+          {{ with .image }}<enclosure url="{{ . }}" length="0" type="image/jpeg"/>{{ end }}
+          <source url="{{ (index $srcName .source) | default .source }}">{{ index $srcName .source }}</source>
+        </item>
+      {{ end }}
+    {{ end }}
+  </channel>
+</rss>

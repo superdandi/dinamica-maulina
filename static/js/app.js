@@ -1,14 +1,20 @@
 /* DINÁMICA MAULINA — app.js
- * Carga /data/faust.json con cache-busting y renderiza:
- *  - Inicio: "La Corriente" (últimos 24) + conteos de categorías
- *  - Búsqueda: índice Fuse.js + filtros por categoría
+ * Cliente mínimo: solo mejora la página de búsqueda.
+ * La home está server-rendered (progressive enhancement, mejor SEO y carga).
+ * Carga /data/search.json (minificado) con cache por versión de generatedAt.
  */
 (function () {
   'use strict'
 
   const base = (window.DM && window.DM.base) || '/'
   const categories = (window.DM && window.DM.categories) || []
-  const corpusPath = (window.DM && window.DM.corpusPath) || 'data/faust.json'
+  const corpusPath = (window.DM && window.DM.corpusPath) || 'data/search.json'
+  const version = (window.DM && window.DM.version) || String(Date.now())
+
+  // nombres de fuente legibles: [{id, name, ...}, ...]
+  const srcNames = {}
+  for (const s of ((window.DM && window.DM.sourceNames) || [])) srcNames[s.id] = s.name
+  const srcName = (id) => srcNames[id] || id
 
   const catMeta = (() => {
     const m = {}
@@ -31,14 +37,13 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;')
 
-    const PH_VISIBLE = `<div class="card__ph" aria-hidden="true"><span style="font-size:2rem;opacity:.35">🌊</span></div>`
   const PH_HIDDEN  = `<div class="card__ph" style="display:none" aria-hidden="true"><span style="font-size:2rem;opacity:.35">🌊</span></div>`
 
   function cardHTML(item) {
     const cat = catMeta[item.category] || { name: item.category, color: 'rio', icon: '✦' }
     const img = item.image
       ? `<img class="card__img" src="${esc(item.image)}" alt="" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">${PH_HIDDEN}`
-      : PH_VISIBLE
+      : `<div class="card__ph" aria-hidden="true"><span style="font-size:2rem;opacity:.35">🌊</span></div>`
     return `
       <article class="card">
         ${img}
@@ -47,49 +52,21 @@
           <h3 class="card__title"><a href="${esc(item.link)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h3>
           ${item.summary ? `<p class="card__summary" style="font-size:.9rem;color:var(--tinta-500);margin:0">${esc(item.summary)}</p>` : ''}
           <div class="card__meta">
-            <span>${esc(item.source)}</span>
+            <span>${esc(srcName(item.source))}</span>
             <time datetime="${esc(item.date)}">${fmtDate(item.date)}</time>
           </div>
         </div>
       </article>`
   }
 
+  // Cache por versión: la URL cambia SOLO cuando generatedAt cambia → el ETag/CDN
+  // del navegador reutiliza la respuesta hasta que el corpus se renueva (a diferencia
+  // del viejo ?v=Date.now() que re-bajaba 617KB en cada visita).
   async function fetchCorpus() {
-    const url = (base.endsWith('/') ? base : base + '/') + corpusPath + '?v=' + Date.now()
-    const res = await fetch(url, { cache: 'no-cache' })
+    const url = (base.endsWith('/') ? base : base + '/') + corpusPath + '?v=' + encodeURIComponent(version)
+    const res = await fetch(url)
     if (!res.ok) throw new Error('HTTP ' + res.status)
     return res.json()
-  }
-
-  // ── Inicio: La Corriente + conteos ───────────────────────────────────
-  function initHome() {
-    const feed = $('#feed-reciente')
-    if (!feed) return
-    const loadEl = $('#estado-carga'), errEl = $('#estado-error'), vacio = $('#feed-vacio')
-
-    fetchCorpus()
-      .then((data) => {
-        const items = (data.items || []).slice(0, 24)
-        if (items.length === 0) {
-          if (vacio) vacio.hidden = false
-        } else {
-          feed.innerHTML = items.map(cardHTML).join('')
-        }
-        const upd = $('[data-ultima-actualizacion]')
-        if (upd && data.generatedAt) upd.textContent = 'Actualizado ' + fmtDate(data.generatedAt)
-
-        // conteos por categoría
-        $$('[data-cat-count]').forEach((el) => {
-          const id = el.dataset.catCount
-          const n = data.counts && data.counts[id]
-          el.textContent = n ? n + (n === 1 ? ' entrada' : ' entradas') : '—'
-        })
-      })
-      .catch((e) => {
-        console.error('DM: no se pudo leer el corpus', e)
-        if (errEl) errEl.hidden = false
-      })
-      .finally(() => { if (loadEl) loadEl.hidden = true })
   }
 
   // ── Búsqueda ─────────────────────────────────────────────────────────
@@ -106,11 +83,15 @@
     let fuse = null
     let activeFilter = 'TODAS'
 
+    // ordenar por fecha desc (estable) — el archivo mezcla 2006→hoy
+    const sortByDate = (arr) => arr.slice().sort((a, b) => new Date(b.date) - new Date(a.date))
+
     function render(query) {
       let items = []
       if (corpus) {
         if (query && fuse) {
           items = fuse.search(query).map((r) => r.item)
+          items = sortByDate(items)
         } else {
           items = corpus.items || []
         }
@@ -132,7 +113,11 @@
         })
         render(input.value)
       })
-      .catch((e) => console.error('DM: búsqueda sin corpus', e))
+      .catch((e) => {
+        console.error('DM: búsqueda sin corpus', e)
+        empty.hidden = false
+        empty.textContent = 'El archivo no respondió — reintentá en un rato.'
+      })
 
     input.addEventListener('input', () => render(input.value.trim()))
 
@@ -146,8 +131,9 @@
     })
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    initHome()
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSearch)
+  } else {
     initSearch()
-  })
+  }
 })()

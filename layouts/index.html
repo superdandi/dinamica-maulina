@@ -8,22 +8,35 @@
 {{ partial "marquee.html" . }}
 
 <section class="section" id="la-corriente" aria-labelledby="corriente-titulo">
-  <div class="section__head">
-    <h2 id="corriente-titulo">La Corriente</h2>
-    <span class="section__note" data-ultima-actualizacion>…</span>
-  </div>
-
-  <div class="state" id="estado-carga" hidden>
-    <div class="spinner" aria-hidden="true"></div>
-    <p>Cargando la corriente…</p>
-  </div>
-  <div class="state" id="estado-error" hidden>
-    <p>Hoy el río viene bajo: no pudimos leer los datos. Volvé en un rato.</p>
-  </div>
-
-  <div class="grid" id="feed-reciente" aria-live="polite"></div>
-
-  <p class="section__note" id="feed-vacio" hidden>Sin contenido todavía — la primera corrida de datos está en camino.</p>
+  {{ with hugo.Data.faust }}
+    {{ $cutoffISO := (now.AddDate 0 -12 0).UTC | dateFormat "2006-01-02T15:04:05.000Z" }}
+    {{ $recent := where .items "date" "ge" $cutoffISO }}
+    {{ $recent = sort $recent "date" "desc" }}
+    {{ $fallback := lt (len $recent) 24 }}
+    {{ if $fallback }}{{ $recent = sort .items "date" "desc" }}{{ end }}
+    <div class="section__head">
+      <h2 id="corriente-titulo">La Corriente</h2>
+      {{ if $fallback }}
+        <span class="section__note">Archivo en descenso — la corriente vuelve · actualizado {{ time.Format "02/01/2006 15:04" .generatedAt }} UTC</span>
+      {{ else }}
+        <span class="section__note">Últimos 12 meses · actualizado {{ time.Format "02/01/2006 15:04" .generatedAt }} UTC</span>
+      {{ end }}
+    </div>
+    {{ if $recent }}
+      <div class="grid" id="feed-reciente">
+        {{ range first 24 $recent }}
+          {{ partial "item-card.html" . }}
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="state">La corriente trae contenido nuevo cada pocas horas — volvé en un rato.</p>
+    {{ end }}
+  {{ else }}
+    <div class="section__head">
+      <h2 id="corriente-titulo">La Corriente</h2>
+    </div>
+    <p class="state">Sin contenido todavía — la primera corrida de datos está en camino.</p>
+  {{ end }}
 </section>
 
 <section class="section" aria-labelledby="cats-titulo">
@@ -32,12 +45,14 @@
     <a href="/categorias/">Ver índice →</a>
   </div>
   <div class="cat-grid">
+    {{ $counts := hugo.Data.faust.counts | default dict }}
     {{ range .Site.Params.categories }}
       <a class="cat-tile accent-{{ .color }}" href="/categorias/{{ .id | lower }}/">
         <span class="cat-tile__icon" aria-hidden="true">{{ .icon }}</span>
         <h3 class="cat-tile__name">{{ .name }}</h3>
         <p class="cat-tile__motto">{{ .motto }}</p>
-        <span class="cat-tile__count" data-cat-count="{{ .id }}">…</span>
+        {{ $n := index $counts .id }}
+        <span class="cat-tile__count">{{ if $n }}{{ $n }}{{ else }}—{{ end }}</span>
       </a>
     {{ end }}
   </div>

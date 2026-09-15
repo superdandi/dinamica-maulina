@@ -4,7 +4,9 @@ window.DM = {
   base: {{ .Site.BaseURL | jsonify | safeJS }},
   categories: {{ (slice .Site.Params.categories) | jsonify (dict "indent" "  ") | safeJS }},
   cities: {{ (slice .Site.Params.cities) | jsonify (dict "indent" "  ") | safeJS }},
-  corpusPath: {{ "data/faust.json" | relURL | jsonify | safeJS }}
+  corpusPath: {{ "data/search.json" | relURL | jsonify | safeJS }},
+  version: {{ (hugo.Data.faust.generatedAt | default "") | jsonify | safeJS }},
+  sourceNames: {{ (hugo.Data.faust.sources | default slice) | jsonify (dict "indent" "  ") | safeJS }}
 };
 </script>
 <script src="{{ "lib/fuse.min.js" | relURL }}" defer></script>

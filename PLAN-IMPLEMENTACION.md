@@ -521,6 +521,29 @@ dinamica-maulina/
 - [ ] Retocar `sources.json` con cualquier feed que falle (dead/format change)
 - [ ] Notificar lanzamiento / validación final con el usuario
 
+### FASE 6 — Evaluación y ciclo de mejora (confirmado 2026-09-15)
+*Decisiones del usuario: (1) parches rápidos + rendimiento en la misma sesión; (2) "La Corriente" = últimos 12 meses, archivo histórico solo en búsqueda; (3) alcance v2: primero reforzar categorías pobres, luego Agenda Maulina.*
+
+**A — Expreso Maule (parches rápidos)**
+- [x] A1 RSS propio real: `layouts/index.rss.xml` con top-100 de `hugo.Data.faust` (pubDate, guid, enclosure) + `<link rel="alternate" type="application/rss+xml">` en head (hoy `index.xml` tiene **0 `<item>`**)
+- [x] A2 Eliminar `/categories/` fantasma: `disableKinds = ['taxonomy','term']`
+- [x] A3 Canonical `<link rel="canonical">` en todas las páginas
+- [x] A4 Fuentes legibles: mapa `source.id → name` en servidor (`item-card.html`) y cliente (`window.DM.sourceNames`)
+- [x] A5 `onerror` de imagen también server-side (patrón: ocultar img → mostrar placeholder)
+- [x] A6 Búsqueda: ordenar resultados Fuse por fecha desc
+
+**B — Río liviano (rendimiento)**
+- [x] B7 Server-render "La Corriente" (últ. 12 meses, top ~24) en `index.html` + conteos; home sin fetch (progressive enhancement, SEO)
+- [x] B8 Corpus slim: `static/data/search.json` minificado (archivo total) **solo** para `/buscar/` ↔ `data/faust.json` build-time; cache por `generatedAt` en vez de `Date.now()`
+- [ ] B9 Verificar TTFB/peso de tránsito y re-confirmar idempotencia CI
+
+**C — Reforzar categorías pobres**
+- [ ] C10 (en curso) Sondear (`probe-feeds.mjs`) candidatas para **TERRITORIO (4)** y **FOTOGRAFIA (23)**; agregar solo las vivas; ajustar ventana/requisitos por categoría si hace falta
+
+**D — Agenda Maulina (eventos)**
+- [ ] D11 Detección de fechas en `feed-sources.mjs` (regex meses es + relativos) → campo `event`
+- [ ] D12 Página `/agenda/` server-rendered (próximos eventos) + JSON-LD `Event` + menú
+
 ---
 
 ## 12. CRITERIOS DE ACEPTACIÓN (Definition of Done global)
@@ -590,4 +613,6 @@ dinamica-maulina/
 | 2026-09-15 | FASE 2+3 base | ✅ | Tema completo: inicio/categorías/catálogo/nosotros/404/buscar · Cliente: Fuse.js + Open-Meteo |
 | 2026-09-15 | FASE 4 completa | ✅ | Workflows update-data (cron 8h) + deploy · Pages en `gh-pages` · sitio **en línea** · CI idempotente |
 | 2026-09-15 | FASE 5 (parcial) | ⏳ | README + og-image listos · accesibilidad/SEO y carga verificados · CI idempotente confirmado · pendiente: retoque de feeds fallidos |
+| 2026-09-15 | Evaluación exhaustiva | ✅ | Hallazgos: RSS propio vacío (0 items), /categories/ fantasma, 617KB sin gzip + cache-busting destructivo, home solo-JS, slug en tarjetas, TERRITORIO/FOTOGRAFIA pobres |
+| 2026-09-15 | FASE 6 confirmada | ✅ | Usuario: parches+rendimiento juntos · Corriente=12 meses · v2: reforzar categorías pobres → Agenda Maulina |
 | | | | |

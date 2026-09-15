@@ -2,6 +2,7 @@ baseURL = 'https://superdandi.github.io/dinamica-maulina/'
 locale = 'es-CL'
 title = 'Dinámica Maulina'
 enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
 
 # --- URLs limpias y por defecto ---
 [permalinks]
