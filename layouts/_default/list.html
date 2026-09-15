@@ -8,7 +8,8 @@
   {{ if (eq .Section "categorias") }}
     <div class="cat-grid" style="margin-top:1.5rem">
       {{ range .Site.Params.categories }}
-        <a class="cat-tile accent-{{ .color }}" href="/categorias/{{ .id | lower }}/">
+{{        $slug := (.id | lower | replaceRE "_" "-") }}
+        <a class="cat-tile accent-{{ .color }}" href="{{ printf "categorias/%s/" $slug | absURL }}">
           <span class="cat-tile__icon" aria-hidden="true">{{ .icon }}</span>
           <h3 class="cat-tile__name">{{ .name }}</h3>
           <p class="cat-tile__motto">{{ .motto }}</p>

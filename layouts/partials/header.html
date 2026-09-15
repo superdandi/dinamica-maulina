@@ -8,8 +8,9 @@
 
     <ul class="nav__links" role="list">
       {{ range .Site.Menus.main }}
+        {{ $u := .URL | absURL }}
         <li>
-          <a href="{{ .URL }}" class="{{ if (eq $.RelPermalink .URL) }}nav__link--active{{ end }}">{{ .Name }}</a>
+          <a href="{{ $u }}" class="{{ if (eq $.Permalink $u) }}nav__link--active{{ end }}">{{ .Name }}</a>
         </li>
       {{ end }}
     </ul>

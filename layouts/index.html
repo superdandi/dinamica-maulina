@@ -42,12 +42,13 @@
 <section class="section" aria-labelledby="cats-titulo">
   <div class="section__head">
     <h2 id="cats-titulo">Categorías</h2>
-    <a href="/categorias/">Ver índice →</a>
+    <a href="{{ "categorias/" | absURL }}">Ver índice →</a>
   </div>
   <div class="cat-grid">
     {{ $counts := hugo.Data.faust.counts | default dict }}
     {{ range .Site.Params.categories }}
-      <a class="cat-tile accent-{{ .color }}" href="/categorias/{{ .id | lower }}/">
+      {{ $slug := (.id | lower | replaceRE "_" "-") }}
+      <a class="cat-tile accent-{{ .color }}" href="{{ printf "categorias/%s/" $slug | absURL }}">
         <span class="cat-tile__icon" aria-hidden="true">{{ .icon }}</span>
         <h3 class="cat-tile__name">{{ .name }}</h3>
         <p class="cat-tile__motto">{{ .motto }}</p>
