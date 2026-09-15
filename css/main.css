@@ -1,0 +1,250 @@
+/* ==========================================================================
+   DINÁMICA MAULINA 2.0 — Sistema de diseño "Río Maule"
+   CSS vanilla + custom properties. Sin frameworks.
+   ========================================================================== */
+
+/* --- Paleta ------------------------------------------------------------- */
+:root {
+  --arcilla-400: #C66A3C;
+  --arcilla-600: #9C4A24;
+  --rio-400: #2E86A8;
+  --rio-500: #1F6E8C;
+  --vinedo-400: #77885B;
+  --vinedo-500: #5A6B3C;
+
+  --arena-50: #FAF6EF;
+  --arena-100: #F1E9DB;
+  --arena-200: #E6DAC6;
+
+  --tinta-900: #1C1917;
+  --tinta-600: #4A4440;
+  --tinta-500: #6B6460;
+
+  --card-bg: #FFFFFF;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 2px rgba(28, 25, 23, .06), 0 8px 24px -12px rgba(28, 25, 23, .18);
+  --shadow-lift: 0 2px 4px rgba(28, 25, 23, .05), 0 18px 40px -16px rgba(28, 25, 23, .28);
+
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --maxw: 1120px;
+}
+
+/* --- Reset básico ------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--tinta-900);
+  background: var(--arena-50);
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; margin: 0 0 .5em; font-weight: 650; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+h2 { font-size: clamp(1.4rem, 3vw, 2rem); }
+h3 { font-size: 1.2rem; }
+
+p { margin: 0 0 1em; }
+
+a { color: var(--rio-500); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a.nav__link--active { text-decoration: underline; text-underline-offset: 4px; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+:focus-visible { outline: 3px solid var(--rio-400); outline-offset: 2px; border-radius: 3px; }
+
+.skip-link {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--tinta-900); color: var(--arena-50);
+  padding: .6rem 1rem; z-index: 100;
+}
+.skip-link:focus { left: 0; }
+
+/* --- Layout ------------------------------------------------------------- */
+.site-main { max-width: var(--maxw); margin: 0 auto; padding: clamp(1rem, 3vw, 2.5rem) 1.25rem 4rem; min-height: 60vh; }
+
+/* --- Header / navegación ------------------------------------------------ */
+.site-header { background: var(--arena-50); border-bottom: 1px solid var(--arena-200); }
+.nav__inner { max-width: var(--maxw); margin: 0 auto; padding: .75rem 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+
+.nav__brand { display: inline-flex; flex-direction: column; line-height: 1; text-decoration: none; color: var(--tinta-900); }
+.nav__brand:hover { text-decoration: none; }
+.nav__brand-mark { font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 1.55rem; letter-spacing: -.02em; }
+.nav__brand-sub { font-size: .78rem; font-weight: 700; letter-spacing: .42em; text-transform: uppercase; color: var(--arcilla-600); }
+
+.nav__links { display: flex; gap: 1.1rem; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
+.nav__links a { color: var(--tinta-600); font-size: .95rem; font-weight: 500; }
+
+@media (max-width: 640px) {
+  .nav__inner { flex-direction: column; align-items: flex-start; }
+  .nav__links { gap: .9rem; }
+}
+
+/* --- Ticker "La Corriente" ---------------------------------------------- */
+.marquee { overflow: hidden; background: var(--tinta-900); color: var(--arena-100); padding: .45rem 0; white-space: nowrap; }
+.marquee__track { display: inline-block; animation: marquee 40s linear infinite; }
+.marquee__track span { margin: 0 1.4rem; font-size: .85rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 600; }
+.marquee__track i { font-style: normal; color: var(--arcilla-400); margin: 0 1.4rem; font-size: .75rem; }
+
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track { animation: none; white-space: normal; text-align: center; }
+  html { scroll-behavior: auto; }
+}
+
+/* --- Divisores "líneas de río" ------------------------------------------ */
+.river { width: 100%; line-height: 0; }
+.river--top, .river--bottom { background: var(--arena-50); }
+.site-main .river { margin: 0 -1000px; padding: 0 1000px; }
+
+/* --- Tarjetas de ítem ---------------------------------------------------- */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; }
+@media (min-width: 1024px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--arena-200);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: box-shadow .18s ease, transform .18s ease;
+}
+.card:hover { box-shadow: var(--shadow-lift); transform: translateY(-2px); }
+
+.card__img { aspect-ratio: 16/9; background: var(--arena-100); object-fit: cover; width: 100%; }
+.card__img--ph, .card__ph { display: grid; place-items: center; }
+.card__ph { min-height: 150px; }
+
+.card__body { padding: 1rem 1.1rem 1.15rem; display: flex; flex-direction: column; gap: .5rem; flex: 1; }
+
+.pill {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  padding: .2rem .6rem; border-radius: 999px; width: fit-content;
+}
+.pill--arcilla { background: #F3E2D7; color: var(--arcilla-600); }
+.pill--rio { background: #DCEAF0; color: var(--rio-500); }
+.pill--vinedo { background: #E6EBDD; color: var(--vinedo-500); }
+
+.card__title { font-size: 1.12rem; margin: 0; }
+.card__title a { color: var(--tinta-900); }
+.card__meta { margin-top: auto; font-size: .8rem; color: var(--tinta-500); display: flex; justify-content: space-between; align-items: center; }
+
+/* --- Categorías ---------------------------------------------------------- */
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+.cat-tile {
+  border-radius: var(--radius); padding: 1.1rem 1.2rem; text-decoration: none; color: var(--tinta-900);
+  border: 1px solid var(--arena-200); background: var(--card-bg); box-shadow: var(--shadow);
+  display: flex; flex-direction: column; gap: .3rem; transition: transform .15s ease, box-shadow .15s ease;
+}
+.cat-tile:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); text-decoration: none; }
+.cat-tile__icon { font-size: 1.5rem; }
+.cat-tile__name { font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; margin: 0; }
+.cat-tile__motto { font-size: .82rem; color: var(--tinta-500); margin: 0; }
+.cat-tile__count { font-size: .75rem; font-weight: 700; color: var(--arcilla-600); text-transform: uppercase; letter-spacing: .1em; }
+
+.accent-arcilla { border-left: 4px solid var(--arcilla-400); }
+.accent-rio { border-left: 4px solid var(--rio-500); }
+.accent-vinedo { border-left: 4px solid var(--vinedo-500); }
+
+/* --- Section headers ----------------------------------------------------- */
+.section { margin: 3rem 0; }
+.section__head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-bottom: 2px solid var(--tinta-900); padding-bottom: .35rem; margin-bottom: 1.25rem; }
+.section__head h2 { margin: 0; }
+.section__head a { font-size: .85rem; font-weight: 600; }
+
+/* --- Hero inicio ---------------------------------------------------------- */
+.hero { padding: clamp(2rem, 5vw, 4rem) 0 1rem; }
+.hero__kicker { text-transform: uppercase; letter-spacing: .3em; font-size: .8rem; font-weight: 700; color: var(--arcilla-600); }
+.hero__title { font-size: clamp(2.4rem, 7vw, 4.4rem); font-weight: 800; max-width: 14ch; }
+.hero__title em { color: var(--rio-500); font-style: italic; }
+.hero__lede { max-width: 60ch; color: var(--tinta-600); font-size: 1.08rem; }
+
+/* --- Footer --------------------------------------------------------------- */
+.site-footer { background: var(--tinta-900); color: var(--arena-200); }
+.site-footer__inner { max-width: var(--maxw); margin: 0 auto; padding: 2.5rem 1.25rem; display: flex; flex-direction: column; gap: 1rem; }
+.site-footer .nav__brand { color: var(--arena-50); }
+.site-footer .nav__brand-sub { color: var(--arcilla-400); }
+.site-footer a { color: var(--arena-200); }
+.site-footer__copy { margin: 0; font-size: .92rem; }
+.site-footer__copy small { opacity: .8; }
+
+/* --- Páginas de texto (nosotros, catálogo, categorías) ---------------------- */
+.prose { max-width: 72ch; }
+.prose h2 { margin-top: 1.5em; }
+
+/* --- Buscar ---------------------------------------------------------------- */
+.search-wrap { position: relative; max-width: 42rem; margin: 1.5rem 0; }
+.search-input {
+  width: 100%; padding: .9rem 1.1rem; font-size: 1.05rem; border-radius: var(--radius);
+  border: 1px solid var(--arena-200); background: var(--card-bg); color: var(--tinta-900); box-shadow: var(--shadow);
+}
+.search-input:focus { outline: 3px solid var(--rio-400); outline-offset: 1px; }
+.search-filters { display: flex; gap: .5rem; flex-wrap: wrap; margin: 1rem 0; }
+.search-filters button {
+  border: 1px solid var(--arena-200); background: var(--card-bg); color: var(--tinta-600);
+  padding: .4rem .85rem; border-radius: 999px; font-size: .82rem; font-weight: 600; cursor: pointer;
+}
+.search-filters button.active { background: var(--tinta-900); color: var(--arena-50); border-color: var(--tinta-900); }
+
+/* --- Estados ----------------------------------------------------------------- */
+.state { padding: 2rem; text-align: center; color: var(--tinta-500); }
+.spinner {
+  width: 28px; height: 28px; border-radius: 50%; border: 3px solid var(--arena-200);
+  border-top-color: var(--rio-500); margin: 0 auto 1rem; animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* --- 404 ----------------------------------------------------------------------- */
+.notfound { text-align: center; padding: 4rem 1rem; }
+.notfound .hero__title { font-size: clamp(4rem, 12vw, 7rem); margin: 0; color: var(--rio-500); }
+
+/* --- Catálogo ---------------------------------------------------------------------- */
+.catalog { margin-top: 1.5rem; columns: 1; }
+@media (min-width: 860px) { .catalog { columns: 2; column-gap: 2.5rem; } }
+.catalog__cat { font-size: 1.05rem; letter-spacing: .06em; text-transform: uppercase; margin: 0 0 .5rem; display: inline-block; border-bottom: 2px solid var(--arcilla-400); padding-bottom: .15rem; break-after: avoid; }
+.catalog__list { list-style: none; margin: 0 0 1.4rem; padding: 0; }
+.catalog__item { display: flex; align-items: baseline; justify-content: space-between; gap: .6rem; padding: .3rem 0; border-bottom: 1px dotted var(--arena-200); break-inside: avoid; }
+.catalog__link { display: flex; flex-direction: column; min-width: 0; }
+.catalog__name { font-weight: 600; color: var(--tinta-900); }
+.catalog__author { font-size: .78rem; color: var(--tinta-500); }
+.catalog__badge { font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+.catalog__badge--alive { color: var(--vinedo-500); }
+.catalog__badge--dead { color: var(--tinta-500); opacity: .7; }
+
+/* --- Notas de sección ----------------------------------------------------------- */
+.section__note { font-size: .8rem; color: var(--tinta-500); }
+
+/* --- Clima ---------------------------------------------------------------------- */
+.weather { background: var(--card-bg); border: 1px solid var(--arena-200); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.25rem; }
+.weather__cities { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
+.weather__city {
+  border: 1px solid var(--arena-200); background: var(--arena-50); color: var(--tinta-600);
+  padding: .35rem .8rem; border-radius: 999px; font-size: .82rem; font-weight: 600; cursor: pointer;
+}
+.weather__city.active { background: var(--tinta-900); color: var(--arena-50); border-color: var(--tinta-900); }
+.weather__panel { display: flex; flex-direction: column; gap: 1rem; }
+.weather__cur { display: flex; gap: 1rem; align-items: center; }
+.weather__icon { font-size: 2.6rem; line-height: 1; }
+.weather__temp { font-family: var(--font-display); font-size: 2rem; font-weight: 800; margin: 0; }
+.weather__label { font-weight: 600; margin: 0; }
+.weather__extra { color: var(--tinta-500); font-size: .85rem; margin: 0; }
+.weather__days { display: grid; grid-template-columns: repeat(3, 1fr); gap: .6rem; }
+.weather__day { border-top: 1px dashed var(--arena-200); padding-top: .6rem; display: flex; flex-direction: column; gap: .1rem; }
+.weather__dayname { text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; font-weight: 700; color: var(--tinta-500); }
+.weather__dayicon { font-size: 1.5rem; }
+.weather__daytemp { font-weight: 600; }
+.weather__day small { color: var(--tinta-500); font-size: .78rem; }
+@media (max-width: 560px) { .weather__days { grid-template-columns: 1fr; } }
