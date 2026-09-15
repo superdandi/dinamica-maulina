@@ -1,0 +1,13 @@
+<section class="section" aria-labelledby="clima-titulo">
+  <div class="section__head">
+    <h2 id="clima-titulo">El tiempo en el Maule</h2>
+  </div>
+  <div class="weather" id="weather-widget" data-state="loading">
+    <div class="state" id="weather-loading"><div class="spinner" aria-hidden="true"></div><p>Consultando el cielo maulino…</p></div>
+  </div>
+</section>
+
+<!-- Datos de ciudades para el widget (inyectados en build-time) -->
+<script type="application/json" id="weather-cities">
+{{ .Site.Params.cities | jsonify (dict "indent" "  ") | safeJS }}
+</script>

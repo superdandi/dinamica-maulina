@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="hero">
+  <p class="hero__kicker">Revista digital del Maule · Chile</p>
+  <h1 class="hero__title">La cultura <em>fluye</em> por el Maule</h1>
+  <p class="hero__lede">Dinámica Maulina agrupa, en una sola corriente, lo que hacen los artistas, poetas, músicos, artesanos y colectivos de la Región del Maule. Esto es lo más reciente de la escena.</p>
+</section>
+
+{{ partial "marquee.html" . }}
+
+<section class="section" id="la-corriente" aria-labelledby="corriente-titulo">
+  <div class="section__head">
+    <h2 id="corriente-titulo">La Corriente</h2>
+    <span class="section__note" data-ultima-actualizacion>…</span>
+  </div>
+
+  <div class="state" id="estado-carga" hidden>
+    <div class="spinner" aria-hidden="true"></div>
+    <p>Cargando la corriente…</p>
+  </div>
+  <div class="state" id="estado-error" hidden>
+    <p>Hoy el río viene bajo: no pudimos leer los datos. Volvé en un rato.</p>
+  </div>
+
+  <div class="grid" id="feed-reciente" aria-live="polite"></div>
+
+  <p class="section__note" id="feed-vacio" hidden>Sin contenido todavía — la primera corrida de datos está en camino.</p>
+</section>
+
+<section class="section" aria-labelledby="cats-titulo">
+  <div class="section__head">
+    <h2 id="cats-titulo">Categorías</h2>
+    <a href="/categorias/">Ver índice →</a>
+  </div>
+  <div class="cat-grid">
+    {{ range .Site.Params.categories }}
+      <a class="cat-tile accent-{{ .color }}" href="/categorias/{{ .id | lower }}/">
+        <span class="cat-tile__icon" aria-hidden="true">{{ .icon }}</span>
+        <h3 class="cat-tile__name">{{ .name }}</h3>
+        <p class="cat-tile__motto">{{ .motto }}</p>
+        <span class="cat-tile__count" data-cat-count="{{ .id }}">…</span>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+{{ partial "weather.html" . }}
+{{ end }}

@@ -1,0 +1,126 @@
+# Identidad y configuración de contenido — Dinámica Maulina
+
+# --- Categorías temáticas (10) ---
+# color: referencia a variable CSS (accent). icon: símbolo corto Unicode.
+[[params.categories]]
+  id = 'POESIA'
+  name = 'Poesía'
+  color = 'arcilla'
+  icon = '❦'
+  motto = 'El verso suena en el Maule'
+[[params.categories]]
+  id = 'LITERATURA'
+  name = 'Literatura'
+  color = 'arcilla'
+  icon = '✎'
+  motto = 'Cuentos, novelas y crónicas maulinas'
+[[params.categories]]
+  id = 'MUSICA'
+  name = 'Música'
+  color = 'vinedo'
+  icon = '♪'
+  motto = 'Folclor, cueca, rock y experimentación'
+[[params.categories]]
+  id = 'TEATRO'
+  name = 'Teatro'
+  color = 'vinedo'
+  icon = '▣'
+  motto = 'Escenarios y dramaturgia de la región'
+[[params.categories]]
+  id = 'ARTES_VISUALES'
+  name = 'Artes Visuales'
+  color = 'rio'
+  icon = '✺'
+  motto = 'Mural, pintura, grabado e instalación'
+[[params.categories]]
+  id = 'ARTESANIAS'
+  name = 'Artesanías & Oficios'
+  color = 'rio'
+  icon = '◉'
+  motto = 'Telares, cerámica, crin y saberes de oficio'
+[[params.categories]]
+  id = 'PATRIMONIO'
+  name = 'Patrimonio & Cultura'
+  color = 'arcilla'
+  icon = '♰'
+  motto = 'Mitos, leyendas y tradiciones vivas'
+[[params.categories]]
+  id = 'FOTOGRAFIA'
+  name = 'Fotografía'
+  color = 'vinedo'
+  icon = '◍'
+  motto = 'La mirada maulina en imagen'
+[[params.categories]]
+  id = 'CINE_MEDIOS'
+  name = 'Cine & Medios'
+  color = 'rio'
+  icon = '▶'
+  motto = 'Documental, audiovisual y radios'
+[[params.categories]]
+  id = 'TERRITORIO'
+  name = 'Territorio & Naturaleza'
+  color = 'vinedo'
+  icon = '✦'
+  motto = 'Ríos, montañas y biodiversidad del Maule'
+
+# --- Ciudades para el widget de clima (lat, lon) ---
+[[params.cities]]
+  name = 'Talca'
+  lat = '-35.4264'
+  lon = '-71.6554'
+[[params.cities]]
+  name = 'Curicó'
+  lat = '-34.9828'
+  lon = '-71.2394'
+[[params.cities]]
+  name = 'Linares'
+  lat = '-35.8467'
+  lon = '-71.5931'
+[[params.cities]]
+  name = 'Constitución'
+  lat = '-35.3333'
+  lon = '-72.4117'
+[[params.cities]]
+  name = 'Cauquenes'
+  lat = '-35.9669'
+  lon = '-72.3225'
+[[params.cities]]
+  name = 'San Clemente'
+  lat = '-35.5381'
+  lon = '-71.4'
+
+# --- Localidades del ticker "La Corriente" ---
+[[params.ticker]]
+  place = 'Talca'
+[[params.ticker]]
+  place = 'Curicó'
+[[params.ticker]]
+  place = 'Linares'
+[[params.ticker]]
+  place = 'Constitución'
+[[params.ticker]]
+  place = 'Cauquenes'
+[[params.ticker]]
+  place = 'San Clemente'
+[[params.ticker]]
+  place = 'Vilches'
+[[params.ticker]]
+  place = 'Colbún'
+[[params.ticker]]
+  place = 'Parral'
+[[params.ticker]]
+  place = 'San Javier'
+[[params.ticker]]
+  place = 'Molina'
+[[params.ticker]]
+  place = 'Romeral'
+[[params.ticker]]
+  place = 'Villa Alegre'
+[[params.ticker]]
+  place = 'Pelluhue'
+[[params.ticker]]
+  place = 'Chanco'
+[[params.ticker]]
+  place = 'Licantén'
+[[params.ticker]]
+  place = 'Vichuquén'

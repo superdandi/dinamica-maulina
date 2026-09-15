@@ -1,0 +1,17 @@
+<nav class="nav" role="navigation" aria-label="Navegación principal">
+  <div class="nav__inner">
+
+    <a href="{{ .Site.BaseURL }}" class="nav__brand">
+      <span class="nav__brand-mark">Dinámica</span>
+      <span class="nav__brand-sub">MAULINA</span>
+    </a>
+
+    <ul class="nav__links" role="list">
+      {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}" class="{{ if (eq $.RelPermalink .URL) }}nav__link--active{{ end }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>

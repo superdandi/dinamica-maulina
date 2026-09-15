@@ -1,0 +1,20 @@
+# Dinámica Maulina 2.0
+
+# --- Build / deploy ---
+public/
+resources/
+.hugo_build.lock
+
+# --- Node ---
+node_modules/
+
+# --- Datos generados (el pipeline de CI los regenera) ---
+# NOTA: faust.json ES versionado (el build de Hugo depende de él).
+# No se ignora.
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

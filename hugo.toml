@@ -1,0 +1,27 @@
+baseURL = 'https://superdandi.github.io/dinamica-maulina/'
+locale = 'es-CL'
+title = 'Dinámica Maulina'
+enableRobotsTXT = true
+
+# --- URLs limpias y por defecto ---
+[permalinks]
+  categorias = '/categorias/:slug/'
+
+# --- Genera un patch de feeds propios (RSS/Atom de este sitio) ---
+[outputs]
+  home = ['HTML', 'RSS']
+
+# --- Minificación ---
+[minify]
+  disableXML = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = 'Revista/portal de cultura y arte de la Región del Maule, Chile. Autoalimentada desde las fuentes de la escena maulina.'
+  author = 'Daniel Cobos'
+  email = 'dcobosm@gmail.com'
+  github = 'https://github.com/superdandi/dinamica-maulina'

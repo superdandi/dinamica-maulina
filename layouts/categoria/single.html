@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ $catID := .Params.category }}
+<section class="section">
+  <p class="hero__kicker">Categoría</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.motto }}<p class="hero__lede">{{ . }}</p>{{ end }}
+  <div class="prose">{{ .Content }}</div>
+
+  {{ with site.Data.faust }}
+    {{ with .items }}
+      {{ $items := where . "category" $catID }}
+      <div class="section__head" style="margin-top:2rem">
+        <h2>Contenido reciente</h2>
+        <span class="section__note">{{ len $items }} ítemes</span>
+      </div>
+      <div class="grid">
+        {{ range sort $items "date" "desc" }}
+          {{ partial "item-card.html" . }}
+        {{ end }}
+      </div>
+      {{ if lt (len $items) 1 }}
+        <p class="state">Esta categoría todavía no tiene contenido — la corriente la está trayendo.</p>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</section>
+{{ end }}

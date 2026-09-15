@@ -1,0 +1,9 @@
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    {{ range $i := seq 0 1 }}
+      {{ range site.Params.ticker }}
+        <span>{{ .place }}</span><i>·</i>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

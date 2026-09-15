@@ -1,0 +1,24 @@
+[[main]]
+  name = 'Inicio'
+  url = '/'
+  weight = 1
+[[main]]
+  name = 'La Corriente'
+  url = '/#la-corriente'
+  weight = 2
+[[main]]
+  name = 'Categorías'
+  url = '/categorias/'
+  weight = 3
+[[main]]
+  name = 'Catálogo'
+  url = '/catalogo/'
+  weight = 4
+[[main]]
+  name = 'Nosotros'
+  url = '/nosotros/'
+  weight = 5
+[[main]]
+  name = 'Buscar'
+  url = '/buscar/'
+  weight = 6

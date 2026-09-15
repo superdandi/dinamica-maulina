@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="section">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ if (eq .Section "categorias") }}
+    <div class="cat-grid" style="margin-top:1.5rem">
+      {{ range .Site.Params.categories }}
+        <a class="cat-tile accent-{{ .color }}" href="/categorias/{{ .id | lower }}/">
+          <span class="cat-tile__icon" aria-hidden="true">{{ .icon }}</span>
+          <h3 class="cat-tile__name">{{ .name }}</h3>
+          <p class="cat-tile__motto">{{ .motto }}</p>
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{ if (eq .Section "buscar") }}
+    <div class="search-wrap">
+      <input type="search" class="search-input" id="search-input" placeholder="Buscar poesía, muralista, teatro, Maule…" aria-label="Buscar contenido cultural del Maule">
+    </div>
+    <div class="search-filters" id="search-filters" aria-label="Filtrar por categoría">
+      <button class="active" data-filter="TODAS">Todas</button>
+      {{ range .Site.Params.categories }}
+        <button data-filter="{{ .id }}">{{ .icon }} {{ .name }}</button>
+      {{ end }}
+    </div>
+    <div class="grid" id="search-results" aria-live="polite"></div>
+    <div class="state" id="search-empty" hidden>
+      <p>Sin resultados — probá con otras palabras.</p>
+    </div>
+  {{ end }}
+</section>
+{{ end }}

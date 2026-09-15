@@ -1,0 +1,18 @@
+{{ $item := . }}
+{{ $cat := index (where site.Params.categories "id" $item.category) 0 }}
+<article class="card">
+  {{ if $item.image }}
+    <img class="card__img" src="{{ $item.image }}" alt="" loading="lazy" decoding="async">
+  {{ else }}
+    <div class="card__ph" aria-hidden="true"><span style="font-size:2rem;opacity:.35">🌊</span></div>
+  {{ end }}
+  <div class="card__body">
+    <span class="pill pill--{{ with $cat.color }}{{ . }}{{ else }}rio{{ end }}">{{ with $cat.icon }}{{ . }} {{ end }}{{ with $cat.name }}{{ . }}{{ else }}{{ $item.category }}{{ end }}</span>
+    <h3 class="card__title"><a href="{{ $item.link }}" target="_blank" rel="noopener noreferrer">{{ $item.title }}</a></h3>
+    {{ with $item.summary }}<p class="card__summary" style="font-size:.9rem;color:var(--tinta-500);margin:0">{{ . }}</p>{{ end }}
+    <div class="card__meta">
+      <span>{{ $item.source }}</span>
+      <time datetime="{{ $item.date }}">{{ dateFormat "02/01/2006" $item.date }}</time>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-cl" data-theme="light">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body data-page="{{ .Kind }}">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    {{ partial "header.html" . }}
+  </header>
+
+  <div class="river river--top" aria-hidden="true">
+    <svg viewBox="0 0 1440 40" preserveAspectRatio="none" width="100%" height="40">
+      <path d="M0 20 C 240 8, 420 34, 720 20 S 1200 4, 1440 22" fill="none" stroke="var(--rio-500)" stroke-width="2" opacity=".55"/>
+      <path d="M0 30 C 200 22, 520 40, 740 28 S 1240 18, 1440 30" fill="none" stroke="var(--arcilla-400)" stroke-width="1.5" opacity=".4"/>
+    </svg>
+  </div>
+
+  <main id="contenido" class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <div class="river river--bottom" aria-hidden="true">
+    <svg viewBox="0 0 1440 40" preserveAspectRatio="none" width="100%" height="40">
+      <path d="M0 22 C 240 34, 420 8, 720 20 S 1200 36, 1440 18" fill="none" stroke="var(--rio-500)" stroke-width="2" opacity=".55"/>
+      <path d="M0 30 C 200 18, 520 40, 740 30 S 1240 10, 1440 28" fill="none" stroke="var(--vinedo-500)" stroke-width="1.5" opacity=".45"/>
+    </svg>
+  </div>
+
+  <footer class="site-footer">
+    {{ partial "footer.html" . }}
+  </footer>
+
+  {{ partial "scripts.html" . }}
+</body>
+</html>
