@@ -504,8 +504,8 @@ dinamica-maulina/
 - [x] Prueba local (servido en `/dinamica-maulina/`, assets 200, categorías renderizadas)
 
 ### FASE 4 — Orquestación CI
-- [ ] `update-data.yml` (cron 8h + dispatch + commit condicional + push)
-- [ ] `deploy.yml` (on push → hugo build → gh-pages)
+- [x] `update-data.yml` (cron 8h + dispatch + commit condicional + push)
+- [x] `deploy.yml` (on push → hugo build → gh-pages)
 - [ ] Configurar Pages en el repo (branch `gh-pages`)
 - [ ] Correr workflow Update manualmente (seed en CI)
 - [ ] Verificar deploy y URL `superdandi.github.io/dinamica-maulina/` en línea
