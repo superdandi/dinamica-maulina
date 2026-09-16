@@ -8,7 +8,7 @@
       "fuentes": { "name": "Fuentes del catálogo", "color": "tinta" },
       "agenda": { "name": "Próximos eventos", "color": "agenda" }
     },
-    "fitBounds": [[-36.55, -72.75], [-34.55, -70.35]]
+    "fitBounds": [[-36.55, -72.79], [-34.68, -70.31]]
   },
   "ciudades": [
     { "id": "talca", "name": "Talca", "lat": -35.4264, "lon": -71.6554 },
@@ -52,7 +52,8 @@
     { "id": "bellotos-melado", "name": "Reserva Nacional Los Bellotos del Melado", "lat": -35.8300, "lon": -71.1000, "desc": "Bosque de bellotos, uno de los árboles monumentos del Maule." },
     { "id": "termas-panimavida", "name": "Termas de Panimávida", "lat": -35.7800, "lon": -71.4450, "desc": "Balneario termal histórico de Colbún." },
     { "id": "embalse-colbun", "name": "Embalse Colbún", "lat": -35.7480, "lon": -71.4030, "desc": "El gran embalse del Maule medio." },
-    { "id": "humedal-putu", "name": "Humedal de Putú", "lat": -35.3600, "lon": -72.5500, "desc": "Humeda costero del sector Pelluhue." }
+    { "id": "humedal-putu", "name": "Humedal de Putú", "lat": -35.2131, "lon": -72.2839, "desc": "Humedales costeros de Putú-Huenchullami (Santuario de la Naturaleza), al norte de Constitución." },
+    { "id": "rocas-constitucion", "name": "Rocas de Constitución — Piedra de la Iglesia", "lat": -35.329468, "lon": -72.434221, "desc": "Santuario de la Naturaleza en el borde costero de Constitución, con grutas y la piedra emblema de la comuna." }
   ],
   "fuentes": [
     { "id": "fuente-extension-ucm", "name": "Extensión UCM · Curicó", "lat": -34.9828, "lon": -71.2394, "sourceId": "extension-ucm", "url": "https://extensionucm.blogspot.com", "desc": "Extensión de la Universidad Católica del Maule (inactiva desde 2009)." },
