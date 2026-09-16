@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T04:01:36.676Z",
+  "generatedAt": "2026-09-16T13:15:58.759Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -128,6 +128,106 @@
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-16-el-chincolito-y-mirtha-iturra-dos-trayectorias-con-raices-en-el-maule-reconocida",
+      "title": "“El Chincolito” y Mirtha Iturra: dos trayectorias con raíces en el Maule reconocidas con el Premio Margot Loyola Palacios 2026",
+      "summary": "Dos de las cuatro personas reconocidas este año con el Premio a la Trayectoria Nacional en Cultura Tradicional Margot Loyola Palacios 2026 tienen raíces en la Región del Maule. El poeta popular y cantor a lo humano y lo divino, Luis Hernán Ortúzar Araya, “El Chincolito”, y la folclorista y cantora M",
+      "link": "https://elmauleinforma.cl/el-chincolito-y-mirtha-iturra-dos-trayectorias-con-raices-en-el-maule-reconocidas-con-el-premio-margot-loyola-palacios-2026/",
+      "author": "Redacción El Maule Informa",
+      "category": "MUSICA",
+      "source": "elmauleinforma",
+      "date": "2026-09-16T00:00:16.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-15-tradicion-y-cultura-chilenidad-en-familia-reunio-a-27-mil-personas-en-san-clemen",
+      "title": "Tradición y cultura: Chilenidad en Familia reunió a 27 mil personas en San Clemente",
+      "summary": "La cuarta edición de Chilenidad en Familia reunió a cerca de 27 mil visitantes en Agrícola Ankamapu, con música, folclor, tradiciones y actividades familiares. The post Tradición y cultura: Chilenidad en Familia reunió a 27 mil personas en San Clemente appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/09/15/tradicion-y-cultura-chilenidad-en-familia-reunio-a-27-mil-personas-en-san-clemente/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-09-15T22:29:08.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-15-cultora-de-rapa-nui-recibe-el-premio-margot-loyola-palacios-2026",
+      "title": "Cultora de Rapa Nui recibe el Premio Margot Loyola Palacios 2026",
+      "summary": "La ceremonia se realizó en el Salón Montt Varas de la Casa de Gobierno, en el marco del Día Nacional de la Cultura Tradicional y Popular, que coincide con el natalicio de la maestra.",
+      "link": "https://www.cultura.gob.cl/actualidad/cultora-de-rapa-nui-recibe-el-premio-margot-loyola-palacios-2026/",
+      "author": "valparaiso",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-15T19:37:46.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-15-premios-regionales-2026-abierta-la-convocatoria-para-reconocer-a-artistas-cultor",
+      "title": "Premios Regionales 2026: abierta la convocatoria para reconocer a artistas, cultores y agrupaciones de la RM",
+      "summary": "Artistas, cultores, artesanos y agrupaciones de la Región Metropolitana podrán ser postulados a la sexta versión de los Premios Regionales de Culturas, Artes y Patrimonio. El plazo de postulación ha sido ampliado hasta el miércoles 23 de septiembre a las 23:59 horas.",
+      "link": "https://www.cultura.gob.cl/convocatorias/premios-regionales-2026-abierta-la-convocatoria-para-reconocer-a-artistas-cultores-y-agrupaciones-de-la-rm/",
+      "author": "metropolitana",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-15T19:07:18.000Z",
+      "image": "",
+      "event": {
+        "text": "23 de septiembre",
+        "start": "2026-09-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-15-muestra-nacional-de-dramaturgia-inicia-sus-ensayos-y-presenta-las-novedades-de-s",
+      "title": "Muestra Nacional de Dramaturgia inicia sus ensayos y presenta las novedades de su XXII versión",
+      "summary": "Con actividades gratuitas en Santiago, Valparaíso y Antofagasta, el programa busca acercar la dramaturgia contemporánea a nuevos públicos, promoviendo el acceso en diferentes espacios. Los ensayos comienzan el 21 de septiembre, reuniendo a 100 artistas y profesionales de las artes escénicas. La Mues",
+      "link": "https://www.cultura.gob.cl/actualidad/muestra-nacional-de-dramaturgia-inicia-sus-ensayos-y-presenta-las-novedades-de-su-xxii-version/",
+      "author": "alecaros",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-09-15T18:50:03.000Z",
+      "image": "",
+      "event": {
+        "text": "el 21 de septiembre",
+        "start": "2026-09-21T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-15-una-espera-que-llega-a-su-fin-gobierno-del-maule-impulsa-pavimentacion-de-la-rut",
+      "title": "Una espera que llega a su fin: Gobierno del Maule impulsa pavimentación de la Ruta M-420 en Empedrado",
+      "summary": "Mejores caminos y mayor seguridad para quienes diariamente se desplazan por Empedrado. El Consejo Regional del Maule aprobó los recursos necesarios para avanzar en la conservación de la ruta M-420, entre los kilómetros 0,00 y 6,35, iniciativa financiada con recursos del Fondo Nacional de Desarrollo ",
+      "link": "https://elmauleinforma.cl/una-espera-que-llega-a-su-fin-gobierno-del-maule-impulsa-pavimentacion-de-la-ruta-m-420-en-empedrado/",
+      "author": "Redacción El Maule Informa",
+      "category": "TERRITORIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-15T18:00:15.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-15-chilenidad-en-familia-cerro-su-cuarta-version-con-cerca-de-27-mil-personas-celeb",
+      "title": "Chilenidad en Familia cerró su cuarta versión con cerca de 27 mil personas celebrando las tradiciones y raíces del Maule",
+      "summary": "Con cerca de 27 mil personas que llegaron durante ambas jornadas, finalizó una nueva versión de Chilenidad en Familia, iniciativa presentada por Fundación Maule y Dreams Maule, que durante este sábado 12 y domingo 13 de septiembre convirtió a Agrícola Ankamapu, en San Clemente, en un gran punto de e",
+      "link": "https://elmauleinforma.cl/chilenidad-en-familia-cerro-su-cuarta-version-con-cerca-de-27-mil-personas-celebrando-las-tradiciones-y-raices-del-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-15T17:02:50.000Z",
+      "image": "",
+      "event": {
+        "text": "13 de septiembre",
+        "start": "2026-09-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-15-a-los-85-anos-muere-el-cineasta-y-documentalista-chileno-patricio-guzman",
+      "title": "A los 85 años muere el cineasta y documentalista chileno Patricio Guzmán",
+      "summary": "El reconocido cineasta falleció a los 85 años tras más de cinco décadas de trayectoria, marcada por obras sobre la memoria y la historia reciente de Chile. The post A los 85 años muere el cineasta y documentalista chileno Patricio Guzmán appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/09/15/a-los-85-anos-muere-el-cineasta-y-documentalista-chileno-patricio-guzman/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-09-15T16:32:52.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-15-curicana-catherine-knight-gana-los-oscar-del-cine-para-adultos-en-europa",
@@ -8304,24 +8404,24 @@
   "counts": {
     "POESIA": 104,
     "LITERATURA": 37,
-    "MUSICA": 157,
-    "TEATRO": 56,
+    "MUSICA": 158,
+    "TEATRO": 57,
     "ARTES_VISUALES": 86,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 115,
+    "PATRIMONIO": 119,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 52,
-    "TERRITORIO": 65
+    "CINE_MEDIOS": 53,
+    "TERRITORIO": 66
   },
   "feedStats": {
     "sources": 54,
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "diario-el-centro": 1,
-      "elmauleinforma": 2,
+      "elmauleinforma": 5,
+      "diario-el-centro": 3,
+      "seremi-culturas": 10,
       "diariotalca": 3,
-      "seremi-culturas": 7,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
