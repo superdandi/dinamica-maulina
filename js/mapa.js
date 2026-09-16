@@ -69,6 +69,7 @@
   function agregarCapa(nombre, items, color) {
     var lg = L.layerGroup();
     (items || []).forEach(function (cosa) {
+      if (cosa.lat == null || isNaN(cosa.lat) || cosa.lon == null || isNaN(cosa.lon)) return;
       var icono = L.divIcon({
         className: 'mapa__punto mapa__punto--' + nombre,
         html: '<span class="mapa__punto-nucleo" style="background:' + color + '"></span>',
@@ -129,7 +130,7 @@
       };
       if (!caer(sedes, true)) caer(sedes, false);
     });
-    done(ev);
+    done(ev.filter(function (x) { return x.lat != null && !isNaN(x.lat); }));
   }
 
   function iniciar() {
