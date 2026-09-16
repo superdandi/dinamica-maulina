@@ -133,6 +133,90 @@
     done(ev.filter(function (x) { return x.lat != null && !isNaN(x.lat); }));
   }
 
+  function bboxDe(limite) {
+    var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    function recorrer(cs) {
+      for (var i = 0; i < cs.length; i++) {
+        var v = cs[i];
+        if (typeof v[0] === 'number') {
+          if (v[0] < minX) minX = v[0];
+          if (v[0] > maxX) maxX = v[0];
+          if (v[1] < minY) minY = v[1];
+          if (v[1] > maxY) maxY = v[1];
+        } else { recorrer(v); }
+      }
+    }
+    (limite.features || []).forEach(function (f) {
+      if (f.geometry) recorrer(f.geometry.coordinates);
+    });
+    if (!isFinite(minX)) return null;
+    return [[minY, minX], [maxY, maxX]];
+  }
+
+  function papel() {
+    try {
+      var v = getComputedStyle(document.documentElement).getPropertyValue('--arena-50').trim();
+      if (v) return v;
+    } catch (e) { /* noop */ }
+    return '#FAF6EF';
+  }
+
+  function areaFirmada(anillo) {
+    var a = 0;
+    for (var i = 0; i < anillo.length - 1; i++) {
+      a += anillo[i][0] * anillo[i + 1][1] - anillo[i][1] * anillo[i + 1][0];
+    }
+    return a;
+  }
+
+  function mascara(geometria) {
+    var exterior = [[-180, 85], [180, 85], [180, -85], [-180, -85], [-180, 85]];
+    var signoExterior = areaFirmada(exterior) < 0 ? -1 : 1;
+    var anillos = [];
+    var rings = geometria.type === 'Polygon'
+      ? geometria.coordinates
+      : geometria.coordinates.map(function (poly) { return poly[0]; });
+    rings.forEach(function (a) {
+      var s = areaFirmada(a) < 0 ? -1 : 1;
+      anillos.push(s === signoExterior ? a.slice().reverse() : a.slice());
+    });
+    if (!anillos.length) return;
+    var fe = {
+      type: 'Feature',
+      properties: {},
+      geometry: { type: 'Polygon', coordinates: [exterior].concat(anillos) }
+    };
+    L.geoJSON(fe, {
+      interactive: false,
+      style: function () {
+        return { color: 'transparent', weight: 0, fillColor: papel(), fillOpacity: 0.9 };
+      }
+    }).addTo(mapa);
+    mapa.attributionControl.addAttribution('Límites: BCN/geoBoundaries (CC BY 3.0 IGO)');
+  }
+
+  function encuadrar(limite) {
+    if (!limite || !limite.features || !limite.features.length) return false;
+    var bbox = bboxDe(limite);
+    if (!bbox) return false;
+
+    mapa.setMinZoom(Math.max(8, mapa.getBoundsZoom(bbox)));
+    mapa.fitBounds(bbox, { padding: [24, 24] });
+    mapa.setMaxBounds([
+      [bbox[0][0] - 0.05, bbox[0][1] - 0.05],
+      [bbox[1][0] + 0.05, bbox[1][1] + 0.05]
+    ]);
+
+    var poligono = null;
+    (limite.features || []).forEach(function (f) {
+      if (f.geometry && (f.geometry.type === 'Polygon' || f.geometry.type === 'MultiPolygon') && !poligono) {
+        poligono = f.geometry;
+      }
+    });
+    if (poligono) mascara(poligono);
+    return true;
+  }
+
   function iniciar() {
     var fracasoTiles = 0;
     var cambio = false;
@@ -167,28 +251,32 @@
 
       esri.addTo(mapa);
 
-      return fetch(base + 'data/lugares.json').then(function (r) {
+      var lugaresP = fetch(base + 'data/lugares.json').then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.json();
-      }).then(function (lugares) {
-        var fuente = DM.corpusPath ? urlCompleta(DM.corpusPath) : null;
-        var agenda = Promise.resolve([]);
-        if (fuente) {
-          agenda = fetch(fuente).then(function (r2) {
-            if (!r2.ok) throw new Error('sin agenda');
-            return r2.json();
-          }).then(function (corpus) {
-            return (corpus && corpus.items) || [];
-          }).catch(function () { return []; });
-        }
-        return Promise.all([lugares, agenda]);
-      }).then(function (resultados) {
+      });
+      var limitesP = fetch(base + 'data/maule.geojson').then(function (r) {
+        if (!r.ok) throw new Error('sin límites');
+        return r.json();
+      }).catch(function () { return null; });
+      var fuente = DM.corpusPath ? urlCompleta(DM.corpusPath) : null;
+      var agenda = Promise.resolve([]);
+      if (fuente) {
+        agenda = fetch(fuente).then(function (r2) {
+          if (!r2.ok) throw new Error('sin agenda');
+          return r2.json();
+        }).then(function (corpus) {
+          return (corpus && corpus.items) || [];
+        }).catch(function () { return []; });
+      }
+      return Promise.all([lugaresP, agenda, limitesP]).then(function (resultados) {
         var lugares = resultados[0];
         var items = resultados[1];
+        var limite = resultados[2];
         var elEstado = document.getElementById('mapa-loading');
         if (elEstado) elEstado.remove();
 
-        if (lugares.meta && lugares.meta.fitBounds) {
+        if (!encuadrar(limite) && lugares.meta && lugares.meta.fitBounds) {
           mapa.fitBounds(lugares.meta.fitBounds, { padding: [24, 24] });
         }
 
