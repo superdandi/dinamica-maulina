@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T13:15:58.759Z",
+  "generatedAt": "2026-09-17T04:08:44.806Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -128,6 +128,39 @@
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-16-preservando-sus-tradiciones-molina-realizo-seis-desfiles-civicos-de-fiestas-patr",
+      "title": "Preservando sus tradiciones: Molina realizó seis desfiles cívicos de Fiestas Patrias",
+      "summary": "Más de 130 agrupaciones participaron en las celebraciones, que reunieron a familias, organizaciones sociales y autoridades en distintos sectores de la comuna. The post Preservando sus tradiciones: Molina realizó seis desfiles cívicos de Fiestas Patrias appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/09/16/preservando-sus-tradiciones-molina-realizo-seis-desfiles-civicos-de-fiestas-patrias/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-09-16T16:05:59.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-16-cnac-inaugura-tres-exposiciones-bernardo-oyarzun-y-dos-muestras-dedicadas-a-la-f",
+      "title": "CNAC inaugura tres exposiciones: Bernardo Oyarzún y dos muestras dedicadas a la fotografía en Chile",
+      "summary": "El Centro Nacional de Arte Contemporáneo presenta un nuevo ciclo expositivo que reúne una muestra individual de Bernardo Oyarzún, una revisión de la fotografía contemporánea a partir de la Colección de Arte Contemporáneo del Ministerio de las Culturas y una exposición dedicada a 15 festivales y encu",
+      "link": "https://www.cultura.gob.cl/agendacultural/cnac-inaugura-tres-exposiciones-bernardo-oyarzun-y-dos-muestras-dedicadas-a-la-fotografia-en-chile/",
+      "author": "alecaros",
+      "category": "ARTES_VISUALES",
+      "source": "seremi-culturas",
+      "date": "2026-09-16T14:47:38.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-16-se-parte-de-la-cartografia-de-las-artes-escenicas-y-de-la-visualidad-de-la-regio",
+      "title": "Sé parte de la Cartografía de las Artes Escénicas y de la Visualidad de la Región Metropolitana",
+      "summary": "La Seremi de las Culturas invita a artistas, organizaciones, espacios, compañías, colectivos, festivales y redes a participar en el registro que permitirá reconocer y visibilizar a quienes dan vida a estos sectores en las 52 comunas de la región. Completar el formulario es fácil y toma solo unos min",
+      "link": "https://www.cultura.gob.cl/convocatorias/se-parte-de-la-cartografia-de-las-artes-escenicas-y-de-la-visualidad-de-la-region-metropolitana/",
+      "author": "metropolitana",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-16T12:22:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-16-el-chincolito-y-mirtha-iturra-dos-trayectorias-con-raices-en-el-maule-reconocida",
@@ -8406,9 +8439,9 @@
     "LITERATURA": 37,
     "MUSICA": 158,
     "TEATRO": 57,
-    "ARTES_VISUALES": 86,
+    "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 119,
+    "PATRIMONIO": 121,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 53,
     "TERRITORIO": 66
@@ -8418,9 +8451,9 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
+      "diario-el-centro": 4,
+      "seremi-culturas": 12,
       "elmauleinforma": 5,
-      "diario-el-centro": 3,
-      "seremi-culturas": 10,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
