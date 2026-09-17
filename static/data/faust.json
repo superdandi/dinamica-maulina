@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T04:08:44.806Z",
+  "generatedAt": "2026-09-17T13:12:07.692Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -127,6 +127,43 @@
         "kind": "program",
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-17-junta-de-vigilancia-del-rio-longavi-realizo-asamblea-ordinaria-y-renovo-parte-de",
+      "title": "Junta de Vigilancia del Río Longaví realizó Asamblea Ordinaria y renovó parte de su Directorio",
+      "summary": "Con una alta participación de sus representantes, la Junta de Vigilancia del Río Longaví y sus Afluentes (JVRL) realizó su Asamblea Ordinaria, instancia en la que se presentó la cuenta anual correspondiente a la temporada de distribución de aguas, comprendida entre septiembre de 2025 y agosto de 202",
+      "link": "https://elmauleinforma.cl/junta-de-vigilancia-del-rio-longavi-realizo-asamblea-ordinaria-y-renovo-parte-de-su-directorio/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-17T00:00:58.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-16-consorcio-valle-central-inicia-ciclo-de-microcertificaciones-sobre-patrimonio-ed",
+      "title": "Consorcio Valle Central inicia ciclo de microcertificaciones sobre patrimonio, educación artística y saberes territoriales",
+      "summary": "Fortalecer la relación entre las Humanidades, las Artes y las Ciencias Sociales, la educación y los territorios es el propósito del nuevo ciclo de microcertificaciones organizado por el Consorcio Conocimientos 2030 Valle Central, iniciativa conjunta de la Universidad de Talca y la Universidad de O’H",
+      "link": "https://elmauleinforma.cl/consorcio-valle-central-inicia-ciclo-de-microcertificaciones-sobre-patrimonio-educacion-artistica-y-saberes-territoriales/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-16T20:00:03.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-16-mas-de-30-espacios-abriran-sus-puertas-en-la-primera-noche-de-las-artes-de-la-vi",
+      "title": "Más de 30 espacios abrirán sus puertas en la primera Noche de las Artes de la Visualidad en Concepción",
+      "summary": "La iniciativa impulsada por la Seremi de las Culturas, las Artes y el Patrimonio del Biobío reunirá el viernes 25 de septiembre a más de 30 espacios y agrupaciones vinculadas a las artes visuales, que abrirán sus puertas en horario extendido. Un catálogo digital permitirá planificar recorridos, mien",
+      "link": "https://www.cultura.gob.cl/agendacultural/mas-de-30-espacios-abriran-sus-puertas-en-la-primera-noche-de-las-artes-de-la-visualidad-en-concepcion/",
+      "author": "biobio",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-16T16:17:24.000Z",
+      "image": "",
+      "event": {
+        "text": "25 de septiembre",
+        "start": "2026-09-25T12:00:00.000Z"
       }
     },
     {
@@ -8441,7 +8478,7 @@
     "TEATRO": 57,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 121,
+    "PATRIMONIO": 124,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 53,
     "TERRITORIO": 66
@@ -8451,9 +8488,9 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
+      "elmauleinforma": 7,
+      "seremi-culturas": 13,
       "diario-el-centro": 4,
-      "seremi-culturas": 12,
-      "elmauleinforma": 5,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
