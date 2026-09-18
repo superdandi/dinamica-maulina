@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T03:54:15.517Z",
+  "generatedAt": "2026-09-18T12:49:06.002Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -127,6 +127,43 @@
         "kind": "program",
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-17-inician-obras-para-poner-fin-a-anos-de-inundaciones-en-sector-valles-de-casablan",
+      "title": "Inician obras para poner fin a años de inundaciones en sector Valles de Casablanca en Molina",
+      "summary": "Tras más de 15 años de problemas durante las lluvias, el municipio de Molina inició obras para mejorar el drenaje y evitar anegamientos en Casa Blanca. The post Inician obras para poner fin a años de inundaciones en sector Valles de Casablanca en Molina appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/09/17/inician-obras-para-poner-fin-a-anos-de-inundaciones-en-sector-valles-de-casablanca-en-molina/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-09-17T19:39:52.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-17-orgullo-patrio-y-tradiciones-estudio-revela-la-identidad-y-las-costumbres-de-los",
+      "title": "Orgullo patrio y tradiciones: Estudio revela la identidad y las costumbres de los chilenos en Fiestas Patrias",
+      "summary": "​Un reciente estudio de la encuesta semanal 5C reveló una radiografía profunda sobre la percepción de identidad, tradiciones y hábitos de consumo de los chilenos. De acuerdo con el sondeo, un 82% de los encuestados afirmó sentirse orgulloso de la historia de Chile, mientras que un 87% considera que ",
+      "link": "https://elmauleinforma.cl/orgullo-patrio-y-tradiciones-estudio-revela-la-identidad-y-las-costumbres-de-los-chilenos-en-fiestas-patrias/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-17T19:00:34.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-17-ejercito-celebra-216-anos-de-historia-con-la-gran-parada-militar-2026",
+      "title": "Ejército celebra 216 años de historia con la Gran Parada Militar 2026",
+      "summary": "La elipse del Parque O’Higgins congregará este 19 de septiembre a las 11:30 hrs. a 10 mil 206 efectivos del Ejército, Armada, Fuerza Aérea, Carabineros, Policía de Investigaciones y Gendarmería, y de ellos, mil 764 mujeres para conmemorar el “Día de las Glorias del Ejército” con la tradicional Parad",
+      "link": "https://elmauleinforma.cl/ejercito-celebra-216-anos-de-historia-con-la-gran-parada-militar-2026/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-17T18:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "19 de septiembre",
+        "start": "2026-09-19T12:00:00.000Z"
       }
     },
     {
@@ -8511,18 +8548,18 @@
     "TEATRO": 57,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 125,
+    "PATRIMONIO": 127,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 55,
+    "CINE_MEDIOS": 56,
     "TERRITORIO": 66
   },
   "feedStats": {
     "sources": 54,
-    "alive": 46,
+    "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "diario-el-centro": 6,
-      "elmauleinforma": 8,
+      "diario-el-centro": 7,
+      "elmauleinforma": 10,
       "seremi-culturas": 13,
       "diariotalca": 3,
       "rincon-literario": 48,
@@ -8858,7 +8895,7 @@
       "feed": "https://sastreriagonzalez.blogspot.com/feeds/posts/default",
       "category": "ARTESANIAS",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": false
     },
     {
