@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T12:49:06.002Z",
+  "generatedAt": "2026-09-19T03:51:11.660Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -128,6 +128,43 @@
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-18-falp-y-sofofa-sellan-alianza-para-prevenir-y-enfrentar-el-cancer",
+      "title": "FALP y SOFOFA sellan alianza para prevenir y enfrentar el cáncer",
+      "summary": "Fundación Arturo López Pérez (FALP) y SOFOFA firmaron un convenio de colaboración que une, por primera vez, a una institución especializada en oncología y a uno de los principales gremios empresariales del país para impulsar una agenda conjunta frente al cáncer, que busca promover la prevención entr",
+      "link": "https://elmauleinforma.cl/falp-y-sofofa-sellan-alianza-para-prevenir-y-enfrentar-el-cancer/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-18T15:00:12.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-18-preven-chubascos-intensos-tormentas-electricas-y-posibles-granizadas-este-fin-de",
+      "title": "Prevén chubascos intensos, tormentas eléctricas y posibles granizadas este fin de semana en la Región del Maule",
+      "summary": "​Un escenario meteorológico de alta inestabilidad afectará a la Región del Maule y a la zona centro-sur del país durante las jornadas del sábado 19 y domingo 20 de septiembre. Según informó Meteorología Maule, el fenómeno —originado por inestabilidad en altura— traerá consigo un intenso desarrollo c",
+      "link": "https://elmauleinforma.cl/preven-chubascos-intensos-tormentas-electricas-y-posibles-granizadas-este-fin-de-semana-en-la-region-del-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-09-18T13:00:26.000Z",
+      "image": "",
+      "event": {
+        "text": "20 de septiembre",
+        "start": "2026-09-20T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-18-combo-que-se-perdia-lo-recibia-la-historia-del-guaton-loyola-y-su-vinculo-con-la",
+      "title": "“Combo que se perdía, lo recibía…”: la historia del “Guatón Loyola” y su vínculo con la Región del Maule",
+      "summary": "Una pelea ocurrida en Parral en 1954 inspiró la popular cueca, cuya letra luego cambió el lugar de los hechos para convertirlo en Los Andes. The post “Combo que se perdía, lo recibía…”: la historia del “Guatón Loyola” y su vínculo con la Región del Maule appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/09/18/combo-que-se-perdia-lo-recibia-la-historia-del-guaton-loyola-y-su-vinculo-con-la-region-del-maule/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-09-18T11:00:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-17-inician-obras-para-poner-fin-a-anos-de-inundaciones-en-sector-valles-de-casablan",
@@ -8545,12 +8582,12 @@
     "POESIA": 104,
     "LITERATURA": 37,
     "MUSICA": 158,
-    "TEATRO": 57,
+    "TEATRO": 58,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 127,
+    "PATRIMONIO": 128,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 56,
+    "CINE_MEDIOS": 57,
     "TERRITORIO": 66
   },
   "feedStats": {
@@ -8558,8 +8595,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "diario-el-centro": 7,
-      "elmauleinforma": 10,
+      "elmauleinforma": 12,
+      "diario-el-centro": 8,
       "seremi-culturas": 13,
       "diariotalca": 3,
       "rincon-literario": 48,
