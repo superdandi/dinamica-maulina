@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T03:51:11.660Z",
+  "generatedAt": "2026-09-19T12:22:04.687Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -128,6 +128,32 @@
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-18-maule-y-otras-cuatro-regiones-tendran-alerta-preventiva-este-sabado-debido-a-vie",
+      "title": "Maule y otras cuatro regiones tendrán alerta preventiva este sábado debido a vientos",
+      "summary": "Senapred activó la medida para O’Higgins, Maule, Ñuble, Biobío y Los Lagos desde este sábado 19 de septiembre, ante distintos escenarios de viento.Senapred activó la medida para O’Higgins, Maule, Ñuble, Biobío y Los Lagos desde este sábado 19 de septiembre, ante distintos escenarios de viento. The p",
+      "link": "https://www.diarioelcentro.cl/2026/09/18/maule-y-otras-cuatro-regiones-tendran-alerta-preventiva-este-sabado-debido-a-vientos/",
+      "author": "Yasmín Gómez",
+      "category": "TEATRO",
+      "source": "diario-el-centro",
+      "date": "2026-09-18T21:58:48.000Z",
+      "image": "",
+      "event": {
+        "text": "19 de septiembre",
+        "start": "2026-09-19T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-18-cardenal-chomali-llama-a-hacer-de-chile-una-casa-edificada-sobre-roca",
+      "title": "Cardenal Chomali llama a hacer de Chile, una casa edificada sobre roca",
+      "summary": "En la Catedral Metropolitana de Santiago se desarrolló el tradicional Te Deum Ecuménico, presidido por el Arzobispo de Santiago, Cardenal Fernando Chomali Garib, en el marco del 216° aniversario de la Primera Junta Nacional de Gobierno. La liturgia -marcada por un profundo espíritu ecuménico e inter",
+      "link": "https://elmauleinforma.cl/cardenal-chomali-llama-a-hacer-de-chile-una-casa-edificada-sobre-roca/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-18T21:00:15.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-18-falp-y-sofofa-sellan-alianza-para-prevenir-y-enfrentar-el-cancer",
@@ -8582,10 +8608,10 @@
     "POESIA": 104,
     "LITERATURA": 37,
     "MUSICA": 158,
-    "TEATRO": 58,
+    "TEATRO": 59,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 128,
+    "PATRIMONIO": 129,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 57,
     "TERRITORIO": 66
@@ -8595,8 +8621,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "elmauleinforma": 12,
-      "diario-el-centro": 8,
+      "diario-el-centro": 9,
+      "elmauleinforma": 13,
       "seremi-culturas": 13,
       "diariotalca": 3,
       "rincon-literario": 48,
