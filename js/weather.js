@@ -5,11 +5,23 @@
 (function () {
   'use strict'
 
-  const cities = (window.DM && Array.isArray(window.DM.cities) && window.DM.cities) || [
+  // Normaliza ciudades: acepta tanto array plano ([{lat,...}...]) como un
+  // posible anidamiento accidental ([[{lat,...}...]]) que dejaba a cities[0]
+  // como un arreglo y rompía forecast(undefined, undefined).
+  const RAW = (window.DM && Array.isArray(window.DM.cities)) ? window.DM.cities : []
+  const citiesNode = (RAW.length && Array.isArray(RAW[0]) && RAW[0].length) ? RAW[0] : RAW
+  const cities = citiesNode.length ? citiesNode : [
     { name: 'Talca', lat: '-35.4264', lon: '-71.6554' },
   ]
 
   const API = 'https://api.open-meteo.com/v1/forecast'
+
+  function validar(lat, lon) {
+    const ok = Number.isFinite(Number(lat)) && Number.isFinite(Number(lon))
+      && Number(lat) >= -90 && Number(lat) <= 90
+      && Number(lon) >= -180 && Number(lon) <= 180
+    if (!ok) throw new Error('Coordenadas inválidas para la ciudad')
+  }
 
   const WMO = {
     0: ['Cielo despejado', '☀️'], 1: ['Mayormente despejado', '🌤️'],
@@ -29,6 +41,7 @@
   const state = (w) => { w.dataset.state = 'ready' }
 
   async function forecast(lat, lon) {
+    validar(lat, lon)
     const url = `${API}?latitude=${lat}&longitude=${lon}` +
       '&current=temperature_2m,weather_code,relative_humidity_2m,wind_speed_10m' +
       '&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=4'
