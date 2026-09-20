@@ -1,8 +1,12 @@
 {{ define "main" }}
-<section class="hero">
-  <p class="hero__kicker">Revista digital del Maule · Chile</p>
-  <h1 class="hero__title">La cultura <em>fluye</em> por el Maule</h1>
-  <p class="hero__lede">Dinámica Maulina agrupa, en una sola corriente, lo que hacen los artistas, poetas, músicos, artesanos y colectivos de la Región del Maule. Esto es lo más reciente de la escena.</p>
+<section class="hero hero--agua">
+  <canvas id="hero-agua" class="hero__canvas" aria-hidden="true"></canvas>
+  <div class="hero__velo" aria-hidden="true"></div>
+  <div class="hero__contenido">
+    <p class="hero__kicker">Revista digital del Maule · Chile</p>
+    <h1 class="hero__title">La cultura <em>fluye</em> por el Maule</h1>
+    <p class="hero__lede">Dinámica Maulina agrupa, en una sola corriente, lo que hacen los artistas, poetas, músicos, artesanos y colectivos de la Región del Maule. Esto es lo más reciente de la escena.</p>
+  </div>
 </section>
 
 {{ partial "marquee.html" . }}
