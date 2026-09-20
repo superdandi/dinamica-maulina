@@ -177,13 +177,26 @@ img { max-width: 100%; height: auto; display: block; }
    overflow horizontal en el borde del viewport (sin crear scrollbar). */
 html, body { overflow-x: hidden; }
 html, body { overflow-x: clip; }
+
+/* En la home el agua empieza bajo el header: sin línea de río superior
+   ni colchón de papel del contenedor. */
+body[data-page="home"] .river--top { display: none; }
+body[data-page="home"] .site-main { padding-top: 0; }
+
 .site-main .hero--agua {
   margin: 0 -1000px;
-  padding: clamp(2.5rem, 6vw, 5rem) 1000px 4.5rem;
+  padding: 0 1000px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 88vh;
+  min-height: 92svh;
 }
-.hero--agua { min-height: 0; }
+@media (max-width: 640px) {
+  .site-main .hero--agua { min-height: 70svh; }
+}
 .hero--agua .hero__canvas {
   position: absolute;
   inset: 0;
@@ -192,31 +205,53 @@ html, body { overflow-x: clip; }
   display: block;
 }
 .hero--agua.hero--sin-agua {
-  background: linear-gradient(160deg, var(--rio-400) 0%, var(--rio-500) 52%, var(--vinedo-500) 150%);
+  background: linear-gradient(165deg, var(--rio-400) 0%, var(--rio-500) 46%, var(--vinedo-500) 150%);
 }
 .hero--agua .hero__velo {
   position: absolute;
   inset: 0;
   pointer-events: none;
   background: linear-gradient(180deg,
-    rgba(250, 246, 239, .18) 0%,
-    rgba(250, 246, 239, .34) 32%,
-    rgba(250, 246, 239, .62) 68%,
-    rgba(250, 246, 239, .97) 100%);
+    rgba(250, 246, 239, .10) 0%,
+    rgba(250, 246, 239, .05) 26%,
+    rgba(250, 246, 239, 0) 46%,
+    rgba(28, 25, 23, .08) 72%,
+    rgba(28, 25, 23, .16) 86%,
+    rgba(250, 246, 239, .12) 100%);
 }
-.hero--agua .hero__contenido {
+.hero--agua .hero__interior {
   position: relative;
   z-index: 1;
+  flex: 1 1 auto;
+  width: 100%;
   max-width: var(--maxw);
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(3rem, 7vw, 6rem) 0 4.5rem;
 }
-.hero--agua .hero__kicker { color: var(--arena-50); }
-.hero--agua .hero__title { color: var(--arena-50); text-shadow: 0 1px 2px rgba(28, 25, 23, .18); }
+.hero--agua .hero__kicker {
+  color: var(--arena-50);
+  text-shadow: 0 1px 3px rgba(11, 54, 72, .4);
+}
+.hero--agua .hero__title {
+  color: var(--arena-50);
+  text-shadow: 0 2px 8px rgba(11, 54, 72, .5);
+}
 .hero--agua .hero__title em { color: var(--arena-100); }
-.hero--agua .hero__lede { color: rgba(250, 246, 239, .92); }
+.hero--agua .hero__lede {
+  color: rgba(250, 246, 239, .96);
+  text-shadow: 0 1px 4px rgba(11, 54, 72, .45);
+}
+.hero--agua .marquee {
+  position: relative;
+  z-index: 2;
+  margin: 0 -1000px;
+}
 
 @media (prefers-reduced-motion: reduce) {
-  .hero--agua { background: linear-gradient(160deg, var(--rio-400) 0%, var(--rio-500) 52%, var(--vinedo-500) 150%); }
+  .hero--agua { background: linear-gradient(165deg, var(--rio-400) 0%, var(--rio-500) 46%, var(--vinedo-500) 150%); }
   .hero--agua .hero__canvas { display: none; }
 }
 
