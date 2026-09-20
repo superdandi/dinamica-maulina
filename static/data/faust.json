@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T04:07:34.767Z",
+  "generatedAt": "2026-09-20T12:57:10.786Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -128,6 +128,43 @@
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-19-equinoccio-de-primavera-especialistas-aclaran-que-es-verdad-y-que-es-mito",
+      "title": "Equinoccio de primavera: especialistas aclaran qué es verdad y qué es mito",
+      "summary": "Este martes 22 de septiembre de 2026, exactamente a las 21:05 horas, comienza oficialmente la primavera astronómica en Chile. Para muchas personas, el cambio de estación se asocia a variaciones en el ánimo y la energía, a días más largos y luminosos e incluso a rituales vinculados con su significado",
+      "link": "https://elmauleinforma.cl/equinoccio-de-primavera-especialistas-aclaran-que-es-verdad-y-que-es-mito/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-19T21:00:29.000Z",
+      "image": "",
+      "event": {
+        "text": "22 de septiembre",
+        "start": "2026-09-22T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-19-utalca-realiza-terapias-inteligentes-para-adultos-mayores-con-parkinson",
+      "title": "UTalca realiza terapias inteligentes para adultos mayores con Parkinson",
+      "summary": "“Tech en salud para adultos mayores con enfermedades crónicas”, es el nombre del proyecto que ejecuta el Laboratorio de Control Humano de la Universidad de Talca y que busca integrar el telemonitoreo, la telerehabilitación e inteligencia artificial para prevenir descompensaciones y apoyar la toma de",
+      "link": "https://elmauleinforma.cl/utalca-realiza-terapias-inteligentes-para-adultos-mayores-con-parkinson/",
+      "author": "Redacción El Maule Informa",
+      "category": "LITERATURA",
+      "source": "elmauleinforma",
+      "date": "2026-09-19T19:00:55.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-19-funcionarios-del-hospital-de-curico-realizan-sanar-con-zapateo-a-pacientes-y-fam",
+      "title": "Funcionarios del Hospital de Curicó realizan “sanar con zapateo” a pacientes y familiares de hospitalizados",
+      "summary": "Fiestas Patrias es una fecha especial para nuestro país y es por este motivo que desde el Hospital de Curicó, sus propios funcionarios desarrollaron el espacio “sanar con Zapateo”, lo que consiste en bailar cueca y cantar junto a los pacientes hospitalizados y sus familias. Luis Fuentes Toloza enfer",
+      "link": "https://elmauleinforma.cl/funcionarios-del-hospital-de-curico-realizan-sanar-con-zapateo-a-pacientes-y-familiares-de-hospitalizados/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-19T17:00:42.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-19-glorias-del-ejercito-el-origen-de-la-tradicional-parada-militar",
@@ -8647,12 +8684,12 @@
   ],
   "counts": {
     "POESIA": 104,
-    "LITERATURA": 37,
+    "LITERATURA": 38,
     "MUSICA": 159,
     "TEATRO": 59,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 131,
+    "PATRIMONIO": 133,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 57,
     "TERRITORIO": 66
@@ -8662,9 +8699,9 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
+      "elmauleinforma": 16,
       "diario-el-centro": 11,
       "seremi-culturas": 14,
-      "elmauleinforma": 13,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
