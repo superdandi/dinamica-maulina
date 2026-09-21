@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:57:10.786Z",
+  "generatedAt": "2026-09-21T04:04:59.058Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -127,6 +127,43 @@
         "kind": "program",
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-20-entrenadora-de-talca-lanza-aplicacion-de-ejercicios-para-enfrentar-excesos-de-fi",
+      "title": "Entrenadora de Talca lanza aplicación de ejercicios para enfrentar excesos de Fiestas Patrias",
+      "summary": "Además de los gratos recuerdos en torno a la buena mesa y los pies de cueca, las Fiestas Patrias suelen dejar consecuencias en la balanza: el casi inevitable aumento de peso después de varios días cargados de empanadas, asados y bebidas de alto aporte calórico. Especialistas sostienen que el consumo",
+      "link": "https://elmauleinforma.cl/entrenadora-de-talca-lanza-aplicacion-de-ejercicios-para-enfrentar-excesos-de-fiestas-patrias/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-20T13:42:56.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-20-fundacion-educacional-coanil-reune-a-escuelas-especiales-del-maule-para-abordar-",
+      "title": "Fundación Educacional Coanil reúne a escuelas especiales del Maule para abordar desafíos en calidad y financiamiento",
+      "summary": "Con el objetivo de abordar de manera conjunta los principales desafíos que enfrenta actualmente la educación especial en el Maule, representantes de casi una decena de establecimientos de la región se reunieron en una cita convocada por Fundación Educacional Coanil. El encuentro se realizó en la Esc",
+      "link": "https://elmauleinforma.cl/fundacion-educacional-coanil-reune-a-escuelas-especiales-del-maule-para-abordar-desafios-en-calidad-y-financiamiento/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-20T13:00:24.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-20-armada-advierte-posible-formacion-de-trombas-marinas-en-el-maule-durante-la-madr",
+      "title": "Armada advierte posible formación de trombas marinas en el Maule durante la madrugada y mañana de este domingo",
+      "summary": "La Armada emitió un aviso preventivo por la posible formación de trombas marinas entre el Maule y Los Ríos durante la madrugada y mañana del domingo. The post Armada advierte posible formación de trombas marinas en el Maule durante la madrugada y mañana de este domingo appeared first on Diario El Ce",
+      "link": "https://www.diarioelcentro.cl/2026/09/20/armada-advierte-posible-formacion-de-trombas-marinas-en-el-maule-durante-la-madrugada-y-manana-de-este-domingo/",
+      "author": "Yasmín Gómez",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-09-20T11:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "este domingo",
+        "start": "2026-09-27T12:00:00.000Z"
       }
     },
     {
@@ -8689,9 +8726,9 @@
     "TEATRO": 59,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 133,
+    "PATRIMONIO": 135,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 57,
+    "CINE_MEDIOS": 58,
     "TERRITORIO": 66
   },
   "feedStats": {
@@ -8699,8 +8736,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "elmauleinforma": 16,
-      "diario-el-centro": 11,
+      "elmauleinforma": 18,
+      "diario-el-centro": 12,
       "seremi-culturas": 14,
       "diariotalca": 3,
       "rincon-literario": 48,
