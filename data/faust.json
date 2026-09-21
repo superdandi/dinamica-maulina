@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T04:04:59.058Z",
+  "generatedAt": "2026-09-21T14:57:23.774Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -128,6 +128,17 @@
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-20-balance-positivo-fiesta-de-la-chilenidad-de-talca-culmina-con-buena-recepcion-de",
+      "title": "Balance positivo: Fiesta de la Chilenidad de Talca culmina con buena recepción de emprendedores y público asistente",
+      "summary": "La lluvia no fue impedimento, con una masiva concurrencia de público y un balance positivo en materia económica y de seguridad, la tradicional Fiesta de la Chilenidad de Talca 2026 vive sus últimas horas en la explanada del Parque Río Claro, evento organizado por la Ilustre Municipalidad de Talca, y",
+      "link": "https://elmauleinforma.cl/balance-positivo-fiesta-de-la-chilenidad-de-talca-culmina-con-buena-recepcion-de-emprendedores-y-publico-asistente/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-20T19:25:29.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-20-entrenadora-de-talca-lanza-aplicacion-de-ejercicios-para-enfrentar-excesos-de-fi",
@@ -8726,7 +8737,7 @@
     "TEATRO": 59,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 135,
+    "PATRIMONIO": 136,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 58,
     "TERRITORIO": 66
@@ -8736,7 +8747,7 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "elmauleinforma": 18,
+      "elmauleinforma": 19,
       "diario-el-centro": 12,
       "seremi-culturas": 14,
       "diariotalca": 3,
