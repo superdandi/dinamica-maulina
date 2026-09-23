@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T03:58:56.385Z",
+  "generatedAt": "2026-09-23T13:28:31.917Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -127,6 +127,58 @@
         "kind": "program",
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-23-fundacion-las-rosas-busca-voluntarios-para-su-colecta-de-octubre",
+      "title": "Fundación Las Rosas busca voluntarios para su colecta de octubre",
+      "summary": "Octubre es el Mes de las Personas Mayores, tiempo en el que Fundación Las Rosas realizará su tradicional “Colecta Nacional”, los días 16, 17 y 18. La institución de ayuda fraterna busca sumar miles de voluntarios a lo largo del país, para así apoyar el cuidado de más de 2.300 residentes, en 28 Hogar",
+      "link": "https://elmauleinforma.cl/fundacion-las-rosas-busca-voluntarios-para-su-colecta-de-octubre/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-23T01:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-22-tragedia-ambiental-en-el-maule-denuncian-penalmente-la-muerte-de-57-pinguinos-en",
+      "title": "Tragedia ambiental en el Maule: Denuncian penalmente la muerte de 57 pingüinos en costa de Chanco, Pelluhue y Curepto",
+      "summary": "TALCA.– La Dirección Regional del Maule del Servicio Nacional de Pesca y Acuicultura (Sernapesca) interpuso una denuncia criminal por el delito de maltrato o crueldad animal, tras el alarmante hallazgo de 57 pingüinos muertos en diversos puntos de la costa maulina. La acción judicial busca esclarece",
+      "link": "https://elmauleinforma.cl/tragedia-ambiental-en-el-maule-denuncian-penalmente-la-muerte-de-57-pinguinos-en-costa-de-chanco-pelluhue-y-curepto/",
+      "author": "Redacción El Maule Informa",
+      "category": "POESIA",
+      "source": "elmauleinforma",
+      "date": "2026-09-22T22:30:18.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-22-refuerzan-el-control-de-plaguicidas-y-proteccion-de-colmenas-en-el-maule",
+      "title": "Refuerzan el control de plaguicidas y protección de colmenas en el Maule",
+      "summary": "Este martes el seremi de Agricultura, Alejandro Muñoz, junto a la directora regional (s) del SAG, Carolina Imbert, acompañaron una fiscalización en el predio agrícola, perteneciente al Grupo Agrícola Sela, ubicado en la comuna de Talca, a fin de verificar el correcto uso y almacenamiento de plaguici",
+      "link": "https://elmauleinforma.cl/refuerzan-el-control-de-plaguicidas-y-proteccion-de-colmenas-en-el-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-22T22:00:48.000Z",
+      "image": "",
+      "event": {
+        "text": "este martes",
+        "start": "2026-09-29T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-22-masiva-jornada-cultural-gratuita-este-sabado-en-maule-con-poesia-musica-y-teatro",
+      "title": "Masiva jornada cultural gratuita este sábado en Maule con poesía, música y teatro familiar",
+      "summary": "La comuna de Maule se prepara para vivir una gran fiesta cultural este mes de septiembre con la presentación de la segunda versión del Festival Literario Pasadas pa’ la Pluma. La cita cultural se llevará a cabo el próximo sábado 26 de septiembre, a contar de las 15:00 horas, en el Anfiteatro de Maul",
+      "link": "https://elmauleinforma.cl/masiva-jornada-cultural-gratuita-este-sabado-en-maule-con-poesia-musica-y-teatro-familiar/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-22T21:00:55.000Z",
+      "image": "",
+      "event": {
+        "text": "26 de septiembre",
+        "start": "2026-09-26T12:00:00.000Z"
       }
     },
     {
@@ -8805,13 +8857,13 @@
     }
   ],
   "counts": {
-    "POESIA": 104,
+    "POESIA": 105,
     "LITERATURA": 38,
     "MUSICA": 159,
     "TEATRO": 60,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 141,
+    "PATRIMONIO": 144,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 58,
     "TERRITORIO": 66
@@ -8821,8 +8873,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
+      "elmauleinforma": 25,
       "seremi-culturas": 18,
-      "elmauleinforma": 21,
       "diario-el-centro": 12,
       "diariotalca": 3,
       "rincon-literario": 48,
