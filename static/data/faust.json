@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:13:44.626Z",
+  "generatedAt": "2026-09-23T03:58:56.385Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -128,6 +128,17 @@
         "text": "23, 30 de septiembre · 19:00",
         "start": "2026-09-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-22-laboratorio-de-escritura-autobiografica-fortalece-la-memoria-y-el-legado-de-pers",
+      "title": "Laboratorio de escritura autobiográfica fortalece la memoria y el legado de personas mayores",
+      "summary": "La iniciativa impulsada por la Seremi de las Culturas y SENAMA permitió que 20 participantes de Temuco desarrollaran relatos autobiográficos que ponen en valor sus experiencias de vida y contribuyen a preservar su legado para las nuevas generaciones.",
+      "link": "https://www.cultura.gob.cl/plan-lectura/laboratorio-de-escritura-autobiografica-fortalece-la-memoria-y-el-legado-de-personas-mayores/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-22T12:04:48.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-21-21-sumarios-sanitarios-y-4-prohibiciones-de-funcionamiento-dejaron-fiscalizacion",
@@ -8800,7 +8811,7 @@
     "TEATRO": 60,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 140,
+    "PATRIMONIO": 141,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 58,
     "TERRITORIO": 66
@@ -8810,8 +8821,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
+      "seremi-culturas": 18,
       "elmauleinforma": 21,
-      "seremi-culturas": 17,
       "diario-el-centro": 12,
       "diariotalca": 3,
       "rincon-literario": 48,
