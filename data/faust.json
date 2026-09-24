@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T13:28:31.917Z",
+  "generatedAt": "2026-09-24T03:53:21.134Z",
   "items": [
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
@@ -112,6 +112,17 @@
         "text": "24 de septiembre (Jueves) · 19:00",
         "start": "2026-09-24T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-23-musica-gastronomia-y-folclore-molina-reunio-a-mas-de-30-mil-personas-en-su-fiest",
+      "title": "Música, gastronomía y folclore: Molina reunió a más de 30 mil personas en su Fiesta de la Chilenidad",
+      "summary": "Artistas nacionales, agrupaciones locales, emprendimientos y tradiciones marcaron el encuentro, que además destacó por su programación familiar y coordinación en seguridad. The post Música, gastronomía y folclore: Molina reunió a más de 30 mil personas en su Fiesta de la Chilenidad appeared first on",
+      "link": "https://www.diarioelcentro.cl/2026/09/23/musica-gastronomia-y-folclore-molina-reunio-a-mas-de-30-mil-personas-en-su-fiesta-de-la-chilenidad/",
+      "author": "Diario El Centro Prensa",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-09-23T15:29:47.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-23-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
@@ -8859,7 +8870,7 @@
   "counts": {
     "POESIA": 105,
     "LITERATURA": 38,
-    "MUSICA": 159,
+    "MUSICA": 160,
     "TEATRO": 60,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
@@ -8873,9 +8884,9 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
+      "diario-el-centro": 13,
       "elmauleinforma": 25,
       "seremi-culturas": 18,
-      "diario-el-centro": 12,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
