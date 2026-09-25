@@ -55,7 +55,7 @@ import { Water } from 'three/addons/objects/Water.js'
     camera.lookAt(camTarget)
     renderer.domElement.addEventListener('webglcontextlost', onContextLost)
 
-    water = new THREE.Water(new THREE.PlaneGeometry(320, 320), {
+    water = new Water(new THREE.PlaneGeometry(320, 320), {
       textureWidth: 512,
       textureHeight: 512,
       waterNormals: makeNormalsTexture(),
