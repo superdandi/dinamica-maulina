@@ -32,12 +32,13 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
   let app = null
   const mouse = { x: 0, y: 0 }
   let camEntity = null
+  let glowEntity = null
 
   try {
-    const gfx = await pc.createGraphicsDevice(canvas, { antialias: true, powerPreference: 'high-performance' })
-    gfx.maxPixelRatio = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
-
-    app = new pc.Application(gfx)
+    app = new pc.Application(canvas, {
+      graphicsDeviceOptions: { antialias: true, powerPreference: 'high-performance' }
+    })
+    app.graphicsDevice.maxPixelRatio = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
     app.start()
 
     const root = app.root
@@ -59,27 +60,27 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
     const skyEntity = new pc.Entity('cielo')
     skyEntity.addComponent('render', { type: 'sphere' })
-    skyEntity.render.meshInstances[0].mesh = makeSphereMesh(gfx, 460)
-    skyEntity.render.meshInstances[0].material = makeSkyMaterial(gfx)
+    skyEntity.render.meshInstances[0].mesh = makeSphereMesh(app.graphicsDevice, 460)
+    skyEntity.render.meshInstances[0].material = makeSkyMaterial(app.graphicsDevice)
     root.addChild(skyEntity)
 
-    const glowEntity = new pc.Entity('sol-glow')
+    glowEntity = new pc.Entity('sol-glow')
     glowEntity.addComponent('render', { type: 'plane' })
-    glowEntity.render.meshInstances[0].material = makeGlowMaterial(gfx)
+    glowEntity.render.meshInstances[0].material = makeGlowMaterial(app.graphicsDevice)
     glowEntity.setLocalScale(110, 110, 1)
     root.addChild(glowEntity)
     alignGlow()
 
     const waterEntity = new pc.Entity('agua')
     waterEntity.addComponent('render', { type: 'plane' })
-    waterEntity.render.meshInstances[0].mesh = makePlaneMesh(gfx, 480, 96)
+    waterEntity.render.meshInstances[0].mesh = makePlaneMesh(app.graphicsDevice, 480, 96)
     root.addChild(waterEntity)
     waterEntity.addComponent('script')
     waterEntity.script.create(Water, {
       properties: {
         cameraEntity: camEntity,
         lightEntity: sunEntity,
-        normalMap: makeNormalsTexture(gfx),
+        normalMap: makeNormalsTexture(app.graphicsDevice),
         reflectionSource: 'planar',
         refraction: false,
         depthEffects: false,
@@ -125,7 +126,8 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     resize()
     watchSize()
     watchVisibility()
-  } catch (_e) {
+  } catch (e) {
+    console.error('hero-agua ERROR', e)
     if (hero) hero.classList.add('hero--sin-agua')
     try { if (app) app.stop() } catch (_) {}
   }
