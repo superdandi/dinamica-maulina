@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="hero hero--agua">
+<section class="hero hero--agua" data-agua="horizon">
   <canvas id="hero-agua" class="hero__canvas" aria-hidden="true"></canvas>
   <div class="hero__velo" aria-hidden="true"></div>
   <div class="hero__interior">
@@ -67,4 +67,14 @@
 {{ partial "map.html" . }}
 
 {{ partial "weather.html" . }}
+
+<script type="importmap">
+  {
+    "imports": {
+      "three": {{ "js/vendor/three.module.min.js" | relURL | jsonify }},
+      "three/addons/objects/Water.js": {{ "js/vendor/three/addons/objects/Water.js" | relURL | jsonify }}
+    }
+  }
+</script>
+<script type="module" src="{{ "js/hero-agua.js" | relURL }}"></script>
 {{ end }}

@@ -193,6 +193,7 @@ body[data-page="home"] .site-main { padding-top: 0; }
   justify-content: space-between;
   min-height: 88vh;
   min-height: 92svh;
+  background: linear-gradient(165deg, var(--rio-400) 0%, var(--rio-500) 46%, var(--vinedo-500) 150%);
 }
 @media (max-width: 640px) {
   .site-main .hero--agua { min-height: 70svh; }
@@ -205,7 +206,7 @@ body[data-page="home"] .site-main { padding-top: 0; }
   display: block;
 }
 .hero--agua.hero--sin-agua {
-  background: linear-gradient(165deg, var(--rio-400) 0%, var(--rio-500) 46%, var(--vinedo-500) 150%);
+  background: linear-gradient(180deg, var(--arena-100) 0%, var(--rio-400) 34%, var(--rio-500) 62%, var(--vinedo-500) 150%);
 }
 .hero--agua .hero__velo {
   position: absolute;
@@ -213,11 +214,11 @@ body[data-page="home"] .site-main { padding-top: 0; }
   pointer-events: none;
   background: linear-gradient(180deg,
     rgba(250, 246, 239, .10) 0%,
-    rgba(250, 246, 239, .05) 26%,
-    rgba(250, 246, 239, 0) 46%,
-    rgba(28, 25, 23, .08) 72%,
-    rgba(28, 25, 23, .16) 86%,
-    rgba(250, 246, 239, .12) 100%);
+    rgba(250, 246, 239, .22) 26%,
+    rgba(11, 54, 72, .16) 44%,
+    rgba(11, 54, 72, .28) 60%,
+    rgba(11, 54, 72, 0) 78%,
+    rgba(250, 246, 239, .08) 100%);
 }
 .hero--agua .hero__interior {
   position: relative;
