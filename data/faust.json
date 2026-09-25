@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-20T04:07:34.767Z",
+  "generatedAt": "2026-09-25T13:25:18.279Z",
   "items": [
+    {
+      "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
+      "title": "Ciclo de cine: “Ver para crecer: infancias en el cine chileno”",
+      "summary": "chileno” · En septiembre, cuatro películas chilenas exploran la infancia desde distintas · Miércoles experiencias: la familia, el desarraigo, las desigualdades sociales y el deseo de · libertad. Una mirada sobre las diversas formas de crecer y descubrir el mundo · desde sus propios protagonistas. · ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-09-28T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "30 de septiembre · 19:00",
+        "start": "2026-09-28T12:00:00.000Z"
+      }
+    },
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
       "title": "Charla “Del sueño de Wan Hu a Artemis II: 500 años de exploración espacial”",
@@ -66,6 +82,76 @@
       }
     },
     {
+      "id": "2026-09-24-nostalgia-gamer-y-clasicos-animados-llegan-al-trm-de-la-mano-de-golden-big-band",
+      "title": "Nostalgia gamer y clásicos animados llegan al TRM de la mano de Golden Big Band",
+      "summary": "La música que acompañó tardes frente al televisor y horas de aventuras frente a una consola llegará al escenario del Teatro Regional del Maule (TRM) con una nueva propuesta de la Golden Big Band. La agrupación presentará un concierto dedicado a reconocidas melodías de videojuegos y dibujos animados,",
+      "link": "https://elmauleinforma.cl/nostalgia-gamer-y-clasicos-animados-llegan-al-trm-de-la-mano-de-golden-big-band/",
+      "author": "Redacción El Maule Informa",
+      "category": "MUSICA",
+      "source": "elmauleinforma",
+      "date": "2026-09-24T22:00:56.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-24-culturas-aysen-recorre-escuelas-rurales-presentando-nueva-herramienta-pedagogica",
+      "title": "Culturas Aysén recorre escuelas rurales presentando nueva herramienta pedagógica",
+      "summary": "Cochrane, Puerto Guadal y Valle Simpson fueron las localidades seleccionadas para entregar los primeros ejemplares del Cuaderno de reflexión “La escuela como espacio cultural”, editado por el Ministerio de las Culturas, las Artes y el Patrimonio para apoyar el trabajo en el aula.",
+      "link": "https://www.cultura.gob.cl/actualidad/culturas-aysen-recorre-escuelas-rurales-presentando-nueva-herramienta-pedagogica/",
+      "author": "aysen",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-24T18:54:26.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-24-creador-de-caso-63-cautivo-a-estudiantes-y-comunidades-de-punta-arenas-y-porveni",
+      "title": "Creador de «Caso 63» cautivó a estudiantes y comunidades de Punta Arenas y Porvenir",
+      "summary": "El guionista y escritor Julio Rojas, protagonizó una gira literaria en la Región de Magallanes y de la Antártica Chilena, impulsada por el programa Diálogos en Movimiento de la Seremi de las Culturas, las Artes y el Patrimonio.",
+      "link": "https://www.cultura.gob.cl/plan-lectura/creador-de-caso-63-cautivo-a-estudiantes-y-comunidades-de-punta-arenas-y-porvenir/",
+      "author": "magallanes",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-24T16:49:12.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-24-ministro-de-las-culturas-encabeza-inauguracion-de-obras-de-ampliacion-en-el-cent",
+      "title": "Ministro de las Culturas encabeza inauguración de obras de ampliación en el Centro Cultural de San Antonio",
+      "summary": "El secretario de Estado, Francisco Undurraga, junto al alcalde Omar Vera y concejales de la comuna, recorrieron los nuevos espacios del recinto y conocieron las mejoras implementadas para fortalecer las condiciones en que se desarrollan las diversas actividades culturales que se realizan de manera p",
+      "link": "https://www.cultura.gob.cl/actualidad/ministro-de-las-culturas-encabeza-inauguracion-de-obras-de-ampliacion-en-centro-cultural-de-san-antonio/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-24T16:36:19.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-24-ministerio-de-las-culturas-celebrara-el-dia-de-la-musica-chilena-con-cecilia-la-",
+      "title": "Ministerio de las Culturas celebrará el Día de la Música Chilena con Cecilia “La incomparable” como protagonista",
+      "summary": "A partir de este año, la fecha instaurada en homenaje al natalicio de Violeta Parra, cada 4 de octubre, sumará además el reconocimiento a una figura destacada de la canción nacional. Por decisión del Consejo de Fomento de la Música Nacional, este año será la intérprete de “Baño de mar a medianoche”.",
+      "link": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-celebrara-el-dia-de-la-musica-chilena-con-cecilia-la-incomparable-como-protagonista/",
+      "author": "alecaros",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-09-24T14:04:41.000Z",
+      "image": "",
+      "event": {
+        "text": "4 de octubre",
+        "start": "2026-10-04T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-24-seminario-internacional-abordo-tecnologias-para-impulsar-suelos-vivos-y-agricult",
+      "title": "Seminario internacional abordó tecnologías para impulsar suelos vivos y agricultura sostenible en el Maule",
+      "summary": "Especialistas nacionales e internacionales analizaron en Linares estrategias de regeneración, biodiversidad y tecnología para fortalecer la agricultura sostenible. The post Seminario internacional abordó tecnologías para impulsar suelos vivos y agricultura sostenible en el Maule appeared first on Di",
+      "link": "https://www.diarioelcentro.cl/2026/09/24/seminario-internacional-abordo-tecnologias-para-impulsar-suelos-vivos-y-agricultura-sostenible-en-el-maule/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-09-24T12:00:00.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-09-24-taller-de-patchwork",
       "title": "Taller de Patchwork",
       "summary": "Invitamos a la comunidad a una jornada gratuita dedicada al Patchwork, técnica · que fomenta la creatividad y el reciclaje textil. Este taller es un espacio de · encuentro ideal para aprender desde cero o disfrutar del trabajo manual, por lo · que no se requiere experiencia previa ni inscripción. · ",
@@ -114,20 +200,304 @@
       }
     },
     {
-      "id": "2026-09-23-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
-      "title": "Ciclo de cine: “Ver para crecer: infancias en el cine chileno”",
-      "summary": "chileno” · En septiembre, cuatro películas chilenas exploran la infancia desde distintas · Miércoles experiencias: la familia, el desarraigo, las desigualdades sociales y el deseo de · libertad. Una mirada sobre las diversas formas de crecer y descubrir el mundo · desde sus propios protagonistas. · ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-23T12:00:00.000Z",
+      "id": "2026-09-24-lluvias-primaverales-podrian-danar-floracion-de-frutales-y-afectar-su-produccion",
+      "title": "Lluvias primaverales podrían dañar floración de frutales y afectar su producción en el Maule",
+      "summary": "El sistema frontal llegará durante la floración de diversos cultivos, con lluvias, viento y humedad que podrían afectar cerezas, manzanos y viñas en el Maule. The post Lluvias primaverales podrían dañar floración de frutales y afectar su producción en el Maule appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/09/23/lluvias-primaverales-podrian-danar-floracion-de-frutales-y-afectar-su-produccion-en-el-maule/",
+      "author": "Patricio Mora",
+      "category": "POESIA",
+      "source": "diario-el-centro",
+      "date": "2026-09-24T00:11:14.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-23-de-talca-a-recife-neuroblott-lleva-innovacion-escolar-al-escenario-internacional",
+      "title": "De Talca a Recife: NeuroBlott lleva innovación escolar al escenario internacional",
+      "summary": "Una iniciativa nacida en las aulas de Talca se prepara para llegar a un escenario internacional. Se trata de NeuroBlott, proyecto de investigación científica desarrollado desde 2025 por los estudiantes Óscar Riquelme del Pino y Emilia Vergara Zapata, del Colegio Andes de Talca. La propuesta fue reco",
+      "link": "https://elmauleinforma.cl/de-talca-a-recife-neuroblott-lleva-innovacion-escolar-al-escenario-internacional/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-09-23T23:00:47.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-23-plan-regional-de-artes-escenicas-se-despliega-en-las-nueve-comunas-de-atacama",
+      "title": "Plan Regional de Artes Escénicas se despliega en las nueve comunas de Atacama",
+      "summary": "La iniciativa impulsada por la Seremi de las Culturas, las Artes y el Patrimonio comienza este jueves en la Provincia del Huasco y articulará la circulación de obras y un proceso de formación especializada para fortalecer el desarrollo de las artes escénicas en la región.",
+      "link": "https://www.cultura.gob.cl/programas/plan-regional-de-artes-escenicas-se-despliega-en-las-nueve-comunas-de-atacama/",
+      "author": "atacama",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-23T18:15:10.000Z",
       "image": "",
       "event": {
-        "kind": "program",
-        "text": "23, 30 de septiembre · 19:00",
-        "start": "2026-09-23T12:00:00.000Z"
+        "text": "este jueves",
+        "start": "2026-10-01T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-23-organizaciones-de-la-sociedad-civil-constituyen-primer-cosoc-del-patrimonio-en-l",
+      "title": "Organizaciones de la sociedad civil constituyen primer COSOC del Patrimonio en la Región de O’Higgins",
+      "summary": "Instancia de participación ciudadana permitirá fortalecer la gestión pública del patrimonio en las tres provincias de O’Higgins.",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/organizaciones-de-la-sociedad-civil-constituyen-primer-cosoc-del-patrimonio-en-la-region-de-ohiggins/",
+      "author": "ohiggins",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-23T18:11:41.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-23-atacama-reune-a-artistas-regionales-y-nacionales-en-el-encuentro-nacional-de-art",
+      "title": "Atacama reúne a artistas regionales y nacionales en el Encuentro Nacional de Artes Visuales",
+      "summary": "La iniciativa se desarrollará del 24 al 26 de septiembre con exposiciones, talleres, conversatorios, mediaciones y una feria de exhibición, generando un espacio de creación, formación y reflexión en torno al territorio.",
+      "link": "https://www.cultura.gob.cl/programas/atacama-reune-a-artistas-regionales-y-nacionales-en-el-encuentro-nacional-de-artes-visuales/",
+      "author": "atacama",
+      "category": "ARTES_VISUALES",
+      "source": "seremi-culturas",
+      "date": "2026-09-23T18:04:44.000Z",
+      "image": "",
+      "event": {
+        "text": "al 26 de septiembre",
+        "start": "2026-09-26T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-23-ministro-de-las-culturas-encabeza-despedida-a-la-delegacion-chilena-que-particip",
+      "title": "Ministro de las Culturas encabeza despedida a la delegación chilena que participará en la Feria del Libro de Frankfurt 2026",
+      "summary": "El encuentro literario se desarrollará del 7 al 11 de octubre en la ciudad alemana. La comitiva nacional estará compuesta por 13 autores, 36 editoriales y agencias, y seis traductoras invitadas. Todos ellos participan de esta delegación, la última antes de que Chile se convierta en País Invitado de ",
+      "link": "https://www.cultura.gob.cl/actualidad/ministro-de-las-culturas-encabeza-despedida-a-la-delegacion-chilena-que-participara-en-la-feria-del-libro-de-frankfurt-2026/",
+      "author": "alecaros",
+      "category": "LITERATURA",
+      "source": "seremi-culturas",
+      "date": "2026-09-23T18:02:49.000Z",
+      "image": "",
+      "event": {
+        "text": "al 11 de octubre",
+        "start": "2026-10-11T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-23-musica-gastronomia-y-folclore-molina-reunio-a-mas-de-30-mil-personas-en-su-fiest",
+      "title": "Música, gastronomía y folclore: Molina reunió a más de 30 mil personas en su Fiesta de la Chilenidad",
+      "summary": "Artistas nacionales, agrupaciones locales, emprendimientos y tradiciones marcaron el encuentro, que además destacó por su programación familiar y coordinación en seguridad. The post Música, gastronomía y folclore: Molina reunió a más de 30 mil personas en su Fiesta de la Chilenidad appeared first on",
+      "link": "https://www.diarioelcentro.cl/2026/09/23/musica-gastronomia-y-folclore-molina-reunio-a-mas-de-30-mil-personas-en-su-fiesta-de-la-chilenidad/",
+      "author": "Diario El Centro Prensa",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-09-23T15:29:47.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-23-fundacion-las-rosas-busca-voluntarios-para-su-colecta-de-octubre",
+      "title": "Fundación Las Rosas busca voluntarios para su colecta de octubre",
+      "summary": "Octubre es el Mes de las Personas Mayores, tiempo en el que Fundación Las Rosas realizará su tradicional “Colecta Nacional”, los días 16, 17 y 18. La institución de ayuda fraterna busca sumar miles de voluntarios a lo largo del país, para así apoyar el cuidado de más de 2.300 residentes, en 28 Hogar",
+      "link": "https://elmauleinforma.cl/fundacion-las-rosas-busca-voluntarios-para-su-colecta-de-octubre/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-23T01:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-22-tragedia-ambiental-en-el-maule-denuncian-penalmente-la-muerte-de-57-pinguinos-en",
+      "title": "Tragedia ambiental en el Maule: Denuncian penalmente la muerte de 57 pingüinos en costa de Chanco, Pelluhue y Curepto",
+      "summary": "TALCA.– La Dirección Regional del Maule del Servicio Nacional de Pesca y Acuicultura (Sernapesca) interpuso una denuncia criminal por el delito de maltrato o crueldad animal, tras el alarmante hallazgo de 57 pingüinos muertos en diversos puntos de la costa maulina. La acción judicial busca esclarece",
+      "link": "https://elmauleinforma.cl/tragedia-ambiental-en-el-maule-denuncian-penalmente-la-muerte-de-57-pinguinos-en-costa-de-chanco-pelluhue-y-curepto/",
+      "author": "Redacción El Maule Informa",
+      "category": "POESIA",
+      "source": "elmauleinforma",
+      "date": "2026-09-22T22:30:18.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-22-refuerzan-el-control-de-plaguicidas-y-proteccion-de-colmenas-en-el-maule",
+      "title": "Refuerzan el control de plaguicidas y protección de colmenas en el Maule",
+      "summary": "Este martes el seremi de Agricultura, Alejandro Muñoz, junto a la directora regional (s) del SAG, Carolina Imbert, acompañaron una fiscalización en el predio agrícola, perteneciente al Grupo Agrícola Sela, ubicado en la comuna de Talca, a fin de verificar el correcto uso y almacenamiento de plaguici",
+      "link": "https://elmauleinforma.cl/refuerzan-el-control-de-plaguicidas-y-proteccion-de-colmenas-en-el-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-22T22:00:48.000Z",
+      "image": "",
+      "event": {
+        "text": "este martes",
+        "start": "2026-09-29T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-22-masiva-jornada-cultural-gratuita-este-sabado-en-maule-con-poesia-musica-y-teatro",
+      "title": "Masiva jornada cultural gratuita este sábado en Maule con poesía, música y teatro familiar",
+      "summary": "La comuna de Maule se prepara para vivir una gran fiesta cultural este mes de septiembre con la presentación de la segunda versión del Festival Literario Pasadas pa’ la Pluma. La cita cultural se llevará a cabo el próximo sábado 26 de septiembre, a contar de las 15:00 horas, en el Anfiteatro de Maul",
+      "link": "https://elmauleinforma.cl/masiva-jornada-cultural-gratuita-este-sabado-en-maule-con-poesia-musica-y-teatro-familiar/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-22T21:00:55.000Z",
+      "image": "",
+      "event": {
+        "text": "26 de septiembre",
+        "start": "2026-09-26T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-22-laboratorio-de-escritura-autobiografica-fortalece-la-memoria-y-el-legado-de-pers",
+      "title": "Laboratorio de escritura autobiográfica fortalece la memoria y el legado de personas mayores",
+      "summary": "La iniciativa impulsada por la Seremi de las Culturas y SENAMA permitió que 20 participantes de Temuco desarrollaran relatos autobiográficos que ponen en valor sus experiencias de vida y contribuyen a preservar su legado para las nuevas generaciones.",
+      "link": "https://www.cultura.gob.cl/plan-lectura/laboratorio-de-escritura-autobiografica-fortalece-la-memoria-y-el-legado-de-personas-mayores/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-22T12:04:48.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-21-21-sumarios-sanitarios-y-4-prohibiciones-de-funcionamiento-dejaron-fiscalizacion",
+      "title": "21 sumarios sanitarios y 4 prohibiciones de funcionamiento dejaron fiscalizaciones de Seremi de Salud del Maule",
+      "summary": "Con un despliegue sanitario en terreno en las distintas comunas de la Región del Maule, la Secretaría Regional Ministerial de Salud realizó el balance de las fiscalizaciones desarrolladas durante el período de Fiestas Patrias 2026. En total, los equipos de la autoridad sanitaria realizaron 945 fisca",
+      "link": "https://elmauleinforma.cl/21-sumarios-sanitarios-y-4-prohibiciones-de-funcionamiento-dejaron-fiscalizaciones-de-seremi-de-salud-del-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-21T23:00:14.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-21-nueva-fiesta-del-mountain-bike-en-los-cristales",
+      "title": "Nueva fiesta del mountain bike en Los Cristales",
+      "summary": "Este domingo 18 de octubre, la localidad de Los Cristales, comuna de Pencahue, será escenario de la 4ª edición del “Rally MTB Los Cristales”, una de las competencias de ciclismo de montaña más atractivas de la zona centro-sur de Chile. Consolidado como un desafío esperado por destacados riders de to",
+      "link": "https://elmauleinforma.cl/nueva-fiesta-del-mountain-bike-en-los-cristales/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-09-21T19:11:58.000Z",
+      "image": "",
+      "event": {
+        "text": "18 de octubre",
+        "start": "2026-10-18T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-21-seremi-de-las-culturas-invita-a-ser-parte-de-encuesta-para-artistas-y-gestores-c",
+      "title": "Seremi de las Culturas invita a ser parte de encuesta para artistas y gestores culturales migrantes en Antofagasta",
+      "summary": "Iniciativa busca mapear a cultores migrantes de las nueve comunas de la región y culminará con un catálogo digital y talleres de formación.",
+      "link": "https://www.cultura.gob.cl/actualidad/seremi-de-las-culturas-invita-a-ser-parte-de-encuesta-para-artistas-y-gestores-culturales-migrantes-en-antofagasta/",
+      "author": "antofagasta",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-21T16:55:57.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-21-trafkintu-en-lawan-fortalecio-vinculo-intergeneracional-entre-estudiantes-y-pers",
+      "title": "Trafkintu en Lawan fortaleció vínculo intergeneracional entre estudiantes y personas mayores",
+      "summary": "Evento organizado por el Punto de Cultura Comunitaria Fundación Ngen Lemu tuvo como invitados al Colegio María Reina de Purulón y la Agrupación de Adultos Mayores Brisas del Mar de Mehuín.",
+      "link": "https://www.cultura.gob.cl/actualidad/trafkintu-en-lawan-fortalecio-vinculo-intergeneracional-entre-estudiantes-y-personas-mayores/",
+      "author": "losrios",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-21T15:20:13.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-21-nuble-realizara-su-cuarto-seminario-regional-de-fomento-lector-dedicado-a-los-mi",
+      "title": "Ñuble realizará su cuarto Seminario Regional de Fomento Lector, dedicado a los mitos y leyendas de Chile",
+      "summary": "La jornada se desarrollará el miércoles 30 de septiembre en el Centro Cultural Municipal de Chillán y reunirá a escritores, narradores orales, mediadores de lectura y representantes del Plan Nacional de la Lectura.",
+      "link": "https://www.cultura.gob.cl/agendacultural/nuble-realizara-su-cuarto-seminario-regional-de-fomento-lector-dedicado-a-los-mitos-y-leyendas-de-chile/",
+      "author": "nuble1",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-21T14:30:49.000Z",
+      "image": "",
+      "event": {
+        "text": "30 de septiembre",
+        "start": "2026-09-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-20-balance-positivo-fiesta-de-la-chilenidad-de-talca-culmina-con-buena-recepcion-de",
+      "title": "Balance positivo: Fiesta de la Chilenidad de Talca culmina con buena recepción de emprendedores y público asistente",
+      "summary": "La lluvia no fue impedimento, con una masiva concurrencia de público y un balance positivo en materia económica y de seguridad, la tradicional Fiesta de la Chilenidad de Talca 2026 vive sus últimas horas en la explanada del Parque Río Claro, evento organizado por la Ilustre Municipalidad de Talca, y",
+      "link": "https://elmauleinforma.cl/balance-positivo-fiesta-de-la-chilenidad-de-talca-culmina-con-buena-recepcion-de-emprendedores-y-publico-asistente/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-20T19:25:29.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-20-entrenadora-de-talca-lanza-aplicacion-de-ejercicios-para-enfrentar-excesos-de-fi",
+      "title": "Entrenadora de Talca lanza aplicación de ejercicios para enfrentar excesos de Fiestas Patrias",
+      "summary": "Además de los gratos recuerdos en torno a la buena mesa y los pies de cueca, las Fiestas Patrias suelen dejar consecuencias en la balanza: el casi inevitable aumento de peso después de varios días cargados de empanadas, asados y bebidas de alto aporte calórico. Especialistas sostienen que el consumo",
+      "link": "https://elmauleinforma.cl/entrenadora-de-talca-lanza-aplicacion-de-ejercicios-para-enfrentar-excesos-de-fiestas-patrias/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-20T13:42:56.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-20-fundacion-educacional-coanil-reune-a-escuelas-especiales-del-maule-para-abordar-",
+      "title": "Fundación Educacional Coanil reúne a escuelas especiales del Maule para abordar desafíos en calidad y financiamiento",
+      "summary": "Con el objetivo de abordar de manera conjunta los principales desafíos que enfrenta actualmente la educación especial en el Maule, representantes de casi una decena de establecimientos de la región se reunieron en una cita convocada por Fundación Educacional Coanil. El encuentro se realizó en la Esc",
+      "link": "https://elmauleinforma.cl/fundacion-educacional-coanil-reune-a-escuelas-especiales-del-maule-para-abordar-desafios-en-calidad-y-financiamiento/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-20T13:00:24.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-20-armada-advierte-posible-formacion-de-trombas-marinas-en-el-maule-durante-la-madr",
+      "title": "Armada advierte posible formación de trombas marinas en el Maule durante la madrugada y mañana de este domingo",
+      "summary": "La Armada emitió un aviso preventivo por la posible formación de trombas marinas entre el Maule y Los Ríos durante la madrugada y mañana del domingo. The post Armada advierte posible formación de trombas marinas en el Maule durante la madrugada y mañana de este domingo appeared first on Diario El Ce",
+      "link": "https://www.diarioelcentro.cl/2026/09/20/armada-advierte-posible-formacion-de-trombas-marinas-en-el-maule-durante-la-madrugada-y-manana-de-este-domingo/",
+      "author": "Yasmín Gómez",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-09-20T11:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "este domingo",
+        "start": "2026-09-27T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-19-equinoccio-de-primavera-especialistas-aclaran-que-es-verdad-y-que-es-mito",
+      "title": "Equinoccio de primavera: especialistas aclaran qué es verdad y qué es mito",
+      "summary": "Este martes 22 de septiembre de 2026, exactamente a las 21:05 horas, comienza oficialmente la primavera astronómica en Chile. Para muchas personas, el cambio de estación se asocia a variaciones en el ánimo y la energía, a días más largos y luminosos e incluso a rituales vinculados con su significado",
+      "link": "https://elmauleinforma.cl/equinoccio-de-primavera-especialistas-aclaran-que-es-verdad-y-que-es-mito/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-19T21:00:29.000Z",
+      "image": "",
+      "event": {
+        "text": "22 de septiembre",
+        "start": "2026-09-22T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-19-utalca-realiza-terapias-inteligentes-para-adultos-mayores-con-parkinson",
+      "title": "UTalca realiza terapias inteligentes para adultos mayores con Parkinson",
+      "summary": "“Tech en salud para adultos mayores con enfermedades crónicas”, es el nombre del proyecto que ejecuta el Laboratorio de Control Humano de la Universidad de Talca y que busca integrar el telemonitoreo, la telerehabilitación e inteligencia artificial para prevenir descompensaciones y apoyar la toma de",
+      "link": "https://elmauleinforma.cl/utalca-realiza-terapias-inteligentes-para-adultos-mayores-con-parkinson/",
+      "author": "Redacción El Maule Informa",
+      "category": "LITERATURA",
+      "source": "elmauleinforma",
+      "date": "2026-09-19T19:00:55.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-19-funcionarios-del-hospital-de-curico-realizan-sanar-con-zapateo-a-pacientes-y-fam",
+      "title": "Funcionarios del Hospital de Curicó realizan “sanar con zapateo” a pacientes y familiares de hospitalizados",
+      "summary": "Fiestas Patrias es una fecha especial para nuestro país y es por este motivo que desde el Hospital de Curicó, sus propios funcionarios desarrollaron el espacio “sanar con Zapateo”, lo que consiste en bailar cueca y cantar junto a los pacientes hospitalizados y sus familias. Luis Fuentes Toloza enfer",
+      "link": "https://elmauleinforma.cl/funcionarios-del-hospital-de-curico-realizan-sanar-con-zapateo-a-pacientes-y-familiares-de-hospitalizados/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-19T17:00:42.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-19-glorias-del-ejercito-el-origen-de-la-tradicional-parada-militar",
@@ -8646,15 +9016,15 @@
     }
   ],
   "counts": {
-    "POESIA": 104,
-    "LITERATURA": 37,
-    "MUSICA": 159,
-    "TEATRO": 59,
-    "ARTES_VISUALES": 87,
+    "POESIA": 106,
+    "LITERATURA": 39,
+    "MUSICA": 162,
+    "TEATRO": 61,
+    "ARTES_VISUALES": 88,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 131,
+    "PATRIMONIO": 150,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 57,
+    "CINE_MEDIOS": 58,
     "TERRITORIO": 66
   },
   "feedStats": {
@@ -8662,9 +9032,9 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "diario-el-centro": 11,
-      "seremi-culturas": 14,
-      "elmauleinforma": 13,
+      "elmauleinforma": 27,
+      "seremi-culturas": 26,
+      "diario-el-centro": 15,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
