@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T04:08:35.911Z",
+  "generatedAt": "2026-09-25T13:25:18.279Z",
   "items": [
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
@@ -80,6 +80,50 @@
         "text": "25 de septiembre (Viernes) · 19:00",
         "start": "2026-09-25T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-24-nostalgia-gamer-y-clasicos-animados-llegan-al-trm-de-la-mano-de-golden-big-band",
+      "title": "Nostalgia gamer y clásicos animados llegan al TRM de la mano de Golden Big Band",
+      "summary": "La música que acompañó tardes frente al televisor y horas de aventuras frente a una consola llegará al escenario del Teatro Regional del Maule (TRM) con una nueva propuesta de la Golden Big Band. La agrupación presentará un concierto dedicado a reconocidas melodías de videojuegos y dibujos animados,",
+      "link": "https://elmauleinforma.cl/nostalgia-gamer-y-clasicos-animados-llegan-al-trm-de-la-mano-de-golden-big-band/",
+      "author": "Redacción El Maule Informa",
+      "category": "MUSICA",
+      "source": "elmauleinforma",
+      "date": "2026-09-24T22:00:56.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-24-culturas-aysen-recorre-escuelas-rurales-presentando-nueva-herramienta-pedagogica",
+      "title": "Culturas Aysén recorre escuelas rurales presentando nueva herramienta pedagógica",
+      "summary": "Cochrane, Puerto Guadal y Valle Simpson fueron las localidades seleccionadas para entregar los primeros ejemplares del Cuaderno de reflexión “La escuela como espacio cultural”, editado por el Ministerio de las Culturas, las Artes y el Patrimonio para apoyar el trabajo en el aula.",
+      "link": "https://www.cultura.gob.cl/actualidad/culturas-aysen-recorre-escuelas-rurales-presentando-nueva-herramienta-pedagogica/",
+      "author": "aysen",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-24T18:54:26.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-24-creador-de-caso-63-cautivo-a-estudiantes-y-comunidades-de-punta-arenas-y-porveni",
+      "title": "Creador de «Caso 63» cautivó a estudiantes y comunidades de Punta Arenas y Porvenir",
+      "summary": "El guionista y escritor Julio Rojas, protagonizó una gira literaria en la Región de Magallanes y de la Antártica Chilena, impulsada por el programa Diálogos en Movimiento de la Seremi de las Culturas, las Artes y el Patrimonio.",
+      "link": "https://www.cultura.gob.cl/plan-lectura/creador-de-caso-63-cautivo-a-estudiantes-y-comunidades-de-punta-arenas-y-porvenir/",
+      "author": "magallanes",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-24T16:49:12.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-24-ministro-de-las-culturas-encabeza-inauguracion-de-obras-de-ampliacion-en-el-cent",
+      "title": "Ministro de las Culturas encabeza inauguración de obras de ampliación en el Centro Cultural de San Antonio",
+      "summary": "El secretario de Estado, Francisco Undurraga, junto al alcalde Omar Vera y concejales de la comuna, recorrieron los nuevos espacios del recinto y conocieron las mejoras implementadas para fortalecer las condiciones en que se desarrollan las diversas actividades culturales que se realizan de manera p",
+      "link": "https://www.cultura.gob.cl/actualidad/ministro-de-las-culturas-encabeza-inauguracion-de-obras-de-ampliacion-en-centro-cultural-de-san-antonio/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-24T16:36:19.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-24-ministerio-de-las-culturas-celebrara-el-dia-de-la-musica-chilena-con-cecilia-la-",
@@ -8974,23 +9018,23 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 39,
-    "MUSICA": 161,
+    "MUSICA": 162,
     "TEATRO": 61,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 147,
+    "PATRIMONIO": 150,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 58,
     "TERRITORIO": 66
   },
   "feedStats": {
     "sources": 54,
-    "alive": 46,
+    "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "seremi-culturas": 23,
+      "elmauleinforma": 27,
+      "seremi-culturas": 26,
       "diario-el-centro": 15,
-      "elmauleinforma": 26,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
@@ -9535,7 +9579,7 @@
       "feed": "https://elmauleinforma.cl/feed/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": true
     },
     {
