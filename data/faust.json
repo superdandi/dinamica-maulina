@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-24T13:24:33.797Z",
+  "generatedAt": "2026-09-25T04:08:35.911Z",
   "items": [
+    {
+      "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
+      "title": "Ciclo de cine: “Ver para crecer: infancias en el cine chileno”",
+      "summary": "chileno” · En septiembre, cuatro películas chilenas exploran la infancia desde distintas · Miércoles experiencias: la familia, el desarraigo, las desigualdades sociales y el deseo de · libertad. Una mirada sobre las diversas formas de crecer y descubrir el mundo · desde sus propios protagonistas. · ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-09-28T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "30 de septiembre · 19:00",
+        "start": "2026-09-28T12:00:00.000Z"
+      }
+    },
     {
       "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
       "title": "Charla “Del sueño de Wan Hu a Artemis II: 500 años de exploración espacial”",
@@ -64,6 +80,32 @@
         "text": "25 de septiembre (Viernes) · 19:00",
         "start": "2026-09-25T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-24-ministerio-de-las-culturas-celebrara-el-dia-de-la-musica-chilena-con-cecilia-la-",
+      "title": "Ministerio de las Culturas celebrará el Día de la Música Chilena con Cecilia “La incomparable” como protagonista",
+      "summary": "A partir de este año, la fecha instaurada en homenaje al natalicio de Violeta Parra, cada 4 de octubre, sumará además el reconocimiento a una figura destacada de la canción nacional. Por decisión del Consejo de Fomento de la Música Nacional, este año será la intérprete de “Baño de mar a medianoche”.",
+      "link": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-celebrara-el-dia-de-la-musica-chilena-con-cecilia-la-incomparable-como-protagonista/",
+      "author": "alecaros",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-09-24T14:04:41.000Z",
+      "image": "",
+      "event": {
+        "text": "4 de octubre",
+        "start": "2026-10-04T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-24-seminario-internacional-abordo-tecnologias-para-impulsar-suelos-vivos-y-agricult",
+      "title": "Seminario internacional abordó tecnologías para impulsar suelos vivos y agricultura sostenible en el Maule",
+      "summary": "Especialistas nacionales e internacionales analizaron en Linares estrategias de regeneración, biodiversidad y tecnología para fortalecer la agricultura sostenible. The post Seminario internacional abordó tecnologías para impulsar suelos vivos y agricultura sostenible en el Maule appeared first on Di",
+      "link": "https://www.diarioelcentro.cl/2026/09/24/seminario-internacional-abordo-tecnologias-para-impulsar-suelos-vivos-y-agricultura-sostenible-en-el-maule/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-09-24T12:00:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-24-taller-de-patchwork",
@@ -147,7 +189,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-09-24T12:00:00.000Z"
+        "start": "2026-10-01T12:00:00.000Z"
       }
     },
     {
@@ -201,22 +243,6 @@
       "source": "diario-el-centro",
       "date": "2026-09-23T15:29:47.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-09-23-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
-      "title": "Ciclo de cine: “Ver para crecer: infancias en el cine chileno”",
-      "summary": "chileno” · En septiembre, cuatro películas chilenas exploran la infancia desde distintas · Miércoles experiencias: la familia, el desarraigo, las desigualdades sociales y el deseo de · libertad. Una mirada sobre las diversas formas de crecer y descubrir el mundo · desde sus propios protagonistas. · ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-23T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "23, 30 de septiembre · 19:00",
-        "start": "2026-09-23T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-09-23-fundacion-las-rosas-busca-voluntarios-para-su-colecta-de-octubre",
@@ -8948,23 +8974,23 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 39,
-    "MUSICA": 160,
+    "MUSICA": 161,
     "TEATRO": 61,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 146,
+    "PATRIMONIO": 147,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 58,
     "TERRITORIO": 66
   },
   "feedStats": {
     "sources": 54,
-    "alive": 47,
+    "alive": 46,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "diario-el-centro": 14,
+      "seremi-culturas": 23,
+      "diario-el-centro": 15,
       "elmauleinforma": 26,
-      "seremi-culturas": 22,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
@@ -9509,7 +9535,7 @@
       "feed": "https://elmauleinforma.cl/feed/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": true
     },
     {
