@@ -1,7 +1,7 @@
-import * as THREE from 'three'
-import { Water } from 'three/addons/objects/Water.js'
+import * as pc from 'playcanvas'
+import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
-;(() => {
+;(async () => {
   const canvas = document.getElementById('hero-agua')
   const hero = canvas ? canvas.parentElement : null
   if (!canvas || !hero) return
@@ -10,111 +10,141 @@ import { Water } from 'three/addons/objects/Water.js'
   const coarse = window.matchMedia && window.matchMedia('(pointer: coarse)').matches
   const composition = (hero.dataset.agua || 'horizon') === 'agua' ? 'agua' : 'horizon'
 
-  if (reduce || !supportsWebGL()) {
+  const CONFIG = composition === 'agua'
+    ? { camPos: [0, 10, 6.5], camTarget: [0, 0.6, -12], waveAmplitude: 0.14, waveLength: 10, waveSteepness: 0.45, swellAmplitude: 0.22 }
+    : { camPos: [0, 1.7, 11], camTarget: [0, 1.3, -22], waveAmplitude: 0.09, waveLength: 9, waveSteepness: 0.35, swellAmplitude: 0.16 }
+
+  const CIELO = [
+    [0.992, 0.969, 0.937],
+    [0.984, 0.949, 0.886],
+    [0.976, 0.925, 0.784],
+    [0.816, 0.882, 0.867],
+    [0.45, 0.66, 0.72],
+    [0.122, 0.431, 0.549]
+  ]
+  const SUN_DIR = [0.42, 0.55, 0.72]
+
+  if (reduce || !supportsWebGL2()) {
     hero.classList.add('hero--sin-agua')
     return
   }
 
-  const PALETA = {
-    sol: 0xfff6e8,
-    agua: 0x14556c,
-    nadir: 0x1f6e8c
-  }
-  const CIELO_CSS = ['#fdf7ee', '#f7ebd6', '#f2e6cf', '#bfd9dd', '#5f92a3', '#1f6e8c']
-  const SOL_CSS_FULL = 'rgba(255,250,240,1)'
-  const SOL_CSS_SOFT = 'rgba(255,246,232,.85)'
-  const SOL_CSS_CLEAR = 'rgba(255,246,232,0)'
-
-  const camPos = new THREE.Vector3(0, composition ? 8.5 : 1.7, composition ? 5.0 : 9.0)
-  const camTarget = new THREE.Vector3(0, composition ? 0 : 1.2, -18)
-  const sunDir = new THREE.Vector3(0.5, 0.52, 0.69).normalize()
-
-  let renderer = null
-  let scene = null
-  let camera = null
-  let water = null
-  let sun = null
-  let running = false
-  let rafId = 0
-  let tPrev = performance.now()
+  let app = null
   const mouse = { x: 0, y: 0 }
+  let camEntity = null
 
-  boot()
+  try {
+    const gfx = await pc.createGraphicsDevice(canvas, { antialias: true, powerPreference: 'high-performance' })
+    gfx.maxPixelRatio = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
 
-  function boot() {
-    const dpr = Math.min(coarse ? 1.25 : 1.5, window.devicePixelRatio || 1)
-    renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' })
-    renderer.setPixelRatio(dpr)
-    renderer.setClearColor(PALETA.nadir, 1)
+    app = new pc.Application(gfx)
+    app.start()
 
-    scene = new THREE.Scene()
-    scene.background = makeSkyTexture()
+    const root = app.root
 
-    camera = new THREE.PerspectiveCamera(composition ? 55 : 62, 1, 0.1, 800)
-    camera.position.copy(camPos)
-    camera.lookAt(camTarget)
-    renderer.domElement.addEventListener('webglcontextlost', onContextLost)
+    camEntity = new pc.Entity('cam')
+    camEntity.addComponent('camera', { clearColor: rgb(CIELO[5]), farClip: 1200, nearClip: 0.1 })
+    camEntity.setPosition(...CONFIG.camPos)
+    camEntity.lookAt(...CONFIG.camTarget)
+    root.addChild(camEntity)
 
-    water = new Water(new THREE.PlaneGeometry(320, 320), {
-      textureWidth: 512,
-      textureHeight: 512,
-      waterNormals: makeNormalsTexture(),
-      sunDirection: sunDir.clone(),
-      sunColor: PALETA.sol,
-      waterColor: PALETA.agua,
-      distortionScale: composition ? 5.0 : 3.6,
-      fog: false
+    const sunEntity = new pc.Entity('sol')
+    sunEntity.addComponent('light', {
+      type: 'directional',
+      color: new pc.Color(1, 0.96, 0.88),
+      intensity: 1.3
     })
-    water.rotation.x = -Math.PI / 2
-    scene.add(water)
+    sunEntity.lookAt(SUN_DIR[0] * 10, SUN_DIR[1] * 10, SUN_DIR[2] * 10)
+    root.addChild(sunEntity)
 
-    sun = new THREE.Mesh(
-      new THREE.CircleGeometry(composition ? 6 : 7, 32),
-      new THREE.MeshBasicMaterial({ map: makeGlowTexture(), transparent: true, depthWrite: false, color: PALETA.sol })
-    )
-    sun.position.copy(camPos.clone().addScaledVector(sunDir, 320))
-    sun.lookAt(camPos)
-    scene.add(sun)
+    const skyEntity = new pc.Entity('cielo')
+    skyEntity.addComponent('render', { type: 'sphere' })
+    skyEntity.render.meshInstances[0].mesh = makeSphereMesh(gfx, 460)
+    skyEntity.render.meshInstances[0].material = makeSkyMaterial(gfx)
+    root.addChild(skyEntity)
 
+    const glowEntity = new pc.Entity('sol-glow')
+    glowEntity.addComponent('render', { type: 'plane' })
+    glowEntity.render.meshInstances[0].material = makeGlowMaterial(gfx)
+    glowEntity.setLocalScale(110, 110, 1)
+    root.addChild(glowEntity)
+    alignGlow()
+
+    const waterEntity = new pc.Entity('agua')
+    waterEntity.addComponent('render', { type: 'plane' })
+    waterEntity.render.meshInstances[0].mesh = makePlaneMesh(gfx, 480, 96)
+    root.addChild(waterEntity)
+    waterEntity.addComponent('script')
+    waterEntity.script.create(Water, {
+      properties: {
+        cameraEntity: camEntity,
+        lightEntity: sunEntity,
+        normalMap: makeNormalsTexture(gfx),
+        reflectionSource: 'planar',
+        refraction: false,
+        depthEffects: false,
+        foam: false,
+        skyBlur: 0.5,
+        waves: true,
+        waveAmplitude: CONFIG.waveAmplitude,
+        waveLength: CONFIG.waveLength,
+        waveSpeed: 1.1,
+        waveSteepness: CONFIG.waveSteepness,
+        waveDirection: 18,
+        swellAmplitude: CONFIG.swellAmplitude,
+        swellLength: 34,
+        swellSpeed: 1,
+        swellDirection: 28,
+        shallowColor: new pc.Color(0.16, 0.48, 0.58),
+        deepColor: new pc.Color(0.04, 0.16, 0.26),
+        rippleTiling: 0.11,
+        rippleSpeed: 0.05,
+        bumpiness: 0.5,
+        distortion: 0.03,
+        fresnelPower: 5,
+        reflectionStrength: 1,
+        specularPower: 512,
+        specularIntensity: 1.7,
+        diffuseIntensity: 0.5
+      }
+    })
+
+    app.on('update', () => {
+      const sx = mouse.x * 0.5
+      const sy = mouse.y * 0.16 * (composition === 'agua' ? 0 : 1)
+      camEntity.lookAt(CONFIG.camTarget[0] + sx, CONFIG.camTarget[1] + sy, CONFIG.camTarget[2])
+      alignGlow()
+    })
+
+    window.addEventListener('pointermove', (e) => {
+      mouse.x = (e.clientX / window.innerWidth) * 2 - 1
+      mouse.y = (e.clientY / window.innerHeight) * 2 - 1
+    }, { passive: true })
+
+    canvas.addEventListener('webglcontextlost', onContextLost)
     resize()
     watchSize()
     watchVisibility()
-    window.addEventListener('pointermove', onPointer, { passive: true })
-
-    running = true
-    loop()
+  } catch (_e) {
+    if (hero) hero.classList.add('hero--sin-agua')
+    try { if (app) app.stop() } catch (_) {}
   }
 
-  function loop() {
-    rafId = requestAnimationFrame(loop)
-    if (!running || !renderer || !water) return
-    const now = performance.now()
-    const dt = Math.min((now - tPrev) / 1000, 0.05)
-    tPrev = now
-    water.material.uniforms['time'].value += dt
-
-    const px = camPos.x + mouse.x * 0.5
-    const py = camPos.y + mouse.y * 0.12 * (composition ? 0 : 1)
-    camera.position.x += (px - camera.position.x) * 0.05
-    camera.position.y += (py - camera.position.y) * 0.05
-    camera.position.z += (camPos.z - camera.position.z) * 0.05
-    camera.lookAt(camTarget)
-
-    renderer.render(scene, camera)
+  function alignGlow() {
+    if (!glowEntity || !camEntity) return
+    glowEntity.setPosition(0 + SUN_DIR[0] * 480, SUN_DIR[1] * 480, SUN_DIR[2] * 480)
+    glowEntity.lookAt(camEntity.getPosition())
   }
 
-  function onPointer(e) {
-    mouse.x = (e.clientX / window.innerWidth) * 2 - 1
-    mouse.y = (e.clientY / window.innerHeight) * 2 - 1
+  function onContextLost(e) {
+    e.preventDefault()
+    try { if (app) app.stop() } catch (_) {}
+    hero.classList.add('hero--sin-agua')
   }
 
   function resize() {
-    if (!renderer || !camera) return
-    const w = hero.clientWidth
-    const h = hero.clientHeight
-    renderer.setSize(w, h, false)
-    camera.aspect = w / h
-    camera.updateProjectionMatrix()
+    if (!app) return
+    app.resizeCanvas()
   }
 
   function watchSize() {
@@ -129,115 +159,218 @@ import { Water } from 'three/addons/objects/Water.js'
   function watchVisibility() {
     if ('IntersectionObserver' in window) {
       const io = new IntersectionObserver((entries) => {
-        for (const en of entries) running = en.isIntersecting
+        for (const en of entries) setRunning(en.isIntersecting)
       }, { threshold: 0.05 })
       io.observe(hero)
     }
     document.addEventListener('visibilitychange', () => {
-      running = document.visibilityState === 'visible'
+      setRunning(document.visibilityState === 'visible')
     })
   }
 
-  function onContextLost(e) {
-    e.preventDefault()
-    running = false
-    cancelAnimationFrame(rafId)
-    hero.classList.add('hero--sin-agua')
+  function setRunning(on) {
+    if (!app) return
+    try {
+      if (on) app.start()
+      else app.stop()
+    } catch (_) {}
   }
 
-  function supportsWebGL() {
+  function supportsWebGL2() {
     try {
-      const c = document.createElement('canvas')
-      return !!c.getContext('webgl2')
+      return !!document.createElement('canvas').getContext('webgl2')
     } catch (_) {
       return false
     }
   }
 
-  function makeSkyTexture() {
-    const c = document.createElement('canvas')
-    c.width = 2
-    c.height = 256
-    const ctx = c.getContext('2d')
-    const g = ctx.createLinearGradient(0, 0, 0, 256)
-    g.addColorStop(0.0, CIELO_CSS[0])
-    g.addColorStop(0.38, CIELO_CSS[1])
-    g.addColorStop(0.5, CIELO_CSS[2])
-    g.addColorStop(0.58, CIELO_CSS[3])
-    g.addColorStop(0.82, CIELO_CSS[4])
-    g.addColorStop(1.0, CIELO_CSS[5])
-    ctx.fillStyle = g
-    ctx.fillRect(0, 0, 2, 256)
-    const t = new THREE.CanvasTexture(c)
-    t.mapping = THREE.EquirectangularReflectionMapping
-    t.colorSpace = THREE.SRGBColorSpace
-    return t
+  function rgb(s) {
+    return new pc.Color(s[0], s[1], s[2], 1)
   }
 
-  function makeGlowTexture() {
-    const c = document.createElement('canvas')
-    c.width = c.height = 128
-    const ctx = c.getContext('2d')
-    const g = ctx.createRadialGradient(64, 64, 0, 64, 64, 64)
-    g.addColorStop(0, SOL_CSS_FULL)
-    g.addColorStop(0.25, SOL_CSS_SOFT)
-    g.addColorStop(1, SOL_CSS_CLEAR)
-    ctx.fillStyle = g
-    ctx.fillRect(0, 0, 128, 128)
-    const t = new THREE.CanvasTexture(c)
-    t.colorSpace = THREE.SRGBColorSpace
-    return t
-  }
-
-  function makeNormalsTexture() {
-    const S = 256
-    const c = document.createElement('canvas')
-    c.width = c.height = S
-    const ctx = c.getContext('2d')
-    const img = ctx.createImageData(S, S)
-    const d = img.data
-    const f = new Float32Array(S * S)
-    for (let y = 0; y < S; y++) {
-      for (let x = 0; x < S; x++) {
-        f[x + y * S] = fbm(x / S, y / S)
+  function makePlaneMesh(gfx, size, seg) {
+    const positions = []
+    const normals = []
+    const uvs = []
+    const indices = []
+    for (let z = 0; z <= seg; z++) {
+      for (let x = 0; x <= seg; x++) {
+        positions.push((x / seg - 0.5) * size, 0, (z / seg - 0.5) * size)
+        normals.push(0, 1, 0)
+        uvs.push(x / seg, z / seg)
       }
     }
-    for (let y = 0; y < S; y++) {
-      const y0 = (y + S - 1) % S
-      const y1 = (y + 1) % S
-      for (let x = 0; x < S; x++) {
-        const x0 = (x + S - 1) % S
-        const x1 = (x + 1) % S
-        const dx = f[x1 + y * S] - f[x0 + y * S]
-        const dy = f[x + y1 * S] - f[x + y0 * S]
-        const nz = 1.0
-        const l = Math.hypot(dx, dy, nz)
-        const i4 = (x + y * S) * 4
-        d[i4] = ((dx / l) * 0.5 + 0.5) * 255
-        d[i4 + 1] = ((dy / l) * 0.5 + 0.5) * 255
-        d[i4 + 2] = ((nz / l) * 0.5 + 0.5) * 255
-        d[i4 + 3] = 255
+    const stride = seg + 1
+    for (let z = 0; z < seg; z++) {
+      for (let x = 0; x < seg; x++) {
+        const a = z * stride + x
+        const b = a + 1
+        const c = a + stride
+        const d = c + 1
+        indices.push(a, b, c, c, b, d)
       }
     }
-    ctx.putImageData(img, 0, 0)
-    const t = new THREE.CanvasTexture(c)
-    t.wrapS = t.wrapT = THREE.RepeatWrapping
-    t.repeat.set(6, 6)
-    return t
+    return pc.createMesh(gfx, { positions, normals, uvs, indices })
   }
 
-  function hash(x, y) {
+  function makeSphereMesh(gfx, radius) {
+    const rings = 40
+    const segs = 80
+    const positions = []
+    const normals = []
+    const uvs = []
+    const indices = []
+    for (let r = 0; r <= rings; r++) {
+      const lat = (r / rings) * Math.PI
+      const y = Math.cos(lat)
+      const rr = Math.sin(lat)
+      for (let s = 0; s <= segs; s++) {
+        const lon = (s / segs) * Math.PI * 2
+        const x = Math.sin(lon) * rr
+        const z = Math.cos(lon) * rr
+        positions.push(x * radius, y * radius, z * radius)
+        normals.push(x, y, z)
+        uvs.push(s / segs, r / rings)
+      }
+    }
+    const stride = segs + 1
+    for (let r = 0; r < rings; r++) {
+      for (let s = 0; s < segs; s++) {
+        const a = r * stride + s
+        const b = a + 1
+        const c = (r + 1) * stride + s
+        const d = c + 1
+        indices.push(a, b, c, c, b, d)
+      }
+    }
+    return pc.createMesh(gfx, { positions, normals, uvs, indices })
+  }
+
+  function makeSkyTexture(gfx) {
+    const size = 256
+    const tex = new pc.Texture(gfx, { width: 2, height: size, format: pc.PIXELFORMAT_RGBA8 })
+    const pixels = tex.lock()
+    for (let y = 0; y < size; y++) {
+      const t = y / (size - 1)
+      const stops = stopsAt(t)
+      const i = y * 4
+      pixels[i] = stops[0]
+      pixels[i + 1] = stops[1]
+      pixels[i + 2] = stops[2]
+      pixels[i + 3] = 255
+    }
+    tex.unlock()
+    return tex
+  }
+
+  function stopsAt(t) {
+    const n = CIELO.length - 1
+    const a = Math.min(Math.floor(t * n), n - 1)
+    const f = (t * n) - a
+    const c0 = CIELO[a]
+    const c1 = CIELO[a + 1]
+    return [
+      Math.round((c0[0] + (c1[0] - c0[0]) * f) * 255),
+      Math.round((c0[1] + (c1[1] - c0[1]) * f) * 255),
+      Math.round((c0[2] + (c1[2] - c0[2]) * f) * 255)
+    ]
+  }
+
+  function makeSkyMaterial(gfx) {
+    const m = new pc.StandardMaterial()
+    m.emissiveMap = makeSkyTexture(gfx)
+    m.emissive = new pc.Color(1, 1, 1)
+    m.emissiveIntensity = 1
+    m.useLighting = false
+    m.cull = pc.CULLFACE_FRONT
+    m.depthWrite = false
+    m.update()
+    return m
+  }
+
+  function makeGlowTexture(gfx) {
+    const size = 256
+    const tex = new pc.Texture(gfx, { width: size, height: size, format: pc.PIXELFORMAT_RGBA8 })
+    const pixels = tex.lock()
+    const r2 = (size / 2) * (size / 2)
+    for (let y = 0; y < size; y++) {
+      for (let x = 0; x < size; x++) {
+        const dx = x - size / 2
+        const dy = y - size / 2
+        const d = (dx * dx + dy * dy) / r2
+        const v = Math.max(0, 1 - d)
+        const a = v * v
+        const i = (y * size + x) * 4
+        pixels[i] = 255
+        pixels[i + 1] = Math.round(246 - (1 - a) * 90)
+        pixels[i + 2] = Math.round(232 - (1 - a) * 220)
+        pixels[i + 3] = 255
+      }
+    }
+    tex.unlock()
+    return tex
+  }
+
+  function makeGlowMaterial(gfx) {
+    const m = new pc.StandardMaterial()
+    m.emissiveMap = makeGlowTexture(gfx)
+    m.emissive = new pc.Color(1, 1, 1)
+    m.emissiveIntensity = 1
+    m.useLighting = false
+    m.blendType = pc.BLEND_ADDITIVE
+    m.cull = pc.CULLFACE_NONE
+    m.depthWrite = false
+    m.update()
+    return m
+  }
+
+  function makeNormalsTexture(gfx) {
+    const size = 256
+    const tex = new pc.Texture(gfx, { width: size, height: size, format: pc.PIXELFORMAT_RGBA8 })
+    const pixels = tex.lock()
+    const f = fbmField(size)
+    for (let y = 0; y < size; y++) {
+      const y0 = (y + size - 1) % size
+      const y1 = (y + 1) % size
+      for (let x = 0; x < size; x++) {
+        const x0 = (x + size - 1) % size
+        const x1 = (x + 1) % size
+        const dx = f[x1 + y * size] - f[x0 + y * size]
+        const dy = f[x + y1 * size] - f[x + y0 * size]
+        const l = Math.hypot(dx, dy, 1)
+        const i = (y * size + x) * 4
+        pixels[i] = ((dx / l) * 0.5 + 0.5) * 255
+        pixels[i + 1] = ((dy / l) * 0.5 + 0.5) * 255
+        pixels[i + 2] = ((1 / l) * 0.5 + 0.5) * 255
+        pixels[i + 3] = 255
+      }
+    }
+    tex.unlock()
+    return tex
+  }
+
+  function fbmField(size) {
+    const f = new Float32Array(size * size)
+    for (let y = 0; y < size; y++) {
+      for (let x = 0; x < size; x++) {
+        f[x + y * size] = fbm2(x / size, y / size)
+      }
+    }
+    return f
+  }
+
+  function hash2(x, y) {
     const v = Math.sin(x * 127.1 + y * 311.7) * 43758.5453
     return v - Math.floor(v)
   }
 
-  function fbm(x, y) {
+  function fbm2(x, y) {
     let a = 0.5
     let s = 0
     let px = x
     let py = y
     for (let i = 0; i < 5; i++) {
-      s += a * hash(px, py)
+      s += a * hash2(px, py)
       px = px * 2.02 + 7.3
       py = py * 2.03 + 13.7
       a *= 0.5
