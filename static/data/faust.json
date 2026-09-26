@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T13:25:18.279Z",
+  "generatedAt": "2026-09-26T04:12:58.586Z",
   "items": [
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
@@ -64,6 +64,28 @@
         "text": "26 de septiembre (Sábado) · 11:00",
         "start": "2026-09-26T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-25-ultimos-dias-para-postular-a-los-premios-regionales-de-las-artes-y-las-culturas-",
+      "title": "Últimos días para postular a los Premios Regionales de las Artes y las Culturas Los Ríos",
+      "summary": "La Seremi de las Culturas entregará el reconocimiento en cinco categorías abiertas tanto a personas naturales como organizaciones.",
+      "link": "https://www.cultura.gob.cl/convocatorias/ultimos-dias-para-postular-a-los-premios-regionales-de-las-artes-y-las-culturas-los-rios/",
+      "author": "losrios",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-25T12:37:54.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-25-cuatro-imputados-quedan-en-prision-preventiva-por-trafico-de-drogas-en-maule-inc",
+      "title": "Cuatro imputados quedan en prisión preventiva por tráfico de drogas en Maule: incautan cocaína, cannabis y éxtasis",
+      "summary": "Armas hechizas, municiones, cocaína, cannabis y dinero en efectivo figuran entre las especies decomisadas durante las diligencias realizadas por la PDI en seis domicilios. The post Cuatro imputados quedan en prisión preventiva por tráfico de drogas en Maule: incautan cocaína, cannabis y éxtasis appe",
+      "link": "https://www.diarioelcentro.cl/2026/09/25/cuatro-imputados-quedan-en-prision-preventiva-por-trafico-de-drogas-en-maule-incautan-cocaina-cannabis-y-extasis/",
+      "author": "Patricio Mora",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-09-25T12:00:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-25-cafe-literario-talca",
@@ -150,54 +172,6 @@
       "source": "diario-el-centro",
       "date": "2026-09-24T12:00:00.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-09-24-taller-de-patchwork",
-      "title": "Taller de Patchwork",
-      "summary": "Invitamos a la comunidad a una jornada gratuita dedicada al Patchwork, técnica · que fomenta la creatividad y el reciclaje textil. Este taller es un espacio de · encuentro ideal para aprender desde cero o disfrutar del trabajo manual, por lo · que no se requiere experiencia previa ni inscripción. · ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-24T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "24 de septiembre (Jueves) · 10:00",
-        "start": "2026-09-24T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-09-24-inauguracion-exposicion-colectiva-ludico",
-      "title": "Inauguración exposición colectiva LÚDICO",
-      "summary": "Una constelación de miradas en torno a lo alegre, lo simbólico, lo absurdo y lo · sorprendente converge en esta muestra que reúne las propuestas en pequeño · formato de 34 artistas del vidrio. En cada pieza, la materia se transforma en · metáfora: su fragilidad, transparencia y resistencia capturan ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-24T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "24 de septiembre (Jueves) · 12:00",
-        "start": "2026-09-24T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-09-24-charla-el-caldero-u-olleta-de-la-formacion-de-la-materia-astrofisica-nuclear",
-      "title": "Charla “El caldero u olleta de la formación de la materia: Astrofísica nuclear”",
-      "summary": "materia: Astrofísica nuclear” · Expositor: Dr. Claudio Tenreiro · Desde el momento en que se origina el universo hasta el presente suceden · reacciones entre elementos, mediados por interacciones elementales que · explican la distribución de masa que observamos en el universo hoy en día, · bueno… ca",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-24T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "24 de septiembre (Jueves) · 19:00",
-        "start": "2026-09-24T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-09-24-lluvias-primaverales-podrian-danar-floracion-de-frutales-y-afectar-su-produccion",
@@ -9020,21 +8994,21 @@
     "LITERATURA": 39,
     "MUSICA": 162,
     "TEATRO": 61,
-    "ARTES_VISUALES": 88,
+    "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 150,
+    "PATRIMONIO": 149,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 58,
-    "TERRITORIO": 66
+    "TERRITORIO": 67
   },
   "feedStats": {
     "sources": 54,
     "alive": 47,
     "itemsPerSource": {
-      "ext-utalca-programa": 8,
+      "ext-utalca-programa": 5,
+      "seremi-culturas": 27,
+      "diario-el-centro": 16,
       "elmauleinforma": 27,
-      "seremi-culturas": 26,
-      "diario-el-centro": 15,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
