@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T12:48:48.184Z",
+  "generatedAt": "2026-09-26T19:06:59.685Z",
   "items": [
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
@@ -64,6 +64,17 @@
         "text": "26 de septiembre (Sábado) · 11:00",
         "start": "2026-09-26T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-26-cinco-claves-para-aprovechar-herramientas-como-chatgpt-y-gemini",
+      "title": "Cinco claves para aprovechar herramientas como ChatGPT y Gemini",
+      "summary": "De acuerdo con cifras de sus respectivas compañías, tanto ChatGPT como Gemini ya superan los 1.000 millones de usuarios activos mensuales, reflejando el alcance que estas tecnologías han adquirido entre consumidores y organizaciones. No obstante, tener acceso a estas herramientas no necesariamente s",
+      "link": "https://elmauleinforma.cl/cinco-claves-para-aprovechar-herramientas-como-chatgpt-y-gemini/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-26T01:00:24.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-25-feria-del-libro-infantil-y-juvenil-de-talca-filit-celebra-20-anos-con-destacados",
@@ -9100,7 +9111,7 @@
     "TEATRO": 61,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 154,
+    "PATRIMONIO": 155,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 68
@@ -9110,7 +9121,7 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "elmauleinforma": 30,
+      "elmauleinforma": 31,
       "diario-el-centro": 18,
       "seremi-culturas": 30,
       "diariotalca": 3,
