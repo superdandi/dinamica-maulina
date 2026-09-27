@@ -5,10 +5,23 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
   const canvas = document.getElementById('hero-agua')
   const hero = canvas ? canvas.parentElement : null
   if (!canvas || !hero) return
+  console.info('[dm-agua] modulo inicia')
 
   const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
   const coarse = window.matchMedia && window.matchMedia('(pointer: coarse)').matches
   const composition = (hero.dataset.agua || 'horizon') === 'agua' ? 'agua' : 'horizon'
+
+  const estado = (motivo) => {
+    hero.dataset.aguaEstado = motivo
+    console.info('[dm-agua] estado:', motivo)
+    let chip = hero.querySelector('.hero__agua-estado')
+    if (!chip) {
+      chip = document.createElement('div')
+      chip.className = 'hero__agua-estado'
+      hero.appendChild(chip)
+    }
+    chip.textContent = 'agua: ' + motivo
+  }
 
   const CONFIG = composition === 'agua'
     ? { camPos: [0, 10, 6.5], camTarget: [0, 0.6, -12], waveAmplitude: 0.14, waveLength: 10, waveSteepness: 0.45, swellAmplitude: 0.22 }
@@ -25,6 +38,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
   const SUN_DIR = [0.42, 0.55, 0.72]
 
   if (reduce || !supportsWebGL2()) {
+    estado(reduce ? 'reduced-motion' : 'no-webgl2')
     hero.classList.add('hero--sin-agua')
     return
   }
@@ -128,6 +142,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     watchVisibility()
   } catch (e) {
     console.error('hero-agua ERROR', e)
+    estado('error: ' + (e && e.message || e))
     if (hero) hero.classList.add('hero--sin-agua')
     try { if (app) app.stop() } catch (_) {}
   }
@@ -141,6 +156,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
   function onContextLost(e) {
     e.preventDefault()
     try { if (app) app.stop() } catch (_) {}
+    estado('webglcontextlost')
     hero.classList.add('hero--sin-agua')
   }
 
