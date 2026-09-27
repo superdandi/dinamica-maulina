@@ -53,6 +53,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
       graphicsDeviceOptions: { antialias: true, powerPreference: 'high-performance' }
     })
     app.graphicsDevice.maxPixelRatio = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
+    app.setCanvasResolution(pc.RESOLUTION_AUTO)
     app.start()
     console.info('[dm-agua] webgl2+app ok')
 
@@ -181,7 +182,11 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
   function resize() {
     if (!app) return
-    app.resizeCanvas()
+    const dpr = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
+    app.graphicsDevice.maxPixelRatio = dpr
+    const w = canvas.clientWidth
+    const h = canvas.clientHeight
+    if (w > 0 && h > 0) app.graphicsDevice.resizeCanvas(w, h)
   }
 
   function watchSize() {
