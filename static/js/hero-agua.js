@@ -55,6 +55,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     app.graphicsDevice.maxPixelRatio = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
     app.setCanvasResolution(pc.RESOLUTION_AUTO)
     app.start()
+    try { window.__dbgApp = app } catch (_) {}
     console.info('[dm-agua] webgl2+app ok')
 
     const root = app.root
