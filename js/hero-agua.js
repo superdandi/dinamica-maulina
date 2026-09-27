@@ -61,6 +61,12 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     app.start()
     try { window.__dbgApp = app } catch (_) {}
     console.info('[dm-agua] webgl2+app ok')
+    try {
+      const glc = canvas.getContext('webgl2')
+      window.__draws = 0
+      const wrap = (n) => { const o = glc[n]; if (o) { glc[n] = function (...a) { window.__draws++; return o.apply(this, a) } } }
+      wrap('drawElements'); wrap('drawArrays')
+    } catch (_) {}
 
     const root = app.root
 
@@ -162,11 +168,13 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     watchSize()
     watchVisibility()
 
-    setTimeout(() => {
+    setTimeout(async () => {
       const cs = getComputedStyle(canvas)
       let px = null
+      let draws = 0
+      let rtres = null
+      const gl = canvas.getContext('webgl2')
       try {
-        const gl = canvas.getContext('webgl2')
         const w = canvas.width; const h = canvas.height
         if (w > 0 && h > 0) {
           const tmp = document.createElement('canvas')
@@ -189,6 +197,26 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
           px = JSON.stringify({ w, h, painted, magenta, top, samples })
         }
       } catch (e) { px = 'err:' + e.message }
+      try { draws = window.__draws || 0 } catch (_) {}
+      try {
+        const rtTex = new pc.Texture(app.graphicsDevice, { width: 256, height: 256, format: pc.PIXELFORMAT_RGBA8, mipmaps: false })
+        const rt = new pc.RenderTarget({ colorBuffer: rtTex, depth: true })
+        camEntity.camera.renderTarget = rt
+        await new Promise(r => setTimeout(r, 350))
+        app.graphicsDevice.setRenderTarget(rt)
+        const b = new Uint8Array(256 * 256 * 4)
+        gl.readPixels(0, 0, 256, 256, gl.RGBA, gl.UNSIGNED_BYTE, b)
+        app.graphicsDevice.setRenderTarget()
+        camEntity.camera.renderTarget = null
+        let p = 0
+        const cols = {}
+        for (let i = 0; i < b.length; i += 40) {
+          if (b[i] || b[i + 1] || b[i + 2]) p++
+          cols[b[i] + ',' + b[i + 1] + ',' + b[i + 2]] = (cols[b[i] + ',' + b[i + 1] + ',' + b[i + 2]] || 0) + 1
+        }
+        const top = Object.entries(cols).sort((a, z) => z[1] - a[1]).slice(0, 5).map(e => e[0])
+        rtres = JSON.stringify({ p, top })
+      } catch (e) { rtres = 'err:' + e.message }
       console.info('[dm-agua] check:', JSON.stringify({
         innerW: window.innerWidth,
         innerH: window.innerHeight,
@@ -201,7 +229,9 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
         heroW: hero.getBoundingClientRect().width,
         frames: window.__dmFrames || 0,
         shaderErrors: window.__dmShaderErrors || 0,
-        px
+        draws,
+        px,
+        rt: rtres
       }))
       if ((!canvas.clientWidth || !canvas.clientHeight) && cs.display !== 'none') {
         console.info('[dm-agua] canvas con tamaño 0, re-resize')
