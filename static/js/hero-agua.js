@@ -129,6 +129,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     console.info('[dm-agua] escena completa (agua, cielo, glow)')
 
     app.on('update', () => {
+      window.__dmFrames = (window.__dmFrames || 0) + 1
       const sx = mouse.x * 0.5
       const sy = mouse.y * 0.16 * (composition === 'agua' ? 0 : 1)
       camEntity.lookAt(CONFIG.camTarget[0] + sx, CONFIG.camTarget[1] + sy, CONFIG.camTarget[2])
@@ -151,24 +152,26 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
       try {
         const gl = canvas.getContext('webgl2')
         const w = canvas.width; const h = canvas.height
-        const b = new Uint8Array(w * h * 4)
-        gl.readPixels(0, 0, w, h, gl.RGBA, gl.UNSIGNED_BYTE, b)
-        const s = (x, y) => { const i = (y * w + x) * 4; return [b[i], b[i + 1], b[i + 2]].join(',') }
-        let n = 0
-        for (let i = 0; i < b.length; i += 4) if (b[i] || b[i + 1] || b[i + 2]) n++
-        px = JSON.stringify({
-          w, h,
-          arriba: s(w / 2, h - 10),
-          medio: s(w / 2, (h / 2) | 0),
-          abajo: s(w / 2, 10),
-          sol: s(w * 0.3, h - (h * 0.2 | 0)),
-          noNegro: n
-        })
-        if (n > 1000) {
-          hero.dataset.aguaEstado = 'ok'
-          let chip = hero.querySelector('.hero__agua-estado')
-          if (!chip) { chip = document.createElement('div'); chip.className = 'hero__agua-estado'; hero.appendChild(chip) }
-          chip.textContent = 'agua: ok'
+        if (w > 0 && h > 0) {
+          const b = new Uint8Array(w * h * 4)
+          gl.readPixels(0, 0, w, h, gl.RGBA, gl.UNSIGNED_BYTE, b)
+          let painted = 0
+          const cols = {}
+          for (let i = 0; i < b.length; i += 40) {
+            if (b[i] || b[i + 1] || b[i + 2]) painted++
+            const k = b[i] + ',' + b[i + 1] + ',' + b[i + 2]
+            cols[k] = (cols[k] || 0) + 1
+          }
+          const top = Object.entries(cols).sort((a, z) => z[1] - a[1]).slice(0, 5).map(e => e[0])
+          const dbg = gl.getExtension('WEBGL_debug_renderer_info')
+          px = JSON.stringify({
+            w, h,
+            painted,
+            top: top,
+            renderer: dbg ? gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) : 'n/a',
+            maxTex: gl.getParameter(gl.MAX_TEXTURE_SIZE),
+            maxViewport: String(gl.getParameter(gl.MAX_VIEWPORT_DIMS))
+          })
         }
       } catch (e) { px = 'err:' + e.message }
       console.info('[dm-agua] check:', JSON.stringify({
@@ -181,13 +184,14 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
         reduce: matchMedia('(prefers-reduced-motion: reduce)').matches,
         scrollW: document.documentElement.scrollWidth,
         heroW: hero.getBoundingClientRect().width,
+        frames: window.__dmFrames || 0,
         px
       }))
       if ((!canvas.clientWidth || !canvas.clientHeight) && cs.display !== 'none') {
         console.info('[dm-agua] canvas con tamaño 0, re-resize')
         resize()
       }
-    }, 5000)
+    }, 7000)
   } catch (e) {
     console.error('hero-agua ERROR', e)
     estado('error: ' + (e && e.message || e))
