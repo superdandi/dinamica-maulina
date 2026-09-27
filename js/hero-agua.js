@@ -50,8 +50,12 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
   try {
     app = new pc.Application(canvas, {
-      graphicsDeviceOptions: { antialias: true, powerPreference: 'high-performance', preserveDrawingBuffer: true }
+      graphicsDeviceOptions: { antialias: false, powerPreference: 'high-performance', preserveDrawingBuffer: true }
     })
+    try {
+      app.graphicsDevice.on('shadererror', (e) => { window.__dmShaderErrors = (window.__dmShaderErrors || 0) + 1 })
+      window.__dmShaderErrors = 0
+    } catch (_) {}
     app.graphicsDevice.maxPixelRatio = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
     app.setCanvasResolution(pc.RESOLUTION_AUTO)
     app.start()
@@ -153,25 +157,22 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
         const gl = canvas.getContext('webgl2')
         const w = canvas.width; const h = canvas.height
         if (w > 0 && h > 0) {
-          const b = new Uint8Array(w * h * 4)
-          gl.readPixels(0, 0, w, h, gl.RGBA, gl.UNSIGNED_BYTE, b)
+          const tmp = document.createElement('canvas')
+          tmp.width = w; tmp.height = h
+          const ctx = tmp.getContext('2d', { willReadFrequently: true })
+          ctx.drawImage(canvas, 0, 0)
+          const d = ctx.getImageData(0, 0, w, h).data
           let painted = 0
           const cols = {}
-          for (let i = 0; i < b.length; i += 40) {
-            if (b[i] || b[i + 1] || b[i + 2]) painted++
-            const k = b[i] + ',' + b[i + 1] + ',' + b[i + 2]
+          for (let i = 0; i < d.length; i += 40) {
+            if (d[i] || d[i + 1] || d[i + 2]) painted++
+            const k = d[i] + ',' + d[i + 1] + ',' + d[i + 2]
             cols[k] = (cols[k] || 0) + 1
           }
-          const top = Object.entries(cols).sort((a, z) => z[1] - a[1]).slice(0, 5).map(e => e[0])
-          const dbg = gl.getExtension('WEBGL_debug_renderer_info')
-          px = JSON.stringify({
-            w, h,
-            painted,
-            top: top,
-            renderer: dbg ? gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) : 'n/a',
-            maxTex: gl.getParameter(gl.MAX_TEXTURE_SIZE),
-            maxViewport: String(gl.getParameter(gl.MAX_VIEWPORT_DIMS))
-          })
+          const top = Object.entries(cols).sort((a, z) => z[1] - a[1]).slice(0, 6).map(e => e[0])
+          let samples = null
+          try { samples = String(gl.getParameter(gl.SAMPLES)) } catch (_) {}
+          px = JSON.stringify({ w, h, painted, top, samples })
         }
       } catch (e) { px = 'err:' + e.message }
       console.info('[dm-agua] check:', JSON.stringify({
@@ -185,6 +186,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
         scrollW: document.documentElement.scrollWidth,
         heroW: hero.getBoundingClientRect().width,
         frames: window.__dmFrames || 0,
+        shaderErrors: window.__dmShaderErrors || 0,
         px
       }))
       if ((!canvas.clientWidth || !canvas.clientHeight) && cs.display !== 'none') {
