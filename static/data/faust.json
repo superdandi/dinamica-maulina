@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T19:06:59.685Z",
+  "generatedAt": "2026-09-27T04:28:09.847Z",
   "items": [
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
@@ -34,6 +34,22 @@
       }
     },
     {
+      "id": "2026-09-28-cafe-literario-curico",
+      "title": "Café Literario Curicó",
+      "summary": "Invitada: Pino Luna · Pino Luna (Maipú, 1990) es una escritora chilena, licenciada en Letras Hispánicas, · profesora y magíster en Educación. Es autora de la novela \"Mientras dormías · cantabas\" (2021) que narra la celebración de Año Nuevo de una familia en un bloc · de departamentos en un barrio de",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
+      "author": "",
+      "category": "LITERATURA",
+      "source": "ext-utalca-programa",
+      "date": "2026-09-28T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "29 de septiembre (Martes) · 18:30",
+        "start": "2026-09-28T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-09-28-inauguracion-exposicion-colectiva-cuerpo-objeto-y-territorio-de-patricia-valle-c",
       "title": "Inauguración exposición colectiva “Cuerpo, objeto y territorio”, de Patricia Valle Chávez, Ángela Orellana Pavez, Felipe Carrión Rojas",
       "summary": "y territorio”, de Patricia Valle Chávez, · Ángela Orellana Pavez, Felipe Carrión Rojas · Grabado, pintura y escultura se articulan en esta propuesta colectiva que reúne el · trabajo de tres artistas maulinos para reﬂexionar sobre la memoria local y la · materia. La muestra despliega un diálogo tridi",
@@ -48,6 +64,43 @@
         "text": "30 de septiembre (Miércoles) · 12:00",
         "start": "2026-09-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-26-gobierno-asigna-mas-de-100-mil-millones-de-pesos-para-soluciones-habitacionales-",
+      "title": "Gobierno asigna más de 100 mil millones de pesos para soluciones habitacionales en el Maule",
+      "summary": "El Delegado Presidencial Regional del Maule, Juan Eduardo Prieto y el Seremi de Vivienda y Urbanismo, René Suárez, dieron a conocer excelentes noticias en materia de nuevas soluciones habitacionales para las familias maulinas, abordando así con señales concretas el déficit habitacional existente en ",
+      "link": "https://elmauleinforma.cl/gobierno-asigna-mas-de-100-mil-millones-de-pesos-para-soluciones-habitacionales-en-el-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-26T16:10:15.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-26-talca-celebrara-el-dia-de-la-musica-con-picnic-y-bandas-conoce-los-detalles-aqui",
+      "title": "Talca celebrará el Día de la Música con picnic y bandas: conoce los detalles aquí",
+      "summary": "El Parque Cultural La Candelaria abrirá sus puertas este domingo 4 de octubre para una jornada gratuita con música en vivo, naturaleza y encuentro familiar. The post Talca celebrará el Día de la Música con picnic y bandas: conoce los detalles aquí appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/09/26/talca-celebrara-el-dia-de-la-musica-con-picnic-y-bandas-conoce-los-detalles-aqui/",
+      "author": "Yasmín Gómez",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-09-26T15:56:53.000Z",
+      "image": "",
+      "event": {
+        "text": "4 de octubre",
+        "start": "2026-10-04T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-26-fundacion-maule-y-mivision-impulsan-operativo-para-reducir-la-lista-de-espera-of",
+      "title": "Fundación Maule y MiVisión impulsan operativo para reducir la lista de espera oftalmológica de Pencahue",
+      "summary": "Con el objetivo de contribuir a la reducción de las listas de espera en salud y entregar una solución concreta a personas que requieren atención oftalmológica, Fundación Maule impulsó junto a MiVisión un operativo de cirugía de pterigión que permitirá cubrir el 100% de la lista de espera existente p",
+      "link": "https://elmauleinforma.cl/fundacion-maule-y-mivision-impulsan-operativo-para-reducir-la-lista-de-espera-oftalmologica-de-pencahue/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-26T14:00:42.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-26-workshop-del-personaje-al-afiche-creacion-de-personajes-ilustrados-para-proyecto",
@@ -125,7 +178,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-09-26T12:00:00.000Z"
+        "start": "2026-10-03T12:00:00.000Z"
       }
     },
     {
@@ -201,22 +254,6 @@
       "source": "diario-el-centro",
       "date": "2026-09-25T12:00:00.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-09-25-cafe-literario-talca",
-      "title": "Café literario Talca",
-      "summary": "Invitada: Pía Barros · Un imperdible encuentro con una de las voces más activas, inﬂuyentes y · fundamentales de la literatura chilena contemporánea. Pía Barros estudió · Licenciatura en Castellano en la Universidad de Santiago. Desde 1978 se ha · dedicado a su gran pasión: dar talleres literarios. ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "LITERATURA",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-25T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "25 de septiembre (Viernes) · 19:00",
-        "start": "2026-09-25T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-09-24-nostalgia-gamer-y-clasicos-animados-llegan-al-trm-de-la-mano-de-golden-big-band",
@@ -9111,7 +9148,7 @@
     "TEATRO": 61,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 155,
+    "PATRIMONIO": 158,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 68
@@ -9121,8 +9158,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "elmauleinforma": 31,
-      "diario-el-centro": 18,
+      "elmauleinforma": 33,
+      "diario-el-centro": 19,
       "seremi-culturas": 30,
       "diariotalca": 3,
       "rincon-literario": 48,
