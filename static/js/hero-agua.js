@@ -54,6 +54,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     })
     app.graphicsDevice.maxPixelRatio = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
     app.start()
+    console.info('[dm-agua] webgl2+app ok')
 
     const root = app.root
 
@@ -123,6 +124,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
         diffuseIntensity: 0.5
       }
     })
+    console.info('[dm-agua] escena completa (agua, cielo, glow)')
 
     app.on('update', () => {
       const sx = mouse.x * 0.5
@@ -140,6 +142,23 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     resize()
     watchSize()
     watchVisibility()
+
+    setTimeout(() => {
+      const cs = getComputedStyle(canvas)
+      console.info('[dm-agua] check:', JSON.stringify({
+        innerW: window.innerWidth,
+        innerH: window.innerHeight,
+        display: cs.display,
+        css: canvas.clientWidth + 'x' + canvas.clientHeight,
+        buf: canvas.width + 'x' + canvas.height,
+        hero: hero.className,
+        reduce: matchMedia('(prefers-reduced-motion: reduce)').matches
+      }))
+      if ((!canvas.clientWidth || !canvas.clientHeight) && cs.display !== 'none') {
+        console.info('[dm-agua] canvas con tamaño 0, re-resize')
+        resize()
+      }
+    }, 3000)
   } catch (e) {
     console.error('hero-agua ERROR', e)
     estado('error: ' + (e && e.message || e))
