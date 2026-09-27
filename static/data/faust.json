@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T04:28:09.847Z",
+  "generatedAt": "2026-09-27T13:41:02.293Z",
   "items": [
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
@@ -64,6 +64,58 @@
         "text": "30 de septiembre (Miércoles) · 12:00",
         "start": "2026-09-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-27-pagarias-por-un-lugar-fans-de-bts-cobran-hasta-6-mil-la-hora-por-hacer-fila-dura",
+      "title": "¿Pagarías por un lugar? Fans de BTS cobran hasta $6 mil la hora por hacer fila durante la venta de entradas",
+      "summary": "El regreso de BTS a Chile ya genera movimiento entre sus seguidores: algunos ofrecen cobrar por hacer fila y asegurar un lugar privilegiado frente al escenario. The post ¿Pagarías por un lugar? Fans de BTS cobran hasta $6 mil la hora por hacer fila durante la venta de entradas appeared first on Diar",
+      "link": "https://www.diarioelcentro.cl/2026/09/26/pagarias-por-un-lugar-fans-de-bts-cobran-hasta-6-mil-la-hora-por-hacer-fila-durante-la-venta-de-entradas/",
+      "author": "Yasmín Gómez",
+      "category": "TEATRO",
+      "source": "diario-el-centro",
+      "date": "2026-09-27T01:19:13.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-27-fundacion-hacer-visible-lo-invisible-participo-en-encuentro-de-ffimaule-y-la-ucm",
+      "title": "Fundación Hacer Visible lo Invisible participó en encuentro de FFIMAULE y la UCM sobre accesibilidad e inclusión",
+      "summary": "La Fundación Hacer Visible lo Invisible fue parte del 1° Congreso y IV Seminario “Accesibilidad e Igualdad de Oportunidades de las Personas Sordas”, realizado los días 24 y 25 de septiembre, tras una invitación extendida por Sandy Torres, presidenta de Fundación FFIMAULE. La actividad, desarrollada ",
+      "link": "https://elmauleinforma.cl/fundacion-hacer-visible-lo-invisible-participo-en-encuentro-de-ffimaule-y-la-ucm-sobre-accesibilidad-e-inclusion/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-27T00:00:15.000Z",
+      "image": "",
+      "event": {
+        "text": "25 de septiembre",
+        "start": "2026-09-25T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-26-jovenes-de-intercambio-de-rotary-celebraron-las-fiestas-patrias-en-vilches-alto",
+      "title": "Jóvenes de intercambio de Rotary celebraron las Fiestas Patrias en Vilches Alto",
+      "summary": "​VILCHES ALTO.- En un ambiente familiar, rodeados de naturaleza, tradiciones y alegría, el Programa de Intercambio de Jóvenes (RYE) de Rotary Club Talca y Rotary Club San Agustín de Talca celebró las Fiestas Patrias de Chile el pasado domingo 13 de septiembre en el histórico refugio de Rotary Club T",
+      "link": "https://elmauleinforma.cl/jovenes-de-intercambio-de-rotary-celebraron-las-fiestas-patrias-en-vilches-alto/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-26T21:53:46.000Z",
+      "image": "",
+      "event": {
+        "text": "13 de septiembre",
+        "start": "2026-09-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-09-26-orquesta-juvenil-de-cuerdas-del-teatro-municipal-de-san-javier-logra-tercer-luga",
+      "title": "Orquesta Juvenil de Cuerdas del Teatro Municipal de San Javier logra tercer lugar y va a festival nacional",
+      "summary": "La agrupación obtuvo el tercer lugar entre 25 elencos en la selección del Festival Fernando Rosas 2026 y actuará en el Teatro Municipal de Santiago. The post Orquesta Juvenil de Cuerdas del Teatro Municipal de San Javier logra tercer lugar y va a festival nacional appeared first on Diario El Centro ",
+      "link": "https://www.diarioelcentro.cl/2026/09/26/orquesta-juvenil-de-cuerdas-del-teatro-municipal-de-san-javier-logra-tercer-lugar-y-va-a-festival-nacional/",
+      "author": "Yasmín Gómez",
+      "category": "TEATRO",
+      "source": "diario-el-centro",
+      "date": "2026-09-26T20:46:15.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-26-gobierno-asigna-mas-de-100-mil-millones-de-pesos-para-soluciones-habitacionales-",
@@ -9145,10 +9197,10 @@
     "POESIA": 106,
     "LITERATURA": 39,
     "MUSICA": 163,
-    "TEATRO": 61,
+    "TEATRO": 63,
     "ARTES_VISUALES": 87,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 158,
+    "PATRIMONIO": 160,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 68
@@ -9158,8 +9210,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "elmauleinforma": 33,
-      "diario-el-centro": 19,
+      "diario-el-centro": 21,
+      "elmauleinforma": 35,
       "seremi-culturas": 30,
       "diariotalca": 3,
       "rincon-literario": 48,
