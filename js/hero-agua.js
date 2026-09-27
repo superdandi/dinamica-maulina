@@ -50,7 +50,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
   try {
     app = new pc.Application(canvas, {
-      graphicsDeviceOptions: { antialias: true, powerPreference: 'high-performance' }
+      graphicsDeviceOptions: { antialias: true, powerPreference: 'high-performance', preserveDrawingBuffer: true }
     })
     app.graphicsDevice.maxPixelRatio = coarse ? 1 : Math.min(1.5, window.devicePixelRatio || 1)
     app.setCanvasResolution(pc.RESOLUTION_AUTO)
@@ -147,6 +147,30 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
     setTimeout(() => {
       const cs = getComputedStyle(canvas)
+      let px = null
+      try {
+        const gl = canvas.getContext('webgl2')
+        const w = canvas.width; const h = canvas.height
+        const b = new Uint8Array(w * h * 4)
+        gl.readPixels(0, 0, w, h, gl.RGBA, gl.UNSIGNED_BYTE, b)
+        const s = (x, y) => { const i = (y * w + x) * 4; return [b[i], b[i + 1], b[i + 2]].join(',') }
+        let n = 0
+        for (let i = 0; i < b.length; i += 4) if (b[i] || b[i + 1] || b[i + 2]) n++
+        px = JSON.stringify({
+          w, h,
+          arriba: s(w / 2, h - 10),
+          medio: s(w / 2, (h / 2) | 0),
+          abajo: s(w / 2, 10),
+          sol: s(w * 0.3, h - (h * 0.2 | 0)),
+          noNegro: n
+        })
+        if (n > 1000) {
+          hero.dataset.aguaEstado = 'ok'
+          let chip = hero.querySelector('.hero__agua-estado')
+          if (!chip) { chip = document.createElement('div'); chip.className = 'hero__agua-estado'; hero.appendChild(chip) }
+          chip.textContent = 'agua: ok'
+        }
+      } catch (e) { px = 'err:' + e.message }
       console.info('[dm-agua] check:', JSON.stringify({
         innerW: window.innerWidth,
         innerH: window.innerHeight,
@@ -154,13 +178,16 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
         css: canvas.clientWidth + 'x' + canvas.clientHeight,
         buf: canvas.width + 'x' + canvas.height,
         hero: hero.className,
-        reduce: matchMedia('(prefers-reduced-motion: reduce)').matches
+        reduce: matchMedia('(prefers-reduced-motion: reduce)').matches,
+        scrollW: document.documentElement.scrollWidth,
+        heroW: hero.getBoundingClientRect().width,
+        px
       }))
       if ((!canvas.clientWidth || !canvas.clientHeight) && cs.display !== 'none') {
         console.info('[dm-agua] canvas con tamaño 0, re-resize')
         resize()
       }
-    }, 3000)
+    }, 5000)
   } catch (e) {
     console.error('hero-agua ERROR', e)
     estado('error: ' + (e && e.message || e))
