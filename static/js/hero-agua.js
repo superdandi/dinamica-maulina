@@ -92,6 +92,18 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     root.addChild(glowEntity)
     alignGlow()
 
+    const testEntity = new pc.Entity('diag-plane')
+    testEntity.addComponent('render', { type: 'plane' })
+    const testMat = new pc.StandardMaterial()
+    testMat.emissive = new pc.Color(1, 0, 1)
+    testMat.emissiveIntensity = 1
+    testMat.useLighting = false
+    testMat.update()
+    testEntity.render.meshInstances[0].material = testMat
+    testEntity.setPosition(0, 1.5, -40)
+    testEntity.setLocalScale(40, 40, 1)
+    root.addChild(testEntity)
+
     const waterEntity = new pc.Entity('agua')
     waterEntity.addComponent('render', { type: 'plane' })
     waterEntity.render.meshInstances[0].mesh = makePlaneMesh(app.graphicsDevice, 480, 96)
@@ -163,16 +175,18 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
           ctx.drawImage(canvas, 0, 0)
           const d = ctx.getImageData(0, 0, w, h).data
           let painted = 0
+          let magenta = 0
           const cols = {}
           for (let i = 0; i < d.length; i += 40) {
             if (d[i] || d[i + 1] || d[i + 2]) painted++
+            if (d[i] > 180 && d[i + 1] < 80 && d[i + 2] > 180) magenta++
             const k = d[i] + ',' + d[i + 1] + ',' + d[i + 2]
             cols[k] = (cols[k] || 0) + 1
           }
           const top = Object.entries(cols).sort((a, z) => z[1] - a[1]).slice(0, 6).map(e => e[0])
           let samples = null
           try { samples = String(gl.getParameter(gl.SAMPLES)) } catch (_) {}
-          px = JSON.stringify({ w, h, painted, top, samples })
+          px = JSON.stringify({ w, h, painted, magenta, top, samples })
         }
       } catch (e) { px = 'err:' + e.message }
       console.info('[dm-agua] check:', JSON.stringify({
