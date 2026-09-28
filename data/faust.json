@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T13:41:02.293Z",
+  "generatedAt": "2026-09-28T04:30:49.375Z",
   "items": [
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
@@ -64,6 +64,17 @@
         "text": "30 de septiembre (Miércoles) · 12:00",
         "start": "2026-09-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-27-estudio-chileno-detecta-problemas-de-memoria-y-concentracion-tras-el-covid-19",
+      "title": "Estudio chileno detecta problemas de memoria y concentración tras el Covid-19",
+      "summary": "Una investigación chilena identificó dos perfiles cerebrales entre personas que presentaron dificultades cognitivas tras superar el Covid-19, como problemas de memoria y concentración. The post Estudio chileno detecta problemas de memoria y concentración tras el Covid-19 appeared first on Diario El ",
+      "link": "https://www.diarioelcentro.cl/2026/09/27/estudio-chileno-detecta-problemas-de-memoria-y-concentracion-tras-el-covid-19/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-09-27T13:00:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-27-pagarias-por-un-lugar-fans-de-bts-cobran-hasta-6-mil-la-hora-por-hacer-fila-dura",
@@ -153,22 +164,6 @@
       "source": "elmauleinforma",
       "date": "2026-09-26T14:00:42.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-09-26-workshop-del-personaje-al-afiche-creacion-de-personajes-ilustrados-para-proyecto",
-      "title": "Workshop “Del personaje al afiche: creación de personajes ilustrados para proyectos culturales”",
-      "summary": "personajes ilustrados para proyectos culturales” · Imparte: Pía Pulgar · Un espacio práctico e inspirador para descubrir cómo la ilustración puede aportar · identidad, calidez y cercanía a las iniciativas culturales. Tomando como punto de · partida su experiencia en el diseño del icónico personaje p",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-26T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "26 de septiembre (Sábado) · 11:00",
-        "start": "2026-09-26T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-09-26-cinco-claves-para-aprovechar-herramientas-como-chatgpt-y-gemini",
@@ -637,7 +632,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-09-27T12:00:00.000Z"
+        "start": "2026-10-04T12:00:00.000Z"
       }
     },
     {
@@ -9198,9 +9193,9 @@
     "LITERATURA": 39,
     "MUSICA": 163,
     "TEATRO": 63,
-    "ARTES_VISUALES": 87,
+    "ARTES_VISUALES": 86,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 160,
+    "PATRIMONIO": 161,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 68
@@ -9209,8 +9204,8 @@
     "sources": 54,
     "alive": 47,
     "itemsPerSource": {
-      "ext-utalca-programa": 5,
-      "diario-el-centro": 21,
+      "ext-utalca-programa": 4,
+      "diario-el-centro": 22,
       "elmauleinforma": 35,
       "seremi-culturas": 30,
       "diariotalca": 3,
