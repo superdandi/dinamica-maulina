@@ -101,10 +101,9 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
     const testEntity = new pc.Entity('diag-plane')
     testEntity.addComponent('render', { type: 'plane' })
-    const testMat = new pc.StandardMaterial()
-    testMat.emissive = new pc.Color(1, 0, 1)
-    testMat.emissiveIntensity = 1
-    testMat.useLighting = false
+    const testMat = new pc.BasicMaterial()
+    testMat.color = new pc.Color(1, 0, 1)
+    testMat.depthWrite = true
     testMat.update()
     testEntity.render.meshInstances[0].material = testMat
     testEntity.setPosition(0, 1.5, -40)
@@ -113,9 +112,24 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
     const boxT = new pc.Entity('test-box')
     boxT.addComponent('render', { type: 'box' })
+    const boxMat = new pc.BasicMaterial()
+    boxMat.color = new pc.Color(1, 0, 0)
+    boxMat.update()
+    boxT.render.meshInstances[0].material = boxMat
     boxT.setPosition(0, 1.5, -40)
     boxT.setLocalScale(8, 8, 8)
     root.addChild(boxT)
+
+    const sunMat = new pc.BasicMaterial()
+    sunMat.color = new pc.Color(1, 0.6, 0.1)
+    sunMat.update()
+    const sunDisc = new pc.Entity('sun-disc')
+    sunDisc.addComponent('render', { type: 'box' })
+    sunDisc.render.meshInstances[0].material = sunMat
+    sunDisc.setPosition(SUN_DIR[0] * 150, SUN_DIR[1] * 150, SUN_DIR[2] * 150)
+    sunDisc.setLocalScale(34, 34, 1)
+    sunDisc.lookAt(camEntity.getPosition())
+    root.addChild(sunDisc)
 
     const waterEntity = new pc.Entity('agua')
     waterEntity.addComponent('render', { type: 'plane' })
