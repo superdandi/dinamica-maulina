@@ -99,37 +99,46 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     root.addChild(glowEntity)
     alignGlow()
 
-    const testEntity = new pc.Entity('diag-plane')
-    testEntity.addComponent('render', { type: 'plane' })
-    const testMat = new pc.BasicMaterial()
-    testMat.color = new pc.Color(1, 0, 1)
-    testMat.depthWrite = true
-    testMat.update()
-    testEntity.render.meshInstances[0].material = testMat
-    testEntity.setPosition(0, 1.5, -40)
-    testEntity.setLocalScale(40, 40, 1)
-    root.addChild(testEntity)
+    try {
+      const testEntity = new pc.Entity('diag-plane')
+      testEntity.addComponent('render', { type: 'plane' })
+      const testMat = new pc.StandardMaterial()
+      testMat.emissive = new pc.Color(1, 0, 1)
+      testMat.emissiveIntensity = 3
+      testMat.useLighting = false
+      testMat.update()
+      testEntity.render.meshInstances[0].material = testMat
+      testEntity.setPosition(0, 1.5, -40)
+      testEntity.setLocalScale(40, 40, 1)
+      root.addChild(testEntity)
 
-    const boxT = new pc.Entity('test-box')
-    boxT.addComponent('render', { type: 'box' })
-    const boxMat = new pc.BasicMaterial()
-    boxMat.color = new pc.Color(1, 0, 0)
-    boxMat.update()
-    boxT.render.meshInstances[0].material = boxMat
-    boxT.setPosition(0, 1.5, -40)
-    boxT.setLocalScale(8, 8, 8)
-    root.addChild(boxT)
+      const boxT = new pc.Entity('test-box')
+      boxT.addComponent('render', { type: 'box' })
+      const boxMat = new pc.StandardMaterial()
+      boxMat.emissive = new pc.Color(1, 0, 0)
+      boxMat.emissiveIntensity = 3
+      boxMat.useLighting = false
+      boxMat.update()
+      boxT.render.meshInstances[0].material = boxMat
+      boxT.setPosition(0, 1.5, -40)
+      boxT.setLocalScale(8, 8, 8)
+      root.addChild(boxT)
 
-    const sunMat = new pc.BasicMaterial()
-    sunMat.color = new pc.Color(1, 0.6, 0.1)
-    sunMat.update()
-    const sunDisc = new pc.Entity('sun-disc')
-    sunDisc.addComponent('render', { type: 'box' })
-    sunDisc.render.meshInstances[0].material = sunMat
-    sunDisc.setPosition(SUN_DIR[0] * 150, SUN_DIR[1] * 150, SUN_DIR[2] * 150)
-    sunDisc.setLocalScale(34, 34, 1)
-    sunDisc.lookAt(camEntity.getPosition())
-    root.addChild(sunDisc)
+      const sunMat = new pc.StandardMaterial()
+      sunMat.emissive = new pc.Color(1, 0.6, 0.1)
+      sunMat.emissiveIntensity = 3
+      sunMat.useLighting = false
+      sunMat.update()
+      const sunDisc = new pc.Entity('sun-disc')
+      sunDisc.addComponent('render', { type: 'box' })
+      sunDisc.render.meshInstances[0].material = sunMat
+      sunDisc.setPosition(SUN_DIR[0] * 150, SUN_DIR[1] * 150, SUN_DIR[2] * 150)
+      sunDisc.setLocalScale(34, 34, 1)
+      sunDisc.lookAt(camEntity.getPosition())
+      root.addChild(sunDisc)
+    } catch (e) {
+      console.info('[dm-agua] diagnósticos omitidos:', e.message)
+    }
 
     const waterEntity = new pc.Entity('agua')
     waterEntity.addComponent('render', { type: 'plane' })
