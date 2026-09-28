@@ -71,7 +71,7 @@
 <script type="importmap">
   {
     "imports": {
-      "playcanvas": {{ "js/vendor/playcanvas.min.js" | relURL | jsonify }},
+      "playcanvas": {{ (printf "js/vendor/playcanvas.min.js?v=%s" (now.Unix)) | relURL | jsonify }},
       "playcanvas/scripts/esm/water.mjs": {{ "js/vendor/playcanvas/pc-water.js" | relURL | jsonify }}
     }
   }

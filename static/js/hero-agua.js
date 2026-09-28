@@ -64,7 +64,8 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     try {
       const glc = canvas.getContext('webgl2')
       window.__draws = 0
-      const wrap = (n) => { const o = glc[n]; if (o) { glc[n] = function (...a) { window.__draws++; return o.apply(this, a) } } }
+      window.__drawSamples = []
+      const wrap = (n) => { const o = glc[n]; if (o) { glc[n] = function (...a) { window.__draws++; if (window.__drawSamples.length < 30) { try { window.__drawSamples.push([n, a.length ? Array.prototype.slice.call(a).map(Number) : null, String(glc.getParameter(glc.VIEWPORT)), String(glc.getParameter(glc.SCISSOR_BOX)), glc.getParameter(glc.FRAMEBUFFER_BINDING) !== null ? 'fbo' : 'defaultfb' ]) } catch (_) {} } return o.apply(this, a) } } }
       wrap('drawElements'); wrap('drawArrays')
     } catch (_) {}
 
@@ -109,6 +110,12 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     testEntity.setPosition(0, 1.5, -40)
     testEntity.setLocalScale(40, 40, 1)
     root.addChild(testEntity)
+
+    const boxT = new pc.Entity('test-box')
+    boxT.addComponent('render', { type: 'box' })
+    boxT.setPosition(0, 1.5, -40)
+    boxT.setLocalScale(8, 8, 8)
+    root.addChild(boxT)
 
     const waterEntity = new pc.Entity('agua')
     waterEntity.addComponent('render', { type: 'plane' })
@@ -230,6 +237,7 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
         frames: window.__dmFrames || 0,
         shaderErrors: window.__dmShaderErrors || 0,
         draws,
+        ds: JSON.stringify((window.__drawSamples || []).slice(0, 6)),
         px,
         rt: rtres
       }))
