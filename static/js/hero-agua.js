@@ -142,15 +142,15 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
     const waterEntity = new pc.Entity('agua')
     waterEntity.addComponent('render', { type: 'plane' })
-    waterEntity.setLocalEulerAngles(90, 0, 0)
-    waterEntity.setPosition(0, 0, -700)
-    waterEntity.setLocalScale(500, 1, 1600)
+    // Plano horizontal gigante en y=0, cubre todo el frustro inferior
+    waterEntity.setPosition(0, 0, 0)
+    waterEntity.setLocalScale(20000, 1, 20000)
     const waterMat = new pc.StandardMaterial()
     waterMat.diffuse = new pc.Color(0.02, 0.15, 0.22)
     waterMat.emissive = new pc.Color(0.08, 0.5, 0.65)
     waterMat.emissiveIntensity = 0.6
     waterMat.useLighting = false
-    waterMat.opacity = 0.9
+    waterMat.opacity = 0.95
     waterMat.blendType = pc.BLEND_NORMAL
     waterMat.cull = pc.CULLFACE_NONE
     waterMat.update()
