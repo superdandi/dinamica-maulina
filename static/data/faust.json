@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T04:30:49.375Z",
+  "generatedAt": "2026-09-28T16:36:01.425Z",
   "items": [
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
@@ -64,6 +64,17 @@
         "text": "30 de septiembre (Miércoles) · 12:00",
         "start": "2026-09-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-09-27-orquesta-infantil-y-juvenil-del-teatro-regional-del-maule-de-talca-volvera-al-fe",
+      "title": "Orquesta Infantil y Juvenil del Teatro Regional del Maule de Talca volverá al Festival Fernando Rozas",
+      "summary": "La Orquesta Infantil y Juvenil del Teatro Regional del Maule fue seleccionada por segundo año consecutivo para participar en el Festival Fernando Rozas 2026. The post Orquesta Infantil y Juvenil del Teatro Regional del Maule de Talca volverá al Festival Fernando Rozas appeared first on Diario El Cen",
+      "link": "https://www.diarioelcentro.cl/2026/09/27/orquesta-infantil-y-juvenil-del-teatro-regional-del-maule-de-talca-volvera-al-festival-fernando-rozas/",
+      "author": "Yasmín Gómez",
+      "category": "TEATRO",
+      "source": "diario-el-centro",
+      "date": "2026-09-27T23:10:55.000Z",
+      "image": ""
     },
     {
       "id": "2026-09-27-estudio-chileno-detecta-problemas-de-memoria-y-concentracion-tras-el-covid-19",
@@ -9192,7 +9203,7 @@
     "POESIA": 106,
     "LITERATURA": 39,
     "MUSICA": 163,
-    "TEATRO": 63,
+    "TEATRO": 64,
     "ARTES_VISUALES": 86,
     "ARTESANIAS": 53,
     "PATRIMONIO": 161,
@@ -9205,7 +9216,7 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 4,
-      "diario-el-centro": 22,
+      "diario-el-centro": 23,
       "elmauleinforma": 35,
       "seremi-culturas": 30,
       "diariotalca": 3,
