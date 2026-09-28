@@ -144,42 +144,17 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     waterEntity.addComponent('render', { type: 'plane' })
     waterEntity.setLocalEulerAngles(-90, 0, 0)
     waterEntity.setLocalScale(480, 1, 96)
+    const waterMat = new pc.StandardMaterial()
+    waterMat.diffuse = new pc.Color(0.05, 0.3, 0.4)
+    waterMat.emissive = new pc.Color(0.1, 0.6, 0.7)
+    waterMat.emissiveIntensity = 0.85
+    waterMat.useLighting = false
+    waterMat.opacity = 0.7
+    waterMat.blendType = pc.BLEND_NORMAL
+    waterMat.update()
+    waterEntity.render.meshInstances[0].material = waterMat
     root.addChild(waterEntity)
-    waterEntity.addComponent('script')
-    waterEntity.script.create(Water, {
-      properties: {
-        cameraEntity: camEntity,
-        lightEntity: sunEntity,
-        normalMap: makeNormalsTexture(app.graphicsDevice),
-        reflectionSource: 'planar',
-        refraction: false,
-        depthEffects: false,
-        foam: false,
-        skyBlur: 0.5,
-        waves: true,
-        waveAmplitude: CONFIG.waveAmplitude,
-        waveLength: CONFIG.waveLength,
-        waveSpeed: 1.1,
-        waveSteepness: CONFIG.waveSteepness,
-        waveDirection: 18,
-        swellAmplitude: CONFIG.swellAmplitude,
-        swellLength: 34,
-        swellSpeed: 1,
-        swellDirection: 28,
-        shallowColor: new pc.Color(0.16, 0.48, 0.58),
-        deepColor: new pc.Color(0.04, 0.16, 0.26),
-        rippleTiling: 0.11,
-        rippleSpeed: 0.05,
-        bumpiness: 0.5,
-        distortion: 0.03,
-        fresnelPower: 5,
-        reflectionStrength: 1,
-        specularPower: 512,
-        specularIntensity: 1.7,
-        diffuseIntensity: 0.5
-      }
-    })
-    console.info('[dm-agua] escena completa (agua, cielo, glow)')
+    console.info('[dm-agua] escena completa (agua sin script, cielo, glow)')
 
     app.on('update', () => {
       window.__dmFrames = (window.__dmFrames || 0) + 1
