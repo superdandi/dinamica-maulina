@@ -143,13 +143,14 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
     const waterEntity = new pc.Entity('agua')
     waterEntity.addComponent('render', { type: 'plane' })
     waterEntity.setLocalEulerAngles(-90, 0, 0)
-    waterEntity.setLocalScale(480, 1, 96)
+    waterEntity.setPosition(0, 0, -700)
+    waterEntity.setLocalScale(500, 1, 1600)
     const waterMat = new pc.StandardMaterial()
     waterMat.diffuse = new pc.Color(0.05, 0.3, 0.4)
-    waterMat.emissive = new pc.Color(0.1, 0.6, 0.7)
-    waterMat.emissiveIntensity = 0.85
+    waterMat.emissive = new pc.Color(0.12, 0.62, 0.72)
+    waterMat.emissiveIntensity = 0.55
     waterMat.useLighting = false
-    waterMat.opacity = 0.7
+    waterMat.opacity = 0.85
     waterMat.blendType = pc.BLEND_NORMAL
     waterMat.update()
     waterEntity.render.meshInstances[0].material = waterMat
@@ -198,9 +199,21 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
             cols[k] = (cols[k] || 0) + 1
           }
           const top = Object.entries(cols).sort((a, z) => z[1] - a[1]).slice(0, 6).map(e => e[0])
+          const grid = []
+          const r = 6, c = 8
+          for (let y = 0; y < r; y++) {
+            const row = []
+            for (let x = 0; x < c; x++) {
+              const yi = Math.min(h - 1, Math.floor(((y + 0.5) / r) * h))
+              const xi = Math.min(w - 1, Math.floor(((x + 0.5) / c) * w))
+              const i = (yi * w + xi) * 4
+              row.push(d[i] + ',' + d[i + 1] + ',' + d[i + 2])
+            }
+            grid.push(row.join(' '))
+          }
           let samples = null
           try { samples = String(gl.getParameter(gl.SAMPLES)) } catch (_) {}
-          px = JSON.stringify({ w, h, painted, magenta, top, samples })
+          px = JSON.stringify({ w, h, painted, magenta, top, grid, samples })
         }
       } catch (e) { px = 'err:' + e.message }
       try { draws = window.__draws || 0 } catch (_) {}
