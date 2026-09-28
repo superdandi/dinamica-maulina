@@ -88,8 +88,8 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
     const skyEntity = new pc.Entity('cielo')
     skyEntity.addComponent('render', { type: 'sphere' })
-    skyEntity.render.meshInstances[0].mesh = makeSphereMesh(app.graphicsDevice, 460)
     skyEntity.render.meshInstances[0].material = makeSkyMaterial(app.graphicsDevice)
+    skyEntity.setLocalScale(920, 920, 920)
     root.addChild(skyEntity)
 
     glowEntity = new pc.Entity('sol-glow')
@@ -119,7 +119,8 @@ import { Water } from 'playcanvas/scripts/esm/water.mjs'
 
     const waterEntity = new pc.Entity('agua')
     waterEntity.addComponent('render', { type: 'plane' })
-    waterEntity.render.meshInstances[0].mesh = makePlaneMesh(app.graphicsDevice, 480, 96)
+    waterEntity.setLocalEulerAngles(-90, 0, 0)
+    waterEntity.setLocalScale(480, 1, 96)
     root.addChild(waterEntity)
     waterEntity.addComponent('script')
     waterEntity.script.create(Water, {
