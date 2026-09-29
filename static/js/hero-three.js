@@ -63,8 +63,6 @@ function initThree() {
   renderer.toneMappingExposure = 0.28;
 
 scene = new THREE.Scene();
-  // Color de fondo para que el agua tenga qué reflejar (sin Sky)
-  scene.background = new THREE.Color(0x0a2c4d);
 
   camera = new THREE.PerspectiveCamera(55, width / height, 1, 20000);
   // Cámara arriba mirando hacia abajo para que el agua llene todo el hero
@@ -102,15 +100,8 @@ scene = new THREE.Scene();
   water.rotation.x = -Math.PI / 2;
   scene.add(water);
 
-  // Domo de cielo simple para que el agua tenga qué reflejar (gradiente petróleo → más claro)
-  const skyGeometry = new THREE.SphereGeometry(5000, 32, 16);
-  const skyMaterial = new THREE.MeshBasicMaterial({
-    color: 0x1a3a5c,
-    side: THREE.BackSide,
-    fog: false,
-  });
-  const skyDome = new THREE.Mesh(skyGeometry, skyMaterial);
-  scene.add(skyDome);
+  // Clear color = color del agua → el mirror del shader refleja color uniforme
+  renderer.setClearColor(0x0a2c4d, 1);
 
   function handleResize() {
     const w = canvas.clientWidth || container.clientWidth;
