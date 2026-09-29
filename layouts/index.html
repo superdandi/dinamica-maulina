@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="hero hero--agua" data-agua="horizon">
-  <canvas id="hero-agua" class="hero__canvas" aria-hidden="true"></canvas>
+  <canvas id="hero-three" class="hero__canvas" aria-hidden="true"></canvas>
   <div class="hero__velo" aria-hidden="true"></div>
   <div class="hero__interior">
     <div class="hero__contenido">
@@ -71,10 +71,11 @@
 <script type="importmap">
   {
     "imports": {
-      "playcanvas": {{ (printf "js/vendor/playcanvas.min.js?v=%d" (now.Unix)) | relURL | jsonify }},
-      "playcanvas/scripts/esm/water.mjs": {{ "js/vendor/playcanvas/pc-water.js" | relURL | jsonify }}
+      "three": {{ "js/vendor/three/three.module.min.js" | relURL | jsonify }},
+      "three/examples/jsm/objects/Water.js": {{ "js/vendor/three/examples/jsm/objects/Water.js" | relURL | jsonify }},
+      "three/examples/jsm/objects/Sky.js": {{ "js/vendor/three/examples/jsm/objects/Sky.js" | relURL | jsonify }}
     }
   }
 </script>
-<script type="module" src="{{ "js/hero-agua.js" | relURL }}"></script>
+<script type="module" src="{{ "js/hero-three.js" | relURL }}"></script>
 {{ end }}
