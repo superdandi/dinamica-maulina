@@ -65,14 +65,21 @@ function initThree() {
 
   scene = new THREE.Scene();
 
-  camera = new THREE.PerspectiveCamera(55, width / height, 1, 20000);
+camera = new THREE.PerspectiveCamera(55, width / height, 1, 20000);
   // Cámara arriba mirando hacia abajo para que el agua llene todo el hero
   camera.position.set(0, 120, 0);
   camera.lookAt(0, 0, 0);
 
-  const sun = new THREE.Vector3();
+  // Luces para que el agua se vea (color base + normales + especular)
+  const hemiLight = new THREE.HemisphereLight(0x88ccff, 0x0a2c4d, 0.6);
+  scene.add(hemiLight);
+  const dirLight = new THREE.DirectionalLight(0xd0560f, 1.2);
+  dirLight.position.set(100, 200, 50);
+  scene.add(dirLight);
 
-  const waterGeometry = new THREE.PlaneGeometry(20000, 20000);
+  const sun = new THREE.Vector3(0.3, 0.7, 0.3).normalize();
+
+  const waterGeometry = new THREE.PlaneGeometry(10000, 10000);
 
   const waterNormalsTexture = new THREE.TextureLoader().load(
     '/dinamica-maulina/images/waternormals.jpg',
@@ -85,7 +92,7 @@ function initThree() {
     textureWidth: 512,
     textureHeight: 512,
     waterNormals: waterNormalsTexture,
-    sunDirection: new THREE.Vector3(0.3, 0.7, 0.3).normalize(),
+    sunDirection: sun.clone(),
     sunColor: 0xd0560f,
     waterColor: 0x0a2c4d,
     distortionScale: 3.7,
