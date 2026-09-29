@@ -27,6 +27,15 @@ if (!canvas) {
   console.error('[dm-three] canvas #hero-three no encontrado');
 }
 
+let renderer = null, scene = null, camera = null, water = null, sky = null, renderTarget = null;
+let rafId = 0;
+let lastTime = performance.now();
+let isVisible = true;
+let resizeObserver = null;
+let intersectionObserver = null;
+let frameCount = 0;
+let shaderErrors = 0;
+
 const motionAllowed = !prefersReducedMotion();
 const webglOk = hasWebGL();
 
@@ -37,15 +46,6 @@ if (!motionAllowed || !webglOk) {
   estado('inicio three.js water+sky');
   initThree();
 }
-
-let renderer, scene, camera, water, sky, renderTarget;
-let rafId = 0;
-let lastTime = performance.now();
-let isVisible = true;
-let resizeObserver = null;
-let intersectionObserver = null;
-let frameCount = 0;
-let shaderErrors = 0;
 
 function initThree() {
   const container = canvas.parentElement;
