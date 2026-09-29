@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-28T16:36:01.425Z",
+  "generatedAt": "2026-09-29T04:58:53.091Z",
   "items": [
+    {
+      "id": "2026-09-28-el-ballet-de-arte-moderno-aterriza-en-curico-con-el-clasico-familiar-el-mago-de-",
+      "title": "El Ballet de Arte Moderno aterriza en Curicó con el clásico familiar “El Mago de Oz”",
+      "summary": "La Corporación Cultural de la Municipalidad de Curicó, junto al Teatro Provincial de Curicó, invita a todos los curicanos y curicanas a disfrutar de un espectáculo de danza de primer nivel con la llegada del Ballet de Arte Moderno de Santiago (BAM). La destacada compañía nacional presentará su elogi",
+      "link": "https://elmauleinforma.cl/el-ballet-de-arte-moderno-aterriza-en-curico-con-el-clasico-familiar-el-mago-de-oz/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-28T16:00:59.000Z",
+      "image": ""
+    },
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
       "title": "Ciclo de cine: “Ver para crecer: infancias en el cine chileno”",
@@ -9206,7 +9217,7 @@
     "TEATRO": 64,
     "ARTES_VISUALES": 86,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 161,
+    "PATRIMONIO": 162,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 68
@@ -9215,9 +9226,9 @@
     "sources": 54,
     "alive": 47,
     "itemsPerSource": {
+      "elmauleinforma": 36,
       "ext-utalca-programa": 4,
       "diario-el-centro": 23,
-      "elmauleinforma": 35,
       "seremi-culturas": 30,
       "diariotalca": 3,
       "rincon-literario": 48,
