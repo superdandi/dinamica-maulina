@@ -63,6 +63,8 @@ function initThree() {
   renderer.toneMappingExposure = 0.28;
 
 scene = new THREE.Scene();
+  // Background para que el mirror del agua tenga qué reflejar
+  scene.background = new THREE.Color(0x0a2c4d);
 
   camera = new THREE.PerspectiveCamera(55, width / height, 1, 20000);
   // Cámara arriba mirando hacia abajo para que el agua llene todo el hero
