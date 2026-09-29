@@ -1,6 +1,5 @@
 import * as THREE from 'three';
 import { Water } from 'three/examples/jsm/objects/Water.js';
-import { Sky } from 'three/examples/jsm/objects/Sky.js';
 
 function prefersReducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -63,9 +62,11 @@ function initThree() {
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 0.28;
 
-  scene = new THREE.Scene();
+scene = new THREE.Scene();
+  // Color de fondo para que el agua tenga qué reflejar (sin Sky)
+  scene.background = new THREE.Color(0x0a2c4d);
 
-camera = new THREE.PerspectiveCamera(55, width / height, 1, 20000);
+  camera = new THREE.PerspectiveCamera(55, width / height, 1, 20000);
   // Cámara arriba mirando hacia abajo para que el agua llene todo el hero
   camera.position.set(0, 120, 0);
   camera.lookAt(0, 0, 0);
