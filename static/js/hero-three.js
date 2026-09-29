@@ -68,9 +68,9 @@ scene = new THREE.Scene();
   scene.background = new THREE.Color(0x0a2c4d);
 
   camera = new THREE.PerspectiveCamera(55, width / height, 1, 20000);
-  // Cámara arriba mirando hacia abajo para que el agua llene todo el hero
-  camera.position.set(0, 120, 0);
-  camera.lookAt(0, 0, 0);
+  // Cámara estilo remamaule: ángulo bajo para ver horizonte + agua completa
+  camera.position.set(30, 30, 100);
+  camera.lookAt(0, 10, 0);
 
   // Luces para que el agua se vea (color base + normales + especular)
   const hemiLight = new THREE.HemisphereLight(0x88ccff, 0x0a2c4d, 0.6);
@@ -90,7 +90,7 @@ scene = new THREE.Scene();
 
   // Sky para que el agua tenga qué reflejar (mirror camera ve esto)
   sky = new Sky();
-  sky.scale.setScalar(10000);
+  sky.scale.setScalar(4000);
   scene.add(sky);
   const skyUniforms = sky.material.uniforms;
   skyUniforms['turbidity'].value = 10;
