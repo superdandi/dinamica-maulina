@@ -102,6 +102,16 @@ scene = new THREE.Scene();
   water.rotation.x = -Math.PI / 2;
   scene.add(water);
 
+  // Domo de cielo simple para que el agua tenga qué reflejar (gradiente petróleo → más claro)
+  const skyGeometry = new THREE.SphereGeometry(5000, 32, 16);
+  const skyMaterial = new THREE.MeshBasicMaterial({
+    color: 0x1a3a5c,
+    side: THREE.BackSide,
+    fog: false,
+  });
+  const skyDome = new THREE.Mesh(skyGeometry, skyMaterial);
+  scene.add(skyDome);
+
   function handleResize() {
     const w = canvas.clientWidth || container.clientWidth;
     const h = canvas.clientHeight || container.clientHeight;
