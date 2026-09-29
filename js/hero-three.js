@@ -66,7 +66,9 @@ function initThree() {
   scene = new THREE.Scene();
 
   camera = new THREE.PerspectiveCamera(55, width / height, 1, 20000);
-  camera.position.set(30, 30, 100);
+  // Cámara a ras de agua mirando al horizonte para que el agua llene el hero
+  camera.position.set(0, 5, 80);
+  camera.lookAt(0, 3, 0);
 
   const sun = new THREE.Vector3();
 
