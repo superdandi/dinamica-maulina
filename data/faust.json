@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-09-28T16:36:01.425Z",
+  "generatedAt": "2026-09-29T14:43:23.576Z",
   "items": [
+    {
+      "id": "2026-09-29-estudio-revela-que-pinos-fuera-de-su-habitat-natural-crecen-mas-y-toleran-mejor-",
+      "title": "Estudio revela que pinos fuera de su hábitat natural crecen más y toleran mejor la sequía",
+      "summary": "Crecer más rápido y, al mismo tiempo, resistir mejor los períodos de sequía parece una combinación difícil de encontrar en los árboles. Sin embargo, un estudio liderado por el académico de la Dirección de Investigación de la Universidad de Talca e investigador del Instituto de Ecología y Biodiversid",
+      "link": "https://elmauleinforma.cl/estudio-revela-que-pinos-fuera-de-su-habitat-natural-crecen-mas-y-toleran-mejor-la-sequia/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-29T01:00:47.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-28-seremi-de-las-culturas-impulsa-desde-tocopilla-el-sello-de-educacion-patrimonial",
+      "title": "Seremi de las Culturas impulsa desde Tocopilla el Sello de Educación Patrimonial",
+      "summary": "La visita permitió difundir en la provincia la convocatoria que busca reconocer a establecimientos educacionales que integran patrimonio, historia e identidad de sus territorios en los proyectos educativos.",
+      "link": "https://www.cultura.gob.cl/convocatorias/seremi-de-las-culturas-impulsa-desde-tocopilla-el-sello-de-educacion-patrimonial/",
+      "author": "antofagasta",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-28T21:52:38.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-28-delegacion-chilena-asistira-a-la-44-edicion-de-la-feria-internacional-del-libro-",
+      "title": "Delegación chilena asistirá a la 44ª edición de la Feria Internacional del Libro LIBER",
+      "summary": "Se estima que esta versión congregará a más de 500 profesionales del libro de 63 países, incluidos compradores de Europa, América Latina y mercados estratégicos como Estados Unidos, Canadá, China, Japón, Corea del Sur e India.",
+      "link": "https://www.cultura.gob.cl/actualidad/delegacion-chilena-asistira-a-la-44a-edicion-de-la-feria-internacional-del-libro-liber/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-28T20:31:47.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-28-a-toda-costa-proyecto-teatral-continua-con-nuevas-funciones-gratuitas-en-el-maul",
+      "title": "A Toda Costa: Proyecto teatral continúa con nuevas funciones gratuitas en el Maule",
+      "summary": "Llevar una programación gratuita de artes escénicas a distintos territorios del Maule es el propósito de A Toda Costa, iniciativa que continúa su recorrido por la región durante octubre y noviembre. Tras sus primeras jornadas en Chanco y Vichuquén, el proyecto llegará próximamente a Licantén, Pelluh",
+      "link": "https://elmauleinforma.cl/a-toda-costa-proyecto-teatral-continua-con-nuevas-funciones-gratuitas-en-el-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-09-28T19:57:15.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-28-venta-de-medicamentos-en-locales-masivos-academicos-alertan-sobre-graves-riesgos",
+      "title": "Venta de medicamentos en locales masivos: Académicos alertan sobre graves riesgos para la salud pública",
+      "summary": "Aumento de intoxicaciones, pérdida de la cadena de frío e impacto económico para el sistema de salud son algunos de los riesgos que advierte la carrera de Química y Farmacia de la Facultad de Ciencias Naturales, Matemática del Medio Ambiente de la Universidad Tecnológica Metropolitana (UTEM) ante la",
+      "link": "https://elmauleinforma.cl/venta-de-medicamentos-en-locales-masivos-academicos-alertan-sobre-graves-riesgos-para-la-salud-publica/",
+      "author": "Redacción El Maule Informa",
+      "category": "TERRITORIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-28T18:00:46.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-28-el-ballet-de-arte-moderno-aterriza-en-curico-con-el-clasico-familiar-el-mago-de-",
+      "title": "El Ballet de Arte Moderno aterriza en Curicó con el clásico familiar “El Mago de Oz”",
+      "summary": "La Corporación Cultural de la Municipalidad de Curicó, junto al Teatro Provincial de Curicó, invita a todos los curicanos y curicanas a disfrutar de un espectáculo de danza de primer nivel con la llegada del Ballet de Arte Moderno de Santiago (BAM). La destacada compañía nacional presentará su elogi",
+      "link": "https://elmauleinforma.cl/el-ballet-de-arte-moderno-aterriza-en-curico-con-el-clasico-familiar-el-mago-de-oz/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-09-28T16:00:59.000Z",
+      "image": ""
+    },
     {
       "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
       "title": "Ciclo de cine: “Ver para crecer: infancias en el cine chileno”",
@@ -9203,22 +9269,22 @@
     "POESIA": 106,
     "LITERATURA": 39,
     "MUSICA": 163,
-    "TEATRO": 64,
+    "TEATRO": 65,
     "ARTES_VISUALES": 86,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 161,
+    "PATRIMONIO": 165,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
-    "TERRITORIO": 68
+    "TERRITORIO": 69
   },
   "feedStats": {
     "sources": 54,
     "alive": 47,
     "itemsPerSource": {
+      "elmauleinforma": 39,
+      "seremi-culturas": 32,
       "ext-utalca-programa": 4,
       "diario-el-centro": 23,
-      "elmauleinforma": 35,
-      "seremi-culturas": 30,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
