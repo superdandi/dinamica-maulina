@@ -2,6 +2,132 @@ import * as THREE from 'three';
 import { Water } from 'three/examples/jsm/objects/Water.js';
 import { Sky } from 'three/examples/jsm/objects/Sky.js';
 
+// ==================== SHADERS (declarados ANTES de usarse) ====================
+
+const riverVertexShader = `
+  uniform float time;
+  uniform float flowSpeed;
+  uniform vec3 flowDirection;
+  attribute vec3 flowDir;
+  varying vec2 vUv;
+  varying vec3 vWorldPosition;
+  varying vec3 vNormal;
+  varying vec3 vFlowDir;
+
+  #include <common>
+  #include <fog_pars_vertex>
+  #include <shadowmap_pars_vertex>
+  #include <logdepthbuf_pars_vertex>
+
+  void main() {
+    vUv = uv;
+    vFlowDir = normalize(flowDir);
+
+    // Ondulación vertical suave (olas de río)
+    float wave = sin(uv.y * 40.0 + time * 3.5) * 0.025 +
+                 sin(uv.y * 18.0 - time * 2.1) * 0.018 +
+                 sin(uv.x * 30.0 + time * 1.7) * 0.012;
+
+    vec3 pos = position;
+    pos.y += wave;
+
+    // Micro-desplazamiento en dirección del flujo
+    pos.x += sin(uv.y * 25.0 + time * 4.0) * 0.008 * flowDir.x;
+    pos.z += sin(uv.y * 25.0 + time * 4.0) * 0.008 * flowDir.z;
+
+    vec4 mvPosition = modelViewMatrix * vec4(pos, 1.0);
+    vWorldPosition = (modelMatrix * vec4(pos, 1.0)).xyz;
+    vNormal = normalize(normalMatrix * normal);
+
+    gl_Position = projectionMatrix * mvPosition;
+
+    #include <logdepthbuf_vertex>
+    #include <fog_vertex>
+    #include <shadowmap_vertex>
+  }
+`;
+
+const riverFragmentShader = `
+  uniform float time;
+  uniform float flowSpeed;
+  uniform vec3 flowDirection;
+  uniform vec3 waterColor;
+  uniform vec3 deepColor;
+  uniform vec3 shallowColor;
+  uniform vec3 foamColor;
+  uniform vec3 sunColor;
+  uniform vec3 sunDirection;
+  uniform float distortionScale;
+  uniform sampler2D normalSampler;
+  uniform float alpha;
+
+  varying vec2 vUv;
+  varying vec3 vWorldPosition;
+  varying vec3 vNormal;
+  varying vec3 vFlowDir;
+
+  #include <common>
+  #include <packing>
+  #include <fog_pars_fragment>
+  #include <shadowmap_pars_fragment>
+  #include <logdepthbuf_pars_fragment>
+
+  vec3 perturbNormal(vec3 N, vec3 V, vec2 uv, float strength) {
+    vec3 map = texture2D(normalSampler, uv * distortionScale + vec2(time * 0.08, 0.0)).rgb;
+    map = map * 2.0 - 1.0;
+    map.xy *= strength;
+    vec3 binormal = normalize(cross(N, vFlowDir));
+    vec3 tangent = normalize(cross(binormal, N));
+    mat3 tbn = mat3(tangent, binormal, N);
+    return normalize(tbn * map);
+  }
+
+  void main() {
+    #include <logdepthbuf_fragment>
+    #include <shadowmap_fragment>
+
+    vec3 N = normalize(vNormal);
+    vec3 V = normalize(cameraPosition - vWorldPosition);
+
+    // Normal perturbada por flow normal map
+    vec3 Np = perturbNormal(N, V, vUv, 0.65);
+
+    // Profundidad basada en coordenada V (y del UV)
+    float depth = smoothstep(0.0, 1.0, vUv.y);
+    depth = pow(depth, 0.7);
+
+    // Color base: shallow -> deep
+    vec3 baseColor = mix(shallowColor, deepColor, depth);
+
+    // Reflexión especular (Fresnel simple)
+    float fresnel = pow(1.0 - max(dot(V, Np), 0.0), 4.0);
+    vec3 reflection = sunColor * fresnel * 0.45 * (1.0 - depth * 0.4);
+
+    // Espuma en zonas rápidas / bordes (basado en pendiente de normales)
+    float slope = 1.0 - abs(Np.y);
+    float foam = smoothstep(0.25, 0.55, slope) * (0.3 + sin(vUv.y * 60.0 + time * 5.0) * 0.15);
+    foam *= 1.0 - depth * 0.6;
+
+    // Caustics sutiles
+    float caustic = sin(vWorldPosition.x * 8.0 + time * 2.0) *
+                    sin(vWorldPosition.z * 8.0 - time * 1.5) * 0.02;
+
+    // Combinar
+    vec3 color = baseColor + reflection + foamColor * foam + vec3(caustic);
+
+    // Sombra
+    #ifdef USE_SHADOWMAP
+      float shadow = ShadowMapping_GetShadow(clippingPlanes);
+      color *= mix(1.0, 0.55, shadow);
+    #endif
+
+    gl_FragColor = vec4(color, alpha);
+
+    #include <tonemapping_fragment>
+    #include <fog_fragment>
+  }
+`;
+
 function prefersReducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
@@ -631,129 +757,3 @@ window.addEventListener('beforeunload', cleanup);
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) cleanup();
 });
-
-// ==================== SHADERS ====================
-
-const riverVertexShader = `
-  uniform float time;
-  uniform float flowSpeed;
-  uniform vec3 flowDirection;
-  attribute vec3 flowDir;
-  varying vec2 vUv;
-  varying vec3 vWorldPosition;
-  varying vec3 vNormal;
-  varying vec3 vFlowDir;
-
-  #include <common>
-  #include <fog_pars_vertex>
-  #include <shadowmap_pars_vertex>
-  #include <logdepthbuf_pars_vertex>
-
-  void main() {
-    vUv = uv;
-    vFlowDir = normalize(flowDir);
-
-    // Ondulación vertical suave (olas de río)
-    float wave = sin(uv.y * 40.0 + time * 3.5) * 0.025 +
-                 sin(uv.y * 18.0 - time * 2.1) * 0.018 +
-                 sin(uv.x * 30.0 + time * 1.7) * 0.012;
-
-    vec3 pos = position;
-    pos.y += wave;
-
-    // Micro-desplazamiento en dirección del flujo
-    pos.x += sin(uv.y * 25.0 + time * 4.0) * 0.008 * flowDir.x;
-    pos.z += sin(uv.y * 25.0 + time * 4.0) * 0.008 * flowDir.z;
-
-    vec4 mvPosition = modelViewMatrix * vec4(pos, 1.0);
-    vWorldPosition = (modelMatrix * vec4(pos, 1.0)).xyz;
-    vNormal = normalize(normalMatrix * normal);
-
-    gl_Position = projectionMatrix * mvPosition;
-
-    #include <logdepthbuf_vertex>
-    #include <fog_vertex>
-    #include <shadowmap_vertex>
-  }
-`;
-
-const riverFragmentShader = `
-  uniform float time;
-  uniform float flowSpeed;
-  uniform vec3 flowDirection;
-  uniform vec3 waterColor;
-  uniform vec3 deepColor;
-  uniform vec3 shallowColor;
-  uniform vec3 foamColor;
-  uniform vec3 sunColor;
-  uniform vec3 sunDirection;
-  uniform float distortionScale;
-  uniform sampler2D normalSampler;
-  uniform float alpha;
-
-  varying vec2 vUv;
-  varying vec3 vWorldPosition;
-  varying vec3 vNormal;
-  varying vec3 vFlowDir;
-
-  #include <common>
-  #include <packing>
-  #include <fog_pars_fragment>
-  #include <shadowmap_pars_fragment>
-  #include <logdepthbuf_pars_fragment>
-
-  vec3 perturbNormal(vec3 N, vec3 V, vec2 uv, float strength) {
-    vec3 map = texture2D(normalSampler, uv * distortionScale + vec2(time * 0.08, 0.0)).rgb;
-    map = map * 2.0 - 1.0;
-    map.xy *= strength;
-    vec3 binormal = normalize(cross(N, vFlowDir));
-    vec3 tangent = normalize(cross(binormal, N));
-    mat3 tbn = mat3(tangent, binormal, N);
-    return normalize(tbn * map);
-  }
-
-  void main() {
-    #include <logdepthbuf_fragment>
-    #include <shadowmap_fragment>
-
-    vec3 N = normalize(vNormal);
-    vec3 V = normalize(cameraPosition - vWorldPosition);
-
-    // Normal perturbada por flow normal map
-    vec3 Np = perturbNormal(N, V, vUv, 0.65);
-
-    // Profundidad basada en coordenada V (y del UV)
-    float depth = smoothstep(0.0, 1.0, vUv.y);
-    depth = pow(depth, 0.7);
-
-    // Color base: shallow -> deep
-    vec3 baseColor = mix(shallowColor, deepColor, depth);
-
-    // Reflexión especular (Fresnel simple)
-    float fresnel = pow(1.0 - max(dot(V, Np), 0.0), 4.0);
-    vec3 reflection = sunColor * fresnel * 0.45 * (1.0 - depth * 0.4);
-
-    // Espuma en zonas rápidas / bordes (basado en pendiente de normales)
-    float slope = 1.0 - abs(Np.y);
-    float foam = smoothstep(0.25, 0.55, slope) * (0.3 + sin(vUv.y * 60.0 + time * 5.0) * 0.15);
-    foam *= 1.0 - depth * 0.6;
-
-    // Caustics sutiles
-    float caustic = sin(vWorldPosition.x * 8.0 + time * 2.0) *
-                    sin(vWorldPosition.z * 8.0 - time * 1.5) * 0.02;
-
-    // Combinar
-    vec3 color = baseColor + reflection + foamColor * foam + vec3(caustic);
-
-    // Sombra
-    #ifdef USE_SHADOWMAP
-      float shadow = ShadowMapping_GetShadow(clippingPlanes);
-      color *= mix(1.0, 0.55, shadow);
-    #endif
-
-    gl_FragColor = vec4(color, alpha);
-
-    #include <tonemapping_fragment>
-    #include <fog_fragment>
-  }
-`;
