@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { Water } from 'three/examples/jsm/objects/Water.js';
+import { Sky } from 'three/examples/jsm/objects/Sky.js';
 
 function prefersReducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -26,7 +27,7 @@ if (!canvas) {
   console.error('[dm-three] canvas #hero-three no encontrado');
 }
 
-let renderer = null, scene = null, camera = null, water = null;
+let renderer = null, scene = null, camera = null, water = null, sky = null;
 let rafId = 0;
 let lastTime = performance.now();
 let isVisible = true;
@@ -78,8 +79,6 @@ scene = new THREE.Scene();
   dirLight.position.set(100, 200, 50);
   scene.add(dirLight);
 
-  const sun = new THREE.Vector3(0.3, 0.7, 0.3).normalize();
-
   const waterGeometry = new THREE.PlaneGeometry(10000, 10000);
 
   const waterNormalsTexture = new THREE.TextureLoader().load(
@@ -88,6 +87,35 @@ scene = new THREE.Scene();
       texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
     }
   );
+
+  // Sky para que el agua tenga qué reflejar (mirror camera ve esto)
+  sky = new Sky();
+  sky.scale.setScalar(10000);
+  scene.add(sky);
+  const skyUniforms = sky.material.uniforms;
+  skyUniforms['turbidity'].value = 10;
+  skyUniforms['rayleigh'].value = 2;
+  skyUniforms['mieCoefficient'].value = 0.005;
+  skyUniforms['mieDirectionalG'].value = 0.8;
+  skyUniforms['cloudCoverage'].value = 0.1;
+  skyUniforms['cloudDensity'].value = 0.1;
+  skyUniforms['cloudElevation'].value = 0.5;
+
+  const sun = new THREE.Vector3();
+  function updateSun() {
+    const elevation = 15;
+    const azimuth = 180;
+    const phi = THREE.MathUtils.degToRad(90 - elevation);
+    const theta = THREE.MathUtils.degToRad(azimuth);
+    sun.setFromSphericalCoords(1, phi, theta);
+    if (sky && sky.material && sky.material.uniforms) {
+      sky.material.uniforms['sunPosition'].value.copy(sun);
+    }
+    if (water && water.material && water.material.uniforms) {
+      water.material.uniforms['sunDirection'].value.copy(sun).normalize();
+    }
+  }
+  updateSun();
 
   water = new Water(waterGeometry, {
     textureWidth: 512,
@@ -102,7 +130,7 @@ scene = new THREE.Scene();
   water.rotation.x = -Math.PI / 2;
   scene.add(water);
 
-  // Clear color = color del agua → el mirror del shader refleja color uniforme
+  // Clear color para main render
   renderer.setClearColor(0x0a2c4d, 1);
 
   function handleResize() {
@@ -134,13 +162,16 @@ scene = new THREE.Scene();
 
   function animate() {
     rafId = requestAnimationFrame(animate);
-    if (!isVisible || !renderer || !scene || !camera || !water) return;
+    if (!isVisible || !renderer || !scene || !camera || !water || !sky) return;
     const now = performance.now();
     const delta = Math.min((now - lastTime) / 1000, 0.1);
     lastTime = now;
     frameCount++;
     if (water.material && water.material.uniforms) {
       water.material.uniforms['time'].value += delta;
+    }
+    if (sky.material && sky.material.uniforms) {
+      sky.material.uniforms['time'].value = now / 1000;
     }
     try {
       renderer.render(scene, camera);
@@ -173,6 +204,10 @@ function cleanup() {
     const mirrorSampler = water.material?.uniforms?.['mirrorSampler']?.value;
     mirrorSampler?.dispose();
     water.material?.dispose();
+  }
+  if (sky) {
+    sky.material?.dispose();
+    sky.geometry?.dispose();
   }
   if (scene) scene.environment = null;
   if (renderer) {
