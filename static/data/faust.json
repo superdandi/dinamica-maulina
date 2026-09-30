@@ -1,6 +1,102 @@
 {
-  "generatedAt": "2026-09-30T14:45:29.310Z",
+  "generatedAt": "2026-09-30T20:40:04.176Z",
   "items": [
+    {
+      "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
+      "title": "Inauguración exposición: “Diálogo entre atmósferas”, de Dawn Swan",
+      "summary": "de Dawn Swan · Esta exposición invita al visitante a contemplar y relacionarse con el espacio, · guiado por la sensibilidad única del lenguaje de la acuarela. Las obras de Swain · despliegan paisajes donde las transparencias luminosas y las sutiles manchas se · funden para construir momentos de frío",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026.pdf",
+      "author": "",
+      "category": "ARTES_VISUALES",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-08T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "8 de octubre (Jueves) · 19:00",
+        "start": "2026-10-08T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-08-festival-de-cine-felina-2026",
+      "title": "Festival de Cine Felina 2026",
+      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-08T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "8, 9, 15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
+        "start": "2026-10-08T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-07-inauguracion-exposicion-llevame-de-vuelta-al-sur",
+      "title": "Inauguración exposición: “Llévame de vuelta al Sur”",
+      "summary": "Esta exposición reúne textiles pertenecientes a la Colección Shaw-Zegers, junto a · pinturas y esculturas de la colección de la Universidad de Talca, para plantear una · pregunta: ¿Qué sucede cuando dejamos de mirar esta parte del mundo desde · parámetros construidos en otros lugares? Hemos aprendid",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026.pdf",
+      "author": "",
+      "category": "ARTES_VISUALES",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-07T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "7 de octubre (Miércoles) · 12:00",
+        "start": "2026-10-07T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-07-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
+      "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
+      "summary": "posesiones en el cine” · El cine de horror también funciona como un sismógrafo de nuestras ansiedades · Miércoles colectivas. “El mal está aquí” recorre distintas formas de una presencia que ya no · amenaza desde afuera, sino que se instala en cuerpos, hogares y comunidades. · Miércoles 7 / El Conju",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-07T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "7, 14, 21, 28 de octubre · 19:00",
+        "start": "2026-10-07T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-06-pitch-de-artistas-ama-maule-2026",
+      "title": "Pitch de Artistas AMA MAULE 2026",
+      "summary": "AMA MAULE 2026 · Nuevamente la Universidad de Talca se hace parte de AMA MAULE, encuentro · liderado por el Ministerio de las Culturas, las Artes y el Patrimonio en la Región, que · conecta a artistas, programadores, gestores y agentes culturales para generar · nuevas oportunidades de colaboración y",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-06T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "6 de octubre (Martes) · 15:00",
+        "start": "2026-10-06T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-01-inauguracion-exposicion-deslastres-de-patricio-court",
+      "title": "Inauguración exposición: “…deslastres”, de Patricio Court",
+      "summary": "de Patricio Court · Esta exposición reúne un conjunto de obras realizadas durante los últimos siete · años, período que incluye el tiempo de la pandemia. En ese contexto de encierro, · ensimismamiento y trabajo introspectivo, el destacado escultor chileno · profundizó una búsqueda orientada hacia la",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026.pdf",
+      "author": "",
+      "category": "ARTES_VISUALES",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-01T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "1 de octubre (Jueves) · 12:00",
+        "start": "2026-10-01T12:00:00.000Z"
+      }
+    },
     {
       "id": "2026-09-30-talca-sera-el-epicentro-del-debate-museologico-latinoamericano-en-octubre-de-202",
       "title": "Talca será el epicentro del debate museológico latinoamericano en octubre de 2026",
@@ -196,70 +292,6 @@
       "source": "elmauleinforma",
       "date": "2026-09-28T16:00:59.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-09-28-ciclo-de-cine-ver-para-crecer-infancias-en-el-cine-chileno",
-      "title": "Ciclo de cine: “Ver para crecer: infancias en el cine chileno”",
-      "summary": "chileno” · En septiembre, cuatro películas chilenas exploran la infancia desde distintas · Miércoles experiencias: la familia, el desarraigo, las desigualdades sociales y el deseo de · libertad. Una mirada sobre las diversas formas de crecer y descubrir el mundo · desde sus propios protagonistas. · ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-28T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "30 de septiembre · 19:00",
-        "start": "2026-09-28T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-09-28-charla-del-sueno-de-wan-hu-a-artemis-ii-500-anos-de-exploracion-espacial",
-      "title": "Charla “Del sueño de Wan Hu a Artemis II: 500 años de exploración espacial”",
-      "summary": "500 años de exploración espacial” · Expositor: Dr. Pedro Humire, Instituto de Astronomía, Geofísica y Cs. · Atmosféricas, Universidad de Sao Paulo, Brasil. Visitante del · Departamento de tecnologías industriales, Fac de Ingeniería. · Un recorrido por la historia de la exploración espacial a lo larg",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-28T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "28 de septiembre (Lunes) · 19:00",
-        "start": "2026-09-28T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-09-28-cafe-literario-curico",
-      "title": "Café Literario Curicó",
-      "summary": "Invitada: Pino Luna · Pino Luna (Maipú, 1990) es una escritora chilena, licenciada en Letras Hispánicas, · profesora y magíster en Educación. Es autora de la novela \"Mientras dormías · cantabas\" (2021) que narra la celebración de Año Nuevo de una familia en un bloc · de departamentos en un barrio de",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "LITERATURA",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-28T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "29 de septiembre (Martes) · 18:30",
-        "start": "2026-09-28T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-09-28-inauguracion-exposicion-colectiva-cuerpo-objeto-y-territorio-de-patricia-valle-c",
-      "title": "Inauguración exposición colectiva “Cuerpo, objeto y territorio”, de Patricia Valle Chávez, Ángela Orellana Pavez, Felipe Carrión Rojas",
-      "summary": "y territorio”, de Patricia Valle Chávez, · Ángela Orellana Pavez, Felipe Carrión Rojas · Grabado, pintura y escultura se articulan en esta propuesta colectiva que reúne el · trabajo de tres artistas maulinos para reﬂexionar sobre la memoria local y la · materia. La muestra despliega un diálogo tridi",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_septiembre_2026.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-09-28T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "30 de septiembre (Miércoles) · 12:00",
-        "start": "2026-09-28T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-09-27-orquesta-infantil-y-juvenil-del-teatro-regional-del-maule-de-talca-volvera-al-fe",
@@ -9397,23 +9429,23 @@
   ],
   "counts": {
     "POESIA": 106,
-    "LITERATURA": 39,
+    "LITERATURA": 38,
     "MUSICA": 165,
     "TEATRO": 66,
-    "ARTES_VISUALES": 87,
+    "ARTES_VISUALES": 89,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 170,
+    "PATRIMONIO": 171,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 70
   },
   "feedStats": {
     "sources": 54,
-    "alive": 46,
+    "alive": 47,
     "itemsPerSource": {
+      "ext-utalca-programa": 6,
       "elmauleinforma": 43,
       "seremi-culturas": 38,
-      "ext-utalca-programa": 4,
       "diario-el-centro": 23,
       "diariotalca": 3,
       "rincon-literario": 48,
@@ -9999,7 +10031,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": false
     }
   ]
