@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-09-29T14:43:23.576Z",
+  "generatedAt": "2026-09-30T04:45:50.275Z",
   "items": [
+    {
+      "id": "2026-09-29-del-aula-al-muro-estudiantes-de-atacama-transformaron-sus-escuelas-a-traves-del-",
+      "title": "Del aula al muro: estudiantes de Atacama transformaron sus escuelas a través del muralismo",
+      "summary": "La iniciativa de Graffitti Atacama y financiada por el Fondart Regional del ministerio de las Culturas, las Artes y el Patrimonio, se desarrolló durante varios meses junto a estudiantes de cinco establecimientos educacionales de Copiapó, quienes participaron en un proceso de aprendizaje, creación co",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/del-aula-al-muro-estudiantes-de-atacama-transformaron-sus-escuelas-a-traves-del-muralismo/",
+      "author": "atacama",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-09-29T15:10:40.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-29-lo-personal-es-politico-presenta-su-tercera-edicion-con-una-nueva-instalacion-so",
+      "title": "«Lo personal es político» presenta su tercera edición con una nueva instalación sonora y visual en Teatro Biobío",
+      "summary": "Diez autoras del Biobío presentarán sus monólogos a través de una propuesta que articula escritura, voz e imagen, abordando experiencias vinculadas al duelo, la violencia, el deseo, la maternidad, la precariedad, la migración y los vínculos afectivos. La instalación, resultado de un laboratorio faci",
+      "link": "https://www.cultura.gob.cl/agendacultural/lo-personal-es-politico-presenta-su-tercera-edicion-con-una-nueva-instalacion-sonora-y-visual-en-teatro-biobio/",
+      "author": "biobio",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-09-29T14:31:59.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-09-29-colombina-parra-alfredo-lewin-y-los-hermanos-ilabaca-encabezaran-la-semana-de-la",
+      "title": "Colombina Parra, Alfredo Lewin y Los Hermanos Ilabaca encabezarán la Semana de la Música en Cecrea La Ligua",
+      "summary": "El evento, que se desarrollará entre el 30 de septiembre y el 2 de octubre, contará con la participación de delegaciones de jóvenes de Vallenar y Valdivia. Habrá laboratorios, programas radiales y conciertos abiertos a la comunidad.",
+      "link": "https://www.cultura.gob.cl/agendacultural/colombina-parra-alfredo-lewin-y-los-hermanos-ilabaca-encabezaran-la-semana-de-la-musica-en-cecrea-la-ligua/",
+      "author": "valparaiso",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-09-29T12:52:16.000Z",
+      "image": "",
+      "event": {
+        "text": "el 30 de septiembre",
+        "start": "2026-09-28T12:00:00.000Z"
+      }
+    },
     {
       "id": "2026-09-29-estudio-revela-que-pinos-fuera-de-su-habitat-natural-crecen-mas-y-toleran-mejor-",
       "title": "Estudio revela que pinos fuera de su hábitat natural crecen más y toleran mejor la sequía",
@@ -572,7 +609,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-09-29T12:00:00.000Z"
+        "start": "2026-10-06T12:00:00.000Z"
       }
     },
     {
@@ -9268,21 +9305,21 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 39,
-    "MUSICA": 163,
-    "TEATRO": 65,
+    "MUSICA": 164,
+    "TEATRO": 66,
     "ARTES_VISUALES": 86,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 165,
+    "PATRIMONIO": 166,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 69
   },
   "feedStats": {
     "sources": 54,
-    "alive": 47,
+    "alive": 46,
     "itemsPerSource": {
+      "seremi-culturas": 35,
       "elmauleinforma": 39,
-      "seremi-culturas": 32,
       "ext-utalca-programa": 4,
       "diario-el-centro": 23,
       "diariotalca": 3,
@@ -9869,7 +9906,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": false
     }
   ]
