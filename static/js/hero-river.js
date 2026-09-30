@@ -376,7 +376,7 @@ function initRiver() {
 
   function animate() {
     rafId = requestAnimationFrame(animate);
-    if (!isVisible || !renderer || !scene || !camera || !waterMesh || !sky) return;
+    if (!isVisible || !renderer || !scene || !camera || !riverMesh || !sky) return;
     const now = performance.now();
     const delta = Math.min((now - lastTime) / 1000, 0.1);
     lastTime = now;
