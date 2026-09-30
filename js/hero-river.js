@@ -382,13 +382,14 @@ function initRiver() {
     lastTime = now;
     frameCount++;
 
+    // Posición actual en el río (siempre disponible para sedimentos)
+    const pos = riverPath.getPointAt(pathProgress);
+
     // Avanzar por el río
     if (followRiver) {
       pathProgress = (pathProgress + delta * 0.015) % 1;
       const lookAhead = Math.min(pathProgress + 0.03, 1);
-      const pos = riverPath.getPointAt(pathProgress);
       const lookPos = riverPath.getPointAt(lookAhead);
-      const up = new THREE.Vector3(0, 1, 0);
       camera.position.lerp(new THREE.Vector3(pos.x, pos.y + 18, pos.z + 12), 0.05);
       camera.lookAt(lookPos.x, lookPos.y + 0.5, lookPos.z);
     }
