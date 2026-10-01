@@ -16,7 +16,6 @@ const riverVertexShader = `
 
   #include <common>
   #include <fog_pars_vertex>
-  #include <shadowmap_pars_vertex>
   #include <logdepthbuf_pars_vertex>
 
   void main() {
