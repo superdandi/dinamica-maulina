@@ -43,7 +43,6 @@ const riverVertexShader = `
 
     #include <logdepthbuf_vertex>
     #include <fog_vertex>
-    #include <shadowmap_vertex>
   }
 `;
 
@@ -69,7 +68,6 @@ const riverFragmentShader = `
   #include <common>
   #include <packing>
   #include <fog_pars_fragment>
-  #include <shadowmap_pars_fragment>
   #include <logdepthbuf_pars_fragment>
 
   vec3 perturbNormal(vec3 N, vec3 V, vec2 uv, float strength) {
@@ -84,7 +82,6 @@ const riverFragmentShader = `
 
   void main() {
     #include <logdepthbuf_fragment>
-    #include <shadowmap_fragment>
 
     vec3 N = normalize(vNormal);
     vec3 V = normalize(cameraPosition - vWorldPosition);
@@ -114,12 +111,6 @@ const riverFragmentShader = `
 
     // Combinar
     vec3 color = baseColor + reflection + foamColor * foam + vec3(caustic);
-
-    // Sombra
-    #ifdef USE_SHADOWMAP
-      float shadow = ShadowMapping_GetShadow(clippingPlanes);
-      color *= mix(1.0, 0.55, shadow);
-    #endif
 
     gl_FragColor = vec4(color, alpha);
 
