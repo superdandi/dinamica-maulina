@@ -111,10 +111,13 @@ const riverFragmentShader = `
     float caustic = sin(vWorldPosition.x * 8.0 + time * 2.0) *
                     sin(vWorldPosition.z * 8.0 - time * 1.5) * 0.02;
 
-    // Combinar: base + sun reflection + envMap (inyectado por chunk) + foam + caustic
-    vec3 color = baseColor + sunReflection + envMap * fresnel * 0.35 * (1.0 - depth * 0.3) + foamColor * foam + vec3(caustic);
+    // outgoingLight base (sin envMap) - Three.js envmap_fragment añadirá la reflexión
+    vec3 outgoingLight = baseColor + sunReflection + foamColor * foam + vec3(caustic);
 
-    gl_FragColor = vec4(color, 0.80);
+    // Three.js envmap_fragment añade la reflexión del environment map a outgoingLight
+    #include <envmap_fragment>
+
+    gl_FragColor = vec4(outgoingLight, 0.80);
 
     #include <tonemapping_fragment>
     #include <fog_fragment>
