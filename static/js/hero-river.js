@@ -57,7 +57,6 @@ const riverFragmentShader = `
   uniform vec3 sunDirection;
   uniform float distortionScale;
   uniform sampler2D normalSampler;
-  uniform samplerCube envMap;
 
   varying vec2 vUv;
   varying vec3 vWorldPosition;
