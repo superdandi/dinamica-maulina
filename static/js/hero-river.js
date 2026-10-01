@@ -57,8 +57,6 @@ const riverFragmentShader = `
   uniform vec3 sunDirection;
   uniform float distortionScale;
   uniform sampler2D normalSampler;
-  uniform samplerCube envMap;
-  uniform float alpha;
 
   varying vec2 vUv;
   varying vec3 vWorldPosition;
@@ -69,6 +67,7 @@ const riverFragmentShader = `
   #include <packing>
   #include <fog_pars_fragment>
   #include <logdepthbuf_pars_fragment>
+  #include <envmap_pars_fragment>
 
   vec3 perturbNormal(vec3 N, vec3 V, vec2 uv, float strength) {
     vec3 map = texture2D(normalSampler, uv * distortionScale + vec2(time * 0.08, 0.0)).rgb;
@@ -100,9 +99,8 @@ const riverFragmentShader = `
     float fresnel = pow(1.0 - max(dot(V, Np), 0.0), 4.0);
     vec3 sunReflection = sunColor * fresnel * 0.30 * (1.0 - depth * 0.3);
 
-    // Reflexión del environment map (cielo + árboles)
-    vec3 R = reflect(V, Np);
-    vec3 envReflection = textureCube(envMap, R).rgb * fresnel * 0.35 * (1.0 - depth * 0.3);
+    // Reflexión del environment map (cielo + árboles) - via Three.js chunk
+    #include <envmap_fragment>
 
     // Espuma en zonas rápidas / bordes (basado en pendiente de normales)
     float slope = 1.0 - abs(Np.y);
@@ -113,10 +111,10 @@ const riverFragmentShader = `
     float caustic = sin(vWorldPosition.x * 8.0 + time * 2.0) *
                     sin(vWorldPosition.z * 8.0 - time * 1.5) * 0.02;
 
-    // Combinar
-    vec3 color = baseColor + sunReflection + envReflection + foamColor * foam + vec3(caustic);
+    // Combinar: base + sun reflection + envMap (inyectado por chunk) + foam + caustic
+    vec3 color = baseColor + sunReflection + envMap * fresnel * 0.35 * (1.0 - depth * 0.3) + foamColor * foam + vec3(caustic);
 
-    gl_FragColor = vec4(color, alpha);
+    gl_FragColor = vec4(color, 0.80);
 
     #include <tonemapping_fragment>
     #include <fog_fragment>
@@ -293,7 +291,7 @@ function initRiver() {
   }
   updateSun();
 
-  // ShaderMaterial custom con envMap para reflejos
+  // ShaderMaterial custom con envMap nativo de Three.js
   const waterUniforms = {
     time: { value: 0 },
     flowSpeed: { value: 0.8 },
@@ -306,8 +304,7 @@ function initRiver() {
     sunDirection: { value: new THREE.Vector3(0.3, 0.7, 0.2).normalize() },
     distortionScale: { value: 6.5 },
     normalSampler: { value: flowNormalMap },
-    envMap: { value: envMap },
-    alpha: { value: 0.80 },
+    // alpha se maneja via material.transparent = true
   };
 
   const waterMaterial = new THREE.ShaderMaterial({
@@ -318,6 +315,10 @@ function initRiver() {
     side: THREE.DoubleSide,
     fog: false,
   });
+
+  // envMap nativo de Three.js (maneja binding a TEXTURE_CUBE_MAP automáticamente)
+  waterMaterial.envMap = envMap;
+  waterMaterial.envMapIntensity = 0.35;
 
   riverMesh = new THREE.Mesh(riverGeom, waterMaterial);
   riverMesh.renderOrder = 1;
@@ -402,9 +403,6 @@ function initRiver() {
     if (riverMesh && riverMesh.material && riverMesh.material.uniforms) {
       riverMesh.material.uniforms.time.value += delta;
       riverMesh.material.uniforms.sunDirection.value.copy(sun).normalize();
-      if (envMap) {
-        riverMesh.material.uniforms.envMap.value = envMap;
-      }
     }
     if (sky.material && sky.material.uniforms) {
       sky.material.uniforms['time'].value = now / 1000;
