@@ -67,6 +67,7 @@ const riverFragmentShader = `
   #include <packing>
   #include <fog_pars_fragment>
   #include <logdepthbuf_pars_fragment>
+  #include <envmap_pars_fragment>
 
   vec3 perturbNormal(vec3 N, vec3 V, vec2 uv, float strength) {
     vec3 map = texture2D(normalSampler, uv * distortionScale + vec2(time * 0.08, 0.0)).rgb;
