@@ -98,11 +98,11 @@ const riverFragmentShader = `
 
     // Reflexión especular del sol (Fresnel)
     float fresnel = pow(1.0 - max(dot(V, Np), 0.0), 4.0);
-    vec3 sunReflection = sunColor * fresnel * 0.45 * (1.0 - depth * 0.4);
+    vec3 sunReflection = sunColor * fresnel * 0.30 * (1.0 - depth * 0.3);
 
     // Reflexión del environment map (cielo + árboles)
     vec3 R = reflect(V, Np);
-    vec3 envReflection = textureCube(envMap, R).rgb * fresnel * 0.6 * (1.0 - depth * 0.3);
+    vec3 envReflection = textureCube(envMap, R).rgb * fresnel * 0.35 * (1.0 - depth * 0.3);
 
     // Espuma en zonas rápidas / bordes (basado en pendiente de normales)
     float slope = 1.0 - abs(Np.y);
@@ -298,16 +298,16 @@ function initRiver() {
     time: { value: 0 },
     flowSpeed: { value: 0.8 },
     flowDirection: { value: new THREE.Vector3(1, 0, 0) },
-    waterColor: { value: new THREE.Color(0x123524) },
-    deepColor: { value: new THREE.Color(0x081a10) },
-    shallowColor: { value: new THREE.Color(0x1a4a2e) },
+    waterColor: { value: new THREE.Color(0x1a4a2e) },
+    deepColor: { value: new THREE.Color(0x1a3a2e) },
+    shallowColor: { value: new THREE.Color(0x2a5a3e) },
     foamColor: { value: new THREE.Color(0x3a5a4a) },
     sunColor: { value: new THREE.Color(0x9a8a5a) },
     sunDirection: { value: new THREE.Vector3(0.3, 0.7, 0.2).normalize() },
     distortionScale: { value: 6.5 },
     normalSampler: { value: flowNormalMap },
     envMap: { value: envMap },
-    alpha: { value: 0.95 },
+    alpha: { value: 0.80 },
   };
 
   const waterMaterial = new THREE.ShaderMaterial({
@@ -561,10 +561,8 @@ function createBanks(path, halfWidth, segments) {
   bankGeom.setIndex(indices);
   bankGeom.computeVertexNormals();
 
-  const bankMat = new THREE.MeshStandardMaterial({
+  const bankMat = new THREE.MeshLambertMaterial({
     vertexColors: true,
-    roughness: 0.95,
-    metalness: 0.0,
     side: THREE.DoubleSide,
   });
   banksMesh = new THREE.Mesh(bankGeom, bankMat);
