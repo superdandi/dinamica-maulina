@@ -57,6 +57,7 @@ const riverFragmentShader = `
   uniform vec3 sunDirection;
   uniform float distortionScale;
   uniform sampler2D normalSampler;
+  uniform samplerCube envMap;
 
   varying vec2 vUv;
   varying vec3 vWorldPosition;
@@ -67,7 +68,6 @@ const riverFragmentShader = `
   #include <packing>
   #include <fog_pars_fragment>
   #include <logdepthbuf_pars_fragment>
-  #include <envmap_pars_fragment>
 
   vec3 perturbNormal(vec3 N, vec3 V, vec2 uv, float strength) {
     vec3 map = texture2D(normalSampler, uv * distortionScale + vec2(time * 0.08, 0.0)).rgb;
@@ -99,8 +99,9 @@ const riverFragmentShader = `
     float fresnel = pow(1.0 - max(dot(V, Np), 0.0), 4.0);
     vec3 sunReflection = sunColor * fresnel * 0.30 * (1.0 - depth * 0.3);
 
-    // Reflexión del environment map (cielo + árboles) - via Three.js chunk
-    #include <envmap_fragment>
+    // Reflexión del environment map (cielo + árboles) - manual
+    vec3 reflectVec = reflect(-V, Np);
+    vec3 envReflection = textureCube(envMap, reflectVec).rgb;
 
     // Espuma en zonas rápidas / bordes (basado en pendiente de normales)
     float slope = 1.0 - abs(Np.y);
@@ -111,13 +112,10 @@ const riverFragmentShader = `
     float caustic = sin(vWorldPosition.x * 8.0 + time * 2.0) *
                     sin(vWorldPosition.z * 8.0 - time * 1.5) * 0.02;
 
-    // outgoingLight base (sin envMap) - Three.js envmap_fragment añadirá la reflexión
-    vec3 outgoingLight = baseColor + sunReflection + foamColor * foam + vec3(caustic);
+    // Combinar: base + sun reflection + envMap reflection + foam + caustic
+    vec3 color = baseColor + sunReflection + envReflection * fresnel * 0.35 * (1.0 - depth * 0.3) + foamColor * foam + vec3(caustic);
 
-    // Three.js envmap_fragment añade la reflexión del environment map a outgoingLight
-    #include <envmap_fragment>
-
-    gl_FragColor = vec4(outgoingLight, 0.80);
+    gl_FragColor = vec4(color, 0.80);
 
     #include <tonemapping_fragment>
     #include <fog_fragment>
