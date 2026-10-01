@@ -252,55 +252,24 @@ function initRiver() {
   const flowNormalMap = createFlowNormalMap(512, 512);
   flowNormalMap.wrapS = flowNormalMap.wrapT = THREE.RepeatWrapping;
 
-  // Water material personalizado con flujo
-  const waterUniforms = {
-    time: { value: 0 },
-    flowSpeed: { value: 0.8 },
-    flowDirection: { value: new THREE.Vector3(1, 0, 0) },
-    waterColor: { value: new THREE.Color(0x123524) },
-    deepColor: { value: new THREE.Color(0x081a10) },
-    shallowColor: { value: new THREE.Color(0x1a4a2e) },
-    foamColor: { value: new THREE.Color(0x3a5a4a) },
-    sunColor: { value: new THREE.Color(0x9a8a5a) },
-    sunDirection: { value: new THREE.Vector3(0.3, 0.7, 0.2).normalize() },
-    distortionScale: { value: 8.5 },
-    normalSampler: { value: flowNormalMap },
-    alpha: { value: 0.95 },
-  };
-
-  const waterMaterial = new THREE.ShaderMaterial({
-    uniforms: waterUniforms,
-    vertexShader: riverVertexShader,
-    fragmentShader: riverFragmentShader,
-    transparent: true,
-    side: THREE.DoubleSide,
-    fog: false,
+  // Water class de three.js (mirror rendering automático + shader built-in)
+  water = new Water(riverGeom, {
+    textureWidth: 512,
+    textureHeight: 512,
+    waterNormals: flowNormalMap,
+    sunDirection: new THREE.Vector3(0.3, 0.7, 0.2).normalize(),
+    sunColor: 0x9a8a5a,
+    waterColor: 0x123524,
+    distortionScale: 6.5,
+    alpha: 0.95,
   });
-
-  riverMesh = new THREE.Mesh(riverGeom, waterMaterial);
+  water.rotation.x = -Math.PI / 2;
+  riverMesh = water;
   riverMesh.renderOrder = 1;
   scene.add(riverMesh);
 
-  // --- ORILLAS (bancos elevados con ruido) ---
-  createBanks(riverPath, riverWidth, segments);
-
-  // --- SEDIMENTO: partículas finas en el agua ---
-  createSediment(riverPath, riverWidth, segments);
-
-  // --- SKY para reflejos ---
-  sky = new Sky();
-  sky.scale.setScalar(4000);
-  scene.add(sky);
-  const skyUniforms = sky.material.uniforms;
-  skyUniforms['turbidity'].value = 8;
-  skyUniforms['rayleigh'].value = 2.5;
-  skyUniforms['mieCoefficient'].value = 0.004;
-  skyUniforms['mieDirectionalG'].value = 0.75;
-  skyUniforms['cloudCoverage'].value = 0.15;
-  skyUniforms['cloudDensity'].value = 0.2;
-  skyUniforms['cloudElevation'].value = 0.45;
-
   const sun = new THREE.Vector3();
+
   function updateSun() {
     const elevation = 22;
     const azimuth = 200;
@@ -310,8 +279,10 @@ function initRiver() {
     if (sky && sky.material && sky.material.uniforms) {
       sky.material.uniforms['sunPosition'].value.copy(sun);
     }
-    waterUniforms.sunDirection.value.copy(sun).normalize();
-    waterUniforms.sunColor.value.setHex(0x9a8a5a);
+    if (water && water.material && water.material.uniforms) {
+      water.material.uniforms['sunDirection'].value.copy(sun).normalize();
+      water.material.uniforms['sunColor'].value.setHex(0x9a8a5a);
+    }
   }
   updateSun();
 
@@ -384,8 +355,10 @@ function initRiver() {
       camera.lookAt(lookPos.x, lookPos.y + 0.5, lookPos.z);
     }
 
-    // Uniformes de agua
-    waterUniforms.time.value += delta;
+    // Uniformes de agua (Water class)
+    if (water && water.material && water.material.uniforms) {
+      water.material.uniforms.time.value += delta;
+    }
     if (sky.material && sky.material.uniforms) {
       sky.material.uniforms['time'].value = now / 1000;
     }
@@ -523,12 +496,16 @@ function createBanks(path, halfWidth, segments) {
     // Lado derecho (cara externa)
     indices.push(d, c, nd);
     indices.push(c, nc, nd);
-    // Top left
-    indices.push(b, nb, a + 4);
-    indices.push(nb, na + 4, b + 4);
-    // Top right
-    indices.push(c, c + 4, nc);
-    indices.push(c + 4, nd, nc);
+
+    // Top faces: skip for last segment to avoid out-of-bounds (na+4 would be 1604, max is 1603)
+    if (i < segments - 1) {
+      // Top left
+      indices.push(b, nb, a + 4);
+      indices.push(nb, na + 4, b + 4);
+      // Top right
+      indices.push(c, c + 4, nc);
+      indices.push(c + 4, nd, nc);
+    }
   }
 
   bankGeom.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
