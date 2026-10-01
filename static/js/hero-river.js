@@ -109,8 +109,10 @@ function initRiver() {
   }
   updateSun();
 
-  // --- AGUA: Water class de three.js (plano grande, reflejos automáticos) ---
-  const waterGeometry = new THREE.PlaneGeometry(20000, 20000);
+  // --- AGUA: Water class de three.js (plano largo y estrecho siguiendo el río) ---
+  const riverLength = 3000;
+  const riverWidth = 120;
+  const waterGeometry = new THREE.PlaneGeometry(riverLength, riverWidth, 50, 10);
 
   const waterNormalsTexture = new THREE.TextureLoader().load(
     '/dinamica-maulina/images/waternormals.jpg',
@@ -131,7 +133,8 @@ function initRiver() {
     fog: false,
   });
   water.rotation.x = -Math.PI / 2;
-  water.position.y = 0;
+  water.rotation.z = -0.15;
+  water.position.set(-100, 0, -300);
   scene.add(water);
 
   // --- ORILLAS (bancos elevados) ---
@@ -275,17 +278,21 @@ function initRiver() {
 }
 
 function createBanks() {
-  // Bancos simples a los lados del río
-  const bankGeom = new THREE.BoxGeometry(20000, 3, 60);
+  // Bancos a los lados del río (ancho 120 -> bancos en ±75)
+  const bankLength = 3000;
+  const bankWidth = 30;
+  const bankGeom = new THREE.BoxGeometry(bankLength, 3, bankWidth);
   const bankMat = new THREE.MeshLambertMaterial({ color: 0x2a2218 });
   
   const leftBank = new THREE.Mesh(bankGeom, bankMat);
-  leftBank.position.set(-55, 1.5, 0);
+  leftBank.position.set(-75, 1.5, -300);
+  leftBank.rotation.z = -0.15;
   leftBank.receiveShadow = true;
   scene.add(leftBank);
   
   const rightBank = new THREE.Mesh(bankGeom, bankMat);
-  rightBank.position.set(55, 1.5, 0);
+  rightBank.position.set(75, 1.5, -300);
+  rightBank.rotation.z = -0.15;
   rightBank.receiveShadow = true;
   scene.add(rightBank);
 }
@@ -303,7 +310,7 @@ function createSediment() {
     const pos = new THREE.Vector3(
       (Math.random() - 0.5) * 100,
       0.05 + Math.random() * 0.15,
-      (Math.random() - 0.5) * 2000 - 500
+      (Math.random() - 0.5) * 3000 - 1500
     );
     positions[i * 3] = pos.x;
     positions[i * 3 + 1] = pos.y;
@@ -354,9 +361,9 @@ function createRiversideVegetation() {
   for (let i = 0; i < treeCount; i++) {
     const t = Math.random();
     const x = (Math.random() - 0.5) * 100;
-    const z = (Math.random() - 0.5) * 2000 - 500;
+    const z = (Math.random() - 0.5) * 3000 - 1500;
     const side = Math.random() > 0.5 ? 1 : -1;
-    const offset = 70 + Math.random() * 20;
+    const offset = 75 + Math.random() * 15;
     
     const trunk = new THREE.Mesh(trunkGeom, trunkMat);
     trunk.position.set(side * (offset + x), 1.4, z);
