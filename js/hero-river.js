@@ -57,6 +57,7 @@ const riverFragmentShader = `
   uniform vec3 sunDirection;
   uniform float distortionScale;
   uniform sampler2D normalSampler;
+  uniform samplerCube envMap;
   uniform float alpha;
 
   varying vec2 vUv;
@@ -95,9 +96,13 @@ const riverFragmentShader = `
     // Color base: shallow -> deep
     vec3 baseColor = mix(shallowColor, deepColor, depth);
 
-    // Reflexión especular (Fresnel simple)
+    // Reflexión especular del sol (Fresnel)
     float fresnel = pow(1.0 - max(dot(V, Np), 0.0), 4.0);
-    vec3 reflection = sunColor * fresnel * 0.45 * (1.0 - depth * 0.4);
+    vec3 sunReflection = sunColor * fresnel * 0.45 * (1.0 - depth * 0.4);
+
+    // Reflexión del environment map (cielo + árboles)
+    vec3 R = reflect(V, Np);
+    vec3 envReflection = textureCube(envMap, R).rgb * fresnel * 0.6 * (1.0 - depth * 0.3);
 
     // Espuma en zonas rápidas / bordes (basado en pendiente de normales)
     float slope = 1.0 - abs(Np.y);
@@ -109,7 +114,7 @@ const riverFragmentShader = `
                     sin(vWorldPosition.z * 8.0 - time * 1.5) * 0.02;
 
     // Combinar
-    vec3 color = baseColor + reflection + foamColor * foam + vec3(caustic);
+    vec3 color = baseColor + sunReflection + envReflection + foamColor * foam + vec3(caustic);
 
     gl_FragColor = vec4(color, alpha);
 
@@ -252,23 +257,22 @@ function initRiver() {
   const flowNormalMap = createFlowNormalMap(512, 512);
   flowNormalMap.wrapS = flowNormalMap.wrapT = THREE.RepeatWrapping;
 
-  // Water class de three.js (mirror rendering automático + shader built-in)
-  water = new Water(riverGeom, {
-    textureWidth: 512,
-    textureHeight: 512,
-    waterNormals: flowNormalMap,
-    sunDirection: new THREE.Vector3(0.3, 0.7, 0.2).normalize(),
-    sunColor: 0x9a8a5a,
-    waterColor: 0x123524,
-    distortionScale: 6.5,
-    alpha: 0.95,
-  });
-  water.rotation.x = -Math.PI / 2;
-  riverMesh = water;
-  riverMesh.renderOrder = 1;
-  scene.add(riverMesh);
+  // Sky + PMREM para environment map (reflejos en el agua)
+  sky = new Sky();
+  sky.scale.setScalar(4000);
+  scene.add(sky);
+  const skyUniforms = sky.material.uniforms;
+  skyUniforms['turbidity'].value = 8;
+  skyUniforms['rayleigh'].value = 2.5;
+  skyUniforms['mieCoefficient'].value = 0.004;
+  skyUniforms['mieDirectionalG'].value = 0.75;
+  skyUniforms['cloudCoverage'].value = 0.15;
+  skyUniforms['cloudDensity'].value = 0.2;
+  skyUniforms['cloudElevation'].value = 0.45;
 
   const sun = new THREE.Vector3();
+  let pmremGenerator = null;
+  let envMap = null;
 
   function updateSun() {
     const elevation = 22;
@@ -279,12 +283,51 @@ function initRiver() {
     if (sky && sky.material && sky.material.uniforms) {
       sky.material.uniforms['sunPosition'].value.copy(sun);
     }
-    if (water && water.material && water.material.uniforms) {
-      water.material.uniforms['sunDirection'].value.copy(sun).normalize();
-      water.material.uniforms['sunColor'].value.setHex(0x9a8a5a);
-    }
+    // Regenerar PMREM cuando cambia el sol
+    if (pmremGenerator) pmremGenerator.dispose();
+    pmremGenerator = new THREE.PMREMGenerator(renderer);
+    const sceneEnv = new THREE.Scene();
+    sceneEnv.add(sky);
+    envMap = pmremGenerator.fromScene(sceneEnv).texture;
+    pmremGenerator.dispose();
   }
   updateSun();
+
+  // ShaderMaterial custom con envMap para reflejos
+  const waterUniforms = {
+    time: { value: 0 },
+    flowSpeed: { value: 0.8 },
+    flowDirection: { value: new THREE.Vector3(1, 0, 0) },
+    waterColor: { value: new THREE.Color(0x123524) },
+    deepColor: { value: new THREE.Color(0x081a10) },
+    shallowColor: { value: new THREE.Color(0x1a4a2e) },
+    foamColor: { value: new THREE.Color(0x3a5a4a) },
+    sunColor: { value: new THREE.Color(0x9a8a5a) },
+    sunDirection: { value: new THREE.Vector3(0.3, 0.7, 0.2).normalize() },
+    distortionScale: { value: 6.5 },
+    normalSampler: { value: flowNormalMap },
+    envMap: { value: envMap },
+    alpha: { value: 0.95 },
+  };
+
+  const waterMaterial = new THREE.ShaderMaterial({
+    uniforms: waterUniforms,
+    vertexShader: riverVertexShader,
+    fragmentShader: riverFragmentShader,
+    transparent: true,
+    side: THREE.DoubleSide,
+    fog: false,
+  });
+
+  riverMesh = new THREE.Mesh(riverGeom, waterMaterial);
+  riverMesh.renderOrder = 1;
+  scene.add(riverMesh);
+
+  // --- ORILLAS (bancos elevados con ruido) ---
+  createBanks(riverPath, riverWidth, segments);
+
+  // --- SEDIMENTO: partículas finas en el agua ---
+  createSediment(riverPath, riverWidth, segments);
 
   // Luces
   const hemiLight = new THREE.HemisphereLight(0x6a8a6a, 0x1a3a1a, 0.7);
@@ -355,9 +398,13 @@ function initRiver() {
       camera.lookAt(lookPos.x, lookPos.y + 0.5, lookPos.z);
     }
 
-    // Uniformes de agua (Water class)
-    if (water && water.material && water.material.uniforms) {
-      water.material.uniforms.time.value += delta;
+    // Uniformes de agua (ShaderMaterial custom)
+    if (riverMesh && riverMesh.material && riverMesh.material.uniforms) {
+      riverMesh.material.uniforms.time.value += delta;
+      riverMesh.material.uniforms.sunDirection.value.copy(sun).normalize();
+      if (envMap) {
+        riverMesh.material.uniforms.envMap.value = envMap;
+      }
     }
     if (sky.material && sky.material.uniforms) {
       sky.material.uniforms['time'].value = now / 1000;
