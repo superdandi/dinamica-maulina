@@ -134,7 +134,8 @@ function initRiver() {
   });
   water.rotation.x = -Math.PI / 2;
   water.rotation.z = -0.15;
-  water.position.set(-100, 0, -300);
+  // Centrar en el inicio del río (primer punto del path)
+  water.position.set(-200, 0, -300);
   scene.add(water);
 
   // --- ORILLAS (bancos elevados) ---
@@ -231,6 +232,7 @@ function initRiver() {
     // Animar agua (time uniform)
     if (water.material && water.material.uniforms) {
       water.material.uniforms.time.value += delta;
+      water.material.uniforms.eye.value.copy(camera.position);
     }
     if (sky.material && sky.material.uniforms) {
       sky.material.uniforms['time'].value = now / 1000;
