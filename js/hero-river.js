@@ -106,6 +106,11 @@ function initRiver() {
       water.material.uniforms['sunDirection'].value.copy(sun).normalize();
       water.material.uniforms['sunColor'].value.setHex(0x9a8a5a);
     }
+    if (water && water.material) {
+      water.material.envMap = envMap;
+      water.material.envMapIntensity = 0.5;
+      water.material.needsUpdate = true;
+    }
   }
   updateSun();
 
@@ -229,10 +234,14 @@ function initRiver() {
       camera.lookAt(lookPos.x, lookPos.y + 0.5, lookPos.z);
     }
 
-    // Animar agua (time uniform)
+    // Animar agua (time uniform + update mirror)
     if (water.material && water.material.uniforms) {
       water.material.uniforms.time.value += delta;
       water.material.uniforms.eye.value.copy(camera.position);
+    }
+    // Actualizar Water mirror camera
+    if (water.update) {
+      water.update(renderer, scene, camera);
     }
     if (sky.material && sky.material.uniforms) {
       sky.material.uniforms['time'].value = now / 1000;

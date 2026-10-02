@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:16:09.311Z",
+  "generatedAt": "2026-10-02T14:34:46.190Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -82,6 +82,84 @@
       }
     },
     {
+      "id": "2026-10-02-gondwana-quique-neira-se-suman-a-surfestival-2027-encabezado-por-jack-johnson",
+      "title": "Gondwana & Quique Neira se suman a Surfestival 2027 encabezado por Jack Johnson",
+      "summary": "Surfestival cierra el cartel de su versión 2027 con un fichaje imperdible: Gondwana & Quique Neira. La banda más emblemática del reggae chileno que acaba de concretar su reencuentro, se sumarán a Jack Johnson, Los Cafres, Donavon Frankenreiter, Movimiento Original, Amigo de Artistas, Ceaese, Bruno B",
+      "link": "https://elmauleinforma.cl/gondwana-quique-neira-se-suman-a-surfestival-2027-encabezado-por-jack-johnson/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-02T00:00:31.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-01-ecos-y-solos-talca-vivira-un-fin-de-semana-de-circo-contemporaneo-gratuito-en-ce",
+      "title": "“Ecos y Solos”: Talca vivirá un fin de semana de circo contemporáneo gratuito en Centro Cultural La Juguera",
+      "summary": "El encuentro reunirá propuestas de artistas del Maule y una compañía chileno-italiana, con funciones gratuitas este 3 y 4 de octubre en Talca. The post “Ecos y Solos”: Talca vivirá un fin de semana de circo contemporáneo gratuito en Centro Cultural La Juguera appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/01/ecos-y-solos-talca-vivira-un-fin-de-semana-de-circo-contemporaneo-gratuito-en-centro-cultural-la-juguera/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-01T23:32:11.000Z",
+      "image": "",
+      "event": {
+        "text": "4 de octubre",
+        "start": "2026-10-04T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-01-hospital-regional-de-talca-y-mujeres-sobrevivientes-de-cancer-de-mama-impulsan-c",
+      "title": "Hospital Regional de Talca y mujeres sobrevivientes de cáncer de mama impulsan campaña de prevención",
+      "summary": "Con un llamado a la prevención, el autocuidado y la detección oportuna, el Hospital Regional de Talca da inicio al Mes Rosa, período dedicado a generar conciencia sobre el cáncer de mama y la importancia de mantener los controles y exámenes preventivos. Durante octubre, el establecimiento acompañará",
+      "link": "https://elmauleinforma.cl/hospital-regional-de-talca-y-mujeres-sobrevivientes-de-cancer-de-mama-impulsan-campana-de-prevencion/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-01T23:00:57.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-01-sabores-saberes-y-oficios-del-pikun-mapu-feria-reunira-gastronomia-artesania-y-c",
+      "title": "Sabores, saberes y oficios del Pikun Mapu: feria reunirá gastronomía, artesanía y cultura mapuche en el centro de Talca",
+      "summary": "Una invitación a encontrarse con los sabores, saberes y expresiones culturales de los pueblos originarios presentes en el Maule realiza el Servicio Nacional del Patrimonio Cultural (SERPAT) junto a la Cooperativa Amuleiñ, a través de la feria “Sabores, Saberes y Oficios del Pikun Mapu”. El encuentro",
+      "link": "https://elmauleinforma.cl/sabores-saberes-y-oficios-del-pikun-mapu-feria-reunira-gastronomia-artesania-y-cultura-mapuche-en-el-centro-de-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-01T22:00:49.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-01-patrimonio-en-las-aulas-cultura-y-educacion-lanzan-convocatoria-inedita-para-rec",
+      "title": "Patrimonio en las aulas: Cultura y Educación lanzan convocatoria inédita para reconocer experiencias educativas en La Araucanía",
+      "summary": "Las postulaciones se encuentran abiertas hasta el 11 de octubre. La iniciativa va en línea con el Plan Chile Aprende y Avanza del Ministerio de Educación.",
+      "link": "https://www.cultura.gob.cl/actualidad/patrimonio-en-las-aulas-cultura-y-educacion-lanzan-convocatoria-inedita-para-reconocer-experiencias-educativas-en-la-araucania/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-01T19:57:45.000Z",
+      "image": "",
+      "event": {
+        "text": "el 11 de octubre",
+        "start": "2026-10-11T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-01-subsecretaria-del-patrimonio-cultural-realizo-conversatorio-patrimonio-territori",
+      "title": "Subsecretaría del Patrimonio Cultural realizó conversatorio “Patrimonio, territorio y desarrollo local”",
+      "summary": "El pasado miércoles 23 de septiembre, se realizó el conversatorio virtual “Patrimonio, territorio y desarrollo local”, organizado por la Subsecretaría del Patrimonio Cultural del Ministerio de las Culturas, las Artes y el Patrimonio. El objetivo fue reflexionar sobre el aporte del patrimonio en el d",
+      "link": "https://www.cultura.gob.cl/actualidad/subsecretaria-de-patrimonio-realizo-conversatorio-patrimonio-territorio-y-desarrollo-local/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-01T13:40:16.000Z",
+      "image": "",
+      "event": {
+        "text": "23 de septiembre",
+        "start": "2026-09-23T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-10-01-inauguracion-exposicion-deslastres-de-patricio-court",
       "title": "Inauguración exposición: “…deslastres”, de Patricio Court",
       "summary": "de Patricio Court · Esta exposición reúne un conjunto de obras realizadas durante los últimos siete · años, período que incluye el tiempo de la pandemia. En ese contexto de encierro, · ensimismamiento y trabajo introspectivo, el destacado escultor chileno · profundizó una búsqueda orientada hacia la",
@@ -96,6 +174,17 @@
         "text": "1 de octubre (Jueves) · 12:00",
         "start": "2026-10-01T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-01-desempleo-en-el-maule-alcanza-9-5-provincia-de-linares-registra-la-mayor-tasa",
+      "title": "Desempleo en el Maule alcanza 9,5%: provincia de Linares registra la mayor tasa",
+      "summary": "Linares encabezó las cifras provinciales con 11% de desempleo, mientras agricultura, pesca e industria concentraron las principales bajas de ocupación. The post Desempleo en el Maule alcanza 9,5%: provincia de Linares registra la mayor tasa appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/01/desempleo-en-el-maule-alcanza-95-provincia-de-linares-registra-la-mayor-tasa/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-01T11:39:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-01-con-entrada-liberada-coffee-fest-curico-llega-con-cafe-de-especialidad-y-activid",
@@ -712,7 +801,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-10-01T12:00:00.000Z"
+        "start": "2026-10-08T12:00:00.000Z"
       }
     },
     {
@@ -9501,7 +9590,7 @@
     "TEATRO": 66,
     "ARTES_VISUALES": 89,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 174,
+    "PATRIMONIO": 181,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 70
@@ -9511,9 +9600,9 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 6,
-      "diario-el-centro": 24,
-      "elmauleinforma": 44,
-      "seremi-culturas": 41,
+      "elmauleinforma": 47,
+      "diario-el-centro": 26,
+      "seremi-culturas": 43,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
