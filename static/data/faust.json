@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T13:09:58.013Z",
+  "generatedAt": "2026-10-03T19:06:17.993Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -80,6 +80,28 @@
         "text": "6 de octubre (Martes) · 15:00",
         "start": "2026-10-06T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-03-opera-carmen-debuto-con-ovacion-en-la-universidad-de-talca",
+      "title": "Ópera Carmen debutó con ovación en la Universidad de Talca",
+      "summary": "La historia cultural de la Región del Maule sumó un capítulo más con el exitoso estreno de la Ópera Carmen, que se presentó en el Aula Magna de la Universidad de Talca a tablero vuelto. La obra reunió a cerca de 250 artistas entre destacados solistas nacionales, músicos de la Orquesta Sinfónica y el",
+      "link": "https://elmauleinforma.cl/opera-carmen-debuto-con-ovacion-en-la-universidad-de-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-03T01:30:24.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-03-fundacion-crate-celebra-50-anos-de-servicio-y-compromiso-con-la-comunidad-del-ma",
+      "title": "Fundación CRATE celebra 50 años de servicio y compromiso con la comunidad del Maule",
+      "summary": "Con emoción, memoria y gratitud, Fundación CRATE celebró sus 50 años de servicio y compromiso con la comunidad del Maule, en una ceremonia realizada en la Catedral de Talca, que reunió a autoridades regionales y comunales, representantes de organizaciones, trabajadores, familias y comunidades que ha",
+      "link": "https://elmauleinforma.cl/fundacion-crate-celebra-50-anos-de-servicio-y-compromiso-con-la-comunidad-del-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-03T01:17:59.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-02-presidente-kast-y-ministro-undurraga-encabezan-lanzamiento-del-dia-de-la-musica-",
@@ -9663,7 +9685,7 @@
     "TEATRO": 67,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 183,
+    "PATRIMONIO": 185,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 70
@@ -9673,8 +9695,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
+      "elmauleinforma": 51,
       "seremi-culturas": 48,
-      "elmauleinforma": 49,
       "diario-el-centro": 26,
       "diariotalca": 3,
       "rincon-literario": 48,
