@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T04:30:35.694Z",
+  "generatedAt": "2026-10-03T13:09:58.013Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -80,6 +80,69 @@
         "text": "6 de octubre (Martes) · 15:00",
         "start": "2026-10-06T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-02-presidente-kast-y-ministro-undurraga-encabezan-lanzamiento-del-dia-de-la-musica-",
+      "title": "Presidente Kast y ministro Undurraga encabezan lanzamiento del Día de la Música Chilena 2026 en la Plaza de la Constitución",
+      "summary": "Proyecto Piano Rural reunió a más de 50 intérpretes provenientes de las 33 comunas de la Región de O’Higgins y dio inicio a una programación que durante octubre se desplegará en las 16 regiones del país.",
+      "link": "https://www.cultura.gob.cl/actualidad/presidente-kast-y-ministro-undurraga-encabezan-lanzamiento-del-dia-de-la-musica-chilena-2026-en-la-plaza-de-la-constitucion/",
+      "author": "alecaros",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-02T19:46:19.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-02-ama-maule-2026-prepara-su-sexta-edicion-para-conectar-a-artistas-y-programadores",
+      "title": "AMA Maule 2026 prepara su sexta edición para conectar a artistas y programadores y abrir nuevas oportunidades de circulación artística",
+      "summary": "Del 6 al 8 de octubre, la Región del Maule será nuevamente escenario de AMA – Vincular para Crear, encuentro que en su sexta edición vuelve a poner en el centro una pregunta fundamental para el desarrollo de las artes: cómo generar más oportunidades para que la creación artística pueda encontrarse c",
+      "link": "https://elmauleinforma.cl/ama-maule-2026-prepara-su-sexta-edicion-para-conectar-a-artistas-y-programadores-y-abrir-nuevas-oportunidades-de-circulacion-artistica/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-10-02T19:00:52.000Z",
+      "image": "",
+      "event": {
+        "text": "al 8 de octubre",
+        "start": "2026-10-08T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-02-seis-bandas-regionales-y-asia-menor-protagonizaran-este-sabado-el-inicio-del-fes",
+      "title": "Seis bandas regionales y Asia Menor protagonizarán este sábado el inicio del Festival Kawin en Angol",
+      "summary": "La sexta edición se desarrollará los días 3, 28, 29, 30 y 31 de octubre, con conciertos, talleres, formación para músicos emergentes y la selección del representante regional para Rockódromo 2026.",
+      "link": "https://www.cultura.gob.cl/agendacultural/seis-bandas-regionales-y-asia-menor-protagonizaran-este-sabado-el-inicio-del-festival-kawin-en-angol/",
+      "author": "araucania",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-02T18:00:36.000Z",
+      "image": "",
+      "event": {
+        "text": "31 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-02-nuevos-caminos-hacia-la-docencia-ucm-destaca-oportunidad-de-ingreso-a-las-carrer",
+      "title": "Nuevos caminos hacia la docencia: UCM destaca oportunidad de ingreso a las carreras de Pedagogía",
+      "summary": "Elegir ser profesor puede ser una decisión que nace desde muy temprano, pero también una vocación que se descubre con el paso de los años, después de iniciar otros estudios, desarrollar una experiencia laboral o recorrer caminos diferentes al tradicional. Para estas personas, la habilitación pedagóg",
+      "link": "https://elmauleinforma.cl/nuevos-caminos-hacia-la-docencia-ucm-destaca-oportunidad-de-ingreso-a-las-carreras-de-pedagogia/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-02T18:00:33.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-02-seleccionan-a-15-artesanos-de-la-region-del-biobio-para-ser-parte-de-la-primera-",
+      "title": "Seleccionan a 15 artesanos de la Región del Biobío para ser parte de la primera feria “Biobío: La última frontera y su artesanía”",
+      "summary": "Iniciativa Fondart reunirá en noviembre a 36 exponentes de las tres provincias de la región en la Universidad de Concepción, en el marco del Día Nacional del Artesano y Artesana.",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/seleccionan-a-15-artesanos-de-la-region-del-biobio-para-ser-parte-de-la-primera-feria-biobio-la-ultima-frontera-y-su-artesania/",
+      "author": "biobio",
+      "category": "ARTESANIAS",
+      "source": "seremi-culturas",
+      "date": "2026-10-02T17:59:39.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-02-magallanes-da-el-vamos-al-mes-de-la-musica-chilena-con-concierto-didactico-de-la",
@@ -9596,11 +9659,11 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 38,
-    "MUSICA": 168,
-    "TEATRO": 66,
+    "MUSICA": 170,
+    "TEATRO": 67,
     "ARTES_VISUALES": 88,
-    "ARTESANIAS": 53,
-    "PATRIMONIO": 182,
+    "ARTESANIAS": 54,
+    "PATRIMONIO": 183,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 70
@@ -9610,8 +9673,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "seremi-culturas": 45,
-      "elmauleinforma": 47,
+      "seremi-culturas": 48,
+      "elmauleinforma": 49,
       "diario-el-centro": 26,
       "diariotalca": 3,
       "rincon-literario": 48,
