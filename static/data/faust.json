@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T14:34:46.190Z",
+  "generatedAt": "2026-10-03T04:30:35.694Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -82,6 +82,32 @@
       }
     },
     {
+      "id": "2026-10-02-magallanes-da-el-vamos-al-mes-de-la-musica-chilena-con-concierto-didactico-de-la",
+      "title": "Magallanes da el vamos al Mes de la Música Chilena con concierto didáctico de la Orquesta UMAG",
+      "summary": "El ciclo conmemorativo arrancó en Punta Arenas acercando la experiencia orquestal a niños y niñas de jardines infantiles. La celebración en la región se extenderá durante todo octubre con conciertos y a cargo de bandas y solistas locales en Natales, Porvenir y la capital regional.",
+      "link": "https://www.cultura.gob.cl/actualidad/magallanes-da-el-vamos-al-mes-de-la-musica-chilena-con-concierto-didactico-de-la-orquesta-umag/",
+      "author": "magallanes",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-02T16:25:34.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-02-mes-de-los-publicos-abre-convocatoria-para-ser-parte-de-su-programacion-2026",
+      "title": "Mes de los Públicos abre convocatoria para ser parte de su programación 2026",
+      "summary": "La iniciativa, que se desarrollará durante noviembre, invita a organizaciones, instituciones y colectivos culturales de todo Chile a sumarse a esta celebración a través de la inscripción de actividades hasta el 20 de octubre en publicosyterritorios.cultura.gob.cl .",
+      "link": "https://www.cultura.gob.cl/actualidad/mes-de-los-publicos-abre-convocatoria-para-ser-parte-de-su-programacion-2026/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-02T14:16:57.000Z",
+      "image": "",
+      "event": {
+        "text": "el 20 de octubre",
+        "start": "2026-10-20T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-10-02-gondwana-quique-neira-se-suman-a-surfestival-2027-encabezado-por-jack-johnson",
       "title": "Gondwana & Quique Neira se suman a Surfestival 2027 encabezado por Jack Johnson",
       "summary": "Surfestival cierra el cartel de su versión 2027 con un fichaje imperdible: Gondwana & Quique Neira. La banda más emblemática del reggae chileno que acaba de concretar su reencuentro, se sumarán a Jack Johnson, Los Cafres, Donavon Frankenreiter, Movimiento Original, Amigo de Artistas, Ceaese, Bruno B",
@@ -157,22 +183,6 @@
       "event": {
         "text": "23 de septiembre",
         "start": "2026-09-23T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-10-01-inauguracion-exposicion-deslastres-de-patricio-court",
-      "title": "Inauguración exposición: “…deslastres”, de Patricio Court",
-      "summary": "de Patricio Court · Esta exposición reúne un conjunto de obras realizadas durante los últimos siete · años, período que incluye el tiempo de la pandemia. En ese contexto de encierro, · ensimismamiento y trabajo introspectivo, el destacado escultor chileno · profundizó una búsqueda orientada hacia la",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-01T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "1 de octubre (Jueves) · 12:00",
-        "start": "2026-10-01T12:00:00.000Z"
       }
     },
     {
@@ -9586,11 +9596,11 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 38,
-    "MUSICA": 167,
+    "MUSICA": 168,
     "TEATRO": 66,
-    "ARTES_VISUALES": 89,
+    "ARTES_VISUALES": 88,
     "ARTESANIAS": 53,
-    "PATRIMONIO": 181,
+    "PATRIMONIO": 182,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 70
@@ -9599,10 +9609,10 @@
     "sources": 54,
     "alive": 47,
     "itemsPerSource": {
-      "ext-utalca-programa": 6,
+      "ext-utalca-programa": 5,
+      "seremi-culturas": 45,
       "elmauleinforma": 47,
       "diario-el-centro": 26,
-      "seremi-culturas": 43,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
