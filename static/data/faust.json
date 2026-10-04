@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T05:00:57.379Z",
+  "generatedAt": "2026-10-04T13:49:40.418Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -80,6 +80,61 @@
         "text": "6 de octubre (Martes) · 15:00",
         "start": "2026-10-06T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-04-stray-kids-se-suma-a-bts-y-deciden-no-postular-su-musica-a-los-grammy-2027",
+      "title": "Stray Kids se suma a BTS y deciden no postular su música a los Grammy 2027",
+      "summary": "La banda de K-pop decidió no presentar sus lanzamientos a los Grammy 2027, siguiendo los pasos de BTS tras la creación de una nueva categoría. The post Stray Kids se suma a BTS y deciden no postular su música a los Grammy 2027 appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/03/stray-kids-se-suma-a-bts-y-deciden-no-postular-su-musica-a-los-grammy-2027/",
+      "author": "Diario El Centro Prensa",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-10-04T00:50:06.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-03-kuervos-del-sur-y-seis-bandas-regionales-protagonizaran-en-iloca-la-version-2026",
+      "title": "Kuervos del Sur y seis bandas regionales protagonizarán en Iloca la versión 2026 del Festival Pablo de Rokha",
+      "summary": "La música de la Región del Maule se prepara para uno de sus hitos relevantes del año. El Festival Pablo de Rokha alcanza su edición número 16 y celebrará un nuevo encuentro con su regreso a la comuna de Licantén, cuna del poeta que da nombre al certamen, y con una esperada banda invitada […] The pos",
+      "link": "https://elmauleinforma.cl/kuervos-del-sur-y-seis-bandas-regionales-protagonizaran-en-iloca-la-version-2026-del-festival-pablo-de-rokha/",
+      "author": "Redacción El Maule Informa",
+      "category": "MUSICA",
+      "source": "elmauleinforma",
+      "date": "2026-10-03T23:00:39.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-03-expertos-en-museos-de-chile-y-latinoamerica-se-reuniran-en-talca",
+      "title": "Expertos en museos de Chile y Latinoamérica se reunirán en Talca",
+      "summary": "La cita contempla conferencias, mesas de diálogo, experiencias territoriales y actividades patrimoniales para analizar el rol de estas instituciones ante los cambios sociales y tecnológicos. The post Expertos en museos de Chile y Latinoamérica se reunirán en Talca appeared first on Diario El Centro ",
+      "link": "https://www.diarioelcentro.cl/2026/10/03/expertos-en-museos-de-chile-y-latinoamerica-se-reuniran-en-talca/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-03T23:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-03-fiesta-de-la-primavera-realizo-gran-gala-y-se-prepara-para-su-cierre-con-desfile",
+      "title": "Fiesta de la Primavera realizó gran Gala y se prepara para su cierre con desfile de carros alegóricos y comparsas",
+      "summary": "La Fiesta de la Primavera, organizada por la Municipalidad de Talca, a través de su Corporación Municipal de Cultura, realizó esta semana su gran Gala en el Teatro Regional del Maule, jornada que reunió a vecinos, vecinas representantes de los diez territorios de Talca (Rojo, Blanco, Morado, Verde, ",
+      "link": "https://elmauleinforma.cl/fiesta-de-la-primavera-realizo-gran-gala-y-se-prepara-para-su-cierre-con-desfile-de-carros-alegoricos-y-comparsas/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-10-03T22:00:31.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-03-destacan-el-rol-clave-de-los-tecnologos-medicos-de-la-red-de-salud-del-maule-en-",
+      "title": "Destacan el rol clave de los Tecnólogos Médicos de la red de salud del Maule en el diagnóstico de pacientes",
+      "summary": "Son el pilar del diagnóstico. Detrás de cada examen de sangre, transfusión segura, radiografía, scanner, mamografía o biopsia que confirma un cáncer, hay un Tecnólogo Médico. En el Mes del Tecnólogo Médico, el Servicio de Salud Maule reconoció la labor de los más de 350 profesionales que forman part",
+      "link": "https://elmauleinforma.cl/destacan-el-rol-clave-de-los-tecnologos-medicos-de-la-red-de-salud-del-maule-en-el-diagnostico-de-pacientes/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-03T20:00:01.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-03-utalca-inaugura-senderos-abiertos-a-la-comunidad-en-campus-lircay",
@@ -9718,11 +9773,11 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 38,
-    "MUSICA": 170,
-    "TEATRO": 67,
+    "MUSICA": 172,
+    "TEATRO": 68,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 187,
+    "PATRIMONIO": 189,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
     "TERRITORIO": 71
@@ -9732,9 +9787,9 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "elmauleinforma": 54,
+      "diario-el-centro": 28,
+      "elmauleinforma": 57,
       "seremi-culturas": 48,
-      "diario-el-centro": 26,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
