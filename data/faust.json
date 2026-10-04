@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T19:06:17.993Z",
+  "generatedAt": "2026-10-04T05:00:57.379Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -80,6 +80,43 @@
         "text": "6 de octubre (Martes) · 15:00",
         "start": "2026-10-06T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-03-utalca-inaugura-senderos-abiertos-a-la-comunidad-en-campus-lircay",
+      "title": "UTalca inaugura senderos abiertos a la comunidad en Campus Lircay",
+      "summary": "Cuatro senderos al interior del Campus Lircay forman parte de UTalcamina, iniciativa impulsada por alumnos de las carreras de Nutrición y Dietética y Medicina de la Universidad de Talca que busca promover la actividad física y los hábitos de vida saludable, y que desde ahora estará disponible para l",
+      "link": "https://elmauleinforma.cl/utalca-inaugura-senderos-abiertos-a-la-comunidad-en-campus-lircay/",
+      "author": "Redacción El Maule Informa",
+      "category": "TERRITORIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-03T16:00:29.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-03-chanco-invita-a-vivir-la-fiesta-de-los-porotos-con-cochayuyo-del-9-al-12-de-octu",
+      "title": "Chanco invita a vivir la Fiesta de los Porotos con Cochayuyo del 9 al 12 de octubre",
+      "summary": "Una invitación a disfrutar de la gastronomía, las tradiciones y la identidad local realizó la municipalidad de Chanco con motivo de la Fiesta de los Porotos con Cochayuyo, celebración que se desarrollará entre el 9 y el 12 de octubre en la comuna. La festividad fue presentada oficialmente este viern",
+      "link": "https://elmauleinforma.cl/chanco-invita-a-vivir-la-fiesta-de-los-porotos-con-cochayuyo-del-9-al-12-de-octubre/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-03T15:00:45.000Z",
+      "image": "",
+      "event": {
+        "text": "al 12 de octubre",
+        "start": "2026-10-12T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-03-recreos-artisticos-del-trm-inicia-nuevo-ciclo-acercando-experiencias-culturales-",
+      "title": "Recreos Artísticos del TRM inicia nuevo ciclo acercando experiencias culturales a escuelas del Maule",
+      "summary": "Transformar por algunas horas la jornada escolar y abrir un espacio para la creatividad, la participación y el encuentro con distintas expresiones culturales es el objetivo de Recreos Artísticos, iniciativa del Teatro Regional del Maule (TRM) que inició un nuevo ciclo de actividades en establecimien",
+      "link": "https://elmauleinforma.cl/recreos-artisticos-del-trm-inicia-nuevo-ciclo-acercando-experiencias-culturales-a-escuelas-del-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-03T13:00:58.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-03-opera-carmen-debuto-con-ovacion-en-la-universidad-de-talca",
@@ -715,7 +752,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-03T12:00:00.000Z"
+        "start": "2026-10-10T12:00:00.000Z"
       }
     },
     {
@@ -9685,17 +9722,17 @@
     "TEATRO": 67,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 185,
+    "PATRIMONIO": 187,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 59,
-    "TERRITORIO": 70
+    "TERRITORIO": 71
   },
   "feedStats": {
     "sources": 54,
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "elmauleinforma": 51,
+      "elmauleinforma": 54,
       "seremi-culturas": 48,
       "diario-el-centro": 26,
       "diariotalca": 3,
