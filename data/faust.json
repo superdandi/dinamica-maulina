@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T13:49:40.418Z",
+  "generatedAt": "2026-10-05T04:47:56.639Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -80,6 +80,43 @@
         "text": "6 de octubre (Martes) · 15:00",
         "start": "2026-10-06T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-04-bomberos-de-talca-celebran-156-anos-de-servicio-a-la-comunidad-con-desfile",
+      "title": "Bomberos de Talca celebran 156 años de servicio a la comunidad con desfile",
+      "summary": "El tradicional desfile reunirá este domingo a las nueve compañías del Cuerpo de Bomberos de Talca en la Plaza de Armas, junto a carros y vehículos. The post Bomberos de Talca celebran 156 años de servicio a la comunidad con desfile appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/04/bomberos-de-talca-celebran-156-anos-de-servicio-a-la-comunidad-con-desfile/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-04T16:06:31.000Z",
+      "image": "",
+      "event": {
+        "text": "este domingo",
+        "start": "2026-10-11T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-04-ucm-inaugura-expo-acutis-la-muestra-de-milagros-eucaristicos-compilados-por-san-",
+      "title": "UCM inaugura “Expo Acutis”: la muestra de Milagros Eucarísticos compilados por San Carlo Acutis llega a Talca",
+      "summary": "El Sistema de Bibliotecas de la Universidad Católica del Maule (SIBIBUCM) y la Pastoral Universitaria UCM invitan a toda la comunidad a visitar la EXPO ACUTIS, Muestra de Milagros Eucarísticos compilados por San Carlo Acutis. La muestra, que reúne el trabajo de investigación que hizo en vida el jove",
+      "link": "https://elmauleinforma.cl/ucm-inaugura-expo-acutis-la-muestra-de-milagros-eucaristicos-compilados-por-san-carlo-acutis-llega-a-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-04T15:00:59.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-04-lindsay-lohan-recrea-iconica-escena-de-chicas-pesadas-it-s-october-3rd",
+      "title": "Lindsay Lohan recrea icónica escena de Chicas Pesadas: “It’s October 3rd”",
+      "summary": "La actriz retomó su personaje de Cady Heron junto al director Mark Waters para recrear una de las escenas más recordadas de la película. The post Lindsay Lohan recrea icónica escena de Chicas Pesadas: “It’s October 3rd” appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/04/lindsay-lohan-recrea-iconica-escena-de-chicas-pesadas-its-october-3rd/",
+      "author": "Yasmín Gómez",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-04T13:00:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-04-stray-kids-se-suma-a-bts-y-deciden-no-postular-su-musica-a-los-grammy-2027",
@@ -1214,7 +1251,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-10-04T12:00:00.000Z"
+        "start": "2026-10-11T12:00:00.000Z"
       }
     },
     {
@@ -9777,9 +9814,9 @@
     "TEATRO": 68,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 189,
+    "PATRIMONIO": 191,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 59,
+    "CINE_MEDIOS": 60,
     "TERRITORIO": 71
   },
   "feedStats": {
@@ -9787,8 +9824,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "diario-el-centro": 28,
-      "elmauleinforma": 57,
+      "diario-el-centro": 30,
+      "elmauleinforma": 58,
       "seremi-culturas": 48,
       "diariotalca": 3,
       "rincon-literario": 48,
