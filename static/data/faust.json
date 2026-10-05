@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T04:47:56.639Z",
+  "generatedAt": "2026-10-05T16:57:18.280Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -80,6 +80,17 @@
         "text": "6 de octubre (Martes) · 15:00",
         "start": "2026-10-06T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-04-talquina-fernanda-carrion-debuta-hoy-en-masterchef-tras-superar-exigente-casting",
+      "title": "Talquina Fernanda Carrión debuta hoy en MasterChef tras superar exigente casting",
+      "summary": "La talquina de 34 años, oriunda del sector Lo Prado, llega al programa tras años ligada a la gastronomía y al emprendimiento, llevando el sello del Maule. The post Talquina Fernanda Carrión debuta hoy en MasterChef tras superar exigente casting appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/04/talquina-fernanda-carrion-debuta-hoy-en-masterchef-tras-superar-exigente-casting/",
+      "author": "Yasmín Gómez",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-04T23:43:26.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-04-bomberos-de-talca-celebran-156-anos-de-servicio-a-la-comunidad-con-desfile",
@@ -9814,7 +9825,7 @@
     "TEATRO": 68,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 191,
+    "PATRIMONIO": 192,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 60,
     "TERRITORIO": 71
@@ -9824,7 +9835,7 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "diario-el-centro": 30,
+      "diario-el-centro": 31,
       "elmauleinforma": 58,
       "seremi-culturas": 48,
       "diariotalca": 3,
