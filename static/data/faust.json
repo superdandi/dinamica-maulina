@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:57:18.280Z",
+  "generatedAt": "2026-10-06T05:35:35.045Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -80,6 +80,28 @@
         "text": "6 de octubre (Martes) · 15:00",
         "start": "2026-10-06T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-05-magistral-presentacion-de-la-orquesta-sinfonica-umag-en-el-dia-de-la-musica-chil",
+      "title": "Magistral presentación de la Orquesta Sinfónica UMAG en el Día de la Música Chilena",
+      "summary": "Dirigida por Ricardo Colima Acuña, la agrupación interpretó obras de destacados autores nacionales. El evento fue organizado por la Seremi de las Culturas, las Artes y el Patrimonio.",
+      "link": "https://www.cultura.gob.cl/actualidad/magistral-presentacion-de-la-orquesta-sinfonica-umag-en-el-dia-de-la-musica-chilena/",
+      "author": "magallanes",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-05T15:27:35.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-05-este-octubre-los-lagos-celebra-el-mes-de-musica-con-encuentros-conciertos-y-nuev",
+      "title": "Este octubre Los Lagos celebra el Mes de Música con encuentros, conciertos y nuevas experiencias sonoras",
+      "summary": "Durante octubre y noviembre, escuelas, liceos, bibliotecas, espacios comunitarios y establecimientos de la Región de Los Lagos serán escenario de una amplia programación que reunirá a músicos y músicas de distintas generaciones, estilos y territorios.",
+      "link": "https://www.cultura.gob.cl/agendacultural/este-octubre-los-lagos-celebra-el-mes-de-musica-con-encuentros-conciertos-y-nuevas-experiencias-sonoras/",
+      "author": "loslagos",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-05T12:21:44.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-04-talquina-fernanda-carrion-debuta-hoy-en-masterchef-tras-superar-exigente-casting",
@@ -9821,23 +9843,23 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 38,
-    "MUSICA": 172,
+    "MUSICA": 173,
     "TEATRO": 68,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 192,
+    "PATRIMONIO": 193,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 60,
     "TERRITORIO": 71
   },
   "feedStats": {
     "sources": 54,
-    "alive": 47,
+    "alive": 46,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
+      "seremi-culturas": 50,
       "diario-el-centro": 31,
       "elmauleinforma": 58,
-      "seremi-culturas": 48,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
@@ -10422,7 +10444,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": false
     }
   ]
