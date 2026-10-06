@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T05:35:35.045Z",
+  "generatedAt": "2026-10-06T14:53:54.783Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -80,6 +80,76 @@
         "text": "6 de octubre (Martes) · 15:00",
         "start": "2026-10-06T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-06-autoridades-refuerzan-monitoreo-por-sistema-frontal-que-afecta-al-maule",
+      "title": "Autoridades refuerzan monitoreo por sistema frontal que afecta al Maule",
+      "summary": "Equipos de emergencia mantienen vigilancia sobre caminos, ríos y sectores cordilleranos, ante el riesgo de deslizamientos y dificultades de desplazamiento. The post Autoridades refuerzan monitoreo por sistema frontal que afecta al Maule appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/05/autoridades-refuerzan-monitoreo-por-sistema-frontal-que-afecta-al-maule/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-06T01:24:07.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-05-fe-y-tradicion-miles-de-fieles-llegaron-a-huerta-de-maule-en-san-javier-para-cel",
+      "title": "Fe y tradición: miles de fieles llegaron a Huerta de Maule en San Javier para celebrar a San Francisco de Asís",
+      "summary": "La tradicional festividad reunió a familias, peregrinos y huasos, quienes participaron de la eucaristía, procesión y homenaje ecuestre al santo patrono. The post Fe y tradición: miles de fieles llegaron a Huerta de Maule en San Javier para celebrar a San Francisco de Asís appeared first on Diario El",
+      "link": "https://www.diarioelcentro.cl/2026/10/05/fe-y-tradicion-miles-de-fieles-llegaron-a-huerta-de-maule-en-san-javier-para-celebrar-a-san-francisco-de-asis/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-05T22:02:25.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-05-mas-de-2-mil-personas-disfrutaron-del-dia-de-la-musica-chilena-en-el-gimnasio-mu",
+      "title": "Más de 2 mil personas disfrutaron del Día de la Música Chilena en el Gimnasio Municipal de Tomé",
+      "summary": "Distintos artistas locales y nacionales fueron parte de la celebración del Día de la Música Chilena, fecha que conmemora el natalicio de Violeta Parra. Este año, por primera vez, la programación incorporó el homenaje a otra figura fundamental de la música nacional: Cecilia Pantoja, “La Incomparable”",
+      "link": "https://www.cultura.gob.cl/agendacultural/mas-de-2-000-personas-disfrutaron-del-dia-de-la-musica-chilena-en-el-gimnasio-municipal-de-tome/",
+      "author": "biobio",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-05T19:04:22.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-05-ufro-y-seremi-de-las-culturas-se-unen-para-presentar-araucania-visual-ii-umbrale",
+      "title": "UFRO y Seremi de las Culturas se unen para presentar “Araucanía Visual II: Umbrales de lo Contemporáneo”",
+      "summary": "La exposición reunirá el trabajo de seis artistas de La Araucanía y una artista invitada de trayectoria nacional, proponiendo una reflexión sobre las formas de mirar y relacionarnos con el territorio. La inauguración se realizará este martes 6 de octubre, a las 18:00 horas, en la Sala de Artes de la",
+      "link": "https://www.cultura.gob.cl/agendacultural/ufro-y-seremi-de-las-culturas-se-unen-para-presentar-araucania-visual-ii-umbrales-de-lo-contemporaneo/",
+      "author": "araucania",
+      "category": "ARTES_VISUALES",
+      "source": "seremi-culturas",
+      "date": "2026-10-05T19:02:59.000Z",
+      "image": "",
+      "event": {
+        "text": "6 de octubre",
+        "start": "2026-10-06T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-05-artistas-de-nuble-participaran-en-residencias-artisticas-internacionales-en-arge",
+      "title": "Artistas de Ñuble participarán en residencias artísticas internacionales en Argentina y Colombia",
+      "summary": "Miguel Ángel Cabrera y Paula López fueron seleccionados por convocatorias impulsadas por la Seremi de las Culturas, las Artes y el Patrimonio de Ñuble, que les permitirán desarrollar experiencias de creación, investigación e intercambio artístico en el extranjero.",
+      "link": "https://www.cultura.gob.cl/actualidad/artistas-de-nuble-participaran-en-residencias-artisticas-internacionales-en-argentina-y-colombia/",
+      "author": "nuble1",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-05T18:30:58.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-05-cultura-y-creatividad-llegan-a-la-primera-infancia-con-entrega-del-libro-tu-ento",
+      "title": "Cultura y creatividad llegan a la primera infancia con entrega del libro “Tu entorno, tu inspiración” en San Carlos",
+      "summary": "La seremi de las Culturas, las Artes y el Patrimonio, Nataly De La Hoz, visitó la Sala Cuna y Jardín Infantil Brasil, donde junto a Fundación Integra entregó este material que invita a niñas y niños a reconocer su entorno cotidiano como una fuente de inspiración y creación.",
+      "link": "https://www.cultura.gob.cl/actualidad/cultura-y-creatividad-llegan-a-la-primera-infancia-con-entrega-del-libro-tu-entorno-tu-inspiracion-en-san-carlos/",
+      "author": "nuble1",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-05T18:30:23.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-05-magistral-presentacion-de-la-orquesta-sinfonica-umag-en-el-dia-de-la-musica-chil",
@@ -9843,22 +9913,22 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 38,
-    "MUSICA": 173,
+    "MUSICA": 174,
     "TEATRO": 68,
-    "ARTES_VISUALES": 88,
+    "ARTES_VISUALES": 89,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 193,
+    "PATRIMONIO": 196,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 60,
+    "CINE_MEDIOS": 61,
     "TERRITORIO": 71
   },
   "feedStats": {
     "sources": 54,
-    "alive": 46,
+    "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "seremi-culturas": 50,
-      "diario-el-centro": 31,
+      "diario-el-centro": 33,
+      "seremi-culturas": 54,
       "elmauleinforma": 58,
       "diariotalca": 3,
       "rincon-literario": 48,
@@ -10444,7 +10514,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": false
     }
   ]
