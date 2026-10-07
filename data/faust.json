@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T05:04:52.830Z",
+  "generatedAt": "2026-10-07T15:19:43.851Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -63,6 +63,54 @@
         "kind": "program",
         "text": "7, 14, 21, 28 de octubre · 19:00",
         "start": "2026-10-07T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-07-prision-preventiva-para-10-involucrados-en-millonaria-red-de-corrupcion-en-munic",
+      "title": "Prisión preventiva para 10 involucrados en millonaria red de corrupción en municipios de la Región del Maule",
+      "summary": "​SAN JAVIER.- Tras una extensa audiencia de formalización de nueve horas, el tribunal acogió en su totalidad la solicitud de la Fiscalía y decretó la medida cautelar de prisión preventiva para diez personas —siete hombres y tres mujeres— imputadas por integrar una asociación criminal dedicada a come",
+      "link": "https://elmauleinforma.cl/prision-preventiva-para-10-involucrados-en-millonaria-red-de-corrupcion-en-municipios-de-la-region-del-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-07T02:55:39.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-06-hospital-regional-de-talca-reafirma-su-compromiso-de-atencion-con-personas-mayor",
+      "title": "Hospital Regional de Talca reafirma su compromiso de atención con personas mayores",
+      "summary": "Chile está envejeciendo y este cambio demográfico plantea nuevos desafíos para el sistema de salud. Actualmente, 3,6 millones de personas en el país tienen 60 años o más, equivalentes al 19,8% de la población, una realidad que hace cada vez más necesario fortalecer estrategias de atención dirigidas ",
+      "link": "https://elmauleinforma.cl/hospital-regional-de-talca-reafirma-su-compromiso-de-atencion-con-personas-mayores/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-06T23:00:32.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-06-la-increible-historia-de-morocho-perro-logra-salvarse-tras-ser-arrastrado-por-el",
+      "title": "La increíble historia de Morocho: perro logra salvarse tras ser arrastrado por el caudal del río Mapocho",
+      "summary": "Tras horas de tensión y un complejo operativo de rescate, el perro logró salir por sus propios medios del río y recibió asistencia de vecinos y equipos de emergencia. The post La increíble historia de Morocho: perro logra salvarse tras ser arrastrado por el caudal del río Mapocho appeared first on D",
+      "link": "https://www.diarioelcentro.cl/2026/10/06/la-increible-historia-de-morocho-perro-logra-salvarse-tras-ser-arrastrado-por-el-caudal-del-rio-mapocho/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-06T19:06:49.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-06-una-fiesta-de-la-musica-se-vivira-en-el-barrio-puerto",
+      "title": "Una Fiesta de la Música se vivirá en el Barrio Puerto",
+      "summary": "Celebración del Día de la Música Chilena se realizará el sábado 24 de octubre y tendrá como escenarios Plaza Echaurren y el Atrio de la Iglesia La Matriz, además de un circuito de ferias, intervenciones y activaciones en las calles y pasajes del sector.",
+      "link": "https://www.cultura.gob.cl/agendacultural/una-fiesta-de-la-musica-se-vivira-en-el-barrio-puerto/",
+      "author": "valparaiso",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-06T18:05:06.000Z",
+      "image": "",
+      "event": {
+        "text": "24 de octubre",
+        "start": "2026-10-24T12:00:00.000Z"
       }
     },
     {
@@ -9946,13 +9994,13 @@
   "counts": {
     "POESIA": 106,
     "LITERATURA": 38,
-    "MUSICA": 174,
+    "MUSICA": 175,
     "TEATRO": 69,
     "ARTES_VISUALES": 89,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 197,
+    "PATRIMONIO": 199,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 62,
+    "CINE_MEDIOS": 63,
     "TERRITORIO": 71
   },
   "feedStats": {
@@ -9960,9 +10008,9 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "diario-el-centro": 34,
-      "seremi-culturas": 56,
-      "elmauleinforma": 58,
+      "elmauleinforma": 60,
+      "diario-el-centro": 35,
+      "seremi-culturas": 57,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
