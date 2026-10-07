@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T14:53:54.783Z",
+  "generatedAt": "2026-10-07T05:04:52.830Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -64,6 +64,39 @@
         "text": "7, 14, 21, 28 de octubre · 19:00",
         "start": "2026-10-07T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-06-festival-felina-celebra-12-anos-con-cine-chileno-gratuito-en-el-maule",
+      "title": "Festival Felina celebra 12 años con cine chileno gratuito en el Maule",
+      "summary": "Con funciones para estudiantes y público general, la iniciativa ofrecerá una selección de largometrajes, cortometrajes, videoclips y producciones audiovisuales regionales. The post Festival Felina celebra 12 años con cine chileno gratuito en el Maule appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/06/festival-felina-celebra-12-anos-con-cine-chileno-gratuito-en-el-maule/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-06T15:39:26.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-06-mujeres-en-la-escena-lleva-teatro-y-narracion-oral-gratuita-a-putaendo-y-colligu",
+      "title": "“Mujeres en la Escena” lleva teatro y narración oral gratuita a Putaendo y Colliguay durante octubre",
+      "summary": "La itinerancia continuará este mes con dos funciones en cada localidad: “Ciclo de Vida y Muerte”, de Pájaras en Vuelo, y “Junta de Vecinas N°91”, de La Punto Cruz. El proyecto es financiado por el Fondo Nacional de Fomento y Desarrollo de las Artes Escénicas, Convocatoria 2026, del Ministerio de las",
+      "link": "https://www.cultura.gob.cl/agendacultural/mujeres-en-la-escena-lleva-teatro-y-narracion-oral-gratuita-a-putaendo-y-colliguay-durante-octubre/",
+      "author": "valparaiso",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-10-06T14:27:35.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-06-recreos-con-musica-en-vivo-son-la-apuesta-cultural-para-colegios-en-la-region-de",
+      "title": "Recreos con música en vivo son la apuesta cultural para colegios en la Región de O’Higgins",
+      "summary": "Artistas como Bearrivers, Groovin y Daniela Aleuy se han presentado como parte del Programa de Apreciación de la Música Nacional, que implementa la Seremi de las Culturas en diversos establecimientos educa-cionales.",
+      "link": "https://www.cultura.gob.cl/institucional/recreos-con-musica-en-vivo-son-la-apuesta-cultural-para-colegios-en-la-region-de-ohiggins/",
+      "author": "ohiggins",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-06T12:47:54.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-06-pitch-de-artistas-ama-maule-2026",
@@ -1217,7 +1250,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-10-06T12:00:00.000Z"
+        "start": "2026-10-13T12:00:00.000Z"
       }
     },
     {
@@ -9914,12 +9947,12 @@
     "POESIA": 106,
     "LITERATURA": 38,
     "MUSICA": 174,
-    "TEATRO": 68,
+    "TEATRO": 69,
     "ARTES_VISUALES": 89,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 196,
+    "PATRIMONIO": 197,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 61,
+    "CINE_MEDIOS": 62,
     "TERRITORIO": 71
   },
   "feedStats": {
@@ -9927,8 +9960,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "diario-el-centro": 33,
-      "seremi-culturas": 54,
+      "diario-el-centro": 34,
+      "seremi-culturas": 56,
       "elmauleinforma": 58,
       "diariotalca": 3,
       "rincon-literario": 48,
