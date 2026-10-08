@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T15:23:17.799Z",
+  "generatedAt": "2026-10-08T21:09:53.171Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -34,6 +34,28 @@
       }
     },
     {
+      "id": "2026-10-08-agricultura-y-migraciones-informaron-como-contratar-trabajadores-migrantes-en-la",
+      "title": "Agricultura y Migraciones informaron cómo contratar trabajadores migrantes en la temporada de cosecha",
+      "summary": "¿Quiénes fueron los protagonistas? Se trató del subsecretario de Agricultura, Francesco Venezian, junto al director nacional del Servicio de Migraciones, Frank Sauerbaum, el Delegado Presidencial, Juan Eduardo Prieto; el Seremi de Agricultura, Alejandro Muñoz, junto a autoridades del sector laboral ",
+      "link": "https://diariotalca.cl/gricultura-y-migraciones-informaron-como-contratar-trabajadores-migrantes-en-la-temporada-de-cosecha/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-08T09:00:51.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-08-las-historias-desenterradas-que-se-cuentan-en-el-cementerio-de-talca",
+      "title": "Las historias “desenterradas” que se cuentan en el cementerio de Talca",
+      "summary": "Próximo a cumplir 140 años desde su fundación, el camposanto municipal encierra un cúmulo de relatos que se transmiten de generación en generación y que no dejan de sorprender. Pero no solo eso, también es lugar para el desarrollo de proyectos de nuevos sepulcros en el tercer patio (por Patricio Mor",
+      "link": "https://diariotalca.cl/las-historias-desenterradas-que-se-cuentan-en-el-cementerio-de-talca/",
+      "author": "Hernán Espinoza",
+      "category": "LITERATURA",
+      "source": "diariotalca",
+      "date": "2026-10-08T09:00:00.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-10-08-universidad-catolica-del-maule-alcanza-la-excelencia-cna-otorga-6-anos-de-acredi",
       "title": "Universidad Católica del Maule alcanza la excelencia: CNA otorga 6 años de Acreditación Institucional",
       "summary": "En un hito para la educación superior de la Región del Maule y el país, la Universidad Católica del Maule (UCM) ha sido acreditada oficialmente en el nivel de Excelencia por un período de 6 años por la Comisión Nacional de Acreditación (CNA). La resolución fue notificada oficialmente este 07 de octu",
@@ -61,6 +83,21 @@
       "event": {
         "text": "25 de octubre",
         "start": "2026-10-25T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-07-ministro-de-las-culturas-asiste-al-lanzamiento-de-programacion-de-teatro-a-mil-2",
+      "title": "Ministro de las Culturas asiste al lanzamiento de programación de Teatro a Mil 2027",
+      "summary": "La iniciativa, que se desarrollará entre el 3 y el 24 de enero de 2027, incorporará casi un centenar de obras nacionales e internacionales en diversos espacios culturales.",
+      "link": "https://www.cultura.gob.cl/actualidad/ministro-de-las-culturas-asiste-al-lanzamiento-de-programacion-de-teatro-a-mil-2027/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-07T19:52:25.000Z",
+      "image": "",
+      "event": {
+        "text": "el 24 de enero",
+        "start": "2027-01-24T12:00:00.000Z"
       }
     },
     {
@@ -10073,25 +10110,25 @@
   ],
   "counts": {
     "POESIA": 106,
-    "LITERATURA": 38,
+    "LITERATURA": 39,
     "MUSICA": 175,
     "TEATRO": 70,
     "ARTES_VISUALES": 89,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 203,
+    "PATRIMONIO": 205,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 64,
     "TERRITORIO": 72
   },
   "feedStats": {
     "sources": 54,
-    "alive": 47,
+    "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 4,
+      "diariotalca": 5,
       "elmauleinforma": 63,
-      "seremi-culturas": 60,
+      "seremi-culturas": 61,
       "diario-el-centro": 37,
-      "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
@@ -10645,7 +10682,7 @@
       "feed": "https://diariotalca.cl/feed/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": true
     },
     {
