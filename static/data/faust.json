@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T15:19:43.851Z",
+  "generatedAt": "2026-10-08T05:15:31.914Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -32,6 +32,61 @@
         "text": "8, 9, 15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-08T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-07-66-de-los-adolescentes-usa-chatgpt-pero-solo-37-verifica-sus-respuestas",
+      "title": "66% de los adolescentes usa ChatGPT, pero solo 37% verifica sus respuestas",
+      "summary": "Durante años, la conversación sobre tecnología y niños estuvo centrada en cuánto tiempo pasaban frente a una pantalla. Hoy, el escenario cambió. La inteligencia artificial ya forma parte de la manera en que muchos adolescentes buscan información, estudian y resuelven dudas, abriendo un desafío disti",
+      "link": "https://elmauleinforma.cl/66-de-los-adolescentes-usa-chatgpt-pero-solo-37-verifica-sus-respuestas/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-10-07T16:00:53.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-07-fondo-de-fomento-al-arte-en-la-educacion-invita-a-fortalecer-la-formacion-artist",
+      "title": "Fondo de Fomento al Arte en la Educación invita a fortalecer la formación artística en establecimientos educacionales",
+      "summary": "Convocatoria 2027 del FAE financiará proyectos de gestión educativa cultural territorial, investigación y desarrollo de talentos artísticos, con montos de hasta $10 millones por iniciativa.",
+      "link": "https://www.cultura.gob.cl/convocatorias/fondo-de-fomento-al-arte-en-la-educacion-invita-a-fortalecer-la-formacion-artistica-en-establecimientos-educacionales/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-07T15:10:51.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-07-escritores-visitaran-colegios-de-arica-y-parinacota-para-dialogar-con-estudiante",
+      "title": "Escritores visitarán colegios de Arica y Parinacota para dialogar con estudiantes sobre su obra",
+      "summary": "Con la entrega de libros a comunidades educativas de Arica y Parinacota, la Seremi de las Culturas, las Artes y el Patrimonio dio inicio a una nueva versión de Diálogos en Movimiento, iniciativa que contempla la visita de 12 escritores y escritoras a establecimientos educacionales de las cuatro comu",
+      "link": "https://www.cultura.gob.cl/plan-lectura/escritores-visitaran-colegios-de-arica-y-parinacota-para-dialogar-con-estudiantes-sobre-su-obra/",
+      "author": "arica",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-07T14:18:32.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-07-condenan-a-cuatro-integrantes-de-banda-criminal-en-san-javier-por-secuestro-y-ho",
+      "title": "Condenan a cuatro integrantes de banda criminal en San Javier por secuestro y homicidio frustrado",
+      "summary": "El caso se originó tras una disputa entre agrupaciones rivales por el control de clientes y droga, desencadenando amenazas, violencia armada y una posterior venganza. The post Condenan a cuatro integrantes de banda criminal en San Javier por secuestro y homicidio frustrado appeared first on Diario E",
+      "link": "https://www.diarioelcentro.cl/2026/10/07/condenan-a-cuatro-integrantes-de-banda-criminal-en-san-javier-por-secuestro-y-homicidio-frustrado/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-07T14:02:05.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-07-porque-donar-sangre-es-donar-vida-hospitales-del-maule-necesitan-100-donaciones-",
+      "title": "Porque donar sangre es donar vida: hospitales del Maule necesitan 100 donaciones diarias y llaman a donar",
+      "summary": "El Servicio de Salud Maule alertó por la necesidad de mantener las reservas durante el fin de semana largo y llamó a donar antes o después de viajar. The post Porque donar sangre es donar vida: hospitales del Maule necesitan 100 donaciones diarias y llaman a donar appeared first on Diario El Centro ",
+      "link": "https://www.diarioelcentro.cl/2026/10/07/porque-donar-sangre-es-donar-vida-hospitales-del-maule-necesitan-100-donaciones-diarias-y-llaman-a-donar/",
+      "author": "Patricio Mora",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-07T12:00:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-07-inauguracion-exposicion-llevame-de-vuelta-al-sur",
@@ -145,22 +200,6 @@
       "source": "seremi-culturas",
       "date": "2026-10-06T12:47:54.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-06-pitch-de-artistas-ama-maule-2026",
-      "title": "Pitch de Artistas AMA MAULE 2026",
-      "summary": "AMA MAULE 2026 · Nuevamente la Universidad de Talca se hace parte de AMA MAULE, encuentro · liderado por el Ministerio de las Culturas, las Artes y el Patrimonio en la Región, que · conecta a artistas, programadores, gestores y agentes culturales para generar · nuevas oportunidades de colaboración y",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-06T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "6 de octubre (Martes) · 15:00",
-        "start": "2026-10-06T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-06-autoridades-refuerzan-monitoreo-por-sistema-frontal-que-afecta-al-maule",
@@ -9995,22 +10034,22 @@
     "POESIA": 106,
     "LITERATURA": 38,
     "MUSICA": 175,
-    "TEATRO": 69,
+    "TEATRO": 70,
     "ARTES_VISUALES": 89,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 199,
+    "PATRIMONIO": 200,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 63,
-    "TERRITORIO": 71
+    "CINE_MEDIOS": 64,
+    "TERRITORIO": 72
   },
   "feedStats": {
     "sources": 54,
     "alive": 47,
     "itemsPerSource": {
-      "ext-utalca-programa": 5,
-      "elmauleinforma": 60,
-      "diario-el-centro": 35,
-      "seremi-culturas": 57,
+      "ext-utalca-programa": 4,
+      "elmauleinforma": 61,
+      "seremi-culturas": 59,
+      "diario-el-centro": 37,
       "diariotalca": 3,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
