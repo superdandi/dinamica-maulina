@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T05:15:31.914Z",
+  "generatedAt": "2026-10-08T15:23:17.799Z",
   "items": [
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
@@ -32,6 +32,47 @@
         "text": "8, 9, 15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-08T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-08-universidad-catolica-del-maule-alcanza-la-excelencia-cna-otorga-6-anos-de-acredi",
+      "title": "Universidad Católica del Maule alcanza la excelencia: CNA otorga 6 años de Acreditación Institucional",
+      "summary": "En un hito para la educación superior de la Región del Maule y el país, la Universidad Católica del Maule (UCM) ha sido acreditada oficialmente en el nivel de Excelencia por un período de 6 años por la Comisión Nacional de Acreditación (CNA). La resolución fue notificada oficialmente este 07 de octu",
+      "link": "https://elmauleinforma.cl/universidad-catolica-del-maule-alcanza-la-excelencia-cna-otorga-6-anos-de-acreditacion-institucional/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-08T00:35:16.000Z",
+      "image": "",
+      "event": {
+        "text": "07 de octu",
+        "start": "2026-10-07T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-07-seremi-de-las-culturas-y-serpat-abren-convocatoria-para-inscribir-actividades-en",
+      "title": "Seremi de las Culturas y Serpat abren convocatoria para inscribir actividades en el 13° Día del Patrimonio Regional",
+      "summary": "La tradicional fiesta ciudadana regional se celebrará el fin de semana del 24 y 25 de octubre, poniendo énfasis este año en el legado histórico y patrimonial de la comunidad chilota en Magallanes. Las organizaciones interesadas tienen plazo hasta el 20 de octubre para sumar sus iniciativas a la cart",
+      "link": "https://www.cultura.gob.cl/agendacultural/seremi-de-las-culturas-y-serpat-abren-convocatoria-para-inscribir-actividades-en-el-13-dia-del-patrimonio-regional/",
+      "author": "magallanes",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-07T20:06:29.000Z",
+      "image": "",
+      "event": {
+        "text": "25 de octubre",
+        "start": "2026-10-25T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-07-lanzamiento-de-la-semana-de-la-seguridad-de-la-cchc-maule-convoco-a-autoridades-",
+      "title": "Lanzamiento de la Semana de la Seguridad de la CChC Maule convocó a autoridades y expertos para fortalecer la cultura preventiva en la construcción",
+      "summary": "Con una destacada participación de autoridades regionales, representantes de empresas socias y profesionales del sector construcción, la Cámara Chilena de la Construcción (CChC) Maule desarrolló con éxito una nueva versión de la Semana de la Seguridad, actividad realizada en el Edificio Plaza Orient",
+      "link": "https://elmauleinforma.cl/lanzamiento-de-la-semana-de-la-seguridad-de-la-cchc-maule-convoco-a-autoridades-y-expertos-para-fortalecer-la-cultura-preventiva-en-la-construccion/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-07T18:00:29.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-07-66-de-los-adolescentes-usa-chatgpt-pero-solo-37-verifica-sus-respuestas",
@@ -10037,7 +10078,7 @@
     "TEATRO": 70,
     "ARTES_VISUALES": 89,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 200,
+    "PATRIMONIO": 203,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 64,
     "TERRITORIO": 72
@@ -10047,8 +10088,8 @@
     "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 4,
-      "elmauleinforma": 61,
-      "seremi-culturas": 59,
+      "elmauleinforma": 63,
+      "seremi-culturas": 60,
       "diario-el-centro": 37,
       "diariotalca": 3,
       "rincon-literario": 48,
