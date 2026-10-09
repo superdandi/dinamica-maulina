@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T05:18:14.400Z",
+  "generatedAt": "2026-10-09T15:05:37.620Z",
   "items": [
     {
       "id": "2026-10-14-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -15,6 +15,21 @@
         "kind": "program",
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-08-laboratorio-de-oralidad-presenta-la-oraloteca-efimera-un-museo-fugaz-con-50-expe",
+      "title": "Laboratorio de Oralidad presenta la Oraloteca Efímera, un museo fugaz con 50 experiencias interactivas",
+      "summary": "La muestra de cierre del laboratorio se realizará este sábado 10 de octubre, de 12:00 a 14:00 horas, en la Mediateca del Centro Cultural de España en Santiago, con entrada liberada. La actividad cuenta con apoyo de la Seremi de las Culturas de la RM.",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/laboratorio-de-oralidad-presenta-la-oraloteca-efimera-un-museo-fugaz-con-50-experiencias-interactivas/",
+      "author": "metropolitana",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-08T18:49:26.000Z",
+      "image": "",
+      "event": {
+        "text": "10 de octubre",
+        "start": "2026-10-10T12:00:00.000Z"
       }
     },
     {
@@ -10184,7 +10199,7 @@
     "TEATRO": 71,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 209,
+    "PATRIMONIO": 210,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 64,
     "TERRITORIO": 72
@@ -10194,7 +10209,7 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 3,
-      "seremi-culturas": 66,
+      "seremi-culturas": 67,
       "elmauleinforma": 64,
       "diariotalca": 6,
       "diario-el-centro": 37,
