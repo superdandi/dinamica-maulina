@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-08T21:09:53.171Z",
+  "generatedAt": "2026-10-09T05:18:14.400Z",
   "items": [
+    {
+      "id": "2026-10-14-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
+      "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
+      "summary": "posesiones en el cine” · El cine de horror también funciona como un sismógrafo de nuestras ansiedades · Miércoles colectivas. “El mal está aquí” recorre distintas formas de una presencia que ya no · amenaza desde afuera, sino que se instala en cuerpos, hogares y comunidades. · Miércoles 7 / El Conju",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-14T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "14, 21, 28 de octubre · 19:00",
+        "start": "2026-10-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-08-dos-talleres-de-escritura-presentan-sus-obras-finales-en-liquen-centro-cultural-",
+      "title": "Dos talleres de escritura presentan sus obras finales en Liquen Centro Cultural de Villarrica",
+      "summary": "Los talleres “Cazadores”, dirigido a jóvenes escritores, y “El Ensayo”, para personas mayores de 18 años, son proyectos financiados por el Fondo del Libro y la Lectura del Ministerio de las Culturas, las Artes y el Patrimonio, convocatoria 2026.",
+      "link": "https://www.cultura.gob.cl/agendacultural/dos-talleres-de-escritura-presentan-sus-obras-finales-en-liquen-centro-cultural-de-villarrica/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-08T16:37:07.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-08-dan-a-conocer-en-curico-informaciones-para-contratar-trabajadores-migrantes-en-l",
+      "title": "Dan a conocer en Curicó informaciones para contratar trabajadores migrantes en la temporada agrícola",
+      "summary": "El subsecretario de Agricultura, Francesco Venezian, junto al director nacional del Servicio Nacional de Migraciones, Frank Sauerbaum, se trasladaron hasta Curicó para encabezar una jornada informativa dirigida a empleadores, productores, empresas agrícolas, contratistas y actores del sector, orient",
+      "link": "https://elmauleinforma.cl/dan-a-conocer-en-curico-informaciones-para-contratar-trabajadores-migrantes-en-la-temporada-agricola/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-08T13:00:04.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-08-16-localidades-y-5-companias-de-artes-escenicas-son-parte-de-innovadora-itineran",
+      "title": "16 localidades y 5 compañías de artes escénicas son parte de innovadora itinerancia por el Biobío",
+      "summary": "La gira llevará obras de danza, teatro, circo contemporáneo y marionetas, además de una propuesta interdisciplinaria, a distintos espacios y localidades de las provincias de Concepción, Biobío y Arauco, de forma gratuita, entre el 17 de octubre y el 11 de diciembre de 2026. Producida por la compañía",
+      "link": "https://www.cultura.gob.cl/agendacultural/16-localidades-y-5-companias-de-artes-escenicas-son-parte-de-innovadora-itinerancia-por-el-biobio/",
+      "author": "biobio",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-10-08T12:46:25.000Z",
+      "image": "",
+      "event": {
+        "text": "el 17 de octubre",
+        "start": "2026-10-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-08-en-pantalla-grande-el-dia-de-las-artes-visuales-acerca-los-procesos-creativos-a-",
+      "title": "En pantalla grande, el “Día de las Artes Visuales” acerca los procesos creativos a públicos diversos",
+      "summary": "El documental “Mujeres artistas” de Klaudia Kemper fue el puntapié inicial del ciclo de cine, que se realiza todos los martes de octubre en el Centro Arte Alameda.",
+      "link": "https://www.cultura.gob.cl/agendacultural/en-pantalla-grande-el-dia-de-las-artes-visuales-acerca-los-procesos-creativos-a-publicos-diversos/",
+      "author": "alecaros",
+      "category": "POESIA",
+      "source": "seremi-culturas",
+      "date": "2026-10-08T12:30:46.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-08-chile-presenta-astros-de-tierra-e-inicia-su-camino-hacia-frankfurt-2027",
+      "title": "Chile presenta “Astros de Tierra” e inicia su camino hacia Frankfurt 2027",
+      "summary": "El país presentó el lema y la identidad gráfica que marcarán su participación como Invitado de Honor de la Feria del Libro de Frankfurt 2027. La iniciativa busca fortalecer la proyección internacional de la literatura nacional, impulsar nuevas traducciones y abrir mercados para autores, editoriales ",
+      "link": "https://www.cultura.gob.cl/actualidad/chile-presenta-astros-de-tierra-e-inicia-su-camino-hacia-frankfurt-2027/",
+      "author": "alecaros",
+      "category": "LITERATURA",
+      "source": "seremi-culturas",
+      "date": "2026-10-08T12:04:45.000Z",
+      "image": ""
+    },
     {
       "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
       "title": "Inauguración exposición: “Diálogo entre atmósferas”, de Dawn Swan",
@@ -31,6 +106,32 @@
         "kind": "program",
         "text": "8, 9, 15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-08T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-08-subsecretaria-de-las-culturas-y-las-artes-y-asociacion-chilena-de-municipalidade",
+      "title": "Subsecretaría de las Culturas y las Artes y Asociación Chilena de Municipalidades suscriben convenio para fortalecer gestión cultural local",
+      "summary": "El acuerdo promoverá la integración formal de los Planes Municipales de Cultura (PMC) en los PLADECO. También se buscará optimizar el presupuesto público, evitar la duplicidad de gastos y garantizar la participación efectiva de las personas en las decisiones territoriales.",
+      "link": "https://www.cultura.gob.cl/red-cultura/subsecretaria-de-las-culturas-y-las-artes-y-asociacion-chilena-de-municipalidades-suscriben-convenio-para-fortalecer-gestion-cultural-local/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-08T11:59:15.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-08-video-en-marcha-20-version-de-la-feria-del-libro-infantil-y-juvenil-de-la-ucm-en",
+      "title": "VIDEO En marcha 20° versión de la Feria del Libro Infantil y Juvenil de la UCM en Talca",
+      "summary": "¿Qué ocurrió? Con una impecable ceremonia y una importante respuesta de público se inauguró la 20° versión correspondiente a 2026 de la Feria del Libro Infantil y Juvenil de Talca. ¿Cuándo y dónde? El evento comenzó este miércoles 7 de octubre y estará abierto al público hasta el domingo 11 de […] T",
+      "link": "https://diariotalca.cl/en-marcha-20-version-de-la-feria-del-libro-infantil-y-juvenil-de-la-ucm-en-talca/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-08T09:10:01.000Z",
+      "image": "",
+      "event": {
+        "text": "7 de octubre",
+        "start": "2026-10-07T12:00:00.000Z"
       }
     },
     {
@@ -165,38 +266,6 @@
       "source": "diario-el-centro",
       "date": "2026-10-07T12:00:00.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-07-inauguracion-exposicion-llevame-de-vuelta-al-sur",
-      "title": "Inauguración exposición: “Llévame de vuelta al Sur”",
-      "summary": "Esta exposición reúne textiles pertenecientes a la Colección Shaw-Zegers, junto a · pinturas y esculturas de la colección de la Universidad de Talca, para plantear una · pregunta: ¿Qué sucede cuando dejamos de mirar esta parte del mundo desde · parámetros construidos en otros lugares? Hemos aprendid",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-07T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "7 de octubre (Miércoles) · 12:00",
-        "start": "2026-10-07T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-10-07-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
-      "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
-      "summary": "posesiones en el cine” · El cine de horror también funciona como un sismógrafo de nuestras ansiedades · Miércoles colectivas. “El mal está aquí” recorre distintas formas de una presencia que ya no · amenaza desde afuera, sino que se instala en cuerpos, hogares y comunidades. · Miércoles 7 / El Conju",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-07T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "7, 14, 21, 28 de octubre · 19:00",
-        "start": "2026-10-07T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-07-prision-preventiva-para-10-involucrados-en-millonaria-red-de-corrupcion-en-munic",
@@ -1326,7 +1395,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-10-08T12:00:00.000Z"
+        "start": "2026-10-15T12:00:00.000Z"
       }
     },
     {
@@ -10109,13 +10178,13 @@
     }
   ],
   "counts": {
-    "POESIA": 106,
-    "LITERATURA": 39,
+    "POESIA": 107,
+    "LITERATURA": 40,
     "MUSICA": 175,
-    "TEATRO": 70,
-    "ARTES_VISUALES": 89,
+    "TEATRO": 71,
+    "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 205,
+    "PATRIMONIO": 209,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 64,
     "TERRITORIO": 72
@@ -10124,10 +10193,10 @@
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 4,
-      "diariotalca": 5,
-      "elmauleinforma": 63,
-      "seremi-culturas": 61,
+      "ext-utalca-programa": 3,
+      "seremi-culturas": 66,
+      "elmauleinforma": 64,
+      "diariotalca": 6,
       "diario-el-centro": 37,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
