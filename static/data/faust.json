@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T05:03:12.400Z",
+  "generatedAt": "2026-10-10T14:20:35.626Z",
   "items": [
     {
       "id": "2026-10-14-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -15,6 +15,47 @@
         "kind": "program",
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-10-informe-de-ibope-revela-que-el-93-de-los-chilenos-consume-contenido-en-formato-d",
+      "title": "Informe de Ibope revela que el 93% de los chilenos consume contenido en formato de audio; la radio lidera",
+      "summary": "El 93% de la población chilena consumió algún tipo de contenido en audio en los últimos 30 días, según datos del Audio Pulse 2026 de Ibope. El informe revela que la radio, la música, el streaming y los podcasts conforman un ecosistema que acompaña a las personas a lo largo del día. Entre estos forma",
+      "link": "https://elmauleinforma.cl/informe-de-ibope-revela-que-el-93-de-los-chilenos-consume-contenido-en-formato-de-audio-la-radio-lidera/",
+      "author": "Redacción El Maule Informa",
+      "category": "CINE_MEDIOS",
+      "source": "elmauleinforma",
+      "date": "2026-10-10T00:00:59.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-09-marca-de-ladron-regresa-a-escena-con-nuevas-funciones-en-talca",
+      "title": "“Marca de Ladrón” regresa a escena con nuevas funciones en Talca",
+      "summary": "Tras su aplaudido debut en el Teatro Regional del Maule, “Marca de Ladrón” regresa a escena con cuatro nuevas funciones en Talca. El montaje de la compañía maulina La Noche y Tú, anteriormente presentado como “Hijo de Ladrón” se presentará los días 16, 17, 22 y 23 de octubre a las 20:30 horas en Cas",
+      "link": "https://elmauleinforma.cl/marca-de-ladron-regresa-a-escena-con-nuevas-funciones-en-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-10-09T20:42:41.000Z",
+      "image": "",
+      "event": {
+        "text": "23 de octubre",
+        "start": "2026-10-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-09-filit-celebra-20-anos-en-talca-con-escritores-y-actividades-gratuitas-hasta-el-d",
+      "title": "FILIT celebra 20 años en Talca con escritores y actividades gratuitas hasta el domingo",
+      "summary": "La programación incluye encuentros entre literatura y música, propuestas inclusivas, talleres y espacios para fortalecer la industria editorial, con actividades para distintos públicos durante el fin de semana. The post FILIT celebra 20 años en Talca con escritores y actividades gratuitas hasta el d",
+      "link": "https://www.diarioelcentro.cl/2026/10/09/filit-celebra-20-anos-en-talca-con-escritores-y-actividades-gratuitas-hasta-el-domingo/",
+      "author": "Patricio Mora",
+      "category": "LITERATURA",
+      "source": "diario-el-centro",
+      "date": "2026-10-09T18:04:09.000Z",
+      "image": "",
+      "event": {
+        "text": "el domingo",
+        "start": "2026-10-11T12:00:00.000Z"
       }
     },
     {
@@ -10226,14 +10267,14 @@
   ],
   "counts": {
     "POESIA": 107,
-    "LITERATURA": 40,
+    "LITERATURA": 41,
     "MUSICA": 176,
-    "TEATRO": 72,
+    "TEATRO": 73,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
     "PATRIMONIO": 211,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 64,
+    "CINE_MEDIOS": 65,
     "TERRITORIO": 72
   },
   "feedStats": {
@@ -10241,10 +10282,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "elmauleinforma": 66,
+      "diario-el-centro": 38,
       "seremi-culturas": 69,
       "diariotalca": 8,
-      "elmauleinforma": 64,
-      "diario-el-centro": 37,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
