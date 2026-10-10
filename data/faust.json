@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:05:37.620Z",
+  "generatedAt": "2026-10-10T05:03:12.400Z",
   "items": [
     {
       "id": "2026-10-14-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -16,6 +16,70 @@
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-09-11-version-de-encuentros-coreograficos-nacionales-abre-al-publico-los-procesos-d",
+      "title": "11° versión de Encuentros Coreográficos Nacionales abre al público los procesos de cinco creaciones de danza contemporánea",
+      "summary": "Entre el 15 y el 29 de octubre, cinco proyectos de cuatro regiones del país presentarán aperturas de proceso en el Centro GAM y en el Parque Cultural de Valparaíso, con entrada liberada.",
+      "link": "https://www.cultura.gob.cl/agendacultural/11-version-de-encuentros-coreograficos-nacionales-abre-al-publico-los-procesos-de-cinco-creaciones-de-danza-contemporanea/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-09T16:20:25.000Z",
+      "image": "",
+      "event": {
+        "text": "el 29 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-09-mes-del-diseno-revela-su-identidad-visual-2026-con-un-homenaje-a-la-industria-na",
+      "title": "Mes del Diseño revela su identidad visual 2026 con un homenaje a la industria nacional y su impacto en la vida cotidiana",
+      "summary": "Bajo la consigna “habitar el diseño” e inspirado en la figura de la icónica taza de Loza Futura, fabricada por Cristalerías de Chile durante la década de 1970, la nueva identidad invita a volver a mirar los objetos que nos rodean y reconocer su utilidad, sus materiales y el lugar que ocupan en nuest",
+      "link": "https://www.cultura.gob.cl/actualidad/mes-del-diseno-revela-su-identidad-visual-2026-con-un-homenaje-a-la-industria-nacional-y-su-impacto-en-la-vida-cotidiana/",
+      "author": "alecaros",
+      "category": "ARTES_VISUALES",
+      "source": "seremi-culturas",
+      "date": "2026-10-09T16:00:34.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-09-festival-de-cine-felina-2026",
+      "title": "Festival de Cine Felina 2026",
+      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-09T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "9, 15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
+        "start": "2026-10-09T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-09-estudiantes-de-san-clemente-celebraron-con-cueca-los-162-anos-de-nuestra-comuna",
+      "title": "Estudiantes de San Clemente celebraron con cueca los 162 años de nuestra comuna",
+      "summary": "Con el baile nacional como protagonista, 162 parejas de estudiantes rindieron un hermoso homenaje a San Clemente, llenando de música, tradición y folclore el frontis de nuestro municipio. Más de un centenar de escolares, acompañados por sus docentes y representantes de distintos establecimientos edu",
+      "link": "https://diariotalca.cl/estudiantes-de-san-clemente-celebraron-con-cueca-los-162-anos-de-nuestra-comuna/",
+      "author": "Hernán Espinoza",
+      "category": "MUSICA",
+      "source": "diariotalca",
+      "date": "2026-10-09T09:00:56.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-09-de-la-cereza-al-avellano-europeo-proyectan-el-nuevo-escenario-fruticola-del-maul",
+      "title": "De la cereza al avellano europeo: proyectan el nuevo escenario frutícola del Maule",
+      "summary": "¿Cuál es el contexto? Una temporada marcada por contrastes climáticos y cambios en las dinámicas de exportación enfrenta la fruticultura en la Región del Maule. Tras un invierno con acumulaciones de lluvia superiores a periodos recientes —aunque sin sobrepasar de manera significativa los promedios h",
+      "link": "https://diariotalca.cl/de-la-cereza-al-avellano-europeo-proyectan-el-nuevo-escenario-fruticola-del-maule/",
+      "author": "Hernán Espinoza",
+      "category": "TEATRO",
+      "source": "diariotalca",
+      "date": "2026-10-09T09:00:50.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-08-laboratorio-de-oralidad-presenta-la-oraloteca-efimera-un-museo-fugaz-con-50-expe",
@@ -90,38 +154,6 @@
       "source": "seremi-culturas",
       "date": "2026-10-08T12:04:45.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-08-inauguracion-exposicion-dialogo-entre-atmosferas-de-dawn-swan",
-      "title": "Inauguración exposición: “Diálogo entre atmósferas”, de Dawn Swan",
-      "summary": "de Dawn Swan · Esta exposición invita al visitante a contemplar y relacionarse con el espacio, · guiado por la sensibilidad única del lenguaje de la acuarela. Las obras de Swain · despliegan paisajes donde las transparencias luminosas y las sutiles manchas se · funden para construir momentos de frío",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-08T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "8 de octubre (Jueves) · 19:00",
-        "start": "2026-10-08T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-10-08-festival-de-cine-felina-2026",
-      "title": "Festival de Cine Felina 2026",
-      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-08T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "8, 9, 15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
-        "start": "2026-10-08T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-08-subsecretaria-de-las-culturas-y-las-artes-y-asociacion-chilena-de-municipalidade",
@@ -10195,11 +10227,11 @@
   "counts": {
     "POESIA": 107,
     "LITERATURA": 40,
-    "MUSICA": 175,
-    "TEATRO": 71,
+    "MUSICA": 176,
+    "TEATRO": 72,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 210,
+    "PATRIMONIO": 211,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 64,
     "TERRITORIO": 72
@@ -10208,10 +10240,10 @@
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 3,
-      "seremi-culturas": 67,
+      "ext-utalca-programa": 2,
+      "seremi-culturas": 69,
+      "diariotalca": 8,
       "elmauleinforma": 64,
-      "diariotalca": 6,
       "diario-el-centro": 37,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
