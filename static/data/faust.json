@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T04:51:54.713Z",
+  "generatedAt": "2026-10-11T14:46:10.092Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -31,6 +31,21 @@
         "kind": "program",
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-10-curico-cumple-283-anos-la-historia-detras-de-la-ciudad",
+      "title": "Curicó cumple 283 años: la historia detrás de la ciudad",
+      "summary": "Curicó conmemoró ayer 283 años desde su fundación, ocurrida el 9 de octubre de 1743. La ciudad nació en otro sector y debió trasladarse cuatro años después. The post Curicó cumple 283 años: la historia detrás de la ciudad appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/10/curico-cumple-283-anos-la-historia-detras-de-la-ciudad/",
+      "author": "Yasmín Gómez",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-10T19:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "el 9 de octubre",
+        "start": "2026-10-09T12:00:00.000Z"
       }
     },
     {
@@ -10305,7 +10320,7 @@
     "TEATRO": 73,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 212,
+    "PATRIMONIO": 213,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 65,
     "TERRITORIO": 73
@@ -10315,7 +10330,7 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "diario-el-centro": 39,
+      "diario-el-centro": 40,
       "diariotalca": 10,
       "elmauleinforma": 66,
       "seremi-culturas": 69,
