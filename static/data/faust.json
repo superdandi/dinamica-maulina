@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-10T14:20:35.626Z",
+  "generatedAt": "2026-10-11T04:51:54.713Z",
   "items": [
+    {
+      "id": "2026-10-15-festival-de-cine-felina-2026",
+      "title": "Festival de Cine Felina 2026",
+      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-15T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
+        "start": "2026-10-15T12:00:00.000Z"
+      }
+    },
     {
       "id": "2026-10-14-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
       "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
@@ -16,6 +32,39 @@
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-10-talquino-completo-su-decima-maraton-en-vina-del-mar-y-destaco-entre-los-30-mejor",
+      "title": "Talquino completó su décima maratón en Viña del Mar y destacó entre los 30 mejores",
+      "summary": "Detrás de su destacada participación hay años de preparación y esfuerzo personal, en una carrera deportiva marcada por la perseverancia y la falta de apoyo económico para competir fuera de la región. The post Talquino completó su décima maratón en Viña del Mar y destacó entre los 30 mejores appeared",
+      "link": "https://www.diarioelcentro.cl/2026/10/10/talquino-completo-su-decima-maraton-en-vina-del-mar-y-destaco-entre-los-30-mejores/",
+      "author": "Patricio Mora",
+      "category": "POESIA",
+      "source": "diario-el-centro",
+      "date": "2026-10-10T13:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-10-reportaje-el-maule-busca-impulsar-proyectos-para-generar-pega",
+      "title": "REPORTAJE El Maule busca impulsar proyectos para generar “pega”",
+      "summary": "Carteras de Obras Públicas y de Vivienda lanzan batería de proyectos para reactivar la economía y el empleo en la región. Eso sí, en el caso del MOP estos comenzarían a ejecutarse a partir de enero del próximo año (por Patricio Moraga Vallejos) Los ojos están puestos en los Ministerios de Obras Públ",
+      "link": "https://diariotalca.cl/reportaje-el-maule-busca-impulsar-proyectos-para-generar-pega/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-10T09:05:29.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-10-mop-maule-efectuo-traspaso-del-embalse-ancoa-a-una-sociedad-civil-de-regantes-de",
+      "title": "MOP Maule efectuó traspaso del Embalse Ancoa a una sociedad civil de regantes de Linares",
+      "summary": "¿Qué ocurrió? La Dirección de Obras Hidráulicas (DOH) del Ministerio de Obras Públicas (MOP) realizó la entrega oficial del Embalse Ancoa a las asociaciones’ de regantes de la provincia de Linares. La organización está integrada por las Juntas de Vigilancia de los ríos Ancoa, Achibueno y Canal Melad",
+      "link": "https://diariotalca.cl/mop-maule-efectuo-traspaso-del-embalse-ancoa-a-una-sociedad-civil-de-regantes-de-linares/",
+      "author": "Hernán Espinoza",
+      "category": "TERRITORIO",
+      "source": "diariotalca",
+      "date": "2026-10-10T09:00:47.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-10-informe-de-ibope-revela-que-el-93-de-los-chilenos-consume-contenido-en-formato-d",
@@ -83,22 +132,6 @@
       "source": "seremi-culturas",
       "date": "2026-10-09T16:00:34.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-09-festival-de-cine-felina-2026",
-      "title": "Festival de Cine Felina 2026",
-      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-09T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "9, 15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
-        "start": "2026-10-09T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-09-estudiantes-de-san-clemente-celebraron-con-cueca-los-162-anos-de-nuestra-comuna",
@@ -1302,7 +1335,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-10T12:00:00.000Z"
+        "start": "2026-10-17T12:00:00.000Z"
       }
     },
     {
@@ -10266,26 +10299,26 @@
     }
   ],
   "counts": {
-    "POESIA": 107,
+    "POESIA": 108,
     "LITERATURA": 41,
     "MUSICA": 176,
     "TEATRO": 73,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 54,
-    "PATRIMONIO": 211,
+    "PATRIMONIO": 212,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 65,
-    "TERRITORIO": 72
+    "TERRITORIO": 73
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "diario-el-centro": 39,
+      "diariotalca": 10,
       "elmauleinforma": 66,
-      "diario-el-centro": 38,
       "seremi-culturas": 69,
-      "diariotalca": 8,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
