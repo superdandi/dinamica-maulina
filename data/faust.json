@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T14:46:10.092Z",
+  "generatedAt": "2026-10-12T05:06:52.497Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -32,6 +32,43 @@
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-11-lluvias-volveran-al-maule-este-lunes-con-hasta-20-mm-en-la-precordillera",
+      "title": "Lluvias volverán al Maule este lunes con hasta 20 mm en la precordillera",
+      "summary": "La Dirección Meteorológica de Chile emitió un aviso por precipitaciones normales a moderadas para este lunes 12 de octubre, con montos de hasta 20 milímetros en la precordillera del Maule. The post Lluvias volverán al Maule este lunes con hasta 20 mm en la precordillera appeared first on Diario El C",
+      "link": "https://www.diarioelcentro.cl/2026/10/11/lluvias-volveran-al-maule-este-lunes-con-hasta-20-mm-en-la-precordillera/",
+      "author": "Yasmín Gómez",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-11T13:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "12 de octubre",
+        "start": "2026-10-12T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-11-corte-de-talca-ratifico-cuatro-prisiones-preventivas-del-caso-castillo-de-naipes",
+      "title": "Corte de Talca ratificó cuatro prisiones preventivas del Caso Castillo de Naipes",
+      "summary": "¿Qué ocurrió? La segunda sala de la Corte de Apelaciones de Talca confirmó cuatro medidas cautelares de prisiones preventivas de similar número de imputados en el Caso Castillo de Naipes. ¿Quiénes son los imputados? Se trata de los imputados Rafael Vigeras funcionario de la municipalidad de Villa Al",
+      "link": "https://diariotalca.cl/corte-de-talca-ratifico-cuatro-prisiones-preventivas-del-cas-castillo-de-naipes/",
+      "author": "Hernán Espinoza",
+      "category": "ARTESANIAS",
+      "source": "diariotalca",
+      "date": "2026-10-11T09:00:27.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-11-rodrigo-saens-plan-chile-despega-va-en-la-direccion-correcta-pero-queda-corto",
+      "title": "Rodrigo Saens: “Plan Chile Despega va en la dirección correcta, pero queda corto”",
+      "summary": "El gobierno acaba de lanzar el plan Chile Despega. ¿Le parece un buen plan? ¿Es suficiente? “Va en la dirección correcta, pero se queda corto. Todo lo que signifique destrabar la inversión, acelerar la ejecución de proyectos o eliminar la burocracia estatal es, sin lugar a duda, una muy buena notici",
+      "link": "https://diariotalca.cl/plan-chile-despega-va-en-la-direccion-correcta-pero-queda-corto/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-11T09:00:10.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-10-curico-cumple-283-anos-la-historia-detras-de-la-ciudad",
@@ -119,7 +156,7 @@
       "image": "",
       "event": {
         "text": "el domingo",
-        "start": "2026-10-11T12:00:00.000Z"
+        "start": "2026-10-18T12:00:00.000Z"
       }
     },
     {
@@ -599,7 +636,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-10-11T12:00:00.000Z"
+        "start": "2026-10-18T12:00:00.000Z"
       }
     },
     {
@@ -1757,7 +1794,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-10-11T12:00:00.000Z"
+        "start": "2026-10-18T12:00:00.000Z"
       }
     },
     {
@@ -10319,19 +10356,19 @@
     "MUSICA": 176,
     "TEATRO": 73,
     "ARTES_VISUALES": 88,
-    "ARTESANIAS": 54,
-    "PATRIMONIO": 213,
+    "ARTESANIAS": 55,
+    "PATRIMONIO": 214,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 65,
-    "TERRITORIO": 73
+    "TERRITORIO": 74
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "diario-el-centro": 40,
-      "diariotalca": 10,
+      "diario-el-centro": 41,
+      "diariotalca": 12,
       "elmauleinforma": 66,
       "seremi-culturas": 69,
       "rincon-literario": 48,
