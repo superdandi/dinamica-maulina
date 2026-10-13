@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T06:06:31.064Z",
+  "generatedAt": "2026-10-13T15:42:52.447Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -31,6 +31,32 @@
         "kind": "program",
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-12-pelarco-corono-a-los-nuevos-campeones-nacionales-de-cueca-super-senior",
+      "title": "Pelarco coronó a los nuevos campeones nacionales de cueca súper sénior",
+      "summary": "Con representantes de Coquimbo, Los Ríos y el Maule en el podio, la quinta edición del certamen destacó por su convocatoria, los reconocimientos especiales y el respaldo a las tradiciones chilenas. The post Pelarco coronó a los nuevos campeones nacionales de cueca súper sénior appeared first on Diar",
+      "link": "https://www.diarioelcentro.cl/2026/10/12/pelarco-corono-a-los-nuevos-campeones-nacionales-de-cueca-super-senior/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-12T22:40:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-12-dia-de-los-cerros-2026-chile-tendra-170-actividades-y-el-maule-contara-con-rutas",
+      "title": "Día de los Cerros 2026: Chile tendrá 170 actividades y el Maule contará con rutas en Molina y San Javier",
+      "summary": "La celebración se realizará el sábado 17 de octubre con 170 actividades gratuitas en 13 regiones. En el Maule destacan rutas de trekking en el Cerro Gupo y el Cerro Traruñez. The post Día de los Cerros 2026: Chile tendrá 170 actividades y el Maule contará con rutas en Molina y San Javier appeared fi",
+      "link": "https://www.diarioelcentro.cl/2026/10/12/dia-de-los-cerros-2026-chile-tendra-170-actividades-y-el-maule-contara-con-rutas-en-molina-y-san-javier/",
+      "author": "Yasmín Gómez",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-12T21:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "17 de octubre",
+        "start": "2026-10-17T12:00:00.000Z"
       }
     },
     {
@@ -165,6 +191,17 @@
         "text": "23 de octubre",
         "start": "2026-10-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-09-exposicion-crear-y-creer-en-el-paisaje-en-museo-de-bellas-artes",
+      "title": "Exposición «Crear y creer en el paisaje» en Museo de Bellas Artes",
+      "summary": "El artista chileno Enrique Ramírez presenta su exposición “Te creo paisaje” en seis salas del Museo de Bellas Artes, con sus obras emblemáticas e inéditas.",
+      "link": "https://www.cultura.gob.cl/actualidad/exposicion-crear-y-creer-en-el-paisaje-en-museo-de-bellas-artes/",
+      "author": "alecaros",
+      "category": "ARTES_VISUALES",
+      "source": "seremi-culturas",
+      "date": "2026-10-09T19:00:07.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-09-filit-celebra-20-anos-en-talca-con-escritores-y-actividades-gratuitas-hasta-el-d",
@@ -10377,20 +10414,20 @@
     "LITERATURA": 41,
     "MUSICA": 176,
     "TEATRO": 74,
-    "ARTES_VISUALES": 88,
+    "ARTES_VISUALES": 89,
     "ARTESANIAS": 55,
-    "PATRIMONIO": 215,
+    "PATRIMONIO": 216,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 65,
-    "TERRITORIO": 74
+    "TERRITORIO": 75
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "seremi-culturas": 70,
-      "diario-el-centro": 42,
+      "diario-el-centro": 44,
+      "seremi-culturas": 71,
       "diariotalca": 12,
       "elmauleinforma": 66,
       "rincon-literario": 48,
