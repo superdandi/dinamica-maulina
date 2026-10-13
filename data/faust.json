@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T15:42:52.447Z",
+  "generatedAt": "2026-10-13T21:03:57.530Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -31,6 +31,32 @@
         "kind": "program",
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-13-fundacion-hacer-visible-lo-invisible-entrega-lanyards-a-salome-y-a-su-madre-cuid",
+      "title": "Fundación Hacer Visible lo Invisible entrega Lanyards a Salomé y a su madre cuidadora",
+      "summary": "¿Quiénes son? Salomé Escalona Devia tiene 6 años, le gusta cantar, bailar y aprender cosas nuevas. Vive en Pencahue y recibió en su casa la visita de Paola Zúñiga Ruiz, presidenta de la Fundación Hacer Visible lo Invisible, quien le entregó un Lanyard de baja visión. Su madre, Carmen Devia Sepúlveda",
+      "link": "https://diariotalca.cl/fundacion-hacer-visible-lo-invisible-entrega-lanyards-a-salome-y-a-su-madre-cuidadora/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-13T09:00:43.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-13-anuncian-hito-cultural-de-la-segunda-version-del-festival-pasadas-pa-la-pluma",
+      "title": "Anuncian hito cultural de la segunda versión del Festival Pasadas pa’ la Pluma",
+      "summary": "¿Cuál fue el anuncio? Con la presentación del libro “La Biblia de Lilith”, de la destacada escritora maulina Silvia Rodríguez Bravo, continúa la segunda versión del Festival Literario y Cultural “Pasadas pa’ la Pluma”. La cita tendrá lugar el próximo sábado 17 de octubre en el Espacio Cultural La Ca",
+      "link": "https://diariotalca.cl/anuncian-hito-cultural-de-la-segunda-version-del-festival-pasadas-pa-la-pluma/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-13T09:00:42.000Z",
+      "image": "",
+      "event": {
+        "text": "17 de octubre",
+        "start": "2026-10-17T12:00:00.000Z"
       }
     },
     {
@@ -10416,7 +10442,7 @@
     "TEATRO": 74,
     "ARTES_VISUALES": 89,
     "ARTESANIAS": 55,
-    "PATRIMONIO": 216,
+    "PATRIMONIO": 218,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 65,
     "TERRITORIO": 75
@@ -10426,9 +10452,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "diariotalca": 14,
       "diario-el-centro": 44,
       "seremi-culturas": 71,
-      "diariotalca": 12,
       "elmauleinforma": 66,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
