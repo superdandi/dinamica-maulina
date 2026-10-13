@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T17:33:15.672Z",
+  "generatedAt": "2026-10-13T06:06:31.064Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -32,6 +32,17 @@
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-12-chile-inicia-su-camino-como-pais-invitado-de-honor-en-la-feria-del-libro-de-fran",
+      "title": "Chile inicia su camino como País Invitado de Honor en la Feria del Libro de Frankfurt 2027 con foco en Gabriela Mistral",
+      "summary": "En una ceremonia marcada por la figura y el legado de la Premio Nobel, Chequia traspasó oficialmente la posta a nuestro país. La instancia culminó una semana de actividades literarias y encuentros profesionales que dieron vida a la edición 2026 del evento, y comenzó la cuenta regresiva hacia octubre",
+      "link": "https://www.cultura.gob.cl/actualidad/chile-inicia-su-camino-como-pais-invitado-de-honor-en-la-feria-del-libro-de-frankfurt-2027-con-foco-en-gabriela-mistral/",
+      "author": "prensa2",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-12T15:01:34.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-12-muere-a-los-65-anos-gabriel-prieto-reconocido-actor-chileno",
@@ -10368,7 +10379,7 @@
     "TEATRO": 74,
     "ARTES_VISUALES": 88,
     "ARTESANIAS": 55,
-    "PATRIMONIO": 214,
+    "PATRIMONIO": 215,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 65,
     "TERRITORIO": 74
@@ -10378,10 +10389,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "seremi-culturas": 70,
       "diario-el-centro": 42,
       "diariotalca": 12,
       "elmauleinforma": 66,
-      "seremi-culturas": 69,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
