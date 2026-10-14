@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:03:57.530Z",
+  "generatedAt": "2026-10-14T04:09:57.426Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -31,6 +31,95 @@
         "kind": "program",
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-13-encargados-de-cultura-municipal-de-magallanes-articulan-trabajo-conjunto",
+      "title": "Encargados de cultura municipal de Magallanes articulan trabajo conjunto",
+      "summary": "Jornada, convocada por la Seremi de las Culturas, las Artes y el Patrimonio, permitió a los equipos comunales compartir experiencias, visibilizar dificultades comunes y proyectar soluciones colaborativas para fortalecer la gestión cultural en las cuatro provincias.",
+      "link": "https://www.cultura.gob.cl/red-cultura/encargados-de-cultura-municipal-de-magallanes-articulan-trabajo-conjunto/",
+      "author": "magallanes",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-13T14:53:08.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-13-comunidades-alfareras-de-tres-regiones-se-reunieron-en-nuble-para-fortalecer-sus",
+      "title": "Comunidades alfareras de tres regiones se reunieron en Ñuble para fortalecer sus saberes tradicionales",
+      "summary": "En Buchupureo, comuna de Cobquecura, se desarrolló el Encuentro de Alfarerías Patrimoniales, instancia que reunió a cultoras de Quinchamalí y Santa Cruz de Cuca, Quebrada de las Ulloa y Loceras de Pilén, de las regiones de Ñuble, Biobío y Maule, respectivamente.",
+      "link": "https://www.cultura.gob.cl/actualidad/comunidades-alfareras-de-tres-regiones-se-reunieron-en-nuble-para-fortalecer-sus-saberes-tradicionales/",
+      "author": "nuble1",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-13T14:52:39.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-13-exposicion-un-rio-suena-siempre-cerca-continua-abierta-al-publico-hasta-el-20-de",
+      "title": "Exposición “Un río suena siempre cerca” continúa abierta al público hasta el 20 de octubre",
+      "summary": "La muestra reúne el trabajo de 12 artistas visuales de la Región de Ñuble y propone un recorrido por distintas miradas sobre el entorno natural, el habitar urbano y las experiencias humanas.",
+      "link": "https://www.cultura.gob.cl/agendacultural/exposicion-un-rio-suena-siempre-cerca-continua-abierta-al-publico-hasta-el-20-de-octubre/",
+      "author": "nuble1",
+      "category": "ARTES_VISUALES",
+      "source": "seremi-culturas",
+      "date": "2026-10-13T14:52:13.000Z",
+      "image": "",
+      "event": {
+        "text": "el 20 de octubre",
+        "start": "2026-10-20T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-13-tormentas-electricas-y-posible-granizo-alertan-a-la-region-del-maule",
+      "title": "Tormentas eléctricas y posible granizo alertan a la Región del Maule",
+      "summary": "El aviso meteorológico incluye sectores del litoral, valle, precordillera y cordillera maulina. El evento también podría afectar a otras seis regiones, desde Coquimbo hasta Biobío. The post Tormentas eléctricas y posible granizo alertan a la Región del Maule appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/13/tormentas-electricas-y-posible-granizo-alertan-a-la-region-del-maule/",
+      "author": "Patricio Mora",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-13T13:37:32.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-13-todo-listo-para-la-entrega-de-los-premios-regionales-de-las-culturas-las-artes-y",
+      "title": "Todo listo para la entrega de los Premios Regionales de las Culturas, las Artes y el Patrimonio 2026",
+      "summary": "El próximo jueves 15 de octubre se darán a conocer las y los ganadores de la séptima edición de este reconocimiento impulsado por la Seremi de las Culturas para destacar trayectorias y aportes al desarrollo cultural de La Araucanía. Para confirmar la asistencia se debe completar el formulario: https",
+      "link": "https://www.cultura.gob.cl/agendacultural/todo-listo-para-la-entrega-de-los-premios-regionales-de-las-culturas-las-artes-y-el-patrimonio-2026/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-13T12:43:20.000Z",
+      "image": "",
+      "event": {
+        "text": "15 de octubre",
+        "start": "2026-10-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-13-aqui-estamos-chile-bts-llega-a-santiago-para-su-gira-arirang",
+      "title": "“Aquí estamos, Chile”: BTS llega a Santiago para su gira Arirang",
+      "summary": "Tras sus presentaciones en Lima, la agrupación surcoreana llegó a Chile para continuar su gira Arirang, con tres conciertos programados en Santiago. The post “Aquí estamos, Chile”: BTS llega a Santiago para su gira Arirang appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/13/aqui-estamos-chile-bts-llega-a-santiago-para-su-gira-arirang/",
+      "author": "Yasmín Gómez",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-10-13T12:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-13-con-pandora-bacilos-luciano-pereyra-y-tito-el-bambino-teleton-2026-adelanta-su-s",
+      "title": "Con Pandora, Bacilos, Luciano Pereyra y Tito El Bambino: Teletón 2026 adelanta su show estelar",
+      "summary": "¿Qué está pasando? Teletón 2026 comienza a afinar los últimos detalles para las 27 horas de transmisión televisiva de este 6 y 7 de noviembre próximo que espera alcanza y superar la meta que dejó 2025. ¿Cómo será? Seis bloques temáticos, una “Digitón” que ampliará el alcance de la campaña en […] The",
+      "link": "https://diariotalca.cl/con-pandora-bacilos-luciano-pereyra-y-tito-el-bambino-teleton-2026-adelanta-su-show-estelar/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-13T09:05:36.000Z",
+      "image": "",
+      "event": {
+        "text": "7 de noviembre",
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -1361,7 +1450,7 @@
       "image": "",
       "event": {
         "text": "13 de septiembre",
-        "start": "2026-09-13T12:00:00.000Z"
+        "start": "2027-09-13T12:00:00.000Z"
       }
     },
     {
@@ -1742,7 +1831,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-10-13T12:00:00.000Z"
+        "start": "2026-10-20T12:00:00.000Z"
       }
     },
     {
@@ -2249,7 +2338,7 @@
       "image": "",
       "event": {
         "text": "13 de septiembre",
-        "start": "2026-09-13T12:00:00.000Z"
+        "start": "2027-09-13T12:00:00.000Z"
       }
     },
     {
@@ -10438,23 +10527,23 @@
   "counts": {
     "POESIA": 108,
     "LITERATURA": 41,
-    "MUSICA": 176,
+    "MUSICA": 177,
     "TEATRO": 74,
-    "ARTES_VISUALES": 89,
+    "ARTES_VISUALES": 90,
     "ARTESANIAS": 55,
-    "PATRIMONIO": 218,
+    "PATRIMONIO": 222,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 65,
-    "TERRITORIO": 75
+    "TERRITORIO": 76
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "diariotalca": 14,
-      "diario-el-centro": 44,
-      "seremi-culturas": 71,
+      "seremi-culturas": 75,
+      "diario-el-centro": 46,
+      "diariotalca": 15,
       "elmauleinforma": 66,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
