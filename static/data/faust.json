@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T04:09:57.426Z",
+  "generatedAt": "2026-10-14T13:27:36.891Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -32,6 +32,50 @@
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-14-329-funcionarios-realizan-cuidados-paliativos-en-las-30-comunas-del-maule",
+      "title": "329 funcionarios realizan cuidados paliativos en las 30 comunas del Maule",
+      "summary": "Durante décadas, los cuidados paliativos en Chile estuvieron reservados al cáncer. Con la Ley de Cuidados Paliativos Universales, el derecho se extiende a personas con insuficiencias orgánicas avanzadas, enfermedades neurodegenerativas, demencias en etapa avanzada y otras condiciones progresivas. Ho",
+      "link": "https://elmauleinforma.cl/329-funcionarios-realizan-cuidados-paliativos-en-las-30-comunas-del-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "TERRITORIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-14T00:00:33.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-13-invitan-a-primer-encuentro-de-coleccionistas-de-minerales-y-cristales-en-talca",
+      "title": "Invitan a primer encuentro de coleccionistas de minerales y cristales en Talca",
+      "summary": "​TALCA.— Una nueva generación de apasionados por la naturaleza, la ciencia, la exploración y el coleccionismo está transformando las expediciones al aire libre en una cruzada de conservación y divulgación científica. Se trata del Club de Minerales y Cristales Talca Oficial, quienes junto a la Escuel",
+      "link": "https://elmauleinforma.cl/invitan-a-primer-encuentro-de-coleccionustas-fe-minerales-y-cristales-en-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "TERRITORIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-13T23:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-13-keiko-fujimori-anuncia-nuevas-normas-escolares-en-peru-pelo-corto-sin-maquillaje",
+      "title": "Keiko Fujimori anuncia nuevas normas escolares en Perú: pelo corto, sin maquillaje y sin celulares",
+      "summary": "La propuesta establece medidas correctivas según la gravedad de las infracciones y abre el debate sobre los límites de las normas de presentación personal en los establecimientos públicos. The post Keiko Fujimori anuncia nuevas normas escolares en Perú: pelo corto, sin maquillaje y sin celulares app",
+      "link": "https://www.diarioelcentro.cl/2026/10/13/keiko-fujimori-anuncia-nuevas-normas-escolares-en-peru-pelo-corto-sin-maquillaje-y-sin-celulares/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-13T18:05:03.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-13-biobio-cuenta-con-38-instrumentos-de-planificacion-cultural-vigentes-en-sus-tres",
+      "title": "Biobío cuenta con 38 instrumentos de planificación cultural vigentes en sus tres provincias",
+      "summary": "A través del programa Red Cultura del Ministerio de las Culturas, las Artes y el Patrimonio, municipios y espacios culturales de la región cuentan con herramientas de planificación elaboradas junto a sus comunidades, que permiten orientar el desarrollo cultural de los territorios.",
+      "link": "https://www.cultura.gob.cl/red-cultura/biobio-cuenta-con-38-instrumentos-de-planificacion-cultural-vigentes-en-sus-tres-provincias/",
+      "author": "biobio",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-13T16:22:26.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-13-encargados-de-cultura-municipal-de-magallanes-articulan-trabajo-conjunto",
@@ -10531,20 +10575,20 @@
     "TEATRO": 74,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 55,
-    "PATRIMONIO": 222,
+    "PATRIMONIO": 223,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 65,
-    "TERRITORIO": 76
+    "CINE_MEDIOS": 66,
+    "TERRITORIO": 78
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "seremi-culturas": 75,
-      "diario-el-centro": 46,
+      "elmauleinforma": 68,
+      "diario-el-centro": 47,
+      "seremi-culturas": 76,
       "diariotalca": 15,
-      "elmauleinforma": 66,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
