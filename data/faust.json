@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T13:27:36.891Z",
+  "generatedAt": "2026-10-14T20:03:35.232Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -32,6 +32,17 @@
         "text": "14, 21, 28 de octubre · 19:00",
         "start": "2026-10-14T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-14-pymes-de-la-madera-del-maule-exploran-nuevas-oportunidades-en-el-mercado-de-la-e",
+      "title": "Pymes de la madera del Maule exploran nuevas oportunidades en el mercado de la energía",
+      "summary": "Con el encuentro “Del bosque a la energía: nuevas oportunidades para las pymes de la madera del Maule”, realizado en las dependencias de CONAF en el Cerro La Virgen, emprendedores y empresas vinculadas a la madera y sus derivados conocieron las oportunidades que abre el sector energético para el apr",
+      "link": "https://elmauleinforma.cl/pymes-de-la-madera-del-maule-exploran-nuevas-oportunidades-en-el-mercado-de-la-energia/",
+      "author": "Redacción El Maule Informa",
+      "category": "ARTESANIAS",
+      "source": "elmauleinforma",
+      "date": "2026-10-14T01:30:26.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-14-329-funcionarios-realizan-cuidados-paliativos-en-las-30-comunas-del-maule",
@@ -10574,7 +10585,7 @@
     "MUSICA": 177,
     "TEATRO": 74,
     "ARTES_VISUALES": 90,
-    "ARTESANIAS": 55,
+    "ARTESANIAS": 56,
     "PATRIMONIO": 223,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 66,
@@ -10585,7 +10596,7 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "elmauleinforma": 68,
+      "elmauleinforma": 69,
       "diario-el-centro": 47,
       "seremi-culturas": 76,
       "diariotalca": 15,
