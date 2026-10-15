@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T03:52:16.503Z",
+  "generatedAt": "2026-10-15T13:11:58.535Z",
   "items": [
     {
       "id": "2026-10-15-festival-de-cine-felina-2026",
@@ -15,6 +15,77 @@
         "kind": "program",
         "text": "15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-14-celebra-el-dia-de-los-cerros-en-el-maule-hay-varias-actividades-para-recorrer-su",
+      "title": "Celebra el Día de los Cerros en el Maule: hay varias actividades para recorrer su patrimonio natural",
+      "summary": "El sábado 17 de octubre, Chile celebrará la sexta edición del Día de los Cerros, una jornada ciudadana que invita a conocer, disfrutar y cuidar el patrimonio natural del país. Impulsada por Fundación Cerros Isla, con el apoyo de Fundación Estrella del Sur y el patrocinio del Ministerio del Medio Amb",
+      "link": "https://elmauleinforma.cl/celebra-el-dia-de-los-cerros-en-el-maule-hay-varias-actividades-para-recorrer-su-patrimonio-natural/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-14T20:00:02.000Z",
+      "image": "",
+      "event": {
+        "text": "17 de octubre",
+        "start": "2026-10-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-14-convite-de-cachimbo-regional-reunira-a-mas-de-160-cultores-en-pica-y-matilla",
+      "title": "Convite de Cachimbo Regional reunirá a más de 160 cultores en Pica y Matilla",
+      "summary": "Los días 24 y 25 de octubre se desarrollará en las localidades de Pica y Matilla el Convite de Cachimbo Regional 2026, encuentro que reunirá a 12 agrupaciones de cachimbo de Iquique, Alto Hospicio, Mamiña, Tarapacá, Matilla y Pica, además de dos bandas de bronces, congregando a cerca de 130 bailarin",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/convite-de-cachimbo-regional-reunira-a-mas-de-160-cultores-en-pica-y-matilla/",
+      "author": "tarapaca",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-14T19:38:39.000Z",
+      "image": "",
+      "event": {
+        "text": "25 de octubre",
+        "start": "2026-10-25T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-14-correoschile-y-ministerio-de-las-culturas-homenajean-a-cecilia-la-incomparable-c",
+      "title": "CorreosChile y Ministerio de las Culturas homenajean a Cecilia “La Incomparable” con emisión postal conmemorativa",
+      "summary": "Como parte de la agenda de actividades del Día de la Música Chilena 2026, la empresa puso en circulación 40 mil sellos, además de postales, a un valor de $1.000 cada uno. La colección está disponible desde este miércoles 14 en CorreosMarket, la tienda online de la empresa y en cuatro sucursales físi",
+      "link": "https://www.cultura.gob.cl/actualidad/correoschile-y-ministerio-de-las-culturas-homenajean-a-cecilia-la-incomparable-con-emision-postal-conmemorativa/",
+      "author": "alecaros",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-14T18:46:51.000Z",
+      "image": "",
+      "event": {
+        "text": "miércoles 14",
+        "start": "2026-10-21T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-14-vii-feria-de-las-culturas-aysen-genera-ventas-por-casi-70-millones-de-pesos",
+      "title": "VII Feria de las Culturas Aysén genera ventas por casi 70 millones de pesos",
+      "summary": "Organizada por la Seremi de Culturas Aysén, la séptima edición del encuentro que reúne creadores y creadoras de diversas regiones del país se consolida como el principal espacio de intercambio de técnicas y materialidades, y de comercio artesanal de la Región de Aysén.",
+      "link": "https://www.cultura.gob.cl/actualidad/vii-feria-de-las-culturas-aysen-genera-ventas-por-casi-70-millones-de-pesos/",
+      "author": "aysen",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-14T18:25:46.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-14-fiesta-del-libro-vuelve-a-concepcion-con-mas-de-20-editoriales-y-una-jornada-abi",
+      "title": "Fiesta del Libro vuelve a Concepción con más de 20 editoriales y una jornada abierta a toda la comunidad",
+      "summary": "El sábado 17 de octubre, entre las 11:00 y las 18:00 horas, la Biblioteca Municipal de Concepción reunirá a editoriales, autoras, autores y públicos en torno a lanzamientos, talleres, cuentacuentos, conversaciones, juegos de mesa, poesía y música, rincón infantil. Se trata de la segunda Fiesta del L",
+      "link": "https://www.cultura.gob.cl/agendacultural/fiesta-del-libro-vuelve-a-concepcion-con-mas-de-20-editoriales-y-una-jornada-abierta-a-toda-la-comunidad/",
+      "author": "biobio",
+      "category": "LITERATURA",
+      "source": "seremi-culturas",
+      "date": "2026-10-14T17:48:31.000Z",
+      "image": "",
+      "event": {
+        "text": "17 de octubre",
+        "start": "2026-10-17T12:00:00.000Z"
       }
     },
     {
@@ -10611,12 +10682,12 @@
   ],
   "counts": {
     "POESIA": 108,
-    "LITERATURA": 41,
-    "MUSICA": 178,
+    "LITERATURA": 42,
+    "MUSICA": 179,
     "TEATRO": 74,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 56,
-    "PATRIMONIO": 224,
+    "PATRIMONIO": 227,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 66,
     "TERRITORIO": 78
@@ -10626,9 +10697,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "seremi-culturas": 77,
+      "elmauleinforma": 70,
+      "seremi-culturas": 81,
       "diario-el-centro": 48,
-      "elmauleinforma": 69,
       "diariotalca": 15,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
