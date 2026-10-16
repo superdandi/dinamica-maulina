@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T03:47:44.027Z",
+  "generatedAt": "2026-10-16T13:06:28.903Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -15,6 +15,51 @@
         "kind": "program",
         "text": "21, 28 de octubre · 19:00",
         "start": "2026-10-21T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-16-apistech-ii-conectara-ciencia-innovacion-y-tecnologia-para-impulsar-la-apicultur",
+      "title": "ApisTech II conectará ciencia, innovación y tecnología para impulsar la apicultura en el Maule",
+      "summary": "El encuentro se realizará este 16 de octubre en Santo Tomás Talca y reunirá a especialistas, productores y empresas para abordar la sanidad de las abejas y nuevas soluciones tecnológicas. The post ApisTech II conectará ciencia, innovación y tecnología para impulsar la apicultura en el Maule appeared",
+      "link": "https://www.diarioelcentro.cl/2026/10/15/apistech-ii-conectara-ciencia-innovacion-y-tecnologia-para-impulsar-la-apicultura-en-el-maule/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-16T00:14:18.000Z",
+      "image": "",
+      "event": {
+        "text": "16 de octubre",
+        "start": "2026-10-16T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-15-museo-vikingo-de-talca-abrira-sus-puertas-este-sabado-con-muestra-gratuita-de-of",
+      "title": "Museo Vikingo de Talca abrirá sus puertas este sábado con muestra gratuita de oficios ancestrales",
+      "summary": "Este sábado 17 de octubre, desde las 12:00 horas, NIFLHEIM Museo Vivo y Aldea Vikinga de Talca abrirá sus puertas a la comunidad para realizar la primera muestra de su Escuela Comunitaria de Oficios Ancestrales. La actividad permitirá conocer parte del trabajo desarrollado en los primeros talleres d",
+      "link": "https://elmauleinforma.cl/museo-vikingo-de-talca-abrira-sus-puertas-este-sabado-con-muestra-gratuita-de-oficios-ancestrales/",
+      "author": "El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-15T21:51:01.000Z",
+      "image": "",
+      "event": {
+        "text": "17 de octubre",
+        "start": "2026-10-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-15-fundacion-espacio-down-busca-reunir-aportes-para-apoyar-a-familias-de-talca",
+      "title": "Fundación Espacio Down busca reunir aportes para apoyar a familias de Talca",
+      "summary": "Hasta este 15 de octubre, la fundación invita a la comunidad a colaborar con aportes económicos y donaciones para fortalecer su labor de acompañamiento a niños, niñas y familias. The post Fundación Espacio Down busca reunir aportes para apoyar a familias de Talca appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/15/fundacion-espacio-down-busca-reunir-aportes-para-apoyar-a-familias-de-talca/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-15T16:44:15.000Z",
+      "image": "",
+      "event": {
+        "text": "15 de octubre",
+        "start": "2026-10-15T12:00:00.000Z"
       }
     },
     {
@@ -10783,7 +10828,7 @@
     "TEATRO": 75,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 56,
-    "PATRIMONIO": 231,
+    "PATRIMONIO": 234,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 66,
     "TERRITORIO": 78
@@ -10793,9 +10838,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "diario-el-centro": 52,
+      "elmauleinforma": 72,
       "seremi-culturas": 85,
-      "elmauleinforma": 71,
-      "diario-el-centro": 50,
       "diariotalca": 16,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
