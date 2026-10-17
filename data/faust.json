@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T13:06:28.903Z",
+  "generatedAt": "2026-10-17T03:38:01.755Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -16,6 +16,125 @@
         "text": "21, 28 de octubre · 19:00",
         "start": "2026-10-21T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-17-festival-de-cine-felina-2026",
+      "title": "Festival de Cine Felina 2026",
+      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-17T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
+        "start": "2026-10-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-16-ministerio-de-las-culturas-abre-inscripciones-para-noche-de-museos-2026",
+      "title": "Ministerio de las Culturas abre inscripciones para Noche de Museos 2026",
+      "summary": "El llamado es para que espacios culturales se sumen a la programación del próximo 13 de noviembre, en todo el país. El evento invita a redescubrir el patrimonio en horario nocturno.",
+      "link": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-abre-inscripciones-para-noche-de-museos-2026/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-16T15:31:45.000Z",
+      "image": "",
+      "event": {
+        "text": "13 de noviembre",
+        "start": "2026-11-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-16-las-claves-para-obtener-omega-3-sin-comer-pescado",
+      "title": "Las claves para obtener omega-3 sin comer pescado",
+      "summary": "Una cucharada diaria de chía o linaza, molida o remojada y sin calentar. Esa es, según la nutricionista vegana Valentina Bello, la base para cubrir el omega-3 sin comer peces. El dato puede sorprender, pero tiene lógica: los peces no fabrican el omega-3 por el que son famosos, sino que lo acumulan a",
+      "link": "https://elmauleinforma.cl/las-claves-para-obtener-omega-3-sin-comer-pescado/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-16T14:00:44.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-16-dia-del-profesor-los-maestros-que-hicieron-historia-en-el-cine-y-la-television",
+      "title": "Día del profesor: los maestros que hicieron historia en el cine y la televisión",
+      "summary": "En el Día Nacional del Profesor y la Profesora, repasamos a los docentes más recordados del cine y la televisión, desde Chile hasta Hollywood. The post Día del profesor: los maestros que hicieron historia en el cine y la televisión appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/16/dia-del-profesor-los-maestros-que-hicieron-historia-en-el-cine-y-la-television/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-16T12:30:02.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-16-ministerio-de-las-culturas-conmemora-el-dia-nacional-de-la-danza-con-actividades",
+      "title": "Ministerio de las Culturas conmemora el Día Nacional de la Danza con actividades gratuitas y espectáculos a lo largo de Chile",
+      "summary": "Durante octubre, teatros, centros culturales y espacios independientes desarrollarán funciones, talleres, encuentros y actividades abiertas a la comunidad, destacando la diversidad de lenguajes y expresiones de la danza.",
+      "link": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-conmemora-el-dia-nacional-de-la-danza/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-16T11:30:29.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-16-proyectan-que-ventas-en-el-comercio-online-alcanzaran-us-10-600-millones-este-20",
+      "title": "Proyectan que ventas en el comercio online alcanzarán US$ 10.600 millones este 2026",
+      "summary": "¿Qué ocurrió? En el contexto de la undécima edición del eCommerce Innovation Summit, organizado por la Cámara de Comercio de Santiago (CCS) se realizó un análisis del panorama del sector. Allí se presentaron las principales cifras y proyecciones del mercado nacional, abordando ejes clave como el imp",
+      "link": "https://diariotalca.cl/proyectan-que-ventas-en-el-comercio-online-alcanzaran-us-10-600-millones-este-2026/",
+      "author": "Hernán Espinoza",
+      "category": "POESIA",
+      "source": "diariotalca",
+      "date": "2026-10-16T09:00:50.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-16-historia-heroes-sin-medallas-victimas-de-la-guerra-del-pacifico-en-talca",
+      "title": "HISTORIA Héroes sin medallas: víctimas de la Guerra del Pacífico en Talca",
+      "summary": "Durante la Guerra del Pacífico, el Maule destacó por su aventajado protagonismo en la historiografía nacional, así como por el aporte de una legión de jóvenes campesinos, estudiantes, orfebres, artesanos y profesionales anónimos que fueron a combatir al norte, muchos de los cuales jamás volverían a ",
+      "link": "https://diariotalca.cl/historia-heroes-sin-medallas-victimas-de-la-guerra-del-pacifico-en-talca/",
+      "author": "Hernán Espinoza",
+      "category": "ARTESANIAS",
+      "source": "diariotalca",
+      "date": "2026-10-16T09:00:44.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-16-caso-castillo-de-naipes-confirman-prision-de-ex-funcionario-junji-maule-y-ex-dir",
+      "title": "Caso Castillo de Naipes: confirman prisión de ex funcionario Junji Maule y ex directora de obras de Longaví",
+      "summary": "¿Cuál fue la decisión judicial? La segunda sala de la Corte de Apelaciones de Talca confirmo la medida cautelar de prisión preventiva de otros dos imputados en el denominado Caso Castillo de Naipes. Esto luego de rechazar las apelaciones de las defensas particulares de los imputados a petición e la ",
+      "link": "https://diariotalca.cl/caso-castillo-de-naipes-confirman-prision-de-ex-funcionario-junji-maule-y-ex-directora-de-obras-de-longavi/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-16T09:00:21.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-16-la-labor-de-la-pedagogia-en-nuestra-sociedad-por-andrea-precht",
+      "title": "LA LABOR DE LA PEDAGOGÍA EN NUESTRA SOCIEDAD por Andrea Precht",
+      "summary": "En noviembre de 1957, semanas después de recibir el Premio Nobel de Literatura, Albert Camus escribió a Louis Germain, su profesor de la escuela primaria en Argelia. Le decía, más o menos así: “Sin usted, sin esa mano afectuosa que tendió al niño pobre que yo era, nada de esto habría sucedido”. Camu",
+      "link": "https://diariotalca.cl/la-labor-de-la-pedagogia-en-nuestra-sociedad-por-andrea-precht/",
+      "author": "Hernán Espinoza",
+      "category": "LITERATURA",
+      "source": "diariotalca",
+      "date": "2026-10-16T09:00:14.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-16-xiii-seminario-de-educacion-rural-ucm-relevo-la-importancia-de-la-formacion-doce",
+      "title": "XIII Seminario de Educación Rural UCM relevó la importancia de la formación docente",
+      "summary": "¿Qué ocurrió? El Aula Magna del Campus San Miguel de la Universidad Católica del Maule (UCM) en Talca fue escenario del XIII Seminario de Educación Rural, instancia que convocó a académicos y futuros docentes para dialogar sobre los desafíos de la enseñanza en contextos rurales y la importancia de f",
+      "link": "https://diariotalca.cl/xiii-seminario-de-educacion-rural-ucm-relevo-la-importancia-de-la-formacion-docente/",
+      "author": "Hernán Espinoza",
+      "category": "TEATRO",
+      "source": "diariotalca",
+      "date": "2026-10-16T09:00:10.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-16-apistech-ii-conectara-ciencia-innovacion-y-tecnologia-para-impulsar-la-apicultur",
@@ -146,22 +265,6 @@
       "source": "seremi-culturas",
       "date": "2026-10-15T12:09:32.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-15-festival-de-cine-felina-2026",
-      "title": "Festival de Cine Felina 2026",
-      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-15T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "15, 17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
-        "start": "2026-10-15T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-15-testimonial-colonia-dignidad-una-placa-junto-al-rio",
@@ -10822,15 +10925,15 @@
     }
   ],
   "counts": {
-    "POESIA": 108,
-    "LITERATURA": 43,
+    "POESIA": 109,
+    "LITERATURA": 44,
     "MUSICA": 181,
-    "TEATRO": 75,
+    "TEATRO": 76,
     "ARTES_VISUALES": 90,
-    "ARTESANIAS": 56,
-    "PATRIMONIO": 234,
+    "ARTESANIAS": 57,
+    "PATRIMONIO": 238,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 66,
+    "CINE_MEDIOS": 67,
     "TERRITORIO": 78
   },
   "feedStats": {
@@ -10838,10 +10941,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "diario-el-centro": 52,
-      "elmauleinforma": 72,
-      "seremi-culturas": 85,
-      "diariotalca": 16,
+      "seremi-culturas": 87,
+      "elmauleinforma": 73,
+      "diario-el-centro": 53,
+      "diariotalca": 21,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
