@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T03:38:01.755Z",
+  "generatedAt": "2026-10-17T12:02:27.171Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -32,6 +32,73 @@
         "text": "17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-17T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-16-feria-de-artes-visuales-caleidoscopio-reunira-a-42-creadores-locales-este-fin-de",
+      "title": "Feria de Artes Visuales Caleidoscopio reunirá a 42 creadores locales este fin de semana en Punta Arena",
+      "summary": "El encuentro, organizado por la Seremi de las Culturas, se desarrollará el sábado 17 y domingo 18 de octubre, en el Edificio de Ingeniería de la UMAG con entrada liberada.",
+      "link": "https://www.cultura.gob.cl/agendacultural/feria-de-artes-visuales-caleidoscopio-reunira-a-42-creadores-locales-este-fin-de-semana-en-punta-arena/",
+      "author": "magallanes",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-16T19:14:20.000Z",
+      "image": "",
+      "event": {
+        "text": "18 de octubre",
+        "start": "2026-10-18T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-16-con-pasacalle-cultural-se-dio-inicio-al-35-encuentro-regional-de-teatro-escolar-",
+      "title": "Con pasacalle cultural se dio inicio al 35° Encuentro Regional de Teatro Escolar en Pichilemu",
+      "summary": "La apertura contó con la presentación de la Escuela Municipal de Teatro de Santa Cruz, y los elencos estudiantiles de Pichidegua, Litueche y Rengo.",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/con-pasacalle-cultural-se-dio-inicio-al-35-encuentro-regional-de-teatro-es-colar-en-pichilemu/",
+      "author": "ohiggins",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-10-16T19:12:24.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-16-musica-en-vivo-cocteleria-y-emprendimientos-locales-mall-curico-recibira-el-dr-m",
+      "title": "Música en vivo, coctelería y emprendimientos locales: Mall Curicó recibirá el Dr. Masker Fest este sábado",
+      "summary": "La celebración pondrá en valor el talento curicano con una programación que combina experiencias de coctelería, propuestas familiares, gastronomía y artistas locales. The post Música en vivo, coctelería y emprendimientos locales: Mall Curicó recibirá el Dr. Masker Fest este sábado appeared first on ",
+      "link": "https://www.diarioelcentro.cl/2026/10/16/musica-en-vivo-cocteleria-y-emprendimientos-locales-mall-curico-recibira-el-dr-masker-fest-este-sabado/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-10-16T18:55:20.000Z",
+      "image": "",
+      "event": {
+        "text": "este sábado",
+        "start": "2026-10-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-16-los-rios-territorio-escenico-lanzara-cuarta-fase-e-invitacion-a-residencia-artis",
+      "title": "“Los Ríos Territorio Escénico” lanzará cuarta fase e invitación a residencia artística",
+      "summary": "El programa impulsado por la Seremi de las Culturas se enfoca en el sector de las artes circenses a partir de los ejes de formación, asociatividad y visibilización. La presentación será el lunes 19 de octubre, en el Centro Cultural Casa Prochelle I de CCM Valdivia.",
+      "link": "https://www.cultura.gob.cl/agendacultural/los-rios-territorio-escenico-lanzara-cuarta-fase-e-invitacion-a-residencia-artistica/",
+      "author": "losrios",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-16T18:36:32.000Z",
+      "image": "",
+      "event": {
+        "text": "19 de octubre",
+        "start": "2026-10-19T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-16-exposicion-reune-en-arauco-nueve-obras-del-biobio-reconocidas-con-el-sello-de-ex",
+      "title": "Exposición reúne en Arauco nueve obras del Biobío reconocidas con el Sello de Excelencia a la Artesanía",
+      "summary": "La muestra forma parte de una itinerancia regional impulsada por la Seremi de las Culturas, las Artes y el Patrimonio, que busca poner en valor el trabajo de cultoras y cultores del Biobío distinguidos con uno de los máximos reconocimientos nacionales a la artesanía.",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/exposicion-reune-en-arauco-nueve-obras-del-biobio-reconocidas-con-el-sello-de-excelencia-a-la-artesania/",
+      "author": "biobio",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-16T18:08:16.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-16-ministerio-de-las-culturas-abre-inscripciones-para-noche-de-museos-2026",
@@ -10927,11 +10994,11 @@
   "counts": {
     "POESIA": 109,
     "LITERATURA": 44,
-    "MUSICA": 181,
-    "TEATRO": 76,
+    "MUSICA": 182,
+    "TEATRO": 77,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
-    "PATRIMONIO": 238,
+    "PATRIMONIO": 241,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 67,
     "TERRITORIO": 78
@@ -10941,9 +11008,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "seremi-culturas": 87,
+      "seremi-culturas": 91,
+      "diario-el-centro": 54,
       "elmauleinforma": 73,
-      "diario-el-centro": 53,
       "diariotalca": 21,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
