@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:02:27.171Z",
+  "generatedAt": "2026-10-17T18:17:34.793Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -32,6 +32,17 @@
         "text": "17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-17T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-17-cuero-lana-y-vestuario-escuela-comunitaria-busca-preservar-oficios-ancestrales-e",
+      "title": "Cuero, lana y vestuario: Escuela comunitaria busca preservar oficios ancestrales en Aldea Vikinga de Talca",
+      "summary": "La propuesta busca recuperar técnicas tradicionales, fortalecer la educación patrimonial y conectar a nuevas generaciones con los saberes que forman parte de la memoria cultural de la Región del Maule. The post Cuero, lana y vestuario: Escuela comunitaria busca preservar oficios ancestrales en Aldea",
+      "link": "https://www.diarioelcentro.cl/2026/10/16/cuero-lana-y-vestuario-escuela-comunitaria-busca-preservar-oficios-ancestrales-en-aldea-vikinga-de-talca/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-17T00:39:58.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-16-feria-de-artes-visuales-caleidoscopio-reunira-a-42-creadores-locales-este-fin-de",
@@ -10998,7 +11009,7 @@
     "TEATRO": 77,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
-    "PATRIMONIO": 241,
+    "PATRIMONIO": 242,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 67,
     "TERRITORIO": 78
@@ -11008,8 +11019,8 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "diario-el-centro": 55,
       "seremi-culturas": 91,
-      "diario-el-centro": 54,
       "elmauleinforma": 73,
       "diariotalca": 21,
       "rincon-literario": 48,
