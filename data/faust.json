@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T03:44:22.537Z",
+  "generatedAt": "2026-10-18T12:31:13.601Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -16,6 +16,58 @@
         "text": "21, 28 de octubre · 19:00",
         "start": "2026-10-21T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-17-pelarco-retoma-su-tradicional-fiesta-de-la-virgen-del-carmen",
+      "title": "Pelarco retoma su tradicional Fiesta de la Virgen del Carmen",
+      "summary": "PELARCO.- Luego de su suspensión en julio por condiciones climáticas, el próximo fin de semana la comuna volverá a convertirse en la capital espiritual y cultural del Maule, gracias a su masivo homenaje a la Patrona y Reina de Chile. El alcalde de Pelarco, Boris Cabrera Lazo, se reunió este viernes ",
+      "link": "https://elmauleinforma.cl/pelarco-retoma-su-tradicional-fiesta-de-la-virgen-del-carmen/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-17T23:00:48.000Z",
+      "image": "",
+      "event": {
+        "text": "este viernes",
+        "start": "2026-10-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-17-exhibicion-en-talca-celebra-una-decada-del-templo-baha-i-de-sudamerica",
+      "title": "Exhibición en Talca celebra una década del Templo Bahá’í de Sudamérica",
+      "summary": "La exhibición gratuita estará abierta del miércoles 20 al viernes 23 en la Biblioteca Municipal de Talca y mostrará la arquitectura y el mensaje de unidad del templo. The post Exhibición en Talca celebra una década del Templo Bahá’í de Sudamérica appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/17/exhibicion-en-talca-celebra-una-decada-del-templo-bahai-de-sudamerica/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-17T23:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "miércoles 20",
+        "start": "2026-10-21T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-17-minvu-anuncia-ultimo-trimestre-con-activa-construccion-de-nuevas-viviendas-en-el",
+      "title": "Minvu anuncia último trimestre con activa construcción de nuevas viviendas en el Maule",
+      "summary": "El Seremi de Vivienda y Urbanismo en el Maule, René Suárez, destacó el rol que ejerce el Minvu en la reactivación económica y en la generación de nuevos puestos de trabajo, ello en el marco del Plan Chile Despega lanzado hace algunas semanas por el Presidente José Antonio Kast. El escenario en la re",
+      "link": "https://elmauleinforma.cl/minvu-anuncia-ultimo-trimestre-con-activa-construccion-de-nuevas-viviendas-en-el-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-10-17T20:00:39.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-17-pia-yovanovic-cautivo-al-publico-de-constitucion-con-su-charla-atrevete-a-comuni",
+      "title": "Pía Yovanovic cautivó al público de Constitución con su charla “Atrévete a comunicar”",
+      "summary": "Emprendedores, estudiantes del Liceo Politécnico y autoridades regionales participaron en la presentación realizada en el Teatro Municipal de Constitución, una iniciativa impulsada por el Centro de Negocios Sercotec de Constitución. Con una presentación dinámica, cercana y llena de herramientas prác",
+      "link": "https://elmauleinforma.cl/pia-yovanovic-cautivo-al-publico-de-constitucion-con-su-charla-atrevete-a-comunicar/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-10-17T19:13:57.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-17-la-banda-de-gregorio-representara-al-maule-en-rockodromo-2026",
@@ -11039,10 +11091,10 @@
     "POESIA": 109,
     "LITERATURA": 44,
     "MUSICA": 183,
-    "TEATRO": 77,
+    "TEATRO": 79,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
-    "PATRIMONIO": 244,
+    "PATRIMONIO": 246,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 67,
     "TERRITORIO": 78
@@ -11052,10 +11104,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "diario-el-centro": 57,
+      "elmauleinforma": 76,
+      "diario-el-centro": 58,
       "diariotalca": 22,
       "seremi-culturas": 91,
-      "elmauleinforma": 73,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
