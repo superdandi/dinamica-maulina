@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:17:34.793Z",
+  "generatedAt": "2026-10-18T03:44:22.537Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -18,6 +18,28 @@
       }
     },
     {
+      "id": "2026-10-17-la-banda-de-gregorio-representara-al-maule-en-rockodromo-2026",
+      "title": "La Banda de Gregorio representará al Maule en Rockódromo 2026",
+      "summary": "La agrupación talquina obtuvo el primer lugar entre seis proyectos finalistas, seleccionados de 59 postulaciones regionales, y representará al Maule en diciembre en Valparaíso. The post La Banda de Gregorio representará al Maule en Rockódromo 2026 appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/17/la-banda-de-gregorio-representara-al-maule-en-rockodromo-2026/",
+      "author": "Yasmín Gómez",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-10-17T15:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-17-con-un-c-h-i-y-la-promesa-de-regresar-bts-arrasa-en-su-segunda-noche-en-chile-an",
+      "title": "Con un C-H-I y la promesa de regresar: BTS arrasa en su segunda noche en Chile ante un Estadio Nacional eufórico",
+      "summary": "Entre referencias a la cultura local, humor y gestos inesperados, los integrantes del grupo surcoreano estrecharon la conexión con sus seguidores durante la jornada. The post Con un C-H-I y la promesa de regresar: BTS arrasa en su segunda noche en Chile ante un Estadio Nacional eufórico appeared fir",
+      "link": "https://www.diarioelcentro.cl/2026/10/17/con-un-c-h-i-y-la-promesa-de-regresar-bts-arrasa-en-su-segunda-noche-en-chile-ante-un-estadio-nacional-euforico/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-17T13:02:08.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-10-17-festival-de-cine-felina-2026",
       "title": "Festival de Cine Felina 2026",
       "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
@@ -32,6 +54,17 @@
         "text": "17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-17T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-17-la-infraestructura-hidrica-como-motor-del-crecimiento-agricola-por-carlos-cruz",
+      "title": "LA INFRAESTRUCTURA HÍDRICA COMO MOTOR DEL CRECIMIENTO AGRÍCOLA por Carlos Cruz",
+      "summary": "Chile enfrenta el desafío estratégico de crecer económicamente y generar empleos de calidad. Para lograrlo, la agricultura de exportación se perfila como un sector económico con un inmenso potencial para cumplir este propósito. Actualmente representa cerca de un 3% del PIB y, al considerar su cadena",
+      "link": "https://diariotalca.cl/la-infraestructura-hidrica-como-motor-del-crecimiento-agricola-por-carlos-cruz/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-17T09:00:11.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-17-cuero-lana-y-vestuario-escuela-comunitaria-busca-preservar-oficios-ancestrales-e",
@@ -82,7 +115,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2026-10-24T12:00:00.000Z"
       }
     },
     {
@@ -2039,7 +2072,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2026-10-24T12:00:00.000Z"
       }
     },
     {
@@ -11005,11 +11038,11 @@
   "counts": {
     "POESIA": 109,
     "LITERATURA": 44,
-    "MUSICA": 182,
+    "MUSICA": 183,
     "TEATRO": 77,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
-    "PATRIMONIO": 242,
+    "PATRIMONIO": 244,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 67,
     "TERRITORIO": 78
@@ -11019,10 +11052,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "diario-el-centro": 55,
+      "diario-el-centro": 57,
+      "diariotalca": 22,
       "seremi-culturas": 91,
       "elmauleinforma": 73,
-      "diariotalca": 21,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
