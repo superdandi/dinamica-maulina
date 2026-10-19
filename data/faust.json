@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T12:31:13.601Z",
+  "generatedAt": "2026-10-19T03:54:29.709Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -16,6 +16,17 @@
         "text": "21, 28 de octubre · 19:00",
         "start": "2026-10-21T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-18-columna-de-cine-un-nino-ha-desaparecido-por-david-lizana",
+      "title": "COLUMNA DE CINE: UN NIÑO HA DESAPARECIDO por David Lizana",
+      "summary": "Primero hay que decir que “Susurran tu nombre” sigue el camino misterioso de un tremendo film como “Sexto sentido”, pero su trama no ofrece nada que no se haya visto antes. El caso ya resuelto de un asesino en serie que secuestraba a niños vulnerables y cuya leyenda incluye el detalle de unos “golpe",
+      "link": "https://diariotalca.cl/columna-de-cine-un-nino-ha-desaparecido-por-david-lizana/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-18T09:00:19.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-17-pelarco-retoma-su-tradicional-fiesta-de-la-virgen-del-carmen",
@@ -893,7 +904,7 @@
       "image": "",
       "event": {
         "text": "el domingo",
-        "start": "2026-10-18T12:00:00.000Z"
+        "start": "2026-10-25T12:00:00.000Z"
       }
     },
     {
@@ -1373,7 +1384,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-10-18T12:00:00.000Z"
+        "start": "2026-10-25T12:00:00.000Z"
       }
     },
     {
@@ -2531,7 +2542,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-10-18T12:00:00.000Z"
+        "start": "2026-10-25T12:00:00.000Z"
       }
     },
     {
@@ -11094,19 +11105,19 @@
     "TEATRO": 79,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
-    "PATRIMONIO": 246,
+    "PATRIMONIO": 247,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 67,
     "TERRITORIO": 78
   },
   "feedStats": {
     "sources": 54,
-    "alive": 48,
+    "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "diariotalca": 23,
       "elmauleinforma": 76,
       "diario-el-centro": 58,
-      "diariotalca": 22,
       "seremi-culturas": 91,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
@@ -11691,7 +11702,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": false
     }
   ]
