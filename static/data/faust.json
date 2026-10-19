@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T03:54:29.709Z",
+  "generatedAt": "2026-10-19T15:22:45.192Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -15,6 +15,37 @@
         "kind": "program",
         "text": "21, 28 de octubre · 19:00",
         "start": "2026-10-21T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-21-festival-de-cine-felina-2026",
+      "title": "Festival de Cine Felina 2026",
+      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-21T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
+        "start": "2026-10-21T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-18-bts-se-despide-de-chile-vestidos-de-huasos-y-afirman-que-el-pais-ha-sido-el-mejo",
+      "title": "BTS se despide de Chile vestidos de huasos y afirman que el país ha sido el mejor de la gira",
+      "summary": "La agrupación surcoreana cerró su paso por Santiago el sábado 17 de octubre, tras tres conciertos en el Estadio Nacional marcados por guiños a la cultura chilena. The post BTS se despide de Chile vestidos de huasos y afirman que el país ha sido el mejor de la gira appeared first on Diario El Centro ",
+      "link": "https://www.diarioelcentro.cl/2026/10/18/bts-se-despide-de-chile-vestidos-de-huasos-y-afirman-que-el-pais-ha-sido-el-mejor-de-la-gira/",
+      "author": "Yasmín Gómez",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-18T20:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "17 de octubre",
+        "start": "2026-10-17T12:00:00.000Z"
       }
     },
     {
@@ -101,22 +132,6 @@
       "source": "diario-el-centro",
       "date": "2026-10-17T13:02:08.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-17-festival-de-cine-felina-2026",
-      "title": "Festival de Cine Felina 2026",
-      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-17T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "17, 21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
-        "start": "2026-10-17T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-17-la-infraestructura-hidrica-como-motor-del-crecimiento-agricola-por-carlos-cruz",
@@ -11105,19 +11120,19 @@
     "TEATRO": 79,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
-    "PATRIMONIO": 247,
+    "PATRIMONIO": 248,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 67,
     "TERRITORIO": 78
   },
   "feedStats": {
     "sources": 54,
-    "alive": 47,
+    "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "diario-el-centro": 59,
       "diariotalca": 23,
       "elmauleinforma": 76,
-      "diario-el-centro": 58,
       "seremi-culturas": 91,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
@@ -11702,7 +11717,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": false
     }
   ]
