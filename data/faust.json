@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T03:54:34.062Z",
+  "generatedAt": "2026-10-21T13:35:55.184Z",
   "items": [
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -32,6 +32,39 @@
         "text": "21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-21T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-21-guiar-con-el-ejemplo-inacap-realiza-su-segundo-encuentro-de-maestros-guias-en-el",
+      "title": "Guiar con el ejemplo: INACAP realiza su segundo encuentro de Maestros Guías en el Maule",
+      "summary": "La instancia permitió compartir experiencias entre la industria y tutores laborales, destacando competencias, confianza y autonomía como claves para la transición de los estudiantes al empleo. The post Guiar con el ejemplo: INACAP realiza su segundo encuentro de Maestros Guías en el Maule appeared f",
+      "link": "https://www.diarioelcentro.cl/2026/10/20/guiar-con-el-ejemplo-inacap-realiza-su-segundo-encuentro-de-maestros-guias-en-el-maule/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-21T00:30:25.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-20-falla-de-arboles-indemnizacion-y-gestion",
+      "title": "Falla de árboles, indemnización y gestión",
+      "summary": "Dr. Mauricio Ponce Donoso. Ingeniero Forestal. Asesor en Arboricultura. The post Falla de árboles, indemnización y gestión appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/20/falla-de-arboles-indemnizacion-y-gestion/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-20T21:04:54.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-20-alfonso-alcalde-llega-a-teatro-biobio-y-a-la-fabrica-bellavista-tome-a-traves-de",
+      "title": "Alfonso Alcalde llega a Teatro Biobío y a la Fábrica Bellavista Tomé a través de la danza Butoh",
+      "summary": "El proyecto financiado por el Fondart de Artes Escénicas del Ministerio de las Culturas, las Artes y el Patrimonio, incluye los aportes en dramaturgia del poeta Reveko de la Jara y, como bailarinas e intérpretes, a María José González, Francisca Lara e Ignacio Godoy.",
+      "link": "https://www.cultura.gob.cl/agendacultural/alfonso-alcalde-llega-a-teatro-biobio-y-a-la-fabrica-bellavista-tome-a-traves-de-la-danza-butoh/",
+      "author": "biobio",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-10-20T16:00:23.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-20-dia-de-la-musica-un-turista-aleman-una-cueca-y-cinco-estaciones-en-el-centro-de-",
@@ -11369,12 +11402,12 @@
     "POESIA": 111,
     "LITERATURA": 45,
     "MUSICA": 186,
-    "TEATRO": 82,
+    "TEATRO": 83,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
-    "PATRIMONIO": 259,
+    "PATRIMONIO": 260,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 67,
+    "CINE_MEDIOS": 68,
     "TERRITORIO": 78
   },
   "feedStats": {
@@ -11382,8 +11415,8 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "seremi-culturas": 99,
-      "diario-el-centro": 62,
+      "diario-el-centro": 64,
+      "seremi-culturas": 100,
       "diariotalca": 27,
       "elmauleinforma": 81,
       "rincon-literario": 48,
