@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-10-21T13:35:55.184Z",
+  "generatedAt": "2026-10-22T03:54:59.228Z",
   "items": [
+    {
+      "id": "2026-10-21-con-cueca-boleros-tangos-y-musica-clasica-se-celebrara-el-dia-de-la-musica-en-va",
+      "title": "Con cueca, boleros, tangos y música clásica se celebrará el Día de la Música en Valparaíso",
+      "summary": "Este sábado el Barrio Puerto será escenario de un circuito cultural abierto y gratuito para la comunidad. Los Chuchos de Valparaíso, la Quinta de los Núñez y la Orquesta Marga Marga, son algunos de los artistas que encabezan la cartelera de actividades. En el sector, también se estará desarrollando ",
+      "link": "https://www.cultura.gob.cl/agendacultural/con-cueca-boleros-tangos-y-musica-clasica-se-celebrara-el-dia-de-la-musica-en-valparaiso/",
+      "author": "valparaiso",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-21T15:46:42.000Z",
+      "image": "",
+      "event": {
+        "text": "este sábado",
+        "start": "2026-10-24T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-21-mas-de-7-mil-estudiantes-de-atacama-vibraron-con-programa-apreciacion-de-la-musi",
+      "title": "Más de 7 mil estudiantes de Atacama vibraron con Programa Apreciación de la Música Nacional",
+      "summary": "La iniciativa impulsada por la Seremi de las Culturas, las Artes y el Patrimonio, llegó a establecimientos educacionales de las nueve comunas de la región con conciertos pedagógicos y experiencias de mediación artística, acercando a niños, niñas y jóvenes a la creación musical chilena y fortaleciend",
+      "link": "https://www.cultura.gob.cl/actualidad/mas-de-7-mil-estudiantes-de-atacama-vibraron-con-programa-apreciacion-de-la-musica-nacional/",
+      "author": "atacama",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-21T15:45:20.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-21-cual-es-tu-pelicula-favorita-de-la-saga-hoy-se-conmemora-el-viaje-de-marty-y-doc",
+      "title": "¿Cuál es tu película favorita de la saga? hoy se conmemora el viaje de Marty y Doc a bordo del DeLorean en “Volver al Futuro”",
+      "summary": "Entre rechazos de los estudios, cambios de protagonista y decisiones de producción inesperadas, la película terminó convertida en un fenómeno que trascendió generaciones. The post ¿Cuál es tu película favorita de la saga? hoy se conmemora el viaje de Marty y Doc a bordo del DeLorean en “Volver al Fu",
+      "link": "https://www.diarioelcentro.cl/2026/10/21/cual-es-tu-pelicula-favorita-de-la-saga-hoy-se-conmemora-el-viaje-de-marty-y-doc-a-bordo-del-delorean-en-volver-al-futuro/",
+      "author": "Diario El Centro Prensa",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-21T15:22:58.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-21-creacion-escenica-inspirada-en-la-celebracion-de-la-cruz-de-mayo-se-presentara-e",
+      "title": "Creación escénica inspirada en la celebración de la Cruz de Mayo se presentará en el balneario Río Claro de Talca",
+      "summary": "Una creación escénica inspirada en la celebración de la Cruz de Mayo y en los ritos comunitarios de los territorios rurales del Maule llegará al balneario Río Claro de Talca. Se trata de “De la Tierra al Cielo”, obra transdisciplinaria que se presentará este domingo 25 de octubre, a las 18:30 horas,",
+      "link": "https://elmauleinforma.cl/creacion-escenica-inspirada-en-la-celebracion-de-la-cruz-de-mayo-se-presentara-en-el-balneario-rio-claro-de-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-21T15:00:34.000Z",
+      "image": "",
+      "event": {
+        "text": "25 de octubre",
+        "start": "2026-10-25T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-21-detienen-a-sospechoso-de-incendiar-ayuntamiento-de-limoges-en-francia-lo-vincula",
+      "title": "Detienen a sospechoso de incendiar Ayuntamiento de Limoges en Francia: lo vinculan con la extrema izquierda",
+      "summary": "El siniestro provocó graves daños en una construcción inaugurada en 1883 y llevó a la Fiscalía a evaluar una posible conexión con acciones coordinadas de carácter terrorista. The post Detienen a sospechoso de incendiar Ayuntamiento de Limoges en Francia: lo vinculan con la extrema izquierda appeared",
+      "link": "https://www.diarioelcentro.cl/2026/10/21/detienen-a-sospechoso-de-incendiar-ayuntamiento-de-limoges-en-francia-lo-vinculan-con-la-extrema-izquierda/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-21T12:06:50.000Z",
+      "image": ""
+    },
     {
       "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
       "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
@@ -32,6 +95,17 @@
         "text": "21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-21T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-21-exigen-que-efe-aclare-cual-sera-la-inversion-para-mejorar-linea-ferrea-del-ramal",
+      "title": "Exigen que EFE aclare cuál será la inversión para mejorar línea férrea del Ramal Talca-Constitución",
+      "summary": "¿Qué ocurrió? A petición del consejero regional, Silvio del Río, el Gobierno Regional del Maule enviará un oficio de fiscalización con requerimiento de información a la empresa estatal EFE. Ello para que se aclaren los planes y el financiamiento para reparar la vía del ramal Talca-Constitución y cuá",
+      "link": "https://diariotalca.cl/exigen-que-efe-aclare-cual-sera-la-inversion-para-mejorar-linea-ferrea-del-ramal-talca-constitucion/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-21T09:05:53.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-21-guiar-con-el-ejemplo-inacap-realiza-su-segundo-encuentro-de-maestros-guias-en-el",
@@ -371,7 +445,7 @@
       "image": "",
       "event": {
         "text": "miércoles 20",
-        "start": "2026-10-21T12:00:00.000Z"
+        "start": "2026-10-28T12:00:00.000Z"
       }
     },
     {
@@ -793,7 +867,7 @@
       "image": "",
       "event": {
         "text": "miércoles 14",
-        "start": "2026-10-21T12:00:00.000Z"
+        "start": "2026-10-28T12:00:00.000Z"
       }
     },
     {
@@ -3186,7 +3260,7 @@
       "image": "",
       "event": {
         "text": "el 21 de septiembre",
-        "start": "2026-09-21T12:00:00.000Z"
+        "start": "2027-09-21T12:00:00.000Z"
       }
     },
     {
@@ -11401,24 +11475,24 @@
   "counts": {
     "POESIA": 111,
     "LITERATURA": 45,
-    "MUSICA": 186,
+    "MUSICA": 187,
     "TEATRO": 83,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
-    "PATRIMONIO": 260,
+    "PATRIMONIO": 263,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 68,
+    "CINE_MEDIOS": 70,
     "TERRITORIO": 78
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
+      "seremi-culturas": 102,
+      "diario-el-centro": 66,
+      "elmauleinforma": 82,
       "ext-utalca-programa": 2,
-      "diario-el-centro": 64,
-      "seremi-culturas": 100,
-      "diariotalca": 27,
-      "elmauleinforma": 81,
+      "diariotalca": 28,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
