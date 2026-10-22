@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T13:38:28.119Z",
+  "generatedAt": "2026-10-22T19:52:18.050Z",
   "items": [
     {
       "id": "2026-10-21-a-morir-por-sus-army-americo-revela-la-verdad-tras-foto-durmiendo-en-show-de-bts",
@@ -11594,7 +11594,7 @@
   },
   "feedStats": {
     "sources": 54,
-    "alive": 48,
+    "alive": 46,
     "itemsPerSource": {
       "diario-el-centro": 67,
       "elmauleinforma": 85,
@@ -12164,7 +12164,7 @@
       "feed": "https://soymaule.cl/feed/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": true
     },
     {
@@ -12174,7 +12174,7 @@
       "feed": "https://lacandelariacultura.cl/feed/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": false
     },
     {
