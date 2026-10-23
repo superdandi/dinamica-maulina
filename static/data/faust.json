@@ -1,6 +1,53 @@
 {
-  "generatedAt": "2026-10-22T19:52:18.050Z",
+  "generatedAt": "2026-10-23T03:58:51.008Z",
   "items": [
+    {
+      "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
+      "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
+      "summary": "posesiones en el cine” · El cine de horror también funciona como un sismógrafo de nuestras ansiedades · Miércoles colectivas. “El mal está aquí” recorre distintas formas de una presencia que ya no · amenaza desde afuera, sino que se instala en cuerpos, hogares y comunidades. · Miércoles 7 / El Conju",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-28T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "28 de octubre · 19:00",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-23-festival-de-cine-felina-2026",
+      "title": "Festival de Cine Felina 2026",
+      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-23T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
+        "start": "2026-10-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-22-circo-kai-con-hermanos-peralta-comienza-su-recorrido-por-todo-chile",
+      "title": "“Circo Kai” con Hermanos Peralta comienza su recorrido por todo Chile",
+      "summary": "El Circo Jumbo ya está en marcha. El jueves 8 de octubre, en el Gimnasio Municipal de Castro, se realizó la función de estreno de “Circo Kai”, la nueva producción de la Circo Jumbo que durante las próximas semanas recorrerá Chile con una propuesta que combina circo, danza, música y una historia prot",
+      "link": "https://diariotalca.cl/circo-kai-con-hermanos-peralta-comienza-su-recorrido-por-todo-chile/",
+      "author": "Hernán Espinoza",
+      "category": "TEATRO",
+      "source": "diariotalca",
+      "date": "2026-10-22T09:00:51.000Z",
+      "image": "",
+      "event": {
+        "text": "8 de octubre",
+        "start": "2026-10-08T12:00:00.000Z"
+      }
+    },
     {
       "id": "2026-10-21-a-morir-por-sus-army-americo-revela-la-verdad-tras-foto-durmiendo-en-show-de-bts",
       "title": "“A morir por sus ARMY”: Américo revela la verdad tras foto durmiendo en show de BTS",
@@ -171,38 +218,6 @@
       "source": "diario-el-centro",
       "date": "2026-10-21T12:06:50.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-21-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
-      "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
-      "summary": "posesiones en el cine” · El cine de horror también funciona como un sismógrafo de nuestras ansiedades · Miércoles colectivas. “El mal está aquí” recorre distintas formas de una presencia que ya no · amenaza desde afuera, sino que se instala en cuerpos, hogares y comunidades. · Miércoles 7 / El Conju",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-21T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "21, 28 de octubre · 19:00",
-        "start": "2026-10-21T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-10-21-festival-de-cine-felina-2026",
-      "title": "Festival de Cine Felina 2026",
-      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-21T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "21, 23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
-        "start": "2026-10-21T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-21-exigen-que-efe-aclare-cual-sera-la-inversion-para-mejorar-linea-ferrea-del-ramal",
@@ -897,7 +912,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-10-22T12:00:00.000Z"
+        "start": "2026-10-29T12:00:00.000Z"
       }
     },
     {
@@ -2798,7 +2813,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-10-22T12:00:00.000Z"
+        "start": "2026-10-29T12:00:00.000Z"
       }
     },
     {
@@ -3039,7 +3054,7 @@
       "image": "",
       "event": {
         "text": "22 de septiembre",
-        "start": "2026-09-22T12:00:00.000Z"
+        "start": "2027-09-22T12:00:00.000Z"
       }
     },
     {
@@ -11584,7 +11599,7 @@
     "POESIA": 112,
     "LITERATURA": 45,
     "MUSICA": 188,
-    "TEATRO": 84,
+    "TEATRO": 85,
     "ARTES_VISUALES": 90,
     "ARTESANIAS": 57,
     "PATRIMONIO": 266,
@@ -11594,13 +11609,13 @@
   },
   "feedStats": {
     "sources": 54,
-    "alive": 46,
+    "alive": 48,
     "itemsPerSource": {
+      "ext-utalca-programa": 2,
+      "diariotalca": 29,
       "diario-el-centro": 67,
       "elmauleinforma": 85,
       "seremi-culturas": 106,
-      "ext-utalca-programa": 2,
-      "diariotalca": 28,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
@@ -12164,7 +12179,7 @@
       "feed": "https://soymaule.cl/feed/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": true
     },
     {
@@ -12174,7 +12189,7 @@
       "feed": "https://lacandelariacultura.cl/feed/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": false
     },
     {
