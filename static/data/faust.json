@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T03:58:51.008Z",
+  "generatedAt": "2026-10-23T13:15:11.300Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -31,6 +31,106 @@
         "kind": "program",
         "text": "23, 24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-23-la-chascona-vuelve-a-abrir-sus-puertas-de-noche-un-recorrido-por-las-historias-d",
+      "title": "La Chascona vuelve a abrir sus puertas de noche: un recorrido por las historias desconocidas de Neruda",
+      "summary": "En uno de los retratos que se conservan en La Chascona, Matilde Urrutia aparece con dos cabezas. La obra fue pintada por el muralista mexicano Diego Rivera cuando la relación entre Urrutia y Pablo Neruda todavía era secreta. Si se observa con atención su cabellera, es posible descubrir, casi escondi",
+      "link": "https://elmauleinforma.cl/la-chascona-vuelve-a-abrir-sus-puertas-de-noche-un-recorrido-por-las-historias-desconocidas-de-neruda/",
+      "author": "Redacción El Maule Informa",
+      "category": "ARTES_VISUALES",
+      "source": "elmauleinforma",
+      "date": "2026-10-23T01:00:38.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-23-mas-de-100-estudiantes-daran-vida-a-musica-es-compartir-el-gran-encuentro-de-ban",
+      "title": "Más de 100 estudiantes darán vida a “Música es Compartir”, el gran encuentro de bandas escolares del Maule Costa",
+      "summary": "La música y el talento estudiantil serán protagonistas este 29 de octubre, cuando más de 100 jóvenes de distintas comunidades educativas del Servicio Local de Educación Pública (SLEP) Maule Costa suban al escenario del gimnasio del Liceo Claudina Urrutia de Lavín, en Cauquenes, para participar en la",
+      "link": "https://elmauleinforma.cl/mas-de-100-estudiantes-daran-vida-a-musica-es-compartir-el-gran-encuentro-de-bandas-escolares-del-maule-costa/",
+      "author": "Redacción El Maule Informa",
+      "category": "MUSICA",
+      "source": "elmauleinforma",
+      "date": "2026-10-23T00:00:11.000Z",
+      "image": "",
+      "event": {
+        "text": "29 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-22-ministerio-de-las-culturas-distingue-ocho-obras-con-el-sello-de-excelencia-a-la-",
+      "title": "Ministerio de las Culturas distingue ocho obras con el Sello de Excelencia a la Artesanía 2026",
+      "summary": "Las obras distinguidas provienen de las regiones de Coquimbo, Valparaíso, Metropolitana, Ñuble, La Araucanía y Aysén.",
+      "link": "https://www.cultura.gob.cl/actualidad/ministerio-de-las-culturas-celebra-la-excelencia-de-la-artesania-reconociendo-ocho-obras-con-el-sello-de-excelencia-a-la-artesania-2026/",
+      "author": "alecaros",
+      "category": "ARTESANIAS",
+      "source": "seremi-culturas",
+      "date": "2026-10-22T20:20:58.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-22-bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra",
+      "title": "BAFONA anuncia gira por las regiones de Los Ríos y Los Lagos con estreno de obra dedicada al bicentenario de Chiloé",
+      "summary": "El Ballet Folklórico Nacional anuncia la realización de una gira de dos semanas por el sur del país, que contempla presentaciones con un recorrido que cubre más de 1200 kilómetros.",
+      "link": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-22T20:00:06.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-22-chile-cierra-su-participacion-en-fidae-uruguay-como-parte-de-la-linea-de-asisten",
+      "title": "Chile cierra su participación en FIDAE Uruguay como parte de la Línea de Asistencia a Instancias Internacionales de Artes Escénicas 2026",
+      "summary": "“Máquina de gloria y olvido”, de la Compañía Amateur, y “Correo”, de Paula Aros Gho, se presentaron el 14 y el 15 de octubre en el Teatro Solís. En paralelo, “Habitar la casa”, instalación de Omar Morán Reyes, cocreada con vecinos y vecinas de la Villa del Cerro, se presentó en el Centro Cultural Fl",
+      "link": "https://www.cultura.gob.cl/actualidad/chile-cierra-su-participacion-en-fidae-uruguay-como-parte-de-la-linea-de-asistencia-a-instancias-internacionales-de-artes-escenicas-2026/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-22T18:59:47.000Z",
+      "image": "",
+      "event": {
+        "text": "el 15 de octubre",
+        "start": "2026-10-15T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-22-mes-del-diseno-2026-revela-su-programacion-con-mas-de-50-actividades-en-ocho-reg",
+      "title": "Mes del Diseño 2026 revela su programación con más de 50 actividades en ocho regiones del país",
+      "summary": "Las actividades se llevarán a cabo como parte de la mayor celebración pública en torno al diseño a nivel nacional, impulsada por el Ministerio de las Culturas, las Artes y el Patrimonio. Este año centra su foco en los efectos que los objetos cotidianos tienen en el diario vivir y en la memoria.",
+      "link": "https://www.cultura.gob.cl/agendacultural/mes-del-diseno-2026-revela-su-programacion-con-mas-de-50-actividades-en-ocho-regiones-del-pais/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-22T18:30:22.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-22-culturas-aysen-y-ulagos-celebran-alianza-con-24-nuevos-diplomados-en-educacion-a",
+      "title": "Culturas Aysén y ULagos celebran alianza con 24 nuevos diplomados en Educación Artística",
+      "summary": "Las diplomadas en Educación Artística fueron becadas por el Ministerio de las Culturas, las Artes y el Patrimonio.",
+      "link": "https://www.cultura.gob.cl/actualidad/culturas-aysen-y-ulagos-celebran-alianza-con-24-nuevos-diplomados-en-educacion-artistica/",
+      "author": "aysen",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-22T18:08:09.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-22-paredones-y-san-vicente-celebraran-el-mes-de-la-musica-con-conciertos-gratuitos-",
+      "title": "Paredones y San Vicente celebrarán el Mes de la Música con conciertos gratuitos de cumbia, rock y cueca brava",
+      "summary": "Jinny Jopler, Los Costinos, Tierra Linda de Paredones y Kala kala ká son parte de la cartelera. Los conciertos se realizarán el 24 de octubre en Paredones y el 30 de octubre en San Vicente de Tagua Tagua.",
+      "link": "https://www.cultura.gob.cl/agendacultural/paredones-y-san-vicente-celebraran-el-mes-de-la-musica-con-conciertos-gratuitos-de-cumbia-rock-y-cueca-brava/",
+      "author": "ohiggins",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-22T16:48:40.000Z",
+      "image": "",
+      "event": {
+        "text": "el 24 de octubre",
+        "start": "2026-10-24T12:00:00.000Z"
       }
     },
     {
@@ -11598,11 +11698,11 @@
   "counts": {
     "POESIA": 112,
     "LITERATURA": 45,
-    "MUSICA": 188,
+    "MUSICA": 190,
     "TEATRO": 85,
-    "ARTES_VISUALES": 90,
-    "ARTESANIAS": 57,
-    "PATRIMONIO": 266,
+    "ARTES_VISUALES": 91,
+    "ARTESANIAS": 58,
+    "PATRIMONIO": 270,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 71,
     "TERRITORIO": 79
@@ -11612,10 +11712,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "elmauleinforma": 87,
+      "seremi-culturas": 112,
       "diariotalca": 29,
       "diario-el-centro": 67,
-      "elmauleinforma": 85,
-      "seremi-culturas": 106,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
