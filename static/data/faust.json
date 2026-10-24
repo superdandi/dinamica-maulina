@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T12:31:08.829Z",
+  "generatedAt": "2026-10-24T18:40:15.729Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -16,6 +16,17 @@
         "text": "28 de octubre · 19:00",
         "start": "2026-10-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-24-magia-danza-y-acrobacias-circo-kai-llega-a-talca-y-curico-junto-a-los-power-pera",
+      "title": "Magia, danza y acrobacias: “Circo Kai” llega a Talca y Curicó junto a los Power Peralta",
+      "summary": "La propuesta recrea un mundo submarino a través de una puesta en escena que integra movimiento, música y efectos visuales, con una aventura protagonizada por Jumbito y sus amigos. The post Magia, danza y acrobacias: “Circo Kai” llega a Talca y Curicó junto a los Power Peralta appeared first on Diari",
+      "link": "https://www.diarioelcentro.cl/2026/10/23/magia-danza-y-acrobacias-circo-kai-llega-a-talca-y-curico-junto-a-los-power-peralta/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-10-24T01:17:30.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-23-dia-mundial-de-la-opera-se-celebra-con-actividades-que-buscan-acercar-esta-arte-",
@@ -11746,7 +11757,7 @@
   "counts": {
     "POESIA": 112,
     "LITERATURA": 45,
-    "MUSICA": 191,
+    "MUSICA": 192,
     "TEATRO": 85,
     "ARTES_VISUALES": 91,
     "ARTESANIAS": 58,
@@ -11760,10 +11771,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "diario-el-centro": 68,
       "seremi-culturas": 114,
       "elmauleinforma": 88,
       "diariotalca": 30,
-      "diario-el-centro": 67,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
