@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T03:53:12.537Z",
+  "generatedAt": "2026-10-24T12:31:08.829Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -16,6 +16,28 @@
         "text": "28 de octubre · 19:00",
         "start": "2026-10-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-23-dia-mundial-de-la-opera-se-celebra-con-actividades-que-buscan-acercar-esta-arte-",
+      "title": "Día Mundial de la Ópera se celebra con actividades que buscan acercar esta arte escénica a nuevos públicos",
+      "summary": "La programación contempla conciertos, intervenciones urbanas, galas y encuentros gratuitos en Santiago y otras regiones.",
+      "link": "https://www.cultura.gob.cl/agendacultural/dia-mundial-de-la-opera-se-celebra-con-actividades-que-buscan-acercar-esta-arte-escenica-a-nuevos-publicos/",
+      "author": "alecaros",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-23T20:00:20.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-23-personas-mayores-protagonizan-aplaudido-desfile-de-modas-en-paseo-peatonal-de-ta",
+      "title": "Personas mayores protagonizan aplaudido desfile de modas en paseo peatonal de Talca",
+      "summary": "Con elegancia, entusiasmo y muchas sonrisas, 18 personas mayores participaron en un desfile de modas realizado en el Paseo Peatonal de Talca, en el marco de las actividades conmemorativas del Mes de las Personas Mayores, iniciativa impulsada por el Servicio Nacional del Adulto Mayor (SENAMA) Maule. ",
+      "link": "https://elmauleinforma.cl/personas-mayores-protagonizan-aplaudido-desfile-de-modas-en-paseo-peatonal-de-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-23T17:00:51.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-23-bibliomovil-llevara-hasta-1-500-libros-a-comunidades-apartadas-y-ampliara-el-acc",
@@ -11724,11 +11746,11 @@
   "counts": {
     "POESIA": 112,
     "LITERATURA": 45,
-    "MUSICA": 190,
+    "MUSICA": 191,
     "TEATRO": 85,
     "ARTES_VISUALES": 91,
     "ARTESANIAS": 58,
-    "PATRIMONIO": 272,
+    "PATRIMONIO": 273,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 71,
     "TERRITORIO": 79
@@ -11738,9 +11760,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "seremi-culturas": 113,
+      "seremi-culturas": 114,
+      "elmauleinforma": 88,
       "diariotalca": 30,
-      "elmauleinforma": 87,
       "diario-el-centro": 67,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
