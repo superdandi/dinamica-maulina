@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T03:52:13.826Z",
+  "generatedAt": "2026-10-25T13:03:11.627Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -15,6 +15,62 @@
         "kind": "program",
         "text": "28 de octubre · 19:00",
         "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-25-talca-vive-hoy-el-cierre-de-la-fiesta-de-la-primavera-2026",
+      "title": "Talca vive hoy el cierre de la Fiesta de la Primavera 2026",
+      "summary": "Con un desfile de carros alegóricos, comparsas y un espectáculo gratuito de Luis Jara, Talca culmina este sábado una nueva edición de su tradicional fiesta. The post Talca vive hoy el cierre de la Fiesta de la Primavera 2026 appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/24/talca-vive-hoy-el-cierre-de-la-fiesta-de-la-primavera-2026/",
+      "author": "Yasmín Gómez",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-25T01:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "este sábado",
+        "start": "2026-10-31T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-24-por-primera-vez-en-la-historia-del-ejercito-una-mujer-asciende-al-grado-de-gener",
+      "title": "Por primera vez en la historia del Ejército, una mujer asciende al grado de general: Conozca el alto mando 2027",
+      "summary": "Como es tradición en el proceso de designación anual del Alto Mando, este viernes se dio a conocer a los oficiales quienes integrarán el Cuerpo de Generales para el año 2027, siendo ascendida por primera vez al grado de General de Brigada a una mujer, la Coronel María Soledad Acevedo San Martín, tra",
+      "link": "https://elmauleinforma.cl/por-primera-vez-en-la-historia-del-ejercito-una-mujer-asciende-al-grado-de-general-conozca-el-alto-mando-2027/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-24T19:00:25.000Z",
+      "image": "",
+      "event": {
+        "text": "este viernes",
+        "start": "2026-10-30T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-24-urgente-reportan-colision-multiple-tras-peaje-de-rio-claro",
+      "title": "Urgente: reportan colisión múltiple tras peaje de Río Claro",
+      "summary": "Una colisión múltiple fue reportada entre 300 y 500 metros después del peaje de Río Claro, en dirección norte a sur. The post Urgente: reportan colisión múltiple tras peaje de Río Claro appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/24/urgente-reportan-colision-multiple-tras-peaje-de-rio-claro/",
+      "author": "Yasmín Gómez",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-24T18:10:42.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-24-liberan-ejemplares-de-zorro-chilla-y-quique-tras-exitosa-rehabilitacion",
+      "title": "Liberan ejemplares de zorro chilla y quique tras exitosa rehabilitación",
+      "summary": "La mañana de este viernes el Seremi de Agricultura, Alejandro Muñoz, junto al Jefe de la Oficina SAG Linares, Miguel Ángel Troncoso, el director del Centro de Rehabilitación Casa Noé, Juan Carlos Muñoz, y un equipo del SAG provincial, realizaron la liberación de un zorro chilla (Lycalopex griseus), ",
+      "link": "https://elmauleinforma.cl/liberan-ejemplares-de-zorro-chilla-y-quique-tras-exitosa-rehabilitacion/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-24T16:00:52.000Z",
+      "image": "",
+      "event": {
+        "text": "este viernes",
+        "start": "2026-10-30T12:00:00.000Z"
       }
     },
     {
@@ -11798,9 +11854,9 @@
     "TEATRO": 85,
     "ARTES_VISUALES": 91,
     "ARTESANIAS": 58,
-    "PATRIMONIO": 276,
+    "PATRIMONIO": 279,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 71,
+    "CINE_MEDIOS": 72,
     "TERRITORIO": 79
   },
   "feedStats": {
@@ -11808,8 +11864,8 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "elmauleinforma": 90,
-      "diario-el-centro": 69,
+      "diario-el-centro": 71,
+      "elmauleinforma": 92,
       "seremi-culturas": 114,
       "diariotalca": 30,
       "rincon-literario": 48,
