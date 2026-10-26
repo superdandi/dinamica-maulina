@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T13:03:11.627Z",
+  "generatedAt": "2026-10-26T03:56:11.492Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -16,6 +16,70 @@
         "text": "28 de octubre · 19:00",
         "start": "2026-10-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-27-festival-de-cine-felina-2026",
+      "title": "Festival de Cine Felina 2026",
+      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-27T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "27, 28, 29, 30 de octubre (Jueves) · 12:00",
+        "start": "2026-10-27T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-25-fungis-corporea-linares-inaugura-exposicion-textil-inspirada-en-hongos-chilenos",
+      "title": "“Fungis Corporea”: Linares inaugura exposición textil inspirada en hongos chilenos",
+      "summary": "La artista Marcela de la Vega presenta “Fungis Corporea” este viernes 30 de octubre en el Museo de Arte y Artesanía de Linares, con entrada liberada. The post “Fungis Corporea”: Linares inaugura exposición textil inspirada en hongos chilenos appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/25/fungis-corporea-linares-inaugura-exposicion-textil-inspirada-en-hongos-chilenos/",
+      "author": "Yasmín Gómez",
+      "category": "ARTES_VISUALES",
+      "source": "diario-el-centro",
+      "date": "2026-10-25T13:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "30 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-25-con-un-concierto-de-luis-jara-y-masiva-asistencia-fue-el-cierre-de-la-fiesta-de-",
+      "title": "Con un concierto de Luis Jara y masiva asistencia fue el cierre de la Fiesta de la Primavera 2026",
+      "summary": "¿Cómo fue? Con una masiva asistencia de público en la Plaza de Armas y a lo largo de calle 1 Sur, Talca vivió el cierre de la Fiesta de la Primavera 2026, organizada por la municipalidad. ¿Cómo fue? Por calle 1 Sur circularon los carros alegóricos y comparsas de los diez […] The post Con un conciert",
+      "link": "https://diariotalca.cl/con-un-concierto-de-luis-jara-y-masiva-asistencia-fue-el-cierre-de-la-fiesta-de-la-primavera-2026/",
+      "author": "Hernán Espinoza",
+      "category": "MUSICA",
+      "source": "diariotalca",
+      "date": "2026-10-25T09:00:33.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-25-la-solidaridad-como-expresion-de-la-identidad-catolica-por-clarisa-ayala",
+      "title": "LA SOLIDARIDAD COMO EXPRESIÓN DE LA IDENTIDAD CATÓLICA por Clarisa Ayala",
+      "summary": "La participación de la Universidad Católica del Maule, a través de la Pastoral Universitaria, en el acto de lanzamiento de la colecta de Fundación Las Rosas constituye una valiosa expresión de la identidad católica de nuestra institución y de su compromiso con la dignidad humana, la solidaridad y el",
+      "link": "https://diariotalca.cl/la-solidaridad-como-expresion-de-la-identidad-catolica-por-clarisa-ayala/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-25T09:00:21.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-25-chile-despega-detallan-los-33-proyectos-con-que-el-maule-proyecta-generar-450-em",
+      "title": "Chile Despega: Detallan los 33 proyectos con que el Maule proyecta generar 450 empleos",
+      "summary": "¿De que se trata? Mejorar los espacios públicos, recuperar infraestructura comunitaria y generar oportunidades laborales son parte de los objetivos del programa Chile Despega en la Región del Maule, cuya cartera contempla 33 iniciativas de inversión que proyectan generar 450 empleos. Los proyectos a",
+      "link": "https://diariotalca.cl/chile-despega-detallan-los-33-proyectos-con-que-el-maule-proyecta-generar-450-empleos/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-25T09:00:20.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-25-talca-vive-hoy-el-cierre-de-la-fiesta-de-la-primavera-2026",
@@ -109,22 +173,6 @@
       "source": "diario-el-centro",
       "date": "2026-10-24T13:00:00.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-24-festival-de-cine-felina-2026",
-      "title": "Festival de Cine Felina 2026",
-      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-24T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "24, 27, 28, 29, 30 de octubre (Jueves) · 12:00",
-        "start": "2026-10-24T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-24-magia-danza-y-acrobacias-circo-kai-llega-a-talca-y-curico-junto-a-los-power-pera",
@@ -1653,7 +1701,7 @@
       "image": "",
       "event": {
         "text": "el domingo",
-        "start": "2026-10-25T12:00:00.000Z"
+        "start": "2026-11-01T12:00:00.000Z"
       }
     },
     {
@@ -2133,7 +2181,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-10-25T12:00:00.000Z"
+        "start": "2026-11-01T12:00:00.000Z"
       }
     },
     {
@@ -2499,7 +2547,7 @@
       "image": "",
       "event": {
         "text": "el 25 de septiembre",
-        "start": "2026-09-25T12:00:00.000Z"
+        "start": "2027-09-25T12:00:00.000Z"
       }
     },
     {
@@ -2758,7 +2806,7 @@
       "image": "",
       "event": {
         "text": "25 de septiembre",
-        "start": "2026-09-25T12:00:00.000Z"
+        "start": "2027-09-25T12:00:00.000Z"
       }
     },
     {
@@ -3291,7 +3339,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-10-25T12:00:00.000Z"
+        "start": "2026-11-01T12:00:00.000Z"
       }
     },
     {
@@ -3539,7 +3587,7 @@
       "image": "",
       "event": {
         "text": "25 de septiembre",
-        "start": "2026-09-25T12:00:00.000Z"
+        "start": "2027-09-25T12:00:00.000Z"
       }
     },
     {
@@ -11850,11 +11898,11 @@
   "counts": {
     "POESIA": 112,
     "LITERATURA": 45,
-    "MUSICA": 192,
+    "MUSICA": 193,
     "TEATRO": 85,
-    "ARTES_VISUALES": 91,
+    "ARTES_VISUALES": 92,
     "ARTESANIAS": 58,
-    "PATRIMONIO": 279,
+    "PATRIMONIO": 281,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 72,
     "TERRITORIO": 79
@@ -11864,10 +11912,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "diario-el-centro": 71,
+      "diario-el-centro": 72,
+      "diariotalca": 33,
       "elmauleinforma": 92,
       "seremi-culturas": 114,
-      "diariotalca": 30,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
