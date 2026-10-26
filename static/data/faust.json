@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T03:56:11.492Z",
+  "generatedAt": "2026-10-26T14:58:14.913Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -31,6 +31,47 @@
         "kind": "program",
         "text": "27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-27T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-25-vicepresidenta-de-world-athletics-visita-talca-en-el-marco-de-las-iii-olimpiadas",
+      "title": "Vicepresidenta de World Athletics visita Talca en el marco de las III Olimpiadas Docere 2026",
+      "summary": "En el Estadio Bicentenario Iván Azócar Bernales se llevó a cabo una nueva jornada de las III Olimpiadas de la Fundación Docere 2026, instancia que contó con la destacada visita de la vicepresidenta de World Athletics, Ximena Restrepo. La histórica medallista olímpica, quien además ejerce como direct",
+      "link": "https://elmauleinforma.cl/vicepresidenta-de-world-athletics-visita-talca-en-el-marco-de-las-iii-olimpiadas-docere-2026/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-25T21:00:41.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-25-cft-san-agustin-de-cauquenes-rindio-homenaje-a-la-memoria-literaria-y-periodisti",
+      "title": "CFT San Agustín de Cauquenes rindió homenaje a la memoria literaria y periodística de la provincia",
+      "summary": "CAUQUENES.— La historia, la literatura y la identidad cultural de la provincia se dieron cita el pasado viernes 23 de octubre en la biblioteca del Centro de Formación Técnica (CFT) San Agustín, sede Cauquenes, con motivo del conversatorio y exposición bibliográfica «Cauquenes Escrito en el Tiempo», ",
+      "link": "https://elmauleinforma.cl/cft-san-agustin-de-cauquenes-rindio-homenaje-a-la-memoria-literaria-y-periodistica-de-la-provincia/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-25T20:00:57.000Z",
+      "image": "",
+      "event": {
+        "text": "23 de octubre",
+        "start": "2026-10-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-25-municipalidad-de-parral-entrega-281-becas-a-estudiantes-de-la-educacion-superior",
+      "title": "Municipalidad de Parral entrega 281 becas a estudiantes de la educación superior",
+      "summary": "Comprometidos con el Parral del Futuro, la mañana de este sábado se desarrolló, en el Teatro Municipal, la ceremonia de entrega de 281 nuevas becas municipales de Nivel Superior, Especial, Deportiva y CFT. La actividad contó con la presencia del alcalde Patricio Ojeda, junto al Honorable Concejo Mun",
+      "link": "https://elmauleinforma.cl/municipalidad-de-parral-entrega-281-becas-a-estudiantes-de-la-educacion-superior/",
+      "author": "Redacción El Maule Informa",
+      "category": "TEATRO",
+      "source": "elmauleinforma",
+      "date": "2026-10-25T18:00:50.000Z",
+      "image": "",
+      "event": {
+        "text": "este sábado",
+        "start": "2026-10-31T12:00:00.000Z"
       }
     },
     {
@@ -11899,10 +11940,10 @@
     "POESIA": 112,
     "LITERATURA": 45,
     "MUSICA": 193,
-    "TEATRO": 85,
+    "TEATRO": 86,
     "ARTES_VISUALES": 92,
     "ARTESANIAS": 58,
-    "PATRIMONIO": 281,
+    "PATRIMONIO": 283,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 72,
     "TERRITORIO": 79
@@ -11912,9 +11953,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "elmauleinforma": 95,
       "diario-el-centro": 72,
       "diariotalca": 33,
-      "elmauleinforma": 92,
       "seremi-culturas": 114,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
