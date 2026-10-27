@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T14:58:14.913Z",
+  "generatedAt": "2026-10-27T04:17:54.431Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -32,6 +32,50 @@
         "text": "27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-27T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-26-editorial-universidad-de-talca-presento-el-atlas-de-la-anatomia-humana",
+      "title": "Editorial Universidad de Talca presentó el “Atlas de la Anatomía Humana”",
+      "summary": "Conocer los misterios del cuerpo humano ha sido un deseo que ha acompañado a la humanidad desde tiempos inmemoriales. En este contexto surge el libro “Atlas de la Anatomía Humana: Cortes transversales de cabeza, cuello y tronco”, bajo el sello de la Editorial Universidad de Talca en formato e-book d",
+      "link": "https://elmauleinforma.cl/editorial-universidad-de-talca-presento-el-atlas-de-la-anatomia-humana/",
+      "author": "Redacción El Maule Informa",
+      "category": "LITERATURA",
+      "source": "elmauleinforma",
+      "date": "2026-10-26T16:00:01.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-26-magallanes-estrena-moderno-bibliomovil-para-llevar-la-magia-de-la-lectura-a-toda",
+      "title": "Magallanes estrena moderno Bibliomóvil para llevar la magia de la lectura a toda la región",
+      "summary": "Con una inversión estatal de 169 millones de pesos, el Servicio Nacional del Patrimonio (SERPAT) inauguró este vehículo equipado con tecnología sustentable y accesibilidad universal.",
+      "link": "https://www.cultura.gob.cl/actualidad/magallanes-estrena-moderno-bibliomovil-para-llevar-la-magia-de-la-lectura-a-toda-la-region/",
+      "author": "magallanes",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-26T12:20:15.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-26-bafona-llega-a-los-lagos-con-el-estreno-de-caguach-un-homenaje-a-la-fe-la-memori",
+      "title": "BAFONA llega a Los Lagos con el estreno de “Caguach”, un homenaje a la fe, la memoria y la identidad de Chiloé",
+      "summary": "El Ballet Folklórico Nacional presentará una nueva creación inspirada en la Fiesta de Jesús Nazareno de Caguach, en el marco de una gira por diez comunas de las regiones de Los Ríos y Los Lagos. En la Región de Los Lagos, las presentaciones serán en Osorno, Purranque, Puerto Varas, Ancud, Achao y Ca",
+      "link": "https://www.cultura.gob.cl/agendacultural/bafona-llega-a-los-lagos-con-el-estreno-de-caguach-un-homenaje-a-la-fe-la-memoria-y-la-identidad-de-chiloe/",
+      "author": "loslagos",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-26T12:19:07.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-26-jazz-maule-celebra-su-cuarta-edicion-con-musicos-de-cinco-paises-y-conciertos-gr",
+      "title": "Jazz Maule celebra su cuarta edición con músicos de cinco países y conciertos gratuitos en Talca y Constitución",
+      "summary": "¿Qué va a pasar? El Festival Internacional de Jazz Maule llega a su cuarta versión con tres jornadas de conciertos, todas a las 19:30 horas, en el Teatro Regional del Maule (TRM), en Talca, y en el Teatro Municipal de Constitución, con entradas son gratuitas que se solicitan en el sitio web de […] T",
+      "link": "https://diariotalca.cl/jazz-maule-celebra-su-cuarta-edicion-con-musicos-de-cinco-paises-y-conciertos-gratuitos-en-talca-y-constitucion/",
+      "author": "Hernán Espinoza",
+      "category": "MUSICA",
+      "source": "diariotalca",
+      "date": "2026-10-26T09:00:56.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-25-vicepresidenta-de-world-athletics-visita-talca-en-el-marco-de-las-iii-olimpiadas",
@@ -3180,7 +3224,7 @@
       "image": "",
       "event": {
         "text": "al 26 de septiembre",
-        "start": "2026-09-26T12:00:00.000Z"
+        "start": "2027-09-26T12:00:00.000Z"
       }
     },
     {
@@ -3258,7 +3302,7 @@
       "image": "",
       "event": {
         "text": "26 de septiembre",
-        "start": "2026-09-26T12:00:00.000Z"
+        "start": "2027-09-26T12:00:00.000Z"
       }
     },
     {
@@ -3458,7 +3502,7 @@
       "image": "",
       "event": {
         "text": "26 de septiembre",
-        "start": "2026-09-26T12:00:00.000Z"
+        "start": "2027-09-26T12:00:00.000Z"
       }
     },
     {
@@ -3846,7 +3890,7 @@
       "image": "",
       "event": {
         "text": "26 de septiembre",
-        "start": "2026-09-26T12:00:00.000Z"
+        "start": "2027-09-26T12:00:00.000Z"
       }
     },
     {
@@ -11938,12 +11982,12 @@
   ],
   "counts": {
     "POESIA": 112,
-    "LITERATURA": 45,
-    "MUSICA": 193,
+    "LITERATURA": 46,
+    "MUSICA": 194,
     "TEATRO": 86,
     "ARTES_VISUALES": 92,
     "ARTESANIAS": 58,
-    "PATRIMONIO": 283,
+    "PATRIMONIO": 285,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 72,
     "TERRITORIO": 79
@@ -11953,10 +11997,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "elmauleinforma": 95,
+      "elmauleinforma": 96,
+      "seremi-culturas": 116,
+      "diariotalca": 34,
       "diario-el-centro": 72,
-      "diariotalca": 33,
-      "seremi-culturas": 114,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
