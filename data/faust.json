@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T04:17:54.431Z",
+  "generatedAt": "2026-10-27T14:12:07.618Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -32,6 +32,47 @@
         "text": "27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-27T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-27-cge-trabaja-en-reconstruir-lineas-danadas-por-tormenta-electrica-en-talca",
+      "title": "CGE trabaja en reconstruir líneas dañadas por tormenta eléctrica en Talca",
+      "summary": "Equipos de emergencia de la compañía eléctrica CGE se encuentran trabajando en la reconstrucción de instalaciones eléctricas dañadas por la caída de rayos durante la tormenta eléctrica que afectó a la comuna de Talca en la tarde de este lunes. La tormenta eléctrica que afectó a parte de la región de",
+      "link": "https://elmauleinforma.cl/cge-trabaja-en-reconstruir-lineas-danadas-por-tormenta-electrica-en-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "ARTES_VISUALES",
+      "source": "elmauleinforma",
+      "date": "2026-10-27T00:42:51.000Z",
+      "image": "",
+      "event": {
+        "text": "este lunes",
+        "start": "2026-11-02T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-26-gira-teleton-llega-este-martes-a-talca-con-show-gratuito-de-alanys-lagos-sinaka-",
+      "title": "Gira Teletón llega este martes a Talca con show gratuito de Alanys Lagos, Sinaka, Leo Rey y más",
+      "summary": "La jornada reunirá música, entretención y figuras de televisión para reforzar el llamado a colaborar con la cruzada solidaria que apoya la rehabilitación infantil en Chile. The post Gira Teletón llega este martes a Talca con show gratuito de Alanys Lagos, Sinaka, Leo Rey y más appeared first on Diar",
+      "link": "https://www.diarioelcentro.cl/2026/10/26/gira-teleton-llega-este-martes-a-talca-con-show-gratuito-de-alanys-lagos-sinaka-leo-rey-y-mas/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-10-26T23:46:18.000Z",
+      "image": "",
+      "event": {
+        "text": "este martes",
+        "start": "2026-10-27T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-26-videos-tornado-afecta-a-la-region-de-o-higgins-y-provoca-graves-danos-en-un-cole",
+      "title": "VIDEOS |Tornado afecta a la Región de O’Higgins y provoca graves daños en un colegio",
+      "summary": "Registros captaron la fuerza del fenómeno desde la Ruta 5 Sur, mientras equipos locales evalúan los daños y las interrupciones del suministro eléctrico. The post VIDEOS |Tornado afecta a la Región de O’Higgins y provoca graves daños en un colegio appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/26/videos-tornado-afecta-a-la-region-de-ohiggins-y-provoca-graves-danos-en-un-colegio/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-26T22:06:05.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-26-editorial-universidad-de-talca-presento-el-atlas-de-la-anatomia-humana",
@@ -11983,13 +12024,13 @@
   "counts": {
     "POESIA": 112,
     "LITERATURA": 46,
-    "MUSICA": 194,
+    "MUSICA": 195,
     "TEATRO": 86,
-    "ARTES_VISUALES": 92,
+    "ARTES_VISUALES": 93,
     "ARTESANIAS": 58,
     "PATRIMONIO": 285,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 72,
+    "CINE_MEDIOS": 73,
     "TERRITORIO": 79
   },
   "feedStats": {
@@ -11997,10 +12038,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "elmauleinforma": 96,
+      "elmauleinforma": 97,
+      "diario-el-centro": 74,
       "seremi-culturas": 116,
       "diariotalca": 34,
-      "diario-el-centro": 72,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
