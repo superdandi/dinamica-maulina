@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T14:12:07.618Z",
+  "generatedAt": "2026-10-28T04:47:24.450Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -18,6 +18,73 @@
       }
     },
     {
+      "id": "2026-10-27-mujeres-de-navidad-rescatan-los-sabores-del-borde-costero-en-nuevo-recetario-pat",
+      "title": "Mujeres de Navidad rescatan los sabores del borde costero en nuevo recetario patrimonial",
+      "summary": "La publicación reúne preparaciones tradicionales, relatos y conocimientos vinculados a los productos del mar. La iniciativa es impulsada por la Seremi de Culturas de O’Higgins junto con la Municipalidad de Navidad.",
+      "link": "https://www.cultura.gob.cl/programas/mujeres-de-navidad-rescatan-los-sabores-del-borde-costero-en-nuevo-recetario-patrimonial/",
+      "author": "ohiggins",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-27T16:36:14.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-27-ministro-francisco-undurraga-invita-a-espacios-culturales-a-inscribir-sus-activi",
+      "title": "Ministro Francisco Undurraga invita a espacios culturales a inscribir sus actividades para Noche de Museos",
+      "summary": "Los espacios pueden inscribir sus actividades hasta el martes 10 de noviembre en el sitio web www.nochedemuseos.cl",
+      "link": "https://www.cultura.gob.cl/agendacultural/ministro-francisco-undurraga-invita-a-espacios-culturales-a-inscribir-sus-actividades-para-noche-de-museos/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-27T15:56:35.000Z",
+      "image": "",
+      "event": {
+        "text": "10 de noviembre",
+        "start": "2026-11-10T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-27-cultura-aysen-cierra-el-mes-de-la-musica-con-concierto-y-homenaje-de-los-lazos-e",
+      "title": "Cultura Aysén cierra el Mes de la Música con concierto y homenaje de Los Lazos en Puerto Ibáñez",
+      "summary": "Este sábado 31 de octubre la Seremi de Culturas Aysén invita a cerrar el Mes de la Música con concierto y homenaje de Los Lazos, después de 56 años de trayectoria.",
+      "link": "https://www.cultura.gob.cl/agendacultural/cultura-aysen-cierra-el-mes-de-la-musica-con-concierto-y-homenaje-de-los-lazos-en-puerto-ibanez/",
+      "author": "aysen",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-27T14:41:21.000Z",
+      "image": "",
+      "event": {
+        "text": "31 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-27-artesanos-de-valparaiso-y-el-melon-reciben-el-sello-de-excelencia-a-la-artesania",
+      "title": "Artesanos de Valparaíso y El Melón reciben el Sello de Excelencia a la Artesanía 2026",
+      "summary": "Manuela Tromben y Alejandro López fueron reconocidos con esta distinción que entrega el Ministerio de las Culturas y la Universidad Católica. Tanto el Sello de Excelencia como las distinciones de Maestro y Maestra Artesana, cuentan ahora con reconocimiento legal, gracias a la Ley de Artesanía, promu",
+      "link": "https://www.cultura.gob.cl/agendacultural/artesanos-de-valparaiso-y-el-melon-reciben-el-sello-de-excelencia-a-la-artesania-2026/",
+      "author": "valparaiso",
+      "category": "ARTESANIAS",
+      "source": "seremi-culturas",
+      "date": "2026-10-27T14:34:01.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-27-festival-de-verso-clasico-reunio-a-mas-de-800-personas-en-santiago",
+      "title": "Festival de Verso Clásico reunió a más de 800 personas en Santiago",
+      "summary": "La décima edición se realizó el sábado 24 de octubre en el Centro Cultural de España, con 238 participantes en escena y más de cuarenta intervenciones de poesía, teatro, música y danza.",
+      "link": "https://www.cultura.gob.cl/plan-lectura/festival-de-verso-clasico-reunio-a-mas-de-800-personas-en-santiago/",
+      "author": "metropolitana",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-27T14:22:03.000Z",
+      "image": "",
+      "event": {
+        "text": "24 de octubre",
+        "start": "2026-10-24T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-10-27-festival-de-cine-felina-2026",
       "title": "Festival de Cine Felina 2026",
       "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
@@ -32,6 +99,17 @@
         "text": "27, 28, 29, 30 de octubre (Jueves) · 12:00",
         "start": "2026-10-27T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-27-historias-de-barrios-de-talca-villa-nueva-abate-molina-a-unas-cuadras-del-centro",
+      "title": "Historias de barrios de Talca: Villa Nueva Abate Molina a unas cuadras del centro y a unos metros de un parque",
+      "summary": "Pasa que vivo en una de las poblaciones tradicionales de Talca. A unas cuadras del centro y a pasos del parque Piduco. Una que proyectó Miguel Lawner, Premio Nacional de Arquitectura. A la que llegaron varios ferroviarios. Una que luce murales que cuentan parte de su historia. Vivo en la Nueva Abate",
+      "link": "https://diariotalca.cl/historias-de-barrios-de-talca-villa-nueva-abate-molina-a-unas-cuadras-del-centro-y-a-unos-metros-de-un-parque/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-27T09:05:44.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-27-cge-trabaja-en-reconstruir-lineas-danadas-por-tormenta-electrica-en-talca",
@@ -60,7 +138,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-10-27T12:00:00.000Z"
+        "start": "2026-11-03T12:00:00.000Z"
       }
     },
     {
@@ -3328,7 +3406,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-10-27T12:00:00.000Z"
+        "start": "2026-11-03T12:00:00.000Z"
       }
     },
     {
@@ -12024,11 +12102,11 @@
   "counts": {
     "POESIA": 112,
     "LITERATURA": 46,
-    "MUSICA": 195,
+    "MUSICA": 196,
     "TEATRO": 86,
     "ARTES_VISUALES": 93,
-    "ARTESANIAS": 58,
-    "PATRIMONIO": 285,
+    "ARTESANIAS": 59,
+    "PATRIMONIO": 289,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 73,
     "TERRITORIO": 79
@@ -12038,10 +12116,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
+      "seremi-culturas": 121,
+      "diariotalca": 35,
       "elmauleinforma": 97,
       "diario-el-centro": 74,
-      "seremi-culturas": 116,
-      "diariotalca": 34,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
