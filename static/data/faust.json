@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T04:47:24.450Z",
+  "generatedAt": "2026-10-28T14:57:17.186Z",
   "items": [
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
@@ -16,6 +16,76 @@
         "text": "28 de octubre · 19:00",
         "start": "2026-10-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-28-hospital-de-curico-destaca-a-nivel-nacional-con-pionera-tecnologia-de-impresion-",
+      "title": "Hospital de Curicó destaca a nivel nacional con pionera tecnología de impresión 3D para cirugías maxilofaciales",
+      "summary": "Gracias a la tecnología y a la gestión clínica de la Unidad de Radiología Maxilofacial del Hospital de Curicó, se está implementando un sistema de impresión 3D de resina de la marca Formlabs, el que ha permitido que el centro asistencial se ha posicionado con prácticas calificadas como únicas en el ",
+      "link": "https://elmauleinforma.cl/hospital-de-curico-destaca-a-nivel-nacional-con-pionera-tecnologia-de-impresion-3d-para-cirugias-maxilofaciales/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-28T00:30:17.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-27-gobierno-lanza-plan-de-proteccion-contra-incendios-forestales-2026-2027-con-pres",
+      "title": "Gobierno lanza Plan de Protección contra Incendios Forestales 2026-2027 con presupuesto de $166.600 millones",
+      "summary": "El Presidente de la República, José Antonio Kast, junto al ministro de Agricultura, Jaime Campos; la directora ejecutiva de CONAF, Aída Baldini; y autoridades de Gobierno, encabezó en el Aeródromo de Tobalaba el lanzamiento del Plan de Protección contra Incendios Forestales 2026-2027, que considera ",
+      "link": "https://elmauleinforma.cl/gobierno-lanza-plan-de-proteccion-contra-incendios-forestales-2026-2027-con-presupuesto-de-166-600-millones/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-27T23:30:10.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-27-autoridades-regionales-dan-inicio-a-temporada-de-campos-de-pastoreo-cordillerano",
+      "title": "Autoridades regionales dan inicio a temporada de campos de pastoreo cordillerano 2026-2027 (veranadas)",
+      "summary": "Con la finalidad de dar inicio a la temporada de veranadas en la región del Maule, el Seremi de Agricultura, Alejandro Muñoz junto al Delegado Presidencial Provincial, Christian González, la directora regional (s) del SAG, María Carolina Imbert, y equipos del programa de Protección Pecuaria visitaro",
+      "link": "https://elmauleinforma.cl/autoridades-regionales-dan-inicio-a-temporada-de-campos-de-pastoreo-cordillerano-2026-2027-veranadas/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-27T22:30:39.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-27-premio-regional-de-artes-culturas-y-patrimonio-guillermo-jorquera-morales-distin",
+      "title": "Premio Regional de Artes, Culturas y Patrimonio «Guillermo Jorquera Morales» distingue a cinco exponentes de Tarapacá",
+      "summary": "La Seremi de las Culturas, las Artes y el Patrimonio de Tarapacá dio a conocer a los ganadores de la sexta versión de los Premios Regionales de Artes, Culturas y Patrimonio «Guillermo Jorquera Morales», reconocimiento que destaca trayectorias y aportes al desarrollo artístico, cultural y patrimonial",
+      "link": "https://www.cultura.gob.cl/identidad-cultural-regional/premio-regional-de-artes-culturas-y-patrimonio-guillermo-jorquera-morales-distingue-a-cinco-exponentes-de-tarapaca/",
+      "author": "tarapaca",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-27T20:08:07.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-27-dia-de-la-musica-chilena-reunira-a-artistas-maulinos-en-constitucion",
+      "title": "Día de la Música Chilena reunirá a artistas maulinos en Constitución",
+      "summary": "La Plaza Arturo Prat será escenario de la celebración regional este miércoles 28 de octubre, desde las 20:00 horas, con la participación de ocho proyectos musicales y la Orquesta Clásica del Maule. La jornada también rendirá homenaje a Cecilia “La incomparable” y al compositor maucho Pedro Núñez Nav",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/dia-de-la-musica-chilena-reunira-a-artistas-maulinos-en-constitucion/",
+      "author": "maule",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-27T20:07:35.000Z",
+      "image": "",
+      "event": {
+        "text": "28 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-27-seminario-regional-pone-en-valor-la-educacion-patrimonial",
+      "title": "Seminario regional pone en valor la educación patrimonial",
+      "summary": "El primer Seminario de la Mesa Regional de Educación Patrimonial reunió a representantes de establecimientos educacionales, bibliotecas, archivos y museos para compartir seis experiencias desarrolladas en distintas comunas del Biobío. La jornada también permitió abordar los desafíos de implementació",
+      "link": "https://www.cultura.gob.cl/agendacultural/seminario-regional-pone-en-valor-la-educacion-patrimonial/",
+      "author": "biobio",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-27T18:21:29.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-27-mujeres-de-navidad-rescatan-los-sabores-del-borde-costero-en-nuevo-recetario-pat",
@@ -12102,11 +12172,11 @@
   "counts": {
     "POESIA": 112,
     "LITERATURA": 46,
-    "MUSICA": 196,
+    "MUSICA": 197,
     "TEATRO": 86,
     "ARTES_VISUALES": 93,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 289,
+    "PATRIMONIO": 294,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 73,
     "TERRITORIO": 79
@@ -12116,9 +12186,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 2,
-      "seremi-culturas": 121,
+      "elmauleinforma": 100,
+      "seremi-culturas": 124,
       "diariotalca": 35,
-      "elmauleinforma": 97,
       "diario-el-centro": 74,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
