@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-28T14:57:17.186Z",
+  "generatedAt": "2026-10-29T04:58:44.478Z",
   "items": [
+    {
+      "id": "2026-10-28-autoridades-invitan-a-la-comunidad-a-participar-del-homenaje-a-la-musica-chilena",
+      "title": "Autoridades invitan a la comunidad a participar del Homenaje a la Música Chilena en Angol",
+      "summary": "La actividad, que forma parte de la programación regional del Mes de la Música Chilena y del 6º Festival Kawin, contempla un reconocimiento a la destacada cantautora regional Vasti Michel y un homenaje a Cecilia “La Incomparable”, con entrada liberada para toda la comunidad.",
+      "link": "https://www.cultura.gob.cl/agendacultural/autoridades-invitan-a-la-comunidad-a-participar-del-homenaje-a-la-musica-chilena-en-angol/",
+      "author": "araucania",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-28T13:12:19.000Z",
+      "image": ""
+    },
     {
       "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
       "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
@@ -15,6 +26,63 @@
         "kind": "program",
         "text": "28 de octubre · 19:00",
         "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-28-festival-de-cine-felina-2026",
+      "title": "Festival de Cine Felina 2026",
+      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-10-28T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "28, 29, 30 de octubre (Jueves) · 12:00",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-28-en-fallo-dividido-confirman-prision-preventiva-de-ex-alcalde-de-villa-alegre",
+      "title": "En fallo dividido confirman prisión preventiva de ex alcalde de Villa Alegre",
+      "summary": "¿Qué ocurrió? Ante la segunda sala de la Corte de Apelaciones de Talca se revisó este martes 28 de octubre la medida cautelar que afecta a Pablo Fuentes ex alcalde de la municipalidad de Villa Alegre. Se trata de la prisión preventiva por peligro para la seguridad de la sociedad decretada el […] The",
+      "link": "https://diariotalca.cl/en-fallo-dividido-confirman-prision-preventiva-de-ex-alcalde-de-villa-alegre/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-28T09:05:57.000Z",
+      "image": "",
+      "event": {
+        "text": "28 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-28-gobernador-solicita-decretar-zona-de-emergencia-agricola-para-el-maule",
+      "title": "Gobernador solicita decretar zona de emergencia agrícola para el Maule",
+      "summary": "¿Cuál fue el anuncio? El Gobernador Regional del Maule solicitó al Ministerio de Agricultura decretar Zona de Emergencia Agrícola para la región, luego de constatar en terreno los graves daños ocasionados por el último temporal en el sector de Colín, comuna de Maule. Durante la visita a los invernad",
+      "link": "https://diariotalca.cl/gobernador-solicita-decretar-zona-de-emergencia-agricola-para-el-maule/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-28T09:05:50.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-28-con-masiva-asistencia-y-todo-un-exito-fue-el-paso-por-talca-de-la-gira-al-sur-de",
+      "title": "Con masiva asistencia y todo un éxito fue el paso por Talca de la gira al sur de Teletón",
+      "summary": "¿Qué ocurrió? Todo un éxito fue el paso por Talca de la gira al sur de Teletón en el contexto de la campaña 2027 y a escasos diez días del gran evento final los días 6 y 7 de noviembre próximo. ¿Dónde fue? El escenario se instaló en la Avenida Costanera, […] The post Con masiva asistencia y todo un ",
+      "link": "https://diariotalca.cl/con-masiva-asistencia-y-todo-un-exito-fue-el-paso-por-talca-de-la-gira-al-sur-de-teleton/",
+      "author": "Hernán Espinoza",
+      "category": "TEATRO",
+      "source": "diariotalca",
+      "date": "2026-10-28T09:05:32.000Z",
+      "image": "",
+      "event": {
+        "text": "7 de noviembre",
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -152,22 +220,6 @@
       "event": {
         "text": "24 de octubre",
         "start": "2026-10-24T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-10-27-festival-de-cine-felina-2026",
-      "title": "Festival de Cine Felina 2026",
-      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-27T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "27, 28, 29, 30 de octubre (Jueves) · 12:00",
-        "start": "2026-10-27T12:00:00.000Z"
       }
     },
     {
@@ -671,7 +723,7 @@
       "image": "",
       "event": {
         "text": "este miércoles",
-        "start": "2026-10-28T12:00:00.000Z"
+        "start": "2026-11-04T12:00:00.000Z"
       }
     },
     {
@@ -1142,7 +1194,7 @@
       "image": "",
       "event": {
         "text": "miércoles 20",
-        "start": "2026-10-28T12:00:00.000Z"
+        "start": "2026-11-04T12:00:00.000Z"
       }
     },
     {
@@ -1564,7 +1616,7 @@
       "image": "",
       "event": {
         "text": "miércoles 14",
-        "start": "2026-10-28T12:00:00.000Z"
+        "start": "2026-11-04T12:00:00.000Z"
       }
     },
     {
@@ -2866,7 +2918,7 @@
       "image": "",
       "event": {
         "text": "29 de septiembre",
-        "start": "2026-09-28T12:00:00.000Z"
+        "start": "2027-09-28T12:00:00.000Z"
       }
     },
     {
@@ -2966,7 +3018,7 @@
       "image": "",
       "event": {
         "text": "el 30 de septiembre",
-        "start": "2026-09-28T12:00:00.000Z"
+        "start": "2027-09-28T12:00:00.000Z"
       }
     },
     {
@@ -3221,7 +3273,7 @@
       "image": "",
       "event": {
         "text": "29 de septiembre",
-        "start": "2026-09-28T12:00:00.000Z"
+        "start": "2027-09-28T12:00:00.000Z"
       }
     },
     {
@@ -3565,7 +3617,7 @@
       "image": "",
       "event": {
         "text": "30 de septiembre",
-        "start": "2026-09-28T12:00:00.000Z"
+        "start": "2027-09-28T12:00:00.000Z"
       }
     },
     {
@@ -12172,11 +12224,11 @@
   "counts": {
     "POESIA": 112,
     "LITERATURA": 46,
-    "MUSICA": 197,
-    "TEATRO": 86,
+    "MUSICA": 198,
+    "TEATRO": 87,
     "ARTES_VISUALES": 93,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 294,
+    "PATRIMONIO": 296,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 73,
     "TERRITORIO": 79
@@ -12185,10 +12237,10 @@
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
+      "seremi-culturas": 125,
       "ext-utalca-programa": 2,
+      "diariotalca": 38,
       "elmauleinforma": 100,
-      "seremi-culturas": 124,
-      "diariotalca": 35,
       "diario-el-centro": 74,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
