@@ -1,6 +1,406 @@
 {
-  "generatedAt": "2026-10-30T14:55:37.837Z",
+  "generatedAt": "2026-10-30T20:33:41.819Z",
   "items": [
+    {
+      "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
+      "title": "Jueves 26 de noviembre | 19:30 horas “LA VENGANZA DE LAS CANTORAS”",
+      "summary": "“LA VENGANZA DE LAS CANTORAS” · La obra, bajo la modalidad de lectura dramatizada, trata la historia de una fría noche · de San Juan. Ahí, debajo de una higuera, comienza una historia de amor que levantará · más suspicacias que alegrías. Teatro de Raíz y Narración Oral. Colectiva Las Cabras · del Mo",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "MUSICA",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-28T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "29 de noviembre",
+        "start": "2026-11-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-26-inauguracion-exposicion-criaturas-del-sol-de-javier-coronado",
+      "title": "Inauguración exposición: “Criaturas del Sol” de Javier Coronado",
+      "summary": "de Javier Coronado · Jueves “Criaturas del Sol” es una exposición que cruza pintura, dibujo y fotografía · entre lo documental y la ﬁguración. La muestra funciona como una · recopilación de ensayos visuales organizados en distintas series temáticas. · En ellas, el artista traduce la tensión entre su",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "ARTES_VISUALES",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-26T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "26 de noviembre · 19:00",
+        "start": "2026-11-26T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-26-charla-mineria-espacial-promesas-realidades-y-el-lugar-de-chile",
+      "title": "Charla: Minería espacial. Promesas, realidades y el lugar de Chile",
+      "summary": "y el lugar de Chile · Imparte: Dr. Carlos Moraga Cruz · Carlos Moraga Cruz es Director del Departamento de Ingeniería de Minas, · Facultad de Ingeniería, Universidad de Talca. · En esta charla revisaremos los hitos más relevantes de la exploración · espacial, los recursos minerales presentes en plan",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-26T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "26 de noviembre (Jueves) · 19:00",
+        "start": "2026-11-26T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-26-muestra-escenica-maulina",
+      "title": "Muestra escénica maulina",
+      "summary": "Por cuarto año, vive la Muestra Escénica Maulina con cuatro días de teatro · al regional, con obras y lecturas dramatizadas recientemente estrenadas y con · variadas temáticas para diversos públicos.",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "POESIA",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-26T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "26 de noviembre",
+        "start": "2026-11-26T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-25-cafe-literario-curico-con-victoria-ramirez-mansilla-conduce-joaquin-rebolledo",
+      "title": "Café literario Curicó con Victoria Ramírez Mansilla Conduce: Joaquín Rebolledo",
+      "summary": "Conduce: Joaquín Rebolledo · El Centro de Extensión de la Universidad de Talca, Curicó, recibe a la escritora · chilena Victoria Ramírez, autora de los poemarios “Magnolios” (2019), “Teoría · del polen” (2021), que ganó el Premio Manuel Montt al mejor libro del · quinquenio este 2026, y el libro exp",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-25T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "25 de noviembre (Miércoles) · 18:30",
+        "start": "2026-11-25T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-24-quienes-interpretaran-al-publico-obras-musicales-de-los-grandes-maestros-y",
+      "title": "quienes interpretarán al público obras musicales de los grandes maestros y",
+      "summary": "pedagogos europeos, canadienses y chilenos, además de valses de diferentes · lugares de Europa del Este, así como tangos, teniendo en esta parte del · repertorio exponentes mundialmente conocidos como Piazzola y Gardel. · Centro de · Extensión · Curicó",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "MUSICA",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-24T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "24 de noviembre (Martes) · 18:00",
+        "start": "2026-11-24T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-23-concierto-de-piano-de-alumnos-del-taller-de-profesora-luisa-zuniga",
+      "title": "Concierto de piano de alumnos del Taller de Profesora Luisa Zúñiga",
+      "summary": "de Profesora Luisa Zúñiga · Una hermosa invitación en torno a la música es la que hacen los alumnos del · taller de piano del Centro de Extensión de la Universidad de Talca, Curicó,",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "MUSICA",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-23T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "23 de noviembre (Lunes) · 18:00",
+        "start": "2026-11-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-21-taller-historia-del-arte-escuela-de-guias-para-el-patrimonio-artistico",
+      "title": "Taller historia del arte: Escuela de Guías para el Patrimonio Artístico",
+      "summary": "el Patrimonio Artístico · Imparte: María José Cuello · La Galería de Arte Nuga hace una invitación para participar de un taller abierto · al público que busca fomentar la observación crítica y el diálogo a partir de la · Colección Pérez-Stephens. Esta actividad recorre hitos del arte nacional del · ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "ARTES_VISUALES",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-21T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "21 de noviembre (Sábado) · 11:00",
+        "start": "2026-11-21T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-19-inauguracion-exposicion-las-que-no-se-dejaron-borrar-de-laura-rojbel",
+      "title": "Inauguración exposición: “Las que no se dejaron borrar” de Laura Rojbel",
+      "summary": "borrar” de Laura Rojbel · Laura Rojbel utiliza el collage con imágenes de revistas, fotos e historia del arte · para resigniﬁcar la representación femenina. Al extraer a las mujeres de sus · escenarios originales, les devuelve el protagonismo y la capacidad de narrar · su propia historia. “Las que n",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "TEATRO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-19T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "19 de noviembre (Jueves) · 12:00",
+        "start": "2026-11-19T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-17-inauguracion-exposicion-la-biblioteca-imaginaria-de-carlos-vega",
+      "title": "Inauguración exposición: “La biblioteca imaginaria” de Carlos Vega",
+      "summary": "imaginaria” de Carlos Vega · Tras su paso por Santiago, llega al Centro de Extensión de la Universidad de · Talca, Curicó, “La biblioteca imaginaria” de Carlos Vega Faúndez. El artista · actúa como un pintor-editor que reﬂexiona sobre el canon occidental y la · reproductibilidad de la imagen, transf",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "ARTES_VISUALES",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-17T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "17 de noviembre (Martes) · 12:00",
+        "start": "2026-11-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-14-encuentro-y-formacion-dedicado-a-las-producciones-audiovisuales-realizadas",
+      "title": "encuentro y formación dedicado a las producciones audiovisuales realizadas",
+      "summary": "en la región del Maule. El festival busca fortalecer la circulación de obras · regionales, abrir espacios de encuentro entre realizadores, estudiantes, · comunidades educativas y públicos, y reconocer nuevas miradas · audiovisuales vinculadas al territorio. · Teatro · Abate Molina · Talca",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "TEATRO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-14T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "14 de noviembre (Sábado) · 10:00",
+        "start": "2026-11-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-13-presentacion-libros-camisa-limpia-y-cosecha-de-invierno-de-guillermo-blanco",
+      "title": "Presentación libros “Camisa limpia” y “Cosecha de invierno” de Guillermo Blanco",
+      "summary": "de invierno” de Guillermo Blanco · Con motivo de la conmemoración del centenario del nacimiento del escritor · talquino Guillermo Blanco (1926-2010), la Academia Chilena de la Lengua, la · Fundación Arbolee y la Editorial Universidad de Talca presentan dos nuevas · ediciones de su obra. Estas son “C",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "LITERATURA",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-13T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "13 de noviembre (Viernes) · 12:00",
+        "start": "2026-11-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-13-cafe-literario-talca-con-eugenia-brito-conduce-lilian-barraza",
+      "title": "Café Literario Talca, con Eugenia Brito Conduce: Lilian Barraza",
+      "summary": "Conduce: Lilian Barraza · Viernes El Centro de Extensión de la Universidad de Talca recibe a la escritora, poeta y · ensayista chilena Eugenia Brito, autora de títulos como “Un milla de cruces en · el pavimento” (1979) y “A contrapelo” (2011), quien tiene una vasta · experiencia académica enlazada a",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-13T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "13 de noviembre · 19:30",
+        "start": "2026-11-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-11-exposicion-laberinto-de-imagenes-e-ideas-de-tatiana-alamos",
+      "title": "Exposición: “Laberinto de imágenes e ideas” de Tatiana Álamos",
+      "summary": "e ideas” de Tatiana Álamos · De la mano de Tatiana han nacido retratos poéticos, mundos mágicos y otros · universos, cuya génesis han sido grandes autores literarios; sus obras se · pueden catalogar entre un arte ingenuo y expresionista con un concepto · ecológico, a través del uso de distintas técn",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "POESIA",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-11T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "11 de noviembre (Miércoles)",
+        "start": "2026-11-11T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-10-taller-de-vellon-agujado",
+      "title": "Taller de vellón agujado",
+      "summary": "El taller está centrado en el aprendizaje inicial de la técnica de vellón agujado. · Cada participante podrá realizar una pieza textil libre. La propuesta permitirá · Martes experimentar con formas, colores y texturas, respetando el ritmo de · aprendizaje y las decisiones creativas de cada persona. ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-10T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "10 de noviembre · 10:00",
+        "start": "2026-11-10T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-07-terror-y-fantastico-de-talca-continua-consolidandose-como-un-espacio-para",
+      "title": "Terror y Fantástico de Talca, continúa consolidándose como un espacio para",
+      "summary": "disfrutar, descubrir y compartir el cine de género desde la región del Maule. El · evento contará con una Selección Internacional de Cortometrajes en · Sábado Competencia, además de una función especial de la película “Carrie” de Brian · de Palma el 5 de noviembre. También se exhibirán cintas nacion",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-07T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "7 de noviembre · 15:00",
+        "start": "2026-11-07T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-07-sabado-itinerante-tinta-papel-accion",
+      "title": "Sábado Itinerante: ¡Tinta, papel…acción!",
+      "summary": "¡Tinta, papel…acción! · ¡Una vez más nos movemos de la galería NUGA! Con Sábado Itinerante, · trasladamos nuestras experiencias de mediación para encontrarnos con la · comunidad en Espacio Vivo TUE. En esta ocasión la invitación es a explorar el · autorretrato a través del grabado y la apreciación d",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "ARTES_VISUALES",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-07T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "7 de noviembre (Sábado) · 11:00",
+        "start": "2026-11-07T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-06-obra-teatral-tres-ratones-ciegos-elenco-la-palomera-universidad-de-talca",
+      "title": "Obra teatral: “Tres ratones ciegos” Elenco La Palomera, Universidad de Talca",
+      "summary": "Elenco La Palomera, Universidad de Talca · En una aislada casa de huéspedes, una intensa tormenta de nieve deja a un · grupo de desconocidos completamente incomunicados. Cuando un · asesinato sacude la tranquilidad del lugar, todos se convierten en · sospechosos. Secretos, sospechas y engaños se ent",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "TEATRO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-06T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "6 de noviembre (Viernes) · 19:00",
+        "start": "2026-11-06T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-06-estreno-videodanza-sisifo",
+      "title": "Estreno Videodanza: “Sísifo”",
+      "summary": "“Sísifo” está inspirado en el mito griego, en las ideas de Albert Camus y · principalmente en este nacer y morir constante. Cuando la existencia se · vuelve una rutina autómata, que no nos permite ser humanos, nos dejamos · iluminar por la ancestra que trae la sabiduría a través del fuego, para ser ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-06T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "6 de noviembre (Viernes) · 19:30",
+        "start": "2026-11-06T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-05-inauguracion-exposicion-distintas-miradas-al-paisaje-del-valle-central",
+      "title": "Inauguración exposición: \"Distintas miradas al paisaje del valle central\"",
+      "summary": "al paisaje del valle central\" · Esta muestra ofrece un fascinante recorrido visual por la belleza de la zona · central, reuniendo el trabajo de artistas de distintas épocas y estilos. El · público podrá apreciar obras de la Generación del Cuarenta, pasando por el · arte contemporáneo y el informalis",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "ARTES_VISUALES",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-05T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "5 de noviembre (Jueves) · 15:00",
+        "start": "2026-11-05T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-05-cine-z-en-talcadaveres-12-anos-impulsando-el-cine-de-terror-y-fantastico-desde-t",
+      "title": "Cine Z en Talcadáveres: 12 años impulsando el cine de terror y fantástico desde Talca",
+      "summary": "cine de terror y fantástico desde Talca · En su 12.ª edición, Cine Z en Talcadáveres, el Festival Internacional de Cine de",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-05T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "5 de noviembre (Jueves) · 17:00",
+        "start": "2026-11-05T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-04-ciclo-de-cine-cuando-las-cosas-se-mueven",
+      "title": "Ciclo de cine: “Cuando las cosas se mueven”",
+      "summary": "Este ciclo propone un recorrido por distintas formas de la animación stop · motion, a través de películas construidas con plasticina, marionetas, · miniaturas y otros elementos físicos animados cuadro a cuadro. La selección · busca mostrar la diversidad expresiva de esta técnica, capaz de transitar ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-04T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "4, 11, 18 de noviembre (Miércoles) · 19:00",
+        "start": "2026-11-04T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-03-inauguracion-exposicion-mav-en-la-region-tierra-vid-y-pincel",
+      "title": "Inauguración exposición: “MAV en la región. Tierra, vid y pincel”",
+      "summary": "Tierra, vid y pincel” · Martes Esta exposición reúne una selección de obras que rinden homenaje a la · cultura del vino, la parra y el paisaje agrícola, elementos fundamentales de la · identidad y la memoria de nuestro territorio. A través de miradas diversas, la · muestra explora la relación entre ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "PATRIMONIO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-03T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "3 de noviembre · 15:00",
+        "start": "2026-11-03T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-03-obra-de-teatro",
+      "title": "Obra de Teatro",
+      "summary": "TROPECO (Brasil) · Desde Brasil llegará Tropeço, de Tato Criação Cênica, una obra en que las · manos de sus intérpretes se convierten en dos ancianas que caminan, bailan, · ríen y enfrentan la muerte. La obra no usa diálogos tradicionales; los · sentimientos y las acciones se expresan a través de so",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "TEATRO",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-03T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "3 de noviembre (Martes) · 19:00",
+        "start": "2026-11-03T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-01-temporal-festival-de-cortometrajes-del-maule-2026",
+      "title": "TEMPORAL º Festival de Cortometrajes del Maule 2026",
+      "summary": "º Festival de Cortometrajes del Maule 2026 · La Muestra de Cortometrajes de Cinespacio crece y se transforma en · TEMPORAL: 1° Festival de Cortometrajes del Maule, un espacio de exhibición,",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-01T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "1, 13 de noviembre (Viernes) · 10:00",
+        "start": "2026-11-01T12:00:00.000Z"
+      }
+    },
     {
       "id": "2026-10-30-zonal-centro-de-rodeo-reunira-a-los-campeones-vigentes-y-destacadas-colleras-en-",
       "title": "Zonal Centro de Rodeo reunirá a los campeones vigentes y destacadas colleras en San Clemente",
@@ -214,38 +614,6 @@
       "source": "seremi-culturas",
       "date": "2026-10-28T13:12:19.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-10-28-ciclo-de-cine-el-mal-esta-aqui-demonios-y-posesiones-en-el-cine",
-      "title": "Ciclo de cine: “El Mal está aquí”. Demonios y posesiones en el cine”",
-      "summary": "posesiones en el cine” · El cine de horror también funciona como un sismógrafo de nuestras ansiedades · Miércoles colectivas. “El mal está aquí” recorre distintas formas de una presencia que ya no · amenaza desde afuera, sino que se instala en cuerpos, hogares y comunidades. · Miércoles 7 / El Conju",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-28T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "28 de octubre · 19:00",
-        "start": "2026-10-28T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-10-28-festival-de-cine-felina-2026",
-      "title": "Festival de Cine Felina 2026",
-      "summary": "Nuevamente llega hasta el Centro de Extensión el Festival de Cine Felina, que en la · jornada del 8 de octubre presentará el Bloque de Cortometrajes de la Selección · Oﬁcial del certamen. Por su parte, en la jornada del 24 de octubre se proyectará “El · Santo Oﬁcio”, de Cristián Sánchez (2025, 120 m",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_octubre_2026_.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-10-28T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "28, 29, 30 de octubre (Jueves) · 12:00",
-        "start": "2026-10-28T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-10-28-en-fallo-dividido-confirman-prision-preventiva-de-ex-alcalde-de-villa-alegre",
@@ -12425,26 +12793,26 @@
     }
   ],
   "counts": {
-    "POESIA": 112,
-    "LITERATURA": 47,
-    "MUSICA": 200,
-    "TEATRO": 88,
-    "ARTES_VISUALES": 94,
+    "POESIA": 114,
+    "LITERATURA": 48,
+    "MUSICA": 203,
+    "TEATRO": 92,
+    "ARTES_VISUALES": 99,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 305,
+    "PATRIMONIO": 311,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 75,
+    "CINE_MEDIOS": 77,
     "TERRITORIO": 80
   },
   "feedStats": {
     "sources": 54,
-    "alive": 47,
+    "alive": 48,
     "itemsPerSource": {
+      "ext-utalca-programa": 25,
       "diario-el-centro": 78,
       "elmauleinforma": 105,
       "seremi-culturas": 131,
       "diariotalca": 40,
-      "ext-utalca-programa": 2,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
@@ -13028,7 +13396,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": false
     }
   ]
