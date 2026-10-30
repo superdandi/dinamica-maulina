@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-10-29T15:02:47.427Z",
+  "generatedAt": "2026-10-30T04:58:17.160Z",
   "items": [
+    {
+      "id": "2026-10-29-expo-de-mar-a-cordillera-abre-convocatoria-para-reunir-a-creadores-de-todo-el-bi",
+      "title": "Expo De Mar a Cordillera abre convocatoria para reunir a creadores de todo el Biobío en su cuarta versión",
+      "summary": "Hasta el 10 de noviembre podrán postular agrupaciones de artistas, artesanos, diseñadores y creadores de la región. La muestra se realizará a mediados de diciembre en el centro de Concepción y proyecta reunir a más de 300 expositores, poniendo en valor la diversidad cultural y creativa del territori",
+      "link": "https://www.cultura.gob.cl/convocatorias/expo-de-mar-a-cordillera-abre-convocatoria-para-reunir-a-creadores-de-todo-el-biobio-en-su-cuarta-version/",
+      "author": "biobio",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-29T16:13:13.000Z",
+      "image": "",
+      "event": {
+        "text": "el 10 de noviembre",
+        "start": "2026-11-10T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-29-festival-biobiocine-tendra-80-peliculas-y-una-amplia-programacion-gratuita-en-co",
+      "title": "Festival BioBioCine tendrá 80 películas y una amplia programación gratuita en Concepción",
+      "summary": "Del 02 al 07 de noviembre, la 12ª edición del Festival Internacional BioBioCine desplegará una programación de cine nacional e internacional, retrospectivas, muestras especiales, experiencias performativas y actividades de encuentro. Todas las funciones y actividades serán con entrada liberada.",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/festival-biobiocine-tendra-80-peliculas-y-una-amplia-programacion-gratuita-en-concepcion/",
+      "author": "biobio",
+      "category": "CINE_MEDIOS",
+      "source": "seremi-culturas",
+      "date": "2026-10-29T16:10:58.000Z",
+      "image": "",
+      "event": {
+        "text": "al 07 de noviembre",
+        "start": "2026-11-07T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-29-molina-recibio-a-ciclistas-de-todo-el-pais-en-la-12-vuelta-femenina",
+      "title": "Molina recibió a ciclistas de todo el país en la 12ª Vuelta Femenina",
+      "summary": "Con recorridos por Valles de Molina y El Velo de la Novia, la competencia destacó el talento de las deportistas y el impulso al ciclismo femenino en la Región del Maule. The post Molina recibió a ciclistas de todo el país en la 12ª Vuelta Femenina appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/29/molina-recibio-a-ciclistas-de-todo-el-pais-en-la-12a-vuelta-femenina/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-10-29T12:17:25.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-29-concretan-entrega-de-vivienda-de-emergencia-a-una-semana-del-tornado-en-retiro",
+      "title": "Concretan entrega de vivienda de emergencia a una semana del tornado en Retiro",
+      "summary": "¿Qué ocurrió? A solo una semana del tornado que afectó a la comuna de Retiro se concretó la entrega de una vivienda de emergencia a Nicole Gálvez y su familia quienes sufrieron graves daños en su hogar debido al fenómeno climático. Se trató una vivienda de 30 metros cuadrados, construida con paneles",
+      "link": "https://diariotalca.cl/concretan-entrega-de-vivienda-de-emergencia-a-una-semana-del-tornado-en-retiro/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-29T09:10:44.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-29-reportaje-los-trenes-nuevos-del-ramal-seguiran-guardados-hasta-2027",
+      "title": "REPORTAJE Los trenes nuevos del ramal seguirán guardados hasta 2027",
+      "summary": "Modernos convoys no pueden operar en las actuales condiciones de la línea férrea, generando inquietud y molestia. EFE espera en 2027 su puesta en marcha, previos ajustes en la línea (por Patricio Moraga Vallejos en colaboración: con Moisés Fuenzalida) Los tres trenes Marcopolo comprados en Brasil, p",
+      "link": "https://diariotalca.cl/los-trenes-nuevos-del-ramal-seguiran-guardados-hasta-2027/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-29T09:00:35.000Z",
+      "image": ""
+    },
     {
       "id": "2026-10-29-los-tres-tenores-chilenos-llevaran-la-opera-y-los-clasicos-populares-al-teatro-d",
       "title": "Los Tres Tenores Chilenos llevarán la ópera y los clásicos populares al Teatro de Curicó",
@@ -1604,7 +1667,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-10-29T12:00:00.000Z"
+        "start": "2026-11-05T12:00:00.000Z"
       }
     },
     {
@@ -3505,7 +3568,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-10-29T12:00:00.000Z"
+        "start": "2026-11-05T12:00:00.000Z"
       }
     },
     {
@@ -12294,20 +12357,20 @@
     "TEATRO": 88,
     "ARTES_VISUALES": 94,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 299,
+    "PATRIMONIO": 302,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 73,
+    "CINE_MEDIOS": 75,
     "TERRITORIO": 80
   },
   "feedStats": {
     "sources": 54,
-    "alive": 48,
+    "alive": 47,
     "itemsPerSource": {
-      "diario-el-centro": 76,
+      "seremi-culturas": 129,
+      "diario-el-centro": 77,
+      "diariotalca": 40,
       "elmauleinforma": 102,
-      "seremi-culturas": 127,
       "ext-utalca-programa": 2,
-      "diariotalca": 38,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
@@ -12891,7 +12954,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": false
     }
   ]
