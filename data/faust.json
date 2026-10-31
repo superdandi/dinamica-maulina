@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T20:33:41.819Z",
+  "generatedAt": "2026-10-31T04:44:55.128Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -398,6 +398,65 @@
       "event": {
         "kind": "program",
         "text": "1, 13 de noviembre (Viernes) · 10:00",
+        "start": "2026-11-01T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-30-region-de-valparaiso-finaliza-2026-con-casi-noventa-puntos-de-cultura-comunitari",
+      "title": "Región de Valparaíso finaliza 2026 con casi noventa Puntos de Cultura Comunitaria",
+      "summary": "Más de 417 millones de pesos fueron destinados este año al financiamiento de diferentes planes de fortalecimiento para organizaciones de carácter comunitario, distribuidas en 18 comunas de las 22 que son parte de este programa.",
+      "link": "https://www.cultura.gob.cl/agendacultural/region-de-valparaiso-finaliza-2026-con-casi-noventa-puntos-de-cultura-comunitaria/",
+      "author": "valparaiso",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-10-30T16:26:56.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-30-ministerio-de-las-culturas-estrena-microdocumental-que-rescata-la-vida-obra-y-le",
+      "title": "Ministerio de las Culturas estrena microdocumental que rescata la vida, obra y legado de Nemesio Antúnez",
+      "summary": "La producción audiovisual, de 15 minutos de duración, recorre la trayectoria de uno de los artistas más influyentes del arte chileno del siglo XX y destaca su compromiso con la democratización de la cultura. La pieza forma parte de la colección “Homenaje a la Trayectoria”, iniciativa que busca prese",
+      "link": "https://www.cultura.gob.cl/actualidad/ministerio-de-las-culturas-estrena-microdocumental-que-rescata-la-vida-obra-y-legado-de-nemesio-antunez/",
+      "author": "alecaros",
+      "category": "CINE_MEDIOS",
+      "source": "seremi-culturas",
+      "date": "2026-10-30T15:39:39.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-30-biobio-musical-convoco-a-la-escena-regional-para-fortalecer-redes-y-proyectar-su",
+      "title": "Biobío Musical convocó a la escena regional para fortalecer redes y proyectar su música",
+      "summary": "La jornada, realizada en el marco del Mes de la Música Chilena y los Músicos Chilenos 2026, reunió a músicos, sellos y gestores culturales para dialogar sobre descentralización, asociatividad, derechos de autor y circulación nacional e internacional.",
+      "link": "https://www.cultura.gob.cl/actualidad/biobio-musical-convoco-a-la-escena-regional-para-fortalecer-redes-y-proyectar-su-musica/",
+      "author": "biobio",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-10-30T14:24:04.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-30-exclusivo-asi-operaba-la-banda-de-menores-que-perpetro-tres-turbazos-en-tiendas-",
+      "title": "EXCLUSIVO: Así operaba la banda de menores que perpetró tres “turbazos” en tiendas de celulares en Talca",
+      "summary": "¿Cómo fue? Un video captado por un testigo en la comuna de Parral fue clave para comenzar la investigación a cargo de la PDI y el equipo SAC-ECOH de la Fiscalía Regional del Maule. Nueve meses después de captar esta imagen se logró desbaratar una banda de siete adolescentes y dos […] The post EXCLUS",
+      "link": "https://diariotalca.cl/exclusivo-asi-operaba-la-banda-de-menores-que-perpetro-tres-turbazos-en-tiendas-de-celulares-en-talca/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-30T09:00:46.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-30-diocesis-de-talca-anuncio-programacion-de-misas-para-el-dia-de-todos-los-santos",
+      "title": "Diócesis de Talca anunció programación de misas para el Día de Todos los Santos",
+      "summary": "¿Qué va a pasar? El domingo 1 de noviembre la Iglesia Católica celebrará la fiesta de Todos los Santos y el lunes 2 la conmemoración de Todos los Fieles Difuntos; en esos días el mundo creyente concurre a los diversos cementerios a visitar las tumbas de sus familiares y seres queridos. ¿Qué […] The ",
+      "link": "https://diariotalca.cl/diocesis-de-talca-anuncio-programacion-de-misas-para-el-dia-de-todos-los-santos/",
+      "author": "Hernán Espinoza",
+      "category": "POESIA",
+      "source": "diariotalca",
+      "date": "2026-10-30T09:00:11.000Z",
+      "image": "",
+      "event": {
+        "text": "1 de noviembre",
         "start": "2026-11-01T12:00:00.000Z"
       }
     },
@@ -1005,7 +1064,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-10-30T12:00:00.000Z"
+        "start": "2026-11-06T12:00:00.000Z"
       }
     },
     {
@@ -1031,7 +1090,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-10-30T12:00:00.000Z"
+        "start": "2026-11-06T12:00:00.000Z"
       }
     },
     {
@@ -1750,7 +1809,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-10-30T12:00:00.000Z"
+        "start": "2026-11-06T12:00:00.000Z"
       }
     },
     {
@@ -12793,15 +12852,15 @@
     }
   ],
   "counts": {
-    "POESIA": 114,
+    "POESIA": 115,
     "LITERATURA": 48,
-    "MUSICA": 203,
+    "MUSICA": 204,
     "TEATRO": 92,
     "ARTES_VISUALES": 99,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 311,
+    "PATRIMONIO": 313,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 77,
+    "CINE_MEDIOS": 78,
     "TERRITORIO": 80
   },
   "feedStats": {
@@ -12809,10 +12868,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
+      "seremi-culturas": 134,
+      "diariotalca": 42,
       "diario-el-centro": 78,
       "elmauleinforma": 105,
-      "seremi-culturas": 131,
-      "diariotalca": 40,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
