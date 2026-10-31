@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T04:44:55.128Z",
+  "generatedAt": "2026-10-31T14:24:39.080Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -400,6 +400,65 @@
         "text": "1, 13 de noviembre (Viernes) · 10:00",
         "start": "2026-11-01T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-31-jorge-navarrete-presenta-libro-que-retrata-el-movimiento-estudiantil-de-talca-en",
+      "title": "Jorge Navarrete presenta libro que retrata el movimiento estudiantil de Talca en 1983",
+      "summary": "“Se levantaron barricadas en calle 1 oriente, entre 1 y 2 sur (frente al Club Talca), mientras la directiva del movimiento social de estudiantes de la Universidad de Talca en 1983 decide por unanimidad, en la asamblea realizada en el salón de la parroquia San Luis de la Plaza Las Heras, incorporar e",
+      "link": "https://elmauleinforma.cl/jorge-navarrete-presenta-libro-que-retrata-el-movimiento-estudiantil-de-talca-en-1983/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-31T01:03:05.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-30-trece-establecimientos-actuaran-en-el-x-encuentro-regional-de-teatro-estudiantil",
+      "title": "Trece establecimientos actuarán en el X Encuentro Regional de Teatro Estudiantil",
+      "summary": "El certamen \"Aristóteles España Pérez\" congregará a elencos de cuatro comunas de la región, quienes exhibirán un total de 21 obras. La iniciativa es organizada por la Seremi de las Culturas, las Artes y el Patrimonio.",
+      "link": "https://www.cultura.gob.cl/agendacultural/trece-establecimientos-actuaran-en-el-x-encuentro-regional-de-teatro-estudiantil/",
+      "author": "magallanes",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-10-30T21:33:40.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-30-orquesta-sinfonica-estudiantil-de-linares-presentara-concierto-de-fantasia-avent",
+      "title": "Orquesta Sinfónica Estudiantil de Linares presentará concierto de fantasía, aventura y misterio en Mall Portal Centro",
+      "summary": "El espectáculo se realizará este sábado 31 de octubre, a las 15:00 horas, en el cuarto piso del centro comercial, con un repertorio inspirado en grandes historias del cine y la televisión. La actividad es una invitación de Multicentro y Mall Portal Centro. The post Orquesta Sinfónica Estudiantil de ",
+      "link": "https://www.diarioelcentro.cl/2026/10/30/orquesta-sinfonica-estudiantil-de-linares-presentara-concierto-de-fantasia-aventura-y-misterio-en-mall-portal-centro/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-10-30T21:29:34.000Z",
+      "image": "",
+      "event": {
+        "text": "31 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-30-meteorologia-advierte-riesgo-de-fenomenos-tornadicos-en-el-maule-y-o-higgins",
+      "title": "Meteorología advierte riesgo de fenómenos tornádicos en el Maule y O’Higgins",
+      "summary": "El fenómeno podría generar ráfagas de viento intensas y repentinas durante la tarde y noche del sábado, principalmente en sectores de valles y precordillera de ambas regiones. The post Meteorología advierte riesgo de fenómenos tornádicos en el Maule y O’Higgins appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/30/meteorologia-advierte-riesgo-de-fenomenos-tornadicos-en-el-maule-y-ohiggins/",
+      "author": "Patricio Mora",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-10-30T19:32:04.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-30-crdp-maule-y-sercotec-impulsan-articulacion-publico-privada-para-potenciar-el-se",
+      "title": "CRDP Maule y Sercotec impulsan articulación público-privada para potenciar el sector olivícola de Pencahue",
+      "summary": "Con el objetivo de fortalecer el desarrollo productivo, turístico y gastronómico del Valle de Pencahue, se realizó el lanzamiento de la Mesa Público-Privada “Valle de Pencahue: Aceite de Oliva Extra Virgen”, iniciativa impulsada por el Centro de Desarrollo de Negocios Sercotec Talca, en articulación",
+      "link": "https://elmauleinforma.cl/crdp-maule-y-sercotec-impulsan-articulacion-publico-privada-para-potenciar-el-sector-olivicola-de-pencahue/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-10-30T18:56:03.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-30-region-de-valparaiso-finaliza-2026-con-casi-noventa-puntos-de-cultura-comunitari",
@@ -12854,24 +12913,24 @@
   "counts": {
     "POESIA": 115,
     "LITERATURA": 48,
-    "MUSICA": 204,
-    "TEATRO": 92,
+    "MUSICA": 205,
+    "TEATRO": 93,
     "ARTES_VISUALES": 99,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 313,
+    "PATRIMONIO": 315,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 78,
-    "TERRITORIO": 80
+    "TERRITORIO": 81
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
-      "seremi-culturas": 134,
+      "elmauleinforma": 107,
+      "seremi-culturas": 135,
+      "diario-el-centro": 80,
       "diariotalca": 42,
-      "diario-el-centro": 78,
-      "elmauleinforma": 105,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
