@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T14:24:39.080Z",
+  "generatedAt": "2026-11-01T05:06:55.243Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -400,6 +400,28 @@
         "text": "1, 13 de noviembre (Viernes) · 10:00",
         "start": "2026-11-01T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-10-31-denuncia-anonima-permitio-descubrir-cultivo-de-cannabis-en-san-javier-incautan-m",
+      "title": "Denuncia anónima permitió descubrir cultivo de cannabis en San Javier: incautan más de 700 gramos",
+      "summary": "Un procedimiento del equipo MT-0 permitió descubrir una instalación acondicionada para producir cannabis al interior de un domicilio y detener a un hombre de 38 años. The post Denuncia anónima permitió descubrir cultivo de cannabis en San Javier: incautan más de 700 gramos appeared first on Diario E",
+      "link": "https://www.diarioelcentro.cl/2026/10/31/denuncia-anonima-permitio-descubrir-cultivo-de-cannabis-en-san-javier-incautan-mas-de-700-gramos/",
+      "author": "Patricio Mora",
+      "category": "ARTES_VISUALES",
+      "source": "diario-el-centro",
+      "date": "2026-10-31T11:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-10-31-a-la-justicia-dueno-de-farmacia-por-venta-ilegal-de-medicamentos",
+      "title": "A la justicia dueño de farmacia por venta ilegal de medicamentos",
+      "summary": "¿Qué ocurrió? La Fiscalía Regional del Maule informo que la denuncia de una madre tras la intoxicación de su hijo deriva en una investigación penal que permitió establecer que el propietario de una farmacia en Linares vendía medicamentos a diversas personas y menores de edad sin portar la receta méd",
+      "link": "https://diariotalca.cl/a-la-justicia-dueno-de-farmacia-por-venta-ilegal-de-medicamentos/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-10-31T09:05:21.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-31-jorge-navarrete-presenta-libro-que-retrata-el-movimiento-estudiantil-de-talca-en",
@@ -1045,7 +1067,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-31T12:00:00.000Z"
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -1108,7 +1130,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-31T12:00:00.000Z"
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -1483,7 +1505,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-31T12:00:00.000Z"
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -1690,7 +1712,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-31T12:00:00.000Z"
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -1746,7 +1768,7 @@
       "image": "",
       "event": {
         "text": "sábado 24",
-        "start": "2026-10-31T12:00:00.000Z"
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -1990,7 +2012,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-31T12:00:00.000Z"
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -3947,7 +3969,7 @@
       "image": "",
       "event": {
         "text": "este sábado",
-        "start": "2026-10-31T12:00:00.000Z"
+        "start": "2026-11-07T12:00:00.000Z"
       }
     },
     {
@@ -12915,9 +12937,9 @@
     "LITERATURA": 48,
     "MUSICA": 205,
     "TEATRO": 93,
-    "ARTES_VISUALES": 99,
+    "ARTES_VISUALES": 100,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 315,
+    "PATRIMONIO": 316,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 78,
     "TERRITORIO": 81
@@ -12927,10 +12949,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
+      "diario-el-centro": 81,
+      "diariotalca": 43,
       "elmauleinforma": 107,
       "seremi-culturas": 135,
-      "diario-el-centro": 80,
-      "diariotalca": 42,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
