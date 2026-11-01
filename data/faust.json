@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T05:06:55.243Z",
+  "generatedAt": "2026-11-01T14:50:45.367Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -400,6 +400,32 @@
         "text": "1, 13 de noviembre (Viernes) · 10:00",
         "start": "2026-11-01T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-01-the-walking-dead-cumple-16-anos-desde-su-estreno-en-television",
+      "title": "The Walking Dead cumple 16 años desde su estreno en televisión",
+      "summary": "La exitosa ficción de AMC debutó el 31 de octubre de 2010 y concluyó tras 11 temporadas, pero su universo continúa vigente con nuevas series derivadas. The post The Walking Dead cumple 16 años desde su estreno en televisión appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/10/31/the-walking-dead-cumple-16-anos-desde-su-estreno-en-television/",
+      "author": "Yasmín Gómez",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-01T01:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "el 31 de octubre",
+        "start": "2026-10-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-10-31-estadio-la-granja-sumara-3-694-nuevas-butacas-gracias-a-gestiones-con-el-gobiern",
+      "title": "Estadio La Granja sumará 3.694 nuevas butacas gracias a gestiones con el Gobierno Regional",
+      "summary": "La Municipalidad de Curicó, encabezada por el alcalde George Bordachar, junto al gerente de la Corporación de Deportes de Curicó, Matías Avendaño, sostuvo una reunión con representantes de la empresa Chileseating, encargada de la instalación de 3.694 nuevas butacas en los sectores de los codos pendi",
+      "link": "https://elmauleinforma.cl/estadio-la-granja-sumara-3-694-nuevas-butacas-gracias-a-gestiones-con-el-gobierno-regional/",
+      "author": "Redacción El Maule Informa",
+      "category": "ARTES_VISUALES",
+      "source": "elmauleinforma",
+      "date": "2026-10-31T20:00:30.000Z",
+      "image": ""
     },
     {
       "id": "2026-10-31-denuncia-anonima-permitio-descubrir-cultivo-de-cannabis-en-san-javier-incautan-m",
@@ -12937,11 +12963,11 @@
     "LITERATURA": 48,
     "MUSICA": 205,
     "TEATRO": 93,
-    "ARTES_VISUALES": 100,
+    "ARTES_VISUALES": 101,
     "ARTESANIAS": 59,
     "PATRIMONIO": 316,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 78,
+    "CINE_MEDIOS": 79,
     "TERRITORIO": 81
   },
   "feedStats": {
@@ -12949,9 +12975,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
-      "diario-el-centro": 81,
+      "diario-el-centro": 82,
+      "elmauleinforma": 108,
       "diariotalca": 43,
-      "elmauleinforma": 107,
       "seremi-culturas": 135,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
