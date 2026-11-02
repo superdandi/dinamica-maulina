@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T14:50:45.367Z",
+  "generatedAt": "2026-11-02T05:07:48.521Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -400,6 +400,17 @@
         "text": "1, 13 de noviembre (Viernes) · 10:00",
         "start": "2026-11-01T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-01-la-ciencia-detras-de-halloween-por-que-morder-un-caramelo-duro-es-fisicamente-ig",
+      "title": "La ciencia detrás de Halloween: por qué morder un caramelo duro es físicamente igual a morder vidrio",
+      "summary": "¿Cuál es el contexto? En los últimos años, la celebración de Halloween se ha consolidado en Chile como una de las festividades de mayor entusiasmo infantil y dinamismo comercial. Con barrios y condominios repletos de niños y niñas disfrazados recolectando golosinas, la tradicional pregunta de «¿dulc",
+      "link": "https://diariotalca.cl/la-ciencia-detras-de-halloween-por-que-morder-un-caramelo-duro-es-fisicamente-igual-a-morder-vidrio/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-01T09:00:10.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-01-the-walking-dead-cumple-16-anos-desde-su-estreno-en-television",
@@ -2764,7 +2775,7 @@
       "image": "",
       "event": {
         "text": "el domingo",
-        "start": "2026-11-01T12:00:00.000Z"
+        "start": "2026-11-08T12:00:00.000Z"
       }
     },
     {
@@ -3244,7 +3255,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-11-01T12:00:00.000Z"
+        "start": "2026-11-08T12:00:00.000Z"
       }
     },
     {
@@ -3625,7 +3636,7 @@
       "image": "",
       "event": {
         "text": "2 de octubre",
-        "start": "2026-10-02T12:00:00.000Z"
+        "start": "2027-10-02T12:00:00.000Z"
       }
     },
     {
@@ -4402,7 +4413,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-11-01T12:00:00.000Z"
+        "start": "2026-11-08T12:00:00.000Z"
       }
     },
     {
@@ -12965,7 +12976,7 @@
     "TEATRO": 93,
     "ARTES_VISUALES": 101,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 316,
+    "PATRIMONIO": 317,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 79,
     "TERRITORIO": 81
@@ -12975,9 +12986,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
+      "diariotalca": 44,
       "diario-el-centro": 82,
       "elmauleinforma": 108,
-      "diariotalca": 43,
       "seremi-culturas": 135,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
