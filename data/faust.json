@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T05:07:48.521Z",
+  "generatedAt": "2026-11-03T05:53:52.848Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -175,6 +175,22 @@
         "kind": "program",
         "text": "14 de noviembre (Sábado) · 10:00",
         "start": "2026-11-14T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-13-temporal-festival-de-cortometrajes-del-maule-2026",
+      "title": "TEMPORAL º Festival de Cortometrajes del Maule 2026",
+      "summary": "º Festival de Cortometrajes del Maule 2026 · La Muestra de Cortometrajes de Cinespacio crece y se transforma en · TEMPORAL: 1° Festival de Cortometrajes del Maule, un espacio de exhibición,",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-13T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "13 de noviembre (Viernes) · 10:00",
+        "start": "2026-11-13T12:00:00.000Z"
       }
     },
     {
@@ -386,20 +402,37 @@
       }
     },
     {
-      "id": "2026-11-01-temporal-festival-de-cortometrajes-del-maule-2026",
-      "title": "TEMPORAL º Festival de Cortometrajes del Maule 2026",
-      "summary": "º Festival de Cortometrajes del Maule 2026 · La Muestra de Cortometrajes de Cinespacio crece y se transforma en · TEMPORAL: 1° Festival de Cortometrajes del Maule, un espacio de exhibición,",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-01T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "1, 13 de noviembre (Viernes) · 10:00",
-        "start": "2026-11-01T12:00:00.000Z"
-      }
+      "id": "2026-11-02-reportaje-nuevo-instituto-teleton-en-talca-comienza-a-tomar-vuelo",
+      "title": "REPORTAJE: Nuevo Instituto Teletón en Talca comienza a “tomar vuelo”",
+      "summary": "Terreno cercano al gimnasio regional asoma como la prioridad para el emplazamiento y construcción del nuevo centro de rehabilitación. Mientras, el financiamiento de equipamiento médico-terapéutico de última generación será incorporado al presupuesto maulino del 2027 (por Patricio Moraga Vallejos) Is",
+      "link": "https://diariotalca.cl/reportaje-nuevo-instituto-teleton-en-talca-comienza-a-tomar-vuelo/",
+      "author": "Pamela Lara",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-02T13:36:19.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-02-teatro-municipal-de-angol-reunio-a-400-personas-en-emotivo-homenaje-a-la-musica-",
+      "title": "Teatro Municipal de Angol reunió a 400 personas en emotivo homenaje a la música chilena",
+      "summary": "En el marco del Mes de la Música Chilena y del 6° Festival Kawin, la jornada incluyó un reconocimiento a la cantautora regional Vasti Michel y un tributo a la recordada artista nacional Cecilia “La Incomparable”.",
+      "link": "https://www.cultura.gob.cl/actualidad/teatro-municipal-de-angol-reunio-a-400-personas-en-emotivo-homenaje-a-la-musica-chilena/",
+      "author": "araucania",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-11-02T12:27:57.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-02-quince-artesanas-de-la-araucania-se-capacitaron-en-tecnicas-textiles-de-arpiller",
+      "title": "Quince artesanas de La Araucanía se capacitaron en técnicas textiles de arpillera, lanigrafía y tapicería",
+      "summary": "En la edición 2026 del curso gratuito de gestión cultural y artesanía “Vamos Brotando” fueron seleccionadas quince creadoras de Loncoche, Pucón y Villarrica. Entre septiembre y octubre participaron en tres talleres intensivos de arte textil en Villarrica, los que culminaron un proceso formativo inic",
+      "link": "https://www.cultura.gob.cl/actualidad/quince-artesanas-de-la-araucania-se-capacitaron-en-tecnicas-textiles-de-arpillera-lanigrafia-y-tapiceria/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-02T12:27:21.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-01-la-ciencia-detras-de-halloween-por-que-morder-un-caramelo-duro-es-fisicamente-ig",
@@ -993,7 +1026,7 @@
       "image": "",
       "event": {
         "text": "este lunes",
-        "start": "2026-11-02T12:00:00.000Z"
+        "start": "2026-11-09T12:00:00.000Z"
       }
     },
     {
@@ -12972,11 +13005,11 @@
   "counts": {
     "POESIA": 115,
     "LITERATURA": 48,
-    "MUSICA": 205,
+    "MUSICA": 206,
     "TEATRO": 93,
     "ARTES_VISUALES": 101,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 317,
+    "PATRIMONIO": 319,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 79,
     "TERRITORIO": 81
@@ -12986,10 +13019,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
-      "diariotalca": 44,
+      "diariotalca": 45,
+      "seremi-culturas": 137,
       "diario-el-centro": 82,
       "elmauleinforma": 108,
-      "seremi-culturas": 135,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
