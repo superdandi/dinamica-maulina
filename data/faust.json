@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T05:53:52.848Z",
+  "generatedAt": "2026-11-03T15:59:06.690Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -399,6 +399,58 @@
         "kind": "program",
         "text": "3 de noviembre (Martes) · 19:00",
         "start": "2026-11-03T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-03-congreso-futuro-anuncia-nueva-version-enfocada-en-el-desafio-de-ser-humanos",
+      "title": "Congreso Futuro anuncia nueva versión enfocada en “El Desafío de Ser Humanos”",
+      "summary": "¿Qué significa ser humanos en un mundo donde la inteligencia artificial puede aprender, crear y tomar decisiones? Esta es una de las preguntas que inspirarán Congreso Futuro 2027, que se realizará entre el 11 y el 16 de enero, por primera vez en el Centro Cultural Estación Mapocho. Bajo el lema “El ",
+      "link": "https://elmauleinforma.cl/congreso-futuro-anuncia-nueva-version-enfocada-en-el-desafio-de-ser-humanos/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-03T00:00:35.000Z",
+      "image": "",
+      "event": {
+        "text": "el 16 de enero",
+        "start": "2027-01-16T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-02-curico-tendra-tres-dias-de-juegos-recreacion-y-aprendizaje-para-toda-la-familia-",
+      "title": "Curicó tendrá tres días de juegos, recreación y aprendizaje para toda la familia en Expo Lúdica",
+      "summary": "La quinta versión de la iniciativa busca fortalecer la convivencia comunitaria, promover el aprendizaje mediante actividades recreativas y recuperar el valor del juego frente al uso de las pantallas. The post Curicó tendrá tres días de juegos, recreación y aprendizaje para toda la familia en Expo Lú",
+      "link": "https://www.diarioelcentro.cl/2026/11/02/curico-tendra-tres-dias-de-juegos-recreacion-y-aprendizaje-para-toda-la-familia-en-expo-ludica/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-02T23:01:29.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-02-lontue-celebro-sus-191-anos-con-musica-tradiciones-y-actividades-culturales",
+      "title": "Lontué celebró sus 191 años con música, tradiciones y actividades culturales",
+      "summary": "La programación incluyó presentaciones de agrupaciones folclóricas, artistas rancheros y una feria de emprendedores, con espacios para destacar el talento y las tradiciones locales. The post Lontué celebró sus 191 años con música, tradiciones y actividades culturales appeared first on Diario El Cent",
+      "link": "https://www.diarioelcentro.cl/2026/11/02/lontue-celebro-sus-191-anos-con-musica-tradiciones-y-actividades-culturales/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-11-02T22:00:41.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-02-biobio-cierra-el-mes-de-la-musica-chilena-con-un-gran-concierto-gratuito-en-conc",
+      "title": "Biobío cierra el Mes de la Música Chilena con un gran concierto gratuito en Concepción",
+      "summary": "Fernando Milagros, Flor de Guayaba, Bandada Ensamble y Concepción Cámara junto a Carla Pérez, darán vida este miércoles 4 de noviembre al hito de cierre regional, desde las 17:00 horas en la Plaza de la Independencia. La jornada culminará un mes de actividades que tuvo como figura central a Cecilia,",
+      "link": "https://www.cultura.gob.cl/agendacultural/biobio-cierra-el-mes-de-la-musica-chilena-con-gran-concierto-gratuito-en-concepcion/",
+      "author": "biobio",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-11-02T20:03:04.000Z",
+      "image": "",
+      "event": {
+        "text": "4 de noviembre",
+        "start": "2026-11-04T12:00:00.000Z"
       }
     },
     {
@@ -13005,13 +13057,13 @@
   "counts": {
     "POESIA": 115,
     "LITERATURA": 48,
-    "MUSICA": 206,
+    "MUSICA": 207,
     "TEATRO": 93,
     "ARTES_VISUALES": 101,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 319,
+    "PATRIMONIO": 321,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 79,
+    "CINE_MEDIOS": 80,
     "TERRITORIO": 81
   },
   "feedStats": {
@@ -13019,10 +13071,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
+      "elmauleinforma": 109,
+      "diario-el-centro": 84,
+      "seremi-culturas": 138,
       "diariotalca": 45,
-      "seremi-culturas": 137,
-      "diario-el-centro": 82,
-      "elmauleinforma": 108,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
