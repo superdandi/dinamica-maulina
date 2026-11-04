@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T15:59:06.690Z",
+  "generatedAt": "2026-11-04T05:29:28.503Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -370,6 +370,58 @@
       }
     },
     {
+      "id": "2026-11-03-verbo-america-reunira-en-santiago-y-valparaiso-a-figuras-del-arte-y-la-curatoria",
+      "title": "Verbo América reunirá en Santiago y Valparaíso a figuras del arte y la curatoría latinoamericana",
+      "summary": "El encuentro se realizará entre el 10 y el 13 de noviembre y participarán, entre otros, Sharon Lerner, Paz Guevara, José Roca y Alexia Tala. La programación contempla ocho mesas para abordar los desafíos de los museos, las bienales, las colecciones y el arte en el espacio público.",
+      "link": "https://www.cultura.gob.cl/agendacultural/verbo-america-reunira-en-santiago-y-valparaiso-a-figuras-del-arte-y-la-curatoria-latinoamericana/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-03T17:19:45.000Z",
+      "image": "",
+      "event": {
+        "text": "el 13 de noviembre",
+        "start": "2026-11-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-03-santuario-del-rio-achibueno-inicia-proceso-para-fortalecer-la-proteccion-del-ter",
+      "title": "Santuario del Río Achibueno inicia proceso para fortalecer la protección del territorio",
+      "summary": "La propuesta preliminar apunta a convertir el área protegida en un Área de Conservación de Múltiples Usos (ACMU), mediante un proceso participativo que involucrará a organizaciones y comunidades locales. The post Santuario del Río Achibueno inicia proceso para fortalecer la protección del territorio",
+      "link": "https://www.diarioelcentro.cl/2026/11/03/santuario-del-rio-achibueno-inicia-proceso-para-fortalecer-la-proteccion-del-territorio/",
+      "author": "Patricio Mora",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-11-03T16:03:16.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-03-con-un-gran-concierto-al-aire-libre-arica-celebro-el-dia-de-la-musica-y-los-musi",
+      "title": "Con un gran concierto al aire libre Arica celebró el Día de la Música y los Músicos Chilenos",
+      "summary": "La velada, organizada por la Seremi de las Culturas, contempló la presentación de músicos locales, como José Plaza y Mantra, Los Halcones, Gurpá, Melvin Corazón Américo, el Cuarteto Andantes y el Orfeón Municipal.",
+      "link": "https://www.cultura.gob.cl/actualidad/con-un-gran-concierto-al-aire-libre-arica-conmemoro-el-dia-de-la-musica-y-los-musicos-chilenos/",
+      "author": "arica",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-11-03T14:04:23.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-03-un-refugio-climatico-inteligencia-artificial-y-creaciones-ciudadanas-protagoniza",
+      "title": "Un refugio climático, inteligencia artificial y creaciones ciudadanas protagonizan el Mes de los Públicos 2026",
+      "summary": "Bajo el lema Imaginando futuros compartidos, la sexta edición de esta iniciativa se desarrollará entre el 5 y 30 de noviembre en todas las regiones de Chile, con una amplia cartelera de actividades con acceso gratuito. Audios recorridos, montajes teatrales con elencos ciudadanos, performances en el ",
+      "link": "https://www.cultura.gob.cl/agendacultural/un-refugio-climatico-inteligencia-artificial-y-creaciones-ciudadanas-protagonizan-el-mes-de-los-publicos-2026/",
+      "author": "alecaros",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-11-03T14:01:44.000Z",
+      "image": "",
+      "event": {
+        "text": "30 de noviembre",
+        "start": "2026-11-28T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-11-03-inauguracion-exposicion-mav-en-la-region-tierra-vid-y-pincel",
       "title": "Inauguración exposición: “MAV en la región. Tierra, vid y pincel”",
       "summary": "Tierra, vid y pincel” · Martes Esta exposición reúne una selección de obras que rinden homenaje a la · cultura del vino, la parra y el paisaje agrícola, elementos fundamentales de la · identidad y la memoria de nuestro territorio. A través de miradas diversas, la · muestra explora la relación entre ",
@@ -400,6 +452,17 @@
         "text": "3 de noviembre (Martes) · 19:00",
         "start": "2026-11-03T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-03-conmocion-en-la-musica-urbana-fallece-cantante-jb-the-voice-a-los-35-anos",
+      "title": "Conmoción en la música urbana: fallece cantante JB The Voice a los 35 años",
+      "summary": "Su estado de salud se agravó tras una operación de hernia, que derivó en una peritonitis aguda y una septicemia, además de múltiples intervenciones quirúrgicas. The post Conmoción en la música urbana: fallece cantante JB The Voice a los 35 años appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/03/conmocion-en-la-musica-urbana-fallece-cantante-jb-the-voice-a-los-35-anos/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-03T10:58:28.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-03-congreso-futuro-anuncia-nueva-version-enfocada-en-el-desafio-de-ser-humanos",
@@ -1093,7 +1156,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-11-03T12:00:00.000Z"
+        "start": "2026-11-10T12:00:00.000Z"
       }
     },
     {
@@ -3591,7 +3654,7 @@
       "image": "",
       "event": {
         "text": "4 de octubre",
-        "start": "2026-10-04T12:00:00.000Z"
+        "start": "2027-10-04T12:00:00.000Z"
       }
     },
     {
@@ -3814,7 +3877,7 @@
       "image": "",
       "event": {
         "text": "4 de octubre",
-        "start": "2026-10-04T12:00:00.000Z"
+        "start": "2027-10-04T12:00:00.000Z"
       }
     },
     {
@@ -4017,7 +4080,7 @@
       "image": "",
       "event": {
         "text": "4 de octubre",
-        "start": "2026-10-04T12:00:00.000Z"
+        "start": "2027-10-04T12:00:00.000Z"
       }
     },
     {
@@ -4224,7 +4287,7 @@
       "image": "",
       "event": {
         "text": "4 de octubre",
-        "start": "2026-10-04T12:00:00.000Z"
+        "start": "2027-10-04T12:00:00.000Z"
       }
     },
     {
@@ -4361,7 +4424,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-11-03T12:00:00.000Z"
+        "start": "2026-11-10T12:00:00.000Z"
       }
     },
     {
@@ -13057,23 +13120,23 @@
   "counts": {
     "POESIA": 115,
     "LITERATURA": 48,
-    "MUSICA": 207,
-    "TEATRO": 93,
+    "MUSICA": 209,
+    "TEATRO": 94,
     "ARTES_VISUALES": 101,
     "ARTESANIAS": 59,
-    "PATRIMONIO": 321,
+    "PATRIMONIO": 322,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 80,
-    "TERRITORIO": 81
+    "TERRITORIO": 82
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
+      "seremi-culturas": 141,
+      "diario-el-centro": 86,
       "elmauleinforma": 109,
-      "diario-el-centro": 84,
-      "seremi-culturas": 138,
       "diariotalca": 45,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
