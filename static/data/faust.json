@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T05:29:28.503Z",
+  "generatedAt": "2026-11-04T16:03:11.436Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -367,6 +367,65 @@
         "kind": "program",
         "text": "4, 11, 18 de noviembre (Miércoles) · 19:00",
         "start": "2026-11-04T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-04-corfo-abrira-200-becas-para-formar-especialistas-en-construccion-sostenible-en-m",
+      "title": "Corfo abrirá 200 becas para formar especialistas en construcción sostenible en madera en la zona centro-sur",
+      "summary": "Con el objetivo de impulsar la modernización y sostenibilidad del sector construcción, Corfo lanzó un nuevo programa de formación que entregará 200 becas para capacitar a profesionales y técnicos en Métodos Modernos de Construcción Sostenible Basados en Madera (MMC) en las regiones de Maule, Ñuble, ",
+      "link": "https://elmauleinforma.cl/corfo-abrira-200-becas-para-formar-especialistas-en-construccion-sostenible-en-madera-en-la-zona-centro-sur/",
+      "author": "Redacción El Maule Informa",
+      "category": "ARTESANIAS",
+      "source": "elmauleinforma",
+      "date": "2026-11-04T01:00:56.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-03-programa-acciona-y-culturas-aysen-entregan-sellos-de-egreso-a-establecimientos-e",
+      "title": "Programa Acciona y Culturas Aysén entregan sellos de egreso a establecimientos educacionales",
+      "summary": "Finaliza un ciclo para los establecimientos de educacionales que estuvieron vinculados al programa Acciona durante hasta 8 años. Recibieron sus sellos de egreso durante una muestra de los resultados.",
+      "link": "https://www.cultura.gob.cl/actualidad/programa-acciona-y-culturas-aysen-entregan-sellos-de-egreso-a-establecimientos-educacionales/",
+      "author": "aysen",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-03T19:58:24.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-03-cecrea-temuco-celebro-el-dia-de-la-musica-chilena-junto-a-bandas-emergentes-loca",
+      "title": "Cecrea Temuco celebró el Día de la Música Chilena junto a bandas emergentes locales",
+      "summary": "Las bandas Crotch-Rot Fungery (CRF) y Los Blanc compartieron su música en una jornada que reunió a niñas, niños, jóvenes y sus familias en torno a presentaciones en vivo, exploración sonora e iniciativas creativas.",
+      "link": "https://www.cultura.gob.cl/actualidad/cecrea-temuco-celebro-el-dia-de-la-musica-chilena-junto-a-bandas-emergentes-locales/",
+      "author": "araucania",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-11-03T19:56:16.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-03-23-peliculas-competiran-por-los-premios-pedro-sienna-a-lo-mejor-del-cine-chileno",
+      "title": "23 películas competirán por los Premios Pedro Sienna a lo mejor del cine chileno 2025",
+      "summary": "El proceso liderado por el Ministerio de las Culturas, las Artes y el Patrimonio anuncia a los nominados en las 18 categorías en competencia, que incluyen largometrajes de ficción y documental, cortometrajes, actuaciones, guion, dirección y diversas áreas técnicas.",
+      "link": "https://www.cultura.gob.cl/actualidad/23-peliculas-competiran-por-los-premios-pedro-sienna-a-lo-mejor-del-cine-chileno-2025/",
+      "author": "alecaros",
+      "category": "CINE_MEDIOS",
+      "source": "seremi-culturas",
+      "date": "2026-11-03T19:14:21.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-03-ministerio-de-las-culturas-abre-convocatorias-para-ingreso-y-continuidad-del-pao",
+      "title": "Ministerio de las Culturas abre convocatorias para ingreso y continuidad del PAOCC 2027",
+      "summary": "Ambos procesos de postulación estarán abiertos hasta el 27 de noviembre de 2026. En la actualidad, el Programa financia a 242 organizaciones distribuidas en todas las regiones del país, con al menos tres por región.",
+      "link": "https://www.cultura.gob.cl/convocatorias/ministerio-de-las-culturas-abre-convocatorias-para-ingreso-y-continuidad-del-paocc-2027/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-03T19:06:24.000Z",
+      "image": "",
+      "event": {
+        "text": "el 27 de noviembre",
+        "start": "2026-11-27T12:00:00.000Z"
       }
     },
     {
@@ -13120,13 +13179,13 @@
   "counts": {
     "POESIA": 115,
     "LITERATURA": 48,
-    "MUSICA": 209,
+    "MUSICA": 210,
     "TEATRO": 94,
     "ARTES_VISUALES": 101,
-    "ARTESANIAS": 59,
-    "PATRIMONIO": 322,
+    "ARTESANIAS": 60,
+    "PATRIMONIO": 324,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 80,
+    "CINE_MEDIOS": 81,
     "TERRITORIO": 82
   },
   "feedStats": {
@@ -13134,9 +13193,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 25,
-      "seremi-culturas": 141,
+      "elmauleinforma": 110,
+      "seremi-culturas": 145,
       "diario-el-centro": 86,
-      "elmauleinforma": 109,
       "diariotalca": 45,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
