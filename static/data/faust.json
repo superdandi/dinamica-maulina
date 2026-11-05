@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T05:49:52.820Z",
+  "generatedAt": "2026-11-05T16:19:37.591Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -351,6 +351,102 @@
         "kind": "program",
         "text": "5 de noviembre (Jueves) · 17:00",
         "start": "2026-11-05T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-05-festival-internacional-de-hardcore-y-punk-rock-reunira-a-16-bandas-en-talca",
+      "title": "Festival internacional de hardcore y punk rock reunirá a 16 bandas en Talca",
+      "summary": "¿En qué consistirá este festival? Un total de 16 bandas de punk rock y hardcore, provenientes de Argentina, Uruguay y diversas ciudades de Chile, darán vida al Talca Hardcore Punk Festival, evento que se desarrollará los días sábado 7 y domingo 8 de noviembre en el recinto Ex Surikata, ubicado en ca",
+      "link": "https://diariotalca.cl/festival-internacional-de-hardcore-y-punk-rock-reunira-a-16-bandas-en-talca/",
+      "author": "Pamela Lara",
+      "category": "MUSICA",
+      "source": "diariotalca",
+      "date": "2026-11-05T03:53:11.000Z",
+      "image": "",
+      "event": {
+        "text": "8 de noviembre",
+        "start": "2026-11-08T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-05-feria-del-libro-del-deporte-2026-en-talca-panorama-familiar-de-tres-dias",
+      "title": "Feria del Libro del Deporte 2026 en Talca: Panorama familiar de tres días",
+      "summary": "Organizada por el Gobierno Regional del Maule y el Centro de Estudios del Deporte (CEDEP), la iniciativa reunirá a más de 20 expositores, entre editoriales, empresas deportivas, instituciones y organizaciones vinculadas al deporte, la educación y la cultura. Durante las tres jornadas, los asistentes",
+      "link": "https://diariotalca.cl/feria-del-libro-del-deporte-2026-en-talca-panorama-familiar-de-tres-dias/",
+      "author": "Pamela Lara",
+      "category": "LITERATURA",
+      "source": "diariotalca",
+      "date": "2026-11-05T03:40:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-05-cajitas-llenas-de-historias-talca-recibira-la-segunda-version-del-festival-de-te",
+      "title": "Cajitas llenas de historias: Talca recibirá la segunda versión del Festival de Teatro Lambe Lambe “En Caja”",
+      "summary": "Con funciones gratuitas en espacios públicos, el encuentro reunirá compañías de Chile, Argentina y Brasil durante dos jornadas dedicadas al teatro en pequeño formato. The post Cajitas llenas de historias: Talca recibirá la segunda versión del Festival de Teatro Lambe Lambe “En Caja” appeared first o",
+      "link": "https://www.diarioelcentro.cl/2026/11/04/cajitas-llenas-de-historias-talca-recibira-la-segunda-version-del-festival-de-teatro-lambe-lambe-en-caja/",
+      "author": "Patricio Mora",
+      "category": "TEATRO",
+      "source": "diario-el-centro",
+      "date": "2026-11-05T00:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-la-araucania-obtiene-un-sello-de-excelencia-y-dos-menciones-honrosas-en-reconoci",
+      "title": "La Araucanía obtiene un Sello de Excelencia y dos menciones honrosas en reconocimiento nacional",
+      "summary": "Nabor Agurto Ocares, destacado cultor de la talla en piedra de Angol, fue reconocido con el Sello de Excelencia a la Artesanía 2026 por su obra \"Recipiente\". La Araucanía obtuvo además dos menciones honrosas en la principal distinción nacional para el sector.",
+      "link": "https://www.cultura.gob.cl/actualidad/la-araucania-obtiene-un-sello-de-excelencia-y-dos-menciones-honrosas-en-reconocimiento-nacional/",
+      "author": "araucania",
+      "category": "ARTESANIAS",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T20:58:40.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-encuentro-regional-de-danza-reunio-a-50-agentes-culturales-de-la-araucania",
+      "title": "Encuentro Regional de Danza reunió a 50 agentes culturales de La Araucanía",
+      "summary": "La iniciativa impulsada por la Seremi de las Culturas convocó a integrantes de diversas agrupaciones y disciplinas, promoviendo el intercambio de conocimientos, la articulación del sector y el reconocimiento de referentes regionales.",
+      "link": "https://www.cultura.gob.cl/actualidad/encuentro-regional-de-danza-reunio-a-50-agentes-culturales-de-la-araucania/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T20:58:11.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-ministerio-de-las-culturas-abre-convocatoria-para-integrar-la-delegacion-chilena",
+      "title": "Ministerio de las Culturas abre convocatoria para integrar la delegación chilena en MICSUR Paraguay 2026",
+      "summary": "Las postulaciones, destinadas para agentes culturales, incluyen la participación en las ruedas de negocios del Mercado de Industrias Creativas del Sur, con pasajes, alojamiento y viáticos cubiertos. Hay 24 cupos en ocho sectores.",
+      "link": "https://www.cultura.gob.cl/convocatorias/ministerio-de-las-culturas-abre-convocatoria-para-integrar-la-delegacion-chilena-en-micsur-paraguay-2026/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T19:42:54.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-circuito-matta-patrimonial-suma-por-primera-vez-actividades-fuera-de-santiago",
+      "title": "Circuito Matta Patrimonial suma por primera vez actividades fuera de Santiago",
+      "summary": "Al conmemorarse 115 años del natalicio de Roberto Matta y con el apoyo del Ministerio de las Culturas, las Artes y el Patrimonio, este mes se desarrollará la quinta edición de la iniciativa que reúne programación en 18 espacios culturales en torno a la obra y legado del artista nacional, con activid",
+      "link": "https://www.cultura.gob.cl/agendacultural/circuito-matta-patrimonial-suma-por-primera-vez-actividades-fuera-de-santiago/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T19:15:39.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-una-noche-mil-historias-region-de-valparaiso-se-prepara-para-vivir-la-noche-de-m",
+      "title": "“Una noche, mil historias”: Región de Valparaíso se prepara para vivir la Noche de Museos",
+      "summary": "El viernes 13 de noviembre distintos espacios abrirán sus puertas de manera gratuita y extendida para celebrar junto a la comunidad local. Toda la cartelera está disponible en el sitio web www.nochedemuseos.cl.",
+      "link": "https://www.cultura.gob.cl/agendacultural/una-noche-mil-historias-region-de-valparaiso-se-prepara-para-vivir-la-noche-de-museos/",
+      "author": "valparaiso",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T18:05:44.000Z",
+      "image": "",
+      "event": {
+        "text": "13 de noviembre",
+        "start": "2026-11-13T12:00:00.000Z"
       }
     },
     {
@@ -13235,12 +13331,12 @@
   ],
   "counts": {
     "POESIA": 115,
-    "LITERATURA": 48,
-    "MUSICA": 211,
-    "TEATRO": 94,
+    "LITERATURA": 49,
+    "MUSICA": 212,
+    "TEATRO": 95,
     "ARTES_VISUALES": 101,
-    "ARTESANIAS": 60,
-    "PATRIMONIO": 328,
+    "ARTESANIAS": 61,
+    "PATRIMONIO": 332,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 81,
     "TERRITORIO": 82
@@ -13250,10 +13346,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 23,
-      "diario-el-centro": 87,
-      "seremi-culturas": 149,
+      "diariotalca": 47,
+      "diario-el-centro": 88,
+      "seremi-culturas": 154,
       "elmauleinforma": 112,
-      "diariotalca": 45,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
