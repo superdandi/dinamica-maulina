@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T16:03:11.436Z",
+  "generatedAt": "2026-11-05T05:49:52.820Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -354,6 +354,95 @@
       }
     },
     {
+      "id": "2026-11-04-que-vuelva-a-chile-v-de-bts-comparte-nuevas-fotos-de-su-visita",
+      "title": "¡Que vuelva a Chile! V de BTS comparte nuevas fotos de su visita",
+      "summary": "El cantante surcoreano compartió nuevos registros luciendo el traje de huaso que utilizó durante uno de los conciertos de BTS en Chile, desatando reacciones entre sus seguidores. The post ¡Que vuelva a Chile! V de BTS comparte nuevas fotos de su visita appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/04/que-vuelva-a-chile-v-de-bts-comparte-nuevas-fotos-de-su-visita/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-04T16:44:32.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-ministerio-de-las-culturas-anuncia-presupuesto-historico-para-el-programa-de-mej",
+      "title": "Ministerio de las Culturas anuncia presupuesto histórico para el Programa de Mejoramiento Integral de Bibliotecas Públicas",
+      "summary": "La cifra récord de $2.637.070.000 fue dada a conocer esta mañana durante la inauguración de las obras de renovación y la nueva guaguateca de la Biblioteca Pública de Independencia.",
+      "link": "https://www.cultura.gob.cl/actualidad/ministerio-de-las-culturas-anuncia-presupuesto-historico-para-el-programa-de-mejoramiento-integral-de-bibliotecas-publicas/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T16:38:07.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-ruta-escena-biobio-continua-su-itinerancia-con-nuevas-localidades-y-un-taller-de",
+      "title": "Ruta Escena Biobío continúa su itinerancia con nuevas localidades y un taller de diseño escénico",
+      "summary": "La circulación del proyecto Ruta Escena Biobío, que inició el pasado 17 de octubre, en Dichato, continúa su viaje con fechas en Menque, Cabrero y Yumbel; además de un taller de formación en “Diseño Escénico Integral”, impartido por la actriz y diseñadora teatral Nicole Needham.",
+      "link": "https://www.cultura.gob.cl/agendacultural/ruta-escena-biobio-continua-su-itinerancia-con-nuevas-localidades-y-un-taller-de-diseno-escenico/",
+      "author": "biobio",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T16:24:15.000Z",
+      "image": "",
+      "event": {
+        "text": "17 de octubre",
+        "start": "2026-10-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-04-conadi-impulsa-el-talento-indigena-del-maule-20-emprendedoras-y-emprendedores-fu",
+      "title": "CONADI impulsa el talento indígena del Maule: 20 emprendedoras y emprendedores fueron certificados en Talca",
+      "summary": "Con una muestra de artesanía, gastronomía y productos elaborados con identidad cultural, la Corporación Nacional de Desarrollo Indígena (CONADI) reunió a 20 emprendedoras y emprendedores indígenas en la Plaza de Armas de Talca, en una jornada que permitió dar a conocer su trabajo y reconocer el esfu",
+      "link": "https://elmauleinforma.cl/conadi-impulsa-el-talento-indigena-del-maule-20-emprendedoras-y-emprendedores-fueron-certificados-en-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-04T16:00:45.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-8-organizaciones-de-pelarco-se-adjudican-33-millones-de-pesos-para-proyectos-cul",
+      "title": "8 organizaciones de Pelarco se adjudican 33 millones de pesos para proyectos culturales FNDR",
+      "summary": "Como resultado del plan de fortalecimiento a la gestión de las organizaciones comunitarias impulsado por el alcalde de Pelarco, Boris Cabrera Lazo, este lunes se realizó una charla técnica a los dirigentes de las entidades que se adjudicaron recursos del 8%, para ejecutar iniciativas culturales fina",
+      "link": "https://elmauleinforma.cl/8-organizaciones-de-pelarco-se-adjudican-33-millones-de-pesos-para-proyectos-culturales-fndr/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-04T16:00:30.000Z",
+      "image": "",
+      "event": {
+        "text": "este lunes",
+        "start": "2026-11-09T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-04-mesa-regional-de-educacion-artistica-fortalece-su-trabajo-territorial-y-proyecta",
+      "title": "Mesa Regional de Educación Artística fortalece su trabajo territorial y proyecta nuevas iniciativas para O’Higgins",
+      "summary": "La instancia, que reúne a instituciones, establecimientos educacionales, organizaciones culturales y artistas-educadores, impulsa espacios de formación y prepara el Primer Seminario de Educación Artística e Inclusión.",
+      "link": "https://www.cultura.gob.cl/programas/mesa-regional-de-educacion-artistica-fortalece-su-trabajo-territorial-y-proyecta-nuevas-iniciativas-para-ohiggins/",
+      "author": "ohiggins",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T14:56:06.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-04-2-encuentro-nacional-de-patrimonio-digital-abordara-los-desafios-del-acceso-abie",
+      "title": "2° Encuentro Nacional de Patrimonio Digital abordará los desafíos del acceso abierto y la inteligencia artificial",
+      "summary": "La actividad organizada por el Ministerio de las Culturas, las Artes y el Patrimonio se realizará el martes 17 de noviembre en el Palacio Pereira, con participación presencial y online.",
+      "link": "https://www.cultura.gob.cl/agendacultural/2-encuentro-nacional-de-patrimonio-digital-abordara-los-desafios-del-acceso-abierto-y-la-inteligencia-artificial/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-04T13:00:42.000Z",
+      "image": "",
+      "event": {
+        "text": "17 de noviembre",
+        "start": "2026-11-17T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-11-04-ciclo-de-cine-cuando-las-cosas-se-mueven",
       "title": "Ciclo de cine: “Cuando las cosas se mueven”",
       "summary": "Este ciclo propone un recorrido por distintas formas de la animación stop · motion, a través de películas construidas con plasticina, marionetas, · miniaturas y otros elementos físicos animados cuadro a cuadro. La selección · busca mostrar la diversidad expresiva de esta técnica, capaz de transitar ",
@@ -478,38 +567,6 @@
       "event": {
         "text": "30 de noviembre",
         "start": "2026-11-28T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-11-03-inauguracion-exposicion-mav-en-la-region-tierra-vid-y-pincel",
-      "title": "Inauguración exposición: “MAV en la región. Tierra, vid y pincel”",
-      "summary": "Tierra, vid y pincel” · Martes Esta exposición reúne una selección de obras que rinden homenaje a la · cultura del vino, la parra y el paisaje agrícola, elementos fundamentales de la · identidad y la memoria de nuestro territorio. A través de miradas diversas, la · muestra explora la relación entre ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-03T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "3 de noviembre · 15:00",
-        "start": "2026-11-03T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-11-03-obra-de-teatro",
-      "title": "Obra de Teatro",
-      "summary": "TROPECO (Brasil) · Desde Brasil llegará Tropeço, de Tato Criação Cênica, una obra en que las · manos de sus intérpretes se convierten en dos ancianas que caminan, bailan, · ríen y enfrentan la muerte. La obra no usa diálogos tradicionales; los · sentimientos y las acciones se expresan a través de so",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "TEATRO",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-03T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "3 de noviembre (Martes) · 19:00",
-        "start": "2026-11-03T12:00:00.000Z"
       }
     },
     {
@@ -1678,7 +1735,7 @@
       "image": "",
       "event": {
         "text": "este miércoles",
-        "start": "2026-11-04T12:00:00.000Z"
+        "start": "2026-11-11T12:00:00.000Z"
       }
     },
     {
@@ -2149,7 +2206,7 @@
       "image": "",
       "event": {
         "text": "miércoles 20",
-        "start": "2026-11-04T12:00:00.000Z"
+        "start": "2026-11-11T12:00:00.000Z"
       }
     },
     {
@@ -2571,7 +2628,7 @@
       "image": "",
       "event": {
         "text": "miércoles 14",
-        "start": "2026-11-04T12:00:00.000Z"
+        "start": "2026-11-11T12:00:00.000Z"
       }
     },
     {
@@ -13179,11 +13236,11 @@
   "counts": {
     "POESIA": 115,
     "LITERATURA": 48,
-    "MUSICA": 210,
+    "MUSICA": 211,
     "TEATRO": 94,
     "ARTES_VISUALES": 101,
     "ARTESANIAS": 60,
-    "PATRIMONIO": 324,
+    "PATRIMONIO": 328,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 81,
     "TERRITORIO": 82
@@ -13192,10 +13249,10 @@
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 25,
-      "elmauleinforma": 110,
-      "seremi-culturas": 145,
-      "diario-el-centro": 86,
+      "ext-utalca-programa": 23,
+      "diario-el-centro": 87,
+      "seremi-culturas": 149,
+      "elmauleinforma": 112,
       "diariotalca": 45,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
