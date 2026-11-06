@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T16:19:37.591Z",
+  "generatedAt": "2026-11-06T05:45:17.491Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -223,6 +223,22 @@
         "kind": "program",
         "text": "13 de noviembre · 19:30",
         "start": "2026-11-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-11-ciclo-de-cine-cuando-las-cosas-se-mueven",
+      "title": "Ciclo de cine: “Cuando las cosas se mueven”",
+      "summary": "Este ciclo propone un recorrido por distintas formas de la animación stop · motion, a través de películas construidas con plasticina, marionetas, · miniaturas y otros elementos físicos animados cuadro a cuadro. La selección · busca mostrar la diversidad expresiva de esta técnica, capaz de transitar ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-11T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "11, 18 de noviembre (Miércoles) · 19:00",
+        "start": "2026-11-11T12:00:00.000Z"
       }
     },
     {
@@ -536,22 +552,6 @@
       "event": {
         "text": "17 de noviembre",
         "start": "2026-11-17T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-11-04-ciclo-de-cine-cuando-las-cosas-se-mueven",
-      "title": "Ciclo de cine: “Cuando las cosas se mueven”",
-      "summary": "Este ciclo propone un recorrido por distintas formas de la animación stop · motion, a través de películas construidas con plasticina, marionetas, · miniaturas y otros elementos físicos animados cuadro a cuadro. La selección · busca mostrar la diversidad expresiva de esta técnica, capaz de transitar ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-04T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "4, 11, 18 de noviembre (Miércoles) · 19:00",
-        "start": "2026-11-04T12:00:00.000Z"
       }
     },
     {
@@ -2646,7 +2646,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-05T12:00:00.000Z"
+        "start": "2026-11-12T12:00:00.000Z"
       }
     },
     {
@@ -3545,7 +3545,7 @@
       "image": "",
       "event": {
         "text": "6 de octubre",
-        "start": "2026-10-06T12:00:00.000Z"
+        "start": "2027-10-06T12:00:00.000Z"
       }
     },
     {
@@ -4547,7 +4547,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-05T12:00:00.000Z"
+        "start": "2026-11-12T12:00:00.000Z"
       }
     },
     {
