@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T14:47:02.162Z",
+  "generatedAt": "2026-11-07T20:00:03.967Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -304,6 +304,17 @@
         "text": "7 de noviembre (Sábado) · 11:00",
         "start": "2026-11-07T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-07-exitoso-taller-sobre-decisiones-clave-para-enfrentar-la-temporada-agricola",
+      "title": "Exitoso taller sobre decisiones clave para enfrentar la temporada agrícola",
+      "summary": "El presidente de Agrícola Central, Luis Urrutia señaló que fue “una atractiva jornada de capacitación, de información que fue la meta que nos propusimos. Estuvo el SAG, el Seremi de Agricultura y muy importante, estuvo el colegio agrícola de San Clemente, nuestros jóvenes que van a tener la responsa",
+      "link": "https://diariotalca.cl/exitoso-taller-sobre-decisiones-clave-para-enfrentar-la-temporada-agricola/",
+      "author": "Pamela Lara",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-07T03:38:31.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-07-fueron-pacientes-de-teleton-y-este-sabado-tocaran-ante-miles-de-personas-hermano",
@@ -13526,7 +13537,7 @@
     "TEATRO": 96,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 62,
-    "PATRIMONIO": 341,
+    "PATRIMONIO": 342,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 83,
     "TERRITORIO": 85
@@ -13536,10 +13547,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 21,
+      "diariotalca": 50,
       "diario-el-centro": 93,
       "elmauleinforma": 116,
       "seremi-culturas": 161,
-      "diariotalca": 49,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
