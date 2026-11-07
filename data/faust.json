@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T15:47:09.934Z",
+  "generatedAt": "2026-11-07T05:16:59.996Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -306,6 +306,43 @@
       }
     },
     {
+      "id": "2026-11-06-comienza-descarga-gratuita-de-entradas-para-asistir-a-las-funciones-de-la-muestr",
+      "title": "Comienza descarga gratuita de entradas para asistir a las funciones de la Muestra Nacional de Dramaturgia",
+      "summary": "Del 17 de noviembre al 19 de diciembre, el Centro Cultural Matucana 100 de Santiago, el Teatro Pedro de la Barra de Antofagasta y el Parque Cultural de Valparaíso reciben la nueva edición de la Muestra, con entrada liberada.",
+      "link": "https://www.cultura.gob.cl/agendacultural/comienza-descarga-gratuita-de-entradas-para-asistir-a-las-funciones-de-la-muestra-nacional-de-dramaturgia/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-06T14:39:37.000Z",
+      "image": "",
+      "event": {
+        "text": "del 17 de noviembre",
+        "start": "2026-11-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-06-bafona-realizo-gira-por-cuatro-comunas-de-los-rios-con-mas-de-cuatro-mil-persona",
+      "title": "BAFONA realizó gira por cuatro comunas de Los Ríos con más de cuatro mil personas de público",
+      "summary": "El elenco artístico estable del Ministerio de las Culturas llegó para sumarse a las celebraciones por los 19 años de la región, ofreciendo presentaciones en La Unión, Valdivia, Futrono y Lago Ranco.",
+      "link": "https://www.cultura.gob.cl/actualidad/bafona-realizo-gira-por-cuatro-comunas-de-los-rios-con-mas-de-cuatro-mil-personas-de-publico/",
+      "author": "losrios",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-06T12:33:15.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-06-puntos-de-cultura-comunitaria-de-atacama-proyectan-agenda-de-trabajo-colaborativ",
+      "title": "Puntos de Cultura Comunitaria de Atacama proyectan agenda de trabajo colaborativo hacia 2027",
+      "summary": "Representantes de 38 organizaciones culturales de la región participaron en el III Encuentro Regional de Puntos de Cultura Comunitaria, realizado en Copiapó. La instancia contempló capacitaciones, intercambio de experiencias y espacios de trabajo colaborativo para fortalecer la gestión cultural desd",
+      "link": "https://www.cultura.gob.cl/programas/puntos-de-cultura-comunitaria-de-atacama-proyectan-agenda-de-trabajo-colaborativo-hacia-2027/",
+      "author": "atacama",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-06T12:23:17.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-11-06-obra-teatral-tres-ratones-ciegos-elenco-la-palomera-universidad-de-talca",
       "title": "Obra teatral: “Tres ratones ciegos” Elenco La Palomera, Universidad de Talca",
       "summary": "Elenco La Palomera, Universidad de Talca · En una aislada casa de huéspedes, una intensa tormenta de nieve deja a un · grupo de desconocidos completamente incomunicados. Cuando un · asesinato sacude la tranquilidad del lugar, todos se convierten en · sospechosos. Secretos, sospechas y engaños se ent",
@@ -436,38 +473,6 @@
       "source": "seremi-culturas",
       "date": "2026-11-05T19:28:32.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-11-05-inauguracion-exposicion-distintas-miradas-al-paisaje-del-valle-central",
-      "title": "Inauguración exposición: \"Distintas miradas al paisaje del valle central\"",
-      "summary": "al paisaje del valle central\" · Esta muestra ofrece un fascinante recorrido visual por la belleza de la zona · central, reuniendo el trabajo de artistas de distintas épocas y estilos. El · público podrá apreciar obras de la Generación del Cuarenta, pasando por el · arte contemporáneo y el informalis",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-05T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "5 de noviembre (Jueves) · 15:00",
-        "start": "2026-11-05T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-11-05-cine-z-en-talcadaveres-12-anos-impulsando-el-cine-de-terror-y-fantastico-desde-t",
-      "title": "Cine Z en Talcadáveres: 12 años impulsando el cine de terror y fantástico desde Talca",
-      "summary": "cine de terror y fantástico desde Talca · En su 12.ª edición, Cine Z en Talcadáveres, el Festival Internacional de Cine de",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-05T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "5 de noviembre (Jueves) · 17:00",
-        "start": "2026-11-05T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-11-05-festival-internacional-de-hardcore-y-punk-rock-reunira-a-16-bandas-en-talca",
@@ -1642,7 +1647,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-11-06T12:00:00.000Z"
+        "start": "2026-11-13T12:00:00.000Z"
       }
     },
     {
@@ -1668,7 +1673,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-11-06T12:00:00.000Z"
+        "start": "2026-11-13T12:00:00.000Z"
       }
     },
     {
@@ -2387,7 +2392,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-11-06T12:00:00.000Z"
+        "start": "2026-11-13T12:00:00.000Z"
       }
     },
     {
@@ -3383,7 +3388,7 @@
       "image": "",
       "event": {
         "text": "7 de octubre",
-        "start": "2026-10-07T12:00:00.000Z"
+        "start": "2027-10-07T12:00:00.000Z"
       }
     },
     {
@@ -3420,7 +3425,7 @@
       "image": "",
       "event": {
         "text": "07 de octu",
-        "start": "2026-10-07T12:00:00.000Z"
+        "start": "2027-10-07T12:00:00.000Z"
       }
     },
     {
@@ -4066,7 +4071,7 @@
       "image": "",
       "event": {
         "text": "el 7 de octubre",
-        "start": "2026-10-07T12:00:00.000Z"
+        "start": "2027-10-07T12:00:00.000Z"
       }
     },
     {
@@ -4111,7 +4116,7 @@
       "image": "",
       "event": {
         "text": "7 de octubre",
-        "start": "2026-10-07T12:00:00.000Z"
+        "start": "2027-10-07T12:00:00.000Z"
       }
     },
     {
@@ -13434,22 +13439,22 @@
     "LITERATURA": 49,
     "MUSICA": 213,
     "TEATRO": 95,
-    "ARTES_VISUALES": 101,
+    "ARTES_VISUALES": 100,
     "ARTESANIAS": 62,
-    "PATRIMONIO": 336,
+    "PATRIMONIO": 338,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 81,
     "TERRITORIO": 84
   },
   "feedStats": {
     "sources": 54,
-    "alive": 48,
+    "alive": 47,
     "itemsPerSource": {
-      "ext-utalca-programa": 23,
+      "ext-utalca-programa": 21,
+      "seremi-culturas": 160,
       "elmauleinforma": 114,
       "diario-el-centro": 90,
       "diariotalca": 48,
-      "seremi-culturas": 157,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
@@ -14003,7 +14008,7 @@
       "feed": "https://diariotalca.cl/feed/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": true
     },
     {
