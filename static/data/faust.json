@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T14:53:00.649Z",
+  "generatedAt": "2026-11-09T05:24:41.158Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -274,6 +274,36 @@
       }
     },
     {
+      "id": "2026-11-08-nuevo-espacio-para-las-artes-visuales-sala-blanca-abre-sus-puertas-en-talca",
+      "title": "Nuevo espacio para las artes visuales: Sala Blanca abre sus puertas en Talca",
+      "summary": "Con una exposición de estudiantes de segundo año de Grabado II de la Universidad Autónoma de Chile, sede Talca, este jueves 5 de noviembre se inauguró Sala Blanca, un nuevo espacio dedicado a las artes visuales, impulsado por Casa Lab y producido por Kombinarte. Ubicada en calle 3 Poniente 1175, la ",
+      "link": "https://elmauleinforma.cl/nuevo-espacio-para-las-artes-visuales-sala-blanca-abre-sus-puertas-en-talca/",
+      "author": "Redacción El Maule Informa",
+      "category": "ARTES_VISUALES",
+      "source": "elmauleinforma",
+      "date": "2026-11-08T15:00:35.000Z",
+      "image": "",
+      "event": {
+        "text": "5 de noviembre",
+        "start": "2026-11-05T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-08-parque-natural-quizapu-protegera-2-200-hectareas-en-el-maule",
+      "title": "Parque Natural Quizapú protegerá 2.200 hectáreas en el Maule",
+      "summary": "El Parque Natural Quizapú celebrará su inauguración el 4 de diciembre en Talca, tras proteger 2.200 hectáreas mediante el Derecho Real de Conservación. The post Parque Natural Quizapú protegerá 2.200 hectáreas en el Maule appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/08/parque-natural-quizapu-protegera-2-200-hectareas-en-el-maule/",
+      "author": "Yasmín Gómez",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-11-08T13:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "el 4 de diciembre",
+        "start": "2026-12-04T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-11-08-teatro-alondra-celebra-14-anos-con-estreno-de-obra-en-talca",
       "title": "Teatro Alondra celebra 14 años con estreno de obra en Talca",
       "summary": "La agrupación talquina celebra 14 años de trayectoria con una comedia que combina humor, drama y suspenso, abordando los secretos y contradicciones de la amistad. The post Teatro Alondra celebra 14 años con estreno de obra en Talca appeared first on Diario El Centro .",
@@ -327,38 +357,6 @@
       "source": "seremi-culturas",
       "date": "2026-11-07T14:46:57.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-11-07-terror-y-fantastico-de-talca-continua-consolidandose-como-un-espacio-para",
-      "title": "Terror y Fantástico de Talca, continúa consolidándose como un espacio para",
-      "summary": "disfrutar, descubrir y compartir el cine de género desde la región del Maule. El · evento contará con una Selección Internacional de Cortometrajes en · Sábado Competencia, además de una función especial de la película “Carrie” de Brian · de Palma el 5 de noviembre. También se exhibirán cintas nacion",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-07T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "7 de noviembre · 15:00",
-        "start": "2026-11-07T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-11-07-sabado-itinerante-tinta-papel-accion",
-      "title": "Sábado Itinerante: ¡Tinta, papel…acción!",
-      "summary": "¡Tinta, papel…acción! · ¡Una vez más nos movemos de la galería NUGA! Con Sábado Itinerante, · trasladamos nuestras experiencias de mediación para encontrarnos con la · comunidad en Espacio Vivo TUE. En esta ocasión la invitación es a explorar el · autorretrato a través del grabado y la apreciación d",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-07T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "7 de noviembre (Sábado) · 11:00",
-        "start": "2026-11-07T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-11-07-argentina-refuerza-su-poder-aereo-con-cuatro-helicopteros-black-hawk-a-estados-u",
@@ -3285,7 +3283,7 @@
       "image": "",
       "event": {
         "text": "el 9 de octubre",
-        "start": "2026-10-09T12:00:00.000Z"
+        "start": "2027-10-09T12:00:00.000Z"
       }
     },
     {
@@ -3370,7 +3368,7 @@
       "image": "",
       "event": {
         "text": "el domingo",
-        "start": "2026-11-08T12:00:00.000Z"
+        "start": "2026-11-15T12:00:00.000Z"
       }
     },
     {
@@ -3850,7 +3848,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-11-08T12:00:00.000Z"
+        "start": "2026-11-15T12:00:00.000Z"
       }
     },
     {
@@ -5008,7 +5006,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-11-08T12:00:00.000Z"
+        "start": "2026-11-15T12:00:00.000Z"
       }
     },
     {
@@ -13573,18 +13571,18 @@
     "ARTESANIAS": 62,
     "PATRIMONIO": 343,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 85,
-    "TERRITORIO": 85
+    "CINE_MEDIOS": 84,
+    "TERRITORIO": 86
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 19,
-      "diario-el-centro": 96,
+      "ext-utalca-programa": 17,
+      "elmauleinforma": 117,
+      "diario-el-centro": 97,
       "seremi-culturas": 164,
       "diariotalca": 50,
-      "elmauleinforma": 116,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
