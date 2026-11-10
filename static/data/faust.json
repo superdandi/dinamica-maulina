@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T06:36:13.675Z",
+  "generatedAt": "2026-11-10T16:15:41.867Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -272,6 +272,65 @@
         "text": "10 de noviembre · 10:00",
         "start": "2026-11-10T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-09-cuatro-de-cada-diez-consumidores-compra-en-malls-chinos-pero-solo-el-30-de-ellos",
+      "title": "Cuatro de cada diez consumidores compra en malls chinos, pero solo el 30% de ellos califica su experiencia como muy buena o excelente",
+      "summary": "Los denominados “malls chinos” se han consolidado como un actor de peso en la estructura del comercio minorista chileno, aunque bajo una marcada paradoja: son altamente frecuentados, pero severamente evaluados por sus propios clientes. De acuerdo con el más reciente informe sectorial elaborado por l",
+      "link": "https://elmauleinforma.cl/cuatro-de-cada-diez-consumidores-compra-en-malls-chinos-pero-solo-el-30-de-ellos-califica-su-experiencia-como-muy-buena-o-excelente/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-09T23:30:36.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-09-talca-se-prepara-para-cantar-su-historia-junto-a-illapu-55-anos-de-musica-que-un",
+      "title": "Talca se prepara para cantar su historia junto a Illapu: 55 años de música que une generaciones",
+      "summary": "Con un repertorio que atraviesa generaciones y un espectáculo que evoca sus raíces musicales, la agrupación busca reencontrarse con el público de la Región del Maule. The post Talca se prepara para cantar su historia junto a Illapu: 55 años de música que une generaciones appeared first on Diario El ",
+      "link": "https://www.diarioelcentro.cl/2026/11/09/talca-se-prepara-para-cantar-su-historia-junto-a-illapu-55-anos-de-musica-que-une-generaciones/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-09T21:55:44.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-09-la-feria-de-arte-popular-lacustre-andino-celebra-su-cuarta-version-y-amplia-su-a",
+      "title": "La Feria de Arte Popular Lacustre andino celebra su cuarta versión y amplía su alcance a tres regiones del sur de Chile",
+      "summary": "El encuentro, organizado por Ko-Panqui, junto a Fundación Chol-Chol y la Municipalidad de Curarrehue, se realizará entre el 17 y 20 de diciembre y reunirá a 22 cultoras y cultores de La Araucanía, Los Ríos y Los Lagos. La iniciativa cuenta con financiamiento del Fondart Nacional 2026 y busca fortale",
+      "link": "https://www.cultura.gob.cl/agendacultural/la-feria-de-arte-popular-lacustre-andino-celebra-su-cuarta-version-y-amplia-su-alcance-a-tres-regiones-del-sur-de-chile/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-09T21:05:07.000Z",
+      "image": "",
+      "event": {
+        "text": "20 de diciembre",
+        "start": "2026-12-20T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-09-concierto-mu-danza-del-compositor-y-guitarrista-mario-concha-munoz",
+      "title": "Concierto mu-danza del compositor y guitarrista Mario Concha Muñoz",
+      "summary": "Comienza gira de cinco conciertos de obras originales para guitarras y cello por las regiones de La Araucanía y Ñuble.",
+      "link": "https://www.cultura.gob.cl/agendacultural/concierto-mu-danza-del-compositor-y-guitarrista-mario-concha-munoz/",
+      "author": "araucania",
+      "category": "MUSICA",
+      "source": "seremi-culturas",
+      "date": "2026-11-09T21:04:57.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-09-ministerio-de-las-culturas-entrega-mas-de-130-millones-a-proyectos-que-llevaran-",
+      "title": "Ministerio de las Culturas entrega más de $130 millones a proyectos que llevarán las artes escénicas a espacios formativos de niños y adolescentes",
+      "summary": "Con este financiamiento, otorgado por segundo año consecutivo a través del Fondo Nacional de Artes Escénicas, se busca enriquecer los procesos de aprendizaje mediante acciones que integren prácticas escénicas, generando espacios de creación, exhibición y diálogo entre estudiantes, artistas y docente",
+      "link": "https://www.cultura.gob.cl/actualidad/ministerio-de-las-culturas-entrega-mas-de-130-millones-a-proyectos-que-llevaran-las-artes-escenicas-a-espacios-formativos-de-ninos-y-adolescentes/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-09T20:08:45.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-09-cerca-de-80-educadoras-y-docentes-fortalecen-sus-herramientas-para-estimular-la-",
@@ -13654,11 +13713,11 @@
   "counts": {
     "POESIA": 115,
     "LITERATURA": 50,
-    "MUSICA": 213,
+    "MUSICA": 215,
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 62,
-    "PATRIMONIO": 348,
+    "PATRIMONIO": 351,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 84,
     "TERRITORIO": 87
@@ -13668,10 +13727,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 17,
-      "seremi-culturas": 167,
+      "elmauleinforma": 119,
+      "diario-el-centro": 100,
+      "seremi-culturas": 170,
       "diariotalca": 51,
-      "diario-el-centro": 99,
-      "elmauleinforma": 118,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
