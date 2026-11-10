@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T18:31:00.514Z",
+  "generatedAt": "2026-11-10T06:36:13.675Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -272,6 +272,69 @@
         "text": "10 de noviembre · 10:00",
         "start": "2026-11-10T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-09-cerca-de-80-educadoras-y-docentes-fortalecen-sus-herramientas-para-estimular-la-",
+      "title": "Cerca de 80 educadoras y docentes fortalecen sus herramientas para estimular la lectura desde la primera infancia en Atacama",
+      "summary": "El seminario “Mitos, territorialidad y enfoque pedagógico”, organizado por la Seremi de las Culturas, las Artes y el Patrimonio, entregó herramientas de mediación lectora a educadoras, técnicos en educación parvularia, docentes, mediadores, y bibliotecarios de la región.",
+      "link": "https://www.cultura.gob.cl/actualidad/cerca-de-80-educadoras-y-docentes-fortalecen-sus-herramientas-para-estimular-la-lectura-desde-la-primera-infancia-en-atacama/",
+      "author": "atacama",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-09T17:43:44.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-09-mas-de-7-mil-personas-visitaron-la-feria-del-libro-del-deporte-descubre-maule",
+      "title": "Más de 7 mil personas visitaron la Feria del Libro del Deporte Descubre Maule",
+      "summary": "¿Cuál fue el balance de la feria? Entre el viernes 6 y el domingo 8 de noviembre, la Feria del Libro Descubre Maule congregó a más de 7 mil personas en la Plaza de Armas de Talca. Durante tres jornadas, el público participó en charlas con autores y deportistas, asistió a funciones de teatro y […] Th",
+      "link": "https://diariotalca.cl/mas-de-7-mil-personas-visitaron-la-feria-del-libro-del-deporte-descubre-maule/",
+      "author": "Pamela Lara",
+      "category": "TEATRO",
+      "source": "diariotalca",
+      "date": "2026-11-09T14:24:48.000Z",
+      "image": "",
+      "event": {
+        "text": "8 de noviembre",
+        "start": "2026-11-08T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-09-advierten-posibles-tormentas-electricas-en-el-maule-y-otras-tres-regiones-de-chi",
+      "title": "Advierten posibles tormentas eléctricas en el Maule y otras tres regiones de Chile",
+      "summary": "El aviso considera sectores de valle, precordillera y cordillera del Maule, además de zonas de Valparaíso, Metropolitana y O’Higgins, ante la inestabilidad atmosférica prevista para las próximas horas. The post Advierten posibles tormentas eléctricas en el Maule y otras tres regiones de Chile appear",
+      "link": "https://www.diarioelcentro.cl/2026/11/09/advierten-posibles-tormentas-electricas-en-el-maule-y-otras-tres-regiones-de-chile/",
+      "author": "Patricio Mora",
+      "category": "TERRITORIO",
+      "source": "diario-el-centro",
+      "date": "2026-11-09T13:38:38.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-09-rockodromo-celebra-su-edicion-2026-por-primera-vez-desde-el-terminal-de-pasajero",
+      "title": "Rockódromo celebra su edición 2026 por primera vez desde el Terminal de Pasajeros",
+      "summary": "La versión 22 del festival organizado por el Ministerio de las Culturas, las Artes y el Patrimonio, a través de las Escuelas de Rock y Música Popular, aterriza en Valparaíso del 11 al 13 de diciembre. Congreso, Joe Vasconcellos, Dënver y Los Blue Splendor son parte del cartel que reúne a más de 30 m",
+      "link": "https://www.cultura.gob.cl/agendacultural/rockodromo-celebra-su-edicion-2026-por-primera-vez-desde-el-terminal-de-pasajeros-y-con-artistas-de-todas-las-regiones/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-09T13:28:21.000Z",
+      "image": "",
+      "event": {
+        "text": "al 13 de diciembre",
+        "start": "2026-12-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-09-obra-ser-extranjer-en-chile-abre-espacios-para-reflexionar-sobre-identidad-migra",
+      "title": "Obra “Ser extranjer@ en Chile” abre espacios para reflexionar sobre identidad, migración e interculturalidad",
+      "summary": "La presentación en Valparaíso fue impulsada por el Programa Interculturalidad e Inclusión de Migrantes del Ministerio de las Culturas, las Artes y el Patrimonio, junto a la Pontificia Universidad Católica de Valparaíso.",
+      "link": "https://www.cultura.gob.cl/actualidad/obra-ser-extranjer-en-chile-abre-espacios-para-reflexionar-sobre-identidad-migracion-e-interculturalidad/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-09T12:59:15.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-08-chanco-prepara-la-chorrillana-mas-larga-de-chile-con-54-metros",
@@ -784,7 +847,7 @@
       "image": "",
       "event": {
         "text": "este lunes",
-        "start": "2026-11-09T12:00:00.000Z"
+        "start": "2026-11-16T12:00:00.000Z"
       }
     },
     {
@@ -1612,7 +1675,7 @@
       "image": "",
       "event": {
         "text": "este lunes",
-        "start": "2026-11-09T12:00:00.000Z"
+        "start": "2026-11-16T12:00:00.000Z"
       }
     },
     {
@@ -3457,7 +3520,7 @@
       "image": "",
       "event": {
         "text": "10 de octubre",
-        "start": "2026-10-10T12:00:00.000Z"
+        "start": "2027-10-10T12:00:00.000Z"
       }
     },
     {
@@ -13592,23 +13655,23 @@
     "POESIA": 115,
     "LITERATURA": 50,
     "MUSICA": 213,
-    "TEATRO": 96,
+    "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 62,
-    "PATRIMONIO": 345,
+    "PATRIMONIO": 348,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 84,
-    "TERRITORIO": 86
+    "TERRITORIO": 87
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 17,
-      "diario-el-centro": 98,
+      "seremi-culturas": 167,
+      "diariotalca": 51,
+      "diario-el-centro": 99,
       "elmauleinforma": 118,
-      "seremi-culturas": 164,
-      "diariotalca": 50,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
