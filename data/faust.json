@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T05:23:04.021Z",
+  "generatedAt": "2026-11-11T22:36:41.919Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -256,6 +256,43 @@
         "text": "11 de noviembre (Miércoles)",
         "start": "2026-11-11T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-10-region-de-los-lagos-reconoce-a-artistas-cultores-y-organizaciones-en-12-version-",
+      "title": "Región de Los Lagos reconoce a artistas, cultores y organizaciones en 12º versión de los Premios Regionales de Arte y Cultura 2026",
+      "summary": "La ceremonia, realizada en el Teatro del Lago de Frutillar, distinguió a siete personas y organizaciones por su aporte a las artes, la educación, la identidad y el patrimonio cultural del territorio.",
+      "link": "https://www.cultura.gob.cl/actualidad/region-de-los-lagos-reconoce-a-artistas-cultores-y-organizaciones-en-12o-version-de-los-premios-regionales-de-arte-y-cultura-2026/",
+      "author": "loslagos",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-10T21:08:26.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-10-ministerio-de-las-culturas-anuncia-obras-ganadoras-de-los-premios-literarios-202",
+      "title": "Ministerio de las Culturas anuncia obras ganadoras de los Premios Literarios 2026 y celebra 20 años del Premio Roberto Bolaño",
+      "summary": "La trigésima cuarta edición de este reconocimiento distingue la creación literaria nacional en diversas categorías y géneros, relevando la literatura y el trabajo de autores del país. La ceremonia de premiación se realizará el 25 de noviembre en el Centro Cultural La Moneda.",
+      "link": "https://www.cultura.gob.cl/actualidad/ministerio-de-las-culturas-anuncia-obras-ganadoras-de-los-premios-literarios-2026-y-celebra-20-anos-del-premio-roberto-bolano/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-10T21:01:33.000Z",
+      "image": "",
+      "event": {
+        "text": "el 25 de noviembre",
+        "start": "2026-11-25T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-10-exitoso-desfile-de-modas-mezcla-artesania-y-alta-costura-andina",
+      "title": "Exitoso desfile de modas mezcla artesanía y alta costura andina",
+      "summary": "Con total éxito se realizó el desfile de alta costura andina “Qaytumpi”, un hito que se consolida como un espacio clave para la puesta en valor de la artesanía del altiplano en el extremo norte de Chile. El encuentro, que se realizó en el Centro de Convenciones del Hotel Antay, contempló el trabajo ",
+      "link": "https://www.cultura.gob.cl/actualidad/exitoso-desfile-de-modas-mezcla-artesania-y-alta-costura-andina/",
+      "author": "arica",
+      "category": "ARTESANIAS",
+      "source": "seremi-culturas",
+      "date": "2026-11-10T20:56:07.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-10-crear-cine-no-tiene-edad-cinelebu-desarrolla-experiencias-audiovisuales-para-dis",
@@ -13790,8 +13827,8 @@
     "MUSICA": 216,
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
-    "ARTESANIAS": 62,
-    "PATRIMONIO": 354,
+    "ARTESANIAS": 63,
+    "PATRIMONIO": 356,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 86,
     "TERRITORIO": 87
@@ -13801,7 +13838,7 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 17,
-      "seremi-culturas": 173,
+      "seremi-culturas": 176,
       "elmauleinforma": 120,
       "diariotalca": 53,
       "diario-el-centro": 100,
