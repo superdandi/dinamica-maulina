@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T16:15:41.867Z",
+  "generatedAt": "2026-11-11T05:23:04.021Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -258,6 +258,54 @@
       }
     },
     {
+      "id": "2026-11-10-crear-cine-no-tiene-edad-cinelebu-desarrolla-experiencias-audiovisuales-para-dis",
+      "title": "Crear cine no tiene edad: CINELEBU desarrolla experiencias audiovisuales para distintas generaciones",
+      "summary": "Quince niños y un grupo de personas mayores participan en experiencias gratuitas de animación Stop Motion, impulsadas por Escuela CINELEBU. Las actividades contemplan procesos de creación con plasticina, escritura de historias y producción audiovisual, acercando el lenguaje cinematográfico a distint",
+      "link": "https://www.cultura.gob.cl/actualidad/crear-cine-no-tiene-edad-cinelebu-desarrolla-experiencias-audiovisuales-para-distintas-generaciones/",
+      "author": "biobio",
+      "category": "CINE_MEDIOS",
+      "source": "seremi-culturas",
+      "date": "2026-11-10T17:01:55.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-10-la-fiesta-de-la-gallina-congrego-a-mas-de-4-mil-personas",
+      "title": "La Fiesta de la Gallina congregó a más de 4 mil personas",
+      "summary": "Una exitosa jornada se vivió en Molina con la Fiesta de la Gallina, convocando a 5 mil personas de la comuna, quienes disfrutaron de una feria artesanal, animales, gastronomía y música en vivo que fueron parte de esta celebración. La instancia fue organizada por la Municipalidad de Molina en conjunt",
+      "link": "https://elmauleinforma.cl/la-fiesta-de-la-gallina-congrego-a-mas-de-4-mil-personas/",
+      "author": "Redacción El Maule Informa",
+      "category": "MUSICA",
+      "source": "elmauleinforma",
+      "date": "2026-11-10T17:00:14.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-10-biobiocine-reconoce-a-las-peliculas-ganadoras-de-su-12-edicion-y-anuncia-el-encu",
+      "title": "BioBioCine reconoce a las películas ganadoras de su 12ª edición y anuncia el Encuentro de Estudiantes “Sebastián Lelio”",
+      "summary": "La ceremonia de premiación distinguió a las mejores películas de las competencias internacionales y de escuela. El festival anunció además que, desde 2027, el Encuentro de Estudiantes llevará el nombre del cineasta chileno.",
+      "link": "https://www.cultura.gob.cl/actualidad/biobiocine-reconoce-a-las-peliculas-ganadoras-de-su-12a-edicion-y-anuncia-el-encuentro-de-estudiantes-sebastian-lelio/",
+      "author": "biobio",
+      "category": "CINE_MEDIOS",
+      "source": "seremi-culturas",
+      "date": "2026-11-10T16:54:12.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-10-consejo-de-monumentos-nacionales-alcanzo-0-de-rezago-en-pronunciamientos-ambient",
+      "title": "Consejo de Monumentos Nacionales alcanzó 0% de rezago en pronunciamientos ambientales en su sesión del 30 de septiembre y despejó proyectos por más de US$ 1.050 millones",
+      "summary": "El resultado es fruto del trabajo de los equipos evaluadores de la Secretaría Técnica del CMN y del seguimiento permanente de la Subsecretaría del Patrimonio Cultural. Los ocho proyectos resueltos se ubican en seis regiones del país, y los equipos ya se coordinan para repetir el resultado en la sesi",
+      "link": "https://www.cultura.gob.cl/actualidad/consejo-de-monumentos-nacionales-alcanzo-0-de-rezago-en-pronunciamientos-ambientales-en-su-sesion-del-30-de-septiembre-y-despejo-proyectos-por-mas-de-us-1-050-millones/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-10T13:44:51.000Z",
+      "image": "",
+      "event": {
+        "text": "del 30 de septiembre",
+        "start": "2027-09-28T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-11-10-taller-de-vellon-agujado",
       "title": "Taller de vellón agujado",
       "summary": "El taller está centrado en el aprendizaje inicial de la técnica de vellón agujado. · Cada participante podrá realizar una pieza textil libre. La propuesta permitirá · Martes experimentar con formas, colores y texturas, respetando el ritmo de · aprendizaje y las decisiones creativas de cada persona. ",
@@ -272,6 +320,32 @@
         "text": "10 de noviembre · 10:00",
         "start": "2026-11-10T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-10-mas-de-4-mil-personas-participaron-en-la-27-feria-del-folclore-de-huilquilemu",
+      "title": "Más de 4 mil personas participaron en la 27ª Feria del Folclore de Huilquilemu",
+      "summary": "¿Qué ocurrió? Con una asistencia de 4 mil personas, la 27ª Feria del Folclore de Huilquilemu cerró una nueva edición marcada por la música, la danza, la artesanía y las tradiciones campesinas. ¿Cómo fue? El encuentro, realizado el sábado 7 y domingo 8 de noviembre en la Villa Cultural Huilquilemu He",
+      "link": "https://diariotalca.cl/mas-de-4-mil-personas-participaron-en-la-27a-feria-del-folclore-de-huilquilemu/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-10T09:05:17.000Z",
+      "image": "",
+      "event": {
+        "text": "8 de noviembre",
+        "start": "2026-11-08T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-10-nuestros-bosques-estan-cambiando-estamos-preparados-para-protegerlos-por-romulo-",
+      "title": "NUESTROS BOSQUES ESTÁN CAMBIANDO, ¿ESTAMOS PREPARADOS PARA PROTEGERLOS? por Rómulo Santelices",
+      "summary": "Un bosque puede tardar décadas en crecer, pero basta un incendio para destruir en pocas horas una parte importante de ese patrimonio natural. La recuperación, cuando es posible, puede tomar años y exige condiciones que el cambio climático hace cada vez más difíciles de garantizar. Las sequías prolon",
+      "link": "https://diariotalca.cl/nuestros-bosques-estan-cambiando-estamos-preparados-para-protegerlos-por-romulo-santelices/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-10T09:05:03.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-09-cuatro-de-cada-diez-consumidores-compra-en-malls-chinos-pero-solo-el-30-de-ellos",
@@ -1749,7 +1823,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-11-10T12:00:00.000Z"
+        "start": "2026-11-17T12:00:00.000Z"
       }
     },
     {
@@ -4284,7 +4358,7 @@
       "image": "",
       "event": {
         "text": "el 11 de octubre",
-        "start": "2026-10-11T12:00:00.000Z"
+        "start": "2027-10-11T12:00:00.000Z"
       }
     },
     {
@@ -4710,7 +4784,7 @@
       "image": "",
       "event": {
         "text": "al 11 de octubre",
-        "start": "2026-10-11T12:00:00.000Z"
+        "start": "2027-10-11T12:00:00.000Z"
       }
     },
     {
@@ -4969,7 +5043,7 @@
       "image": "",
       "event": {
         "text": "al 11 de octubre",
-        "start": "2026-10-11T12:00:00.000Z"
+        "start": "2027-10-11T12:00:00.000Z"
       }
     },
     {
@@ -5017,7 +5091,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-11-10T12:00:00.000Z"
+        "start": "2026-11-17T12:00:00.000Z"
       }
     },
     {
@@ -13713,13 +13787,13 @@
   "counts": {
     "POESIA": 115,
     "LITERATURA": 50,
-    "MUSICA": 215,
+    "MUSICA": 216,
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 62,
-    "PATRIMONIO": 351,
+    "PATRIMONIO": 354,
     "FOTOGRAFIA": 24,
-    "CINE_MEDIOS": 84,
+    "CINE_MEDIOS": 86,
     "TERRITORIO": 87
   },
   "feedStats": {
@@ -13727,10 +13801,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 17,
-      "elmauleinforma": 119,
+      "seremi-culturas": 173,
+      "elmauleinforma": 120,
+      "diariotalca": 53,
       "diario-el-centro": 100,
-      "seremi-culturas": 170,
-      "diariotalca": 51,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
