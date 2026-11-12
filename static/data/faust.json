@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T22:36:41.919Z",
+  "generatedAt": "2026-11-12T06:27:15.631Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -224,6 +224,28 @@
         "text": "13 de noviembre · 19:30",
         "start": "2026-11-13T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-11-premio-linterna-de-papel-2026-reconoce-las-trayectorias-de-tres-referentes-de-la",
+      "title": "Premio Linterna de Papel 2026 reconoce las trayectorias de tres referentes de la cultura regional",
+      "summary": "Una artesana lickanantay, un destacado referente del teatro y un impulsor de la memoria e identidad tocopillana recibirán esta distinción, que reconoce sus contribuciones al desarrollo artístico, cultural y patrimonial de la Región de Antofagasta.",
+      "link": "https://www.cultura.gob.cl/actualidad/premio-linterna-de-papel-2026-reconoce-las-trayectorias-de-tres-referentes-de-la-cultura-regional/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-11T17:00:37.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-11-concieto-gratuito-obras-de-schubert-y-mozart-interpretadas-por-la-sinfonica-juve",
+      "title": "Concieto gratuito: Obras de Schubert y Mozart, interpretadas por la Sinfónica Juvenil en TRM",
+      "summary": "La Orquesta Sinfónica Juvenil Regional (OSJR) del Maule de la Fundación de Orquestas Juveniles e Infantiles de Chile (FOJI) prepara un nuevo encuentro para encantar a la comunidad, con el objetivo de celebrar los 25 años de la institución. El elenco forma parte de las quince agrupaciones sinfónicas ",
+      "link": "https://elmauleinforma.cl/concieto-gratuito-obras-de-schubert-y-mozart-interpretadas-por-la-sinfonica-juvenil-en-trm/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-11T15:00:49.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-11-ciclo-de-cine-cuando-las-cosas-se-mueven",
@@ -2323,7 +2345,7 @@
       "image": "",
       "event": {
         "text": "este miércoles",
-        "start": "2026-11-11T12:00:00.000Z"
+        "start": "2026-11-18T12:00:00.000Z"
       }
     },
     {
@@ -2794,7 +2816,7 @@
       "image": "",
       "event": {
         "text": "miércoles 20",
-        "start": "2026-11-11T12:00:00.000Z"
+        "start": "2026-11-18T12:00:00.000Z"
       }
     },
     {
@@ -3216,7 +3238,7 @@
       "image": "",
       "event": {
         "text": "miércoles 14",
-        "start": "2026-11-11T12:00:00.000Z"
+        "start": "2026-11-18T12:00:00.000Z"
       }
     },
     {
@@ -3505,7 +3527,7 @@
       "image": "",
       "event": {
         "text": "12 de octubre",
-        "start": "2026-10-12T12:00:00.000Z"
+        "start": "2027-10-12T12:00:00.000Z"
       }
     },
     {
@@ -4210,7 +4232,7 @@
       "image": "",
       "event": {
         "text": "al 12 de octubre",
-        "start": "2026-10-12T12:00:00.000Z"
+        "start": "2027-10-12T12:00:00.000Z"
       }
     },
     {
@@ -13828,18 +13850,18 @@
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 63,
-    "PATRIMONIO": 356,
+    "PATRIMONIO": 358,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 86,
     "TERRITORIO": 87
   },
   "feedStats": {
     "sources": 54,
-    "alive": 48,
+    "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 17,
-      "seremi-culturas": 176,
-      "elmauleinforma": 120,
+      "seremi-culturas": 177,
+      "elmauleinforma": 121,
       "diariotalca": 53,
       "diario-el-centro": 100,
       "rincon-literario": 48,
@@ -14425,7 +14447,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": false
     }
   ]
