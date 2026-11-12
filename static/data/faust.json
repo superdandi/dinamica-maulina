@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T06:27:15.631Z",
+  "generatedAt": "2026-11-12T16:40:33.986Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -226,6 +226,54 @@
       }
     },
     {
+      "id": "2026-11-12-gobierno-anuncia-plan-de-accion-temprana-para-apoyar-la-comercializacion-del-tri",
+      "title": "Gobierno anuncia Plan de Acción Temprana para apoyar la comercialización del trigo en la próxima temporada",
+      "summary": "Con el objetivo de entregar mayor certeza a los productores y anticiparse a eventuales dificultades en la comercialización del trigo, el subsecretario de Agricultura, Francesco Venezian, anunció el Plan de Acción Temprana impulsado por el Minagri para enfrentar la próxima temporada triguera. Durante",
+      "link": "https://elmauleinforma.cl/gobierno-anuncia-plan-de-accion-temprana-para-apoyar-la-comercializacion-del-trigo-en-la-proxima-temporada/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-12T01:13:47.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-11-ministro-francisco-undurraga-inaugura-5ta-edicion-del-circuito-matta-patrimonial",
+      "title": "Ministro Francisco Undurraga inaugura 5ta edición del Circuito Matta Patrimonial en el Centro Cultural La Moneda",
+      "summary": "Con la exposición “El universo de Matta: Être Cible” (Ser el blanco), que podrá ser visitada hasta el 3 de enero, esta mañana se dio inicio a la iniciativa que reúne programación en torno a la obra y legado del artista, con actividades en Santiago, Valparaíso y Buenos Aires.",
+      "link": "https://www.cultura.gob.cl/agendacultural/ministro-francisco-undurraga-inaugura-5ta-edicion-del-circuito-matta-patrimonial-en-el-centro-cultural-la-moneda/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-11T19:51:58.000Z",
+      "image": "",
+      "event": {
+        "text": "el 3 de enero",
+        "start": "2027-01-03T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-11-pucon-sera-sede-inedita-de-la-4-fiesta-del-libro-de-la-araucania",
+      "title": "Pucón será sede inédita de la 4° Fiesta del Libro de La Araucanía",
+      "summary": "En su cuarta versión, el encuentro cultural se confirmó en la zona lacustre, después del Iron Man 70.3, en enero próximo, lo que se materializó esta semana con un convenio entre la Seremi de las Culturas, las Artes y el Patrimonio con el Municipio lacustre.",
+      "link": "https://www.cultura.gob.cl/identidad-cultural-regional/pucon-sera-sede-inedita-de-la-4-fiesta-del-libro-de-la-araucania/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-11T19:14:47.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-11-artistas-circenses-mostraron-creacion-colectiva-en-plaza-de-la-republica-de-vald",
+      "title": "Artistas circenses mostraron creación colectiva en Plaza de la República de Valdivia",
+      "summary": "La apertura al público de la obra en proceso \"Circo Nativo\" fue el cierre de la residencia de creación y formación “El circo desde la escena”, impulsada por la Seremi de las Culturas con la colaboración técnica del Centro Cultural Nuevo Circo de Valdivia.",
+      "link": "https://www.cultura.gob.cl/actualidad/artistas-circenses-mostraron-creacion-colectiva-en-plaza-de-la-republica-de-valdivia/",
+      "author": "losrios",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-11T19:14:19.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-11-11-premio-linterna-de-papel-2026-reconoce-las-trayectorias-de-tres-referentes-de-la",
       "title": "Premio Linterna de Papel 2026 reconoce las trayectorias de tres referentes de la cultura regional",
       "summary": "Una artesana lickanantay, un destacado referente del teatro y un impulsor de la memoria e identidad tocopillana recibirán esta distinción, que reconoce sus contribuciones al desarrollo artístico, cultural y patrimonial de la Región de Antofagasta.",
@@ -362,22 +410,6 @@
       "event": {
         "text": "del 30 de septiembre",
         "start": "2027-09-28T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-11-10-taller-de-vellon-agujado",
-      "title": "Taller de vellón agujado",
-      "summary": "El taller está centrado en el aprendizaje inicial de la técnica de vellón agujado. · Cada participante podrá realizar una pieza textil libre. La propuesta permitirá · Martes experimentar con formas, colores y texturas, respetando el ritmo de · aprendizaje y las decisiones creativas de cada persona. ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "PATRIMONIO",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-10T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "10 de noviembre · 10:00",
-        "start": "2026-11-10T12:00:00.000Z"
       }
     },
     {
@@ -13850,18 +13882,18 @@
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 63,
-    "PATRIMONIO": 358,
+    "PATRIMONIO": 361,
     "FOTOGRAFIA": 24,
     "CINE_MEDIOS": 86,
     "TERRITORIO": 87
   },
   "feedStats": {
     "sources": 54,
-    "alive": 47,
+    "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 17,
-      "seremi-culturas": 177,
-      "elmauleinforma": 121,
+      "ext-utalca-programa": 16,
+      "elmauleinforma": 122,
+      "seremi-culturas": 180,
       "diariotalca": 53,
       "diario-el-centro": 100,
       "rincon-literario": 48,
@@ -14447,7 +14479,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": false
     }
   ]
