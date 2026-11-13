@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T16:40:33.986Z",
+  "generatedAt": "2026-11-13T05:46:50.829Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -146,6 +146,22 @@
       }
     },
     {
+      "id": "2026-11-18-ciclo-de-cine-cuando-las-cosas-se-mueven",
+      "title": "Ciclo de cine: “Cuando las cosas se mueven”",
+      "summary": "Este ciclo propone un recorrido por distintas formas de la animación stop · motion, a través de películas construidas con plasticina, marionetas, · miniaturas y otros elementos físicos animados cuadro a cuadro. La selección · busca mostrar la diversidad expresiva de esta técnica, capaz de transitar ",
+      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
+      "author": "",
+      "category": "CINE_MEDIOS",
+      "source": "ext-utalca-programa",
+      "date": "2026-11-18T12:00:00.000Z",
+      "image": "",
+      "event": {
+        "kind": "program",
+        "text": "18 de noviembre (Miércoles) · 19:00",
+        "start": "2026-11-18T12:00:00.000Z"
+      }
+    },
+    {
       "id": "2026-11-17-inauguracion-exposicion-la-biblioteca-imaginaria-de-carlos-vega",
       "title": "Inauguración exposición: “La biblioteca imaginaria” de Carlos Vega",
       "summary": "imaginaria” de Carlos Vega · Tras su paso por Santiago, llega al Centro de Extensión de la Universidad de · Talca, Curicó, “La biblioteca imaginaria” de Carlos Vega Faúndez. El artista · actúa como un pintor-editor que reﬂexiona sobre el canon occidental y la · reproductibilidad de la imagen, transf",
@@ -226,6 +242,54 @@
       }
     },
     {
+      "id": "2026-11-12-luces-musica-y-actividades-familiares-mall-curico-dara-inicio-a-la-navidad-con-e",
+      "title": "Luces, música y actividades familiares: Mall Curicó dará inicio a la Navidad con el encendido de su árbol",
+      "summary": "La programación contempla fotografías gratuitas con el Viejito Pascuero, una feria de emprendedores locales y actividades solidarias para disfrutar en familia durante noviembre. The post Luces, música y actividades familiares: Mall Curicó dará inicio a la Navidad con el encendido de su árbol appeare",
+      "link": "https://www.diarioelcentro.cl/2026/11/12/luces-musica-y-actividades-familiares-mall-curico-dara-inicio-a-la-navidad-con-el-encendido-de-su-arbol/",
+      "author": "Diario El Centro Prensa",
+      "category": "FOTOGRAFIA",
+      "source": "diario-el-centro",
+      "date": "2026-11-12T14:10:11.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-12-aldea-vikinga-de-talca-realizara-ceremonia-ancestral-en-la-noche-de-los-museos",
+      "title": "Aldea Vikinga de Talca realizará ceremonia ancestral en la Noche de los Museos",
+      "summary": "La actividad incluirá una representación de la tradición nórdica con sentidos de agradecimiento y protección. La organización aclaró que no contempla sacrificios ni prácticas religiosas. The post Aldea Vikinga de Talca realizará ceremonia ancestral en la Noche de los Museos appeared first on Diario ",
+      "link": "https://www.diarioelcentro.cl/2026/11/12/aldea-vikinga-de-talca-realizara-ceremonia-ancestral-en-la-noche-de-los-museos/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-11-12T12:06:23.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-12-coro-renacer-cantando-se-presentara-en-la-noche-de-los-museos-en-talca",
+      "title": "Coro Renacer Cantando se presentará en la Noche de los Museos en Talca",
+      "summary": "¿Qué va a pasar? Una intensa agenda cultural se desplegará este viernes 13 de noviembre a nivel regional y nacional en el contexto del evento denominado Noche de los Museos de carácter gratuito. ¿Cuál es la agenda? En el caso de Talca los puntos de interés serán el Museo O´Higginiano y […] The post ",
+      "link": "https://diariotalca.cl/coro-renacer-cantando-se-presentara-en-la-noche-de-los-museos-en-talca/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-12T09:00:46.000Z",
+      "image": "",
+      "event": {
+        "text": "13 de noviembre",
+        "start": "2026-11-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-12-fundacion-roberto-hernandez-cornejo-finaliza-sus-actividades-con-un-nuevo-libro-",
+      "title": "Fundación Roberto Hernández Cornejo finaliza sus actividades con un nuevo libro en Talca",
+      "summary": "¿Cuál fue el anuncio? En el marco de la etapa final de sus actividades, la Fundación Roberto Hernández Cornejo realizará en Talca la presentación del libro “El Tintero prodigioso de don Roberto”. La obra colectiva dedicada a rescatar la trayectoria y el legado de uno de los más destacados periodista",
+      "link": "https://diariotalca.cl/fundacion-roberto-hernandez-cornejo-finaliza-sus-actividades-con-un-nuevo-libro-en-talca/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-12T09:00:32.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-11-12-gobierno-anuncia-plan-de-accion-temprana-para-apoyar-la-comercializacion-del-tri",
       "title": "Gobierno anuncia Plan de Acción Temprana para apoyar la comercialización del trigo en la próxima temporada",
       "summary": "Con el objetivo de entregar mayor certeza a los productores y anticiparse a eventuales dificultades en la comercialización del trigo, el subsecretario de Agricultura, Francesco Venezian, anunció el Plan de Acción Temprana impulsado por el Minagri para enfrentar la próxima temporada triguera. Durante",
@@ -294,38 +358,6 @@
       "source": "elmauleinforma",
       "date": "2026-11-11T15:00:49.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-11-11-ciclo-de-cine-cuando-las-cosas-se-mueven",
-      "title": "Ciclo de cine: “Cuando las cosas se mueven”",
-      "summary": "Este ciclo propone un recorrido por distintas formas de la animación stop · motion, a través de películas construidas con plasticina, marionetas, · miniaturas y otros elementos físicos animados cuadro a cuadro. La selección · busca mostrar la diversidad expresiva de esta técnica, capaz de transitar ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-11T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "11, 18 de noviembre (Miércoles) · 19:00",
-        "start": "2026-11-11T12:00:00.000Z"
-      }
-    },
-    {
-      "id": "2026-11-11-exposicion-laberinto-de-imagenes-e-ideas-de-tatiana-alamos",
-      "title": "Exposición: “Laberinto de imágenes e ideas” de Tatiana Álamos",
-      "summary": "e ideas” de Tatiana Álamos · De la mano de Tatiana han nacido retratos poéticos, mundos mágicos y otros · universos, cuya génesis han sido grandes autores literarios; sus obras se · pueden catalogar entre un arte ingenuo y expresionista con un concepto · ecológico, a través del uso de distintas técn",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "POESIA",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-11T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "11 de noviembre (Miércoles)",
-        "start": "2026-11-11T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-11-10-region-de-los-lagos-reconoce-a-artistas-cultores-y-organizaciones-en-12-version-",
@@ -853,7 +885,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-12T12:00:00.000Z"
+        "start": "2026-11-19T12:00:00.000Z"
       }
     },
     {
@@ -3192,7 +3224,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-12T12:00:00.000Z"
+        "start": "2026-11-19T12:00:00.000Z"
       }
     },
     {
@@ -5093,7 +5125,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-12T12:00:00.000Z"
+        "start": "2026-11-19T12:00:00.000Z"
       }
     },
     {
@@ -13876,14 +13908,14 @@
     }
   ],
   "counts": {
-    "POESIA": 115,
+    "POESIA": 114,
     "LITERATURA": 50,
     "MUSICA": 216,
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 63,
-    "PATRIMONIO": 361,
-    "FOTOGRAFIA": 24,
+    "PATRIMONIO": 364,
+    "FOTOGRAFIA": 25,
     "CINE_MEDIOS": 86,
     "TERRITORIO": 87
   },
@@ -13891,11 +13923,11 @@
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 16,
+      "ext-utalca-programa": 15,
+      "diario-el-centro": 102,
+      "diariotalca": 55,
       "elmauleinforma": 122,
       "seremi-culturas": 180,
-      "diariotalca": 53,
-      "diario-el-centro": 100,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
