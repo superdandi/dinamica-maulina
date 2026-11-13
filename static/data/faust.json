@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T15:59:39.791Z",
+  "generatedAt": "2026-11-13T21:56:06.035Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -240,6 +240,43 @@
         "text": "13 de noviembre · 19:30",
         "start": "2026-11-13T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-13-inician-campana-de-seguridad-en-canales-con-cuentacuentos-para-ninos-y-ninas-en-",
+      "title": "Inician campaña de seguridad en canales con cuentacuentos para niños y niñas en el Maule sur",
+      "summary": "¿Cuál fue el anuncio? Colbún S.A. dio inicio a una nueva temporada de su campaña de Seguridad en Canales, orientada a concientizar sobre los riesgos de ingresar al canal de devolución de la Central Machicura y a los canales de regadío de la zona. ¿Cuál es la finalidad? La campaña, que […] The post I",
+      "link": "https://diariotalca.cl/inician-campana-de-seguridad-en-canales-con-cuentacuentos-para-ninos-y-ninas-en-el-maule-sur/",
+      "author": "Hernán Espinoza",
+      "category": "LITERATURA",
+      "source": "diariotalca",
+      "date": "2026-11-13T09:00:48.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-13-camioneros-de-talca-levantan-movilizacion-tras-acuerdo-con-el-gobierno-en-seis-p",
+      "title": "Camioneros de Talca levantan movilización tras acuerdo con el Gobierno en seis puntos claves",
+      "summary": "¿Qué ocurrió? A las 20 horas de este jueves 12 de noviembre se puso fin a la movilización de los camioneros en Talca que focalizó la protesta en el cruce Lircay con la ruta 5 Sur en el kilómetro 249. Allí desde el pasado martes un numeroso grupo perteneciente a la Asociación […] The post Camioneros ",
+      "link": "https://diariotalca.cl/camioneros-de-talca-levantan-movilizacion-tras-acuerdo-con-el-gobierno-en-seis-puntos-claves/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-13T09:00:38.000Z",
+      "image": "",
+      "event": {
+        "text": "12 de noviembre",
+        "start": "2026-11-12T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-13-corte-de-talca-realizo-charla-sobre-explotacion-sexual-de-ninos-ninas-y-adolesce",
+      "title": "Corte de Talca realizó charla sobre explotación sexual de niños, niñas y adolescentes",
+      "summary": "¿Qué ocurrió? Con la asistencia de más de 140 participantes, en modalidad híbrida, se realizó en la Corte de Apelaciones de Talca la charla sobre “Explotación sexual de niños, niñas y adolescentes”. La actividad fue encabezada por el presidente del tribunal de alzada, Carlos Carrillo y la ministra e",
+      "link": "https://diariotalca.cl/corte-de-talca-realizo-charla-sobre-explotacion-sexual-de-ninos-ninas-y-adolescentes/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-13T09:00:17.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-13-noche-de-museos-2026-reunira-29-espacios-culturales-en-la-region-del-maule-con-a",
@@ -13998,12 +14035,12 @@
   ],
   "counts": {
     "POESIA": 114,
-    "LITERATURA": 50,
+    "LITERATURA": 51,
     "MUSICA": 216,
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 63,
-    "PATRIMONIO": 369,
+    "PATRIMONIO": 371,
     "FOTOGRAFIA": 25,
     "CINE_MEDIOS": 87,
     "TERRITORIO": 88
@@ -14013,10 +14050,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 15,
+      "diariotalca": 58,
       "elmauleinforma": 124,
       "diario-el-centro": 104,
       "seremi-culturas": 183,
-      "diariotalca": 55,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
