@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T21:56:06.035Z",
+  "generatedAt": "2026-11-14T05:36:57.112Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -192,6 +192,28 @@
         "text": "14 de noviembre (Sábado) · 10:00",
         "start": "2026-11-14T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-13-matta-desembarca-en-el-parque-cultural-de-valparaiso-con-exposicion-de-mas-de-20",
+      "title": "Matta desembarca en el Parque Cultural de Valparaíso con exposición de más de 200 grabados",
+      "summary": "La muestra “Matta: Memorias de guerra” forma parte de las actividades del Circuito Matta Patrimonial, que conmemora el natalicio 115 del destacado artista chileno.",
+      "link": "https://www.cultura.gob.cl/agendacultural/matta-desembarca-en-el-parque-cultural-de-valparaiso-con-exposicion-de-mas-de-200-grabados/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-13T14:39:57.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-13-un-paseo-por-la-musica-mas-de-250-artistas-daran-vida-a-concierto-sinfonico-grat",
+      "title": "“Un paseo por la música”: más de 250 artistas darán vida a concierto sinfónico gratuito en Talca",
+      "summary": "La segunda edición del espectáculo incorporará obras clásicas, canciones populares y villancicos, en una propuesta artística que busca convocar a distintas generaciones. The post “Un paseo por la música”: más de 250 artistas darán vida a concierto sinfónico gratuito en Talca appeared first on Diario",
+      "link": "https://www.diarioelcentro.cl/2026/11/13/un-paseo-por-la-musica-mas-de-250-artistas-daran-vida-a-concierto-sinfonico-gratuito-en-talca/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-13T12:28:42.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-13-temporal-festival-de-cortometrajes-del-maule-2026",
@@ -741,7 +763,7 @@
       "image": "",
       "event": {
         "text": "viernes 13",
-        "start": "2026-11-13T12:00:00.000Z"
+        "start": "2026-11-20T12:00:00.000Z"
       }
     },
     {
@@ -2246,7 +2268,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-11-13T12:00:00.000Z"
+        "start": "2026-11-20T12:00:00.000Z"
       }
     },
     {
@@ -2272,7 +2294,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-11-13T12:00:00.000Z"
+        "start": "2026-11-20T12:00:00.000Z"
       }
     },
     {
@@ -2991,7 +3013,7 @@
       "image": "",
       "event": {
         "text": "este viernes",
-        "start": "2026-11-13T12:00:00.000Z"
+        "start": "2026-11-20T12:00:00.000Z"
       }
     },
     {
@@ -5973,7 +5995,7 @@
       "image": "",
       "event": {
         "text": "el 14 de octubre",
-        "start": "2026-10-14T12:00:00.000Z"
+        "start": "2027-10-14T12:00:00.000Z"
       }
     },
     {
@@ -14036,11 +14058,11 @@
   "counts": {
     "POESIA": 114,
     "LITERATURA": 51,
-    "MUSICA": 216,
+    "MUSICA": 217,
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 63,
-    "PATRIMONIO": 371,
+    "PATRIMONIO": 372,
     "FOTOGRAFIA": 25,
     "CINE_MEDIOS": 87,
     "TERRITORIO": 88
@@ -14050,10 +14072,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 15,
+      "seremi-culturas": 184,
+      "diario-el-centro": 105,
       "diariotalca": 58,
       "elmauleinforma": 124,
-      "diario-el-centro": 104,
-      "seremi-culturas": 183,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
