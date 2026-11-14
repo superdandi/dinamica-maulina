@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T05:36:57.112Z",
+  "generatedAt": "2026-11-14T14:52:53.709Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -192,6 +192,50 @@
         "text": "14 de noviembre (Sábado) · 10:00",
         "start": "2026-11-14T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-14-gore-y-corfo-impulsaran-emprendimientos-del-maule-con-inversion-de-mas-de-6-000-",
+      "title": "GORE y Corfo impulsarán emprendimientos del Maule con inversión de más de $6.000 millones",
+      "summary": "La iniciativa tendrá una duración de 48 meses y busca mejorar la competitividad, promover la innovación y fortalecer sectores estratégicos como la pesca, la madera y la agroindustria. The post GORE y Corfo impulsarán emprendimientos del Maule con inversión de más de $6.000 millones appeared first on",
+      "link": "https://www.diarioelcentro.cl/2026/11/13/gore-y-corfo-impulsaran-emprendimientos-del-maule-con-inversion-de-mas-de-6-000-millones/",
+      "author": "Diario El Centro Prensa",
+      "category": "ARTESANIAS",
+      "source": "diario-el-centro",
+      "date": "2026-11-14T01:00:08.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-13-autoridades-visitan-obras-de-regadio-que-fortalecen-la-agricultura-en-buena-paz",
+      "title": "Autoridades visitan obras de regadío que fortalecen la agricultura en Buena Paz",
+      "summary": "Constatando el avance y la importancia de las obras, el Subsecretario de Agricultura, Francesco Venezian, visitó los trabajos de entubamiento del sector rural de Buena Paz en Molina, junto al alcalde Felipe Méndez. Se trata de faenas que cuya espera tenía larga data por parte de los regantes, quiene",
+      "link": "https://elmauleinforma.cl/autoridades-visitan-obras-de-regadio-que-fortalecen-la-agricultura-en-buena-paz/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-13T22:00:31.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-13-joven-maulina-se-gradua-como-maestra-destiladora-tras-pasantia-en-italia",
+      "title": "Joven maulina se gradúa como maestra destiladora tras pasantía en Italia",
+      "summary": "Tras culminar su estancia formativa en el Instituto G.B. Cerletti, uno de los recintos de referencia en la enseñanza enológica europea, Michelle Mora Hott, estudiante de segundo año de Técnico en Vinicultura en la sede Curicó del CFT San Agustín, completó con éxito su proceso práctico en el extranje",
+      "link": "https://elmauleinforma.cl/joven-maulina-se-gradua-como-maestra-destiladora-tras-pasantia-en-italia/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-13T21:00:32.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-13-mas-de-la-mitad-de-la-poblacion-en-chile-vive-con-enfermedades-cronicas",
+      "title": "Más de la mitad de la población en Chile vive con enfermedades crónicas",
+      "summary": "Que aproximadamente 11 millones de personas en Chile vivan con enfermedades crónicas representa uno de los mayores desafíos sanitarios, sociales y económicos del país. No se trata solamente de un problema médico; es una situación que afecta la capacidad del sistema de salud, la economía de las famil",
+      "link": "https://elmauleinforma.cl/mas-de-la-mitad-de-la-poblacion-en-chile-vive-con-enfermedades-cronicas/",
+      "author": "Redacción El Maule Informa",
+      "category": "LITERATURA",
+      "source": "elmauleinforma",
+      "date": "2026-11-13T19:00:46.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-13-matta-desembarca-en-el-parque-cultural-de-valparaiso-con-exposicion-de-mas-de-20",
@@ -14057,12 +14101,12 @@
   ],
   "counts": {
     "POESIA": 114,
-    "LITERATURA": 51,
+    "LITERATURA": 52,
     "MUSICA": 217,
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
-    "ARTESANIAS": 63,
-    "PATRIMONIO": 372,
+    "ARTESANIAS": 64,
+    "PATRIMONIO": 374,
     "FOTOGRAFIA": 25,
     "CINE_MEDIOS": 87,
     "TERRITORIO": 88
@@ -14072,10 +14116,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 15,
+      "diario-el-centro": 106,
+      "elmauleinforma": 127,
       "seremi-culturas": 184,
-      "diario-el-centro": 105,
       "diariotalca": 58,
-      "elmauleinforma": 124,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
