@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T05:34:51.903Z",
+  "generatedAt": "2026-11-15T15:29:17.623Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -175,6 +175,36 @@
         "kind": "program",
         "text": "17 de noviembre (Martes) · 12:00",
         "start": "2026-11-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-14-recetas-faciles-y-variadas-para-celebrar-el-dia-de-la-comida-rapida-en-casa",
+      "title": "Recetas fáciles y variadas para celebrar el Día de la Comida Rápida en casa",
+      "summary": "Cada 16 de noviembre se celebra el Día Internacional de la Comida Rápida, fecha que reconoce la popularidad de preparaciones que se han convertido en parte de la gastronomía cotidiana. Hamburguesas, completos, sándwiches y nuggets son algunos de los favoritos para disfrutar en familia. En este conte",
+      "link": "https://elmauleinforma.cl/recetas-faciles-y-variadas-para-celebrar-el-dia-de-la-comida-rapida-en-casa/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-14T19:00:05.000Z",
+      "image": "",
+      "event": {
+        "text": "16 de noviembre",
+        "start": "2026-11-16T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-14-cifras-preliminares-de-la-noche-de-museos-auguran-record-de-participacion-ciudad",
+      "title": "Cifras preliminares de la Noche de Museos auguran récord de participación ciudadana a lo largo del país",
+      "summary": "Con el reporte de sólo un 18% de los espacios participantes en la jornada de este viernes, el resultado ya supera la mitad de las visitas registradas en la edición 2025 de la iniciativa organizada por el Ministerio de las Culturas, las Artes y el Patrimonio. Este año se sumaron intervenciones lumíni",
+      "link": "https://www.cultura.gob.cl/actualidad/cifras-preliminares-de-la-noche-de-museos-auguran-record-de-participacion-ciudadana-a-lo-largo-del-pais/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-14T17:44:19.000Z",
+      "image": "",
+      "event": {
+        "text": "este viernes",
+        "start": "2026-11-20T12:00:00.000Z"
       }
     },
     {
@@ -14080,7 +14110,7 @@
     "TEATRO": 97,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 64,
-    "PATRIMONIO": 374,
+    "PATRIMONIO": 376,
     "FOTOGRAFIA": 25,
     "CINE_MEDIOS": 86,
     "TERRITORIO": 88
@@ -14090,9 +14120,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 12,
-      "elmauleinforma": 128,
+      "elmauleinforma": 129,
+      "seremi-culturas": 185,
       "diario-el-centro": 107,
-      "seremi-culturas": 184,
       "diariotalca": 58,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
