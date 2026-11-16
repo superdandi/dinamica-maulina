@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T05:33:29.579Z",
+  "generatedAt": "2026-11-16T18:07:54.619Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -176,6 +176,17 @@
         "text": "17 de noviembre (Martes) · 12:00",
         "start": "2026-11-17T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-15-chile-tendra-en-2027-uno-de-sus-anos-con-mas-fines-de-semana-largos",
+      "title": "Chile tendrá en 2027 uno de sus años con más fines de semana largos",
+      "summary": "La distribución de los feriados permitirá disfrutar de nueve períodos de descanso de al menos tres días consecutivos, una cifra que destacaría hasta 2038. The post Chile tendrá en 2027 uno de sus años con más fines de semana largos appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/15/chile-tendra-en-2027-uno-de-sus-anos-con-mas-fines-de-semana-largos/",
+      "author": "Diario El Centro Prensa",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-15T21:00:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-15-gendarmeria-maule-rindio-homenaje-a-sus-martires-caidos-en-acto-de-servicio",
@@ -14122,7 +14133,7 @@
     "ARTESANIAS": 64,
     "PATRIMONIO": 378,
     "FOTOGRAFIA": 25,
-    "CINE_MEDIOS": 86,
+    "CINE_MEDIOS": 87,
     "TERRITORIO": 88
   },
   "feedStats": {
@@ -14130,10 +14141,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 11,
+      "diario-el-centro": 108,
       "elmauleinforma": 130,
       "diariotalca": 59,
       "seremi-culturas": 185,
-      "diario-el-centro": 107,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
