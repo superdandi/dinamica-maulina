@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:07:54.619Z",
+  "generatedAt": "2026-11-17T07:12:07.587Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -175,6 +175,58 @@
         "kind": "program",
         "text": "17 de noviembre (Martes) · 12:00",
         "start": "2026-11-17T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-16-nuevas-bibliotecas-en-chiguayante-y-florida-reflejan-la-reactivacion-de-proyecto",
+      "title": "Nuevas bibliotecas en Chiguayante y Florida reflejan la reactivación de proyectos culturales del Biobío",
+      "summary": "Con una inversión pública que supera los $2.300 millones, ambas comunas concretan iniciativas de infraestructura y equipamiento bibliotecario, fortaleciendo el acceso a la lectura, la cultura y los espacios de encuentro comunitario.",
+      "link": "https://www.cultura.gob.cl/plan-lectura/nuevas-bibliotecas-en-chiguayante-y-florida-reflejan-la-reactivacion-de-proyectos-culturales-del-biobio/",
+      "author": "biobio",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-16T18:37:42.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-16-ministerio-de-las-culturas-abre-convocatoria-para-renovar-cupo-de-representante-",
+      "title": "Ministerio de las Culturas abre convocatoria para renovar cupo de representante de la Ópera en el Consejo Nacional de Artes Escénicas",
+      "summary": "El plazo para el envío de antecedentes se extiende hasta el 21 de diciembre de 2026.",
+      "link": "https://www.cultura.gob.cl/convocatorias/ministerio-de-las-culturas-abre-convocatoria-para-renovar-cupo-de-representante-de-la-opera-en-el-consejo-nacional-de-artes-escenicas/",
+      "author": "alecaros",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-16T18:31:37.000Z",
+      "image": "",
+      "event": {
+        "text": "el 21 de diciembre",
+        "start": "2026-12-21T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-16-nano-stern-encabezo-colorida-jornada-cultural-en-llay-llay",
+      "title": "Nano Stern encabezó colorida jornada cultural en Llay Llay",
+      "summary": "La actividad Aconcagua Territorio Creativo convocó a más de cien agentes culturales de las Provincias de San Felipe, Los Andes y Petorca en una jornada de trabajo colaborativo, que consideró también presentaciones musicales, además de ferias de artesanos y emprendedores locales.",
+      "link": "https://www.cultura.gob.cl/agendacultural/nano-stern-encabezo-colorida-jornada-cultural-en-llay-llay/",
+      "author": "valparaiso",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-16T15:53:35.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-16-museos-y-espacios-culturales-de-arica-se-sumaron-a-noche-de-museos",
+      "title": "Museos y espacios culturales de Arica se sumaron a Noche de Museos",
+      "summary": "Una jornada con música, conversación y museos abiertos se vivió en Arica el pasado viernes 13 de noviembre durante la nueva edición de Noche de Museos 2026, iniciativa impulsada por el Ministerio de las Culturas, las Artes y el Patrimonio, a través del Servicio Nacional del Patrimonio Cultural, “Es ",
+      "link": "https://www.cultura.gob.cl/actualidad/museos-y-espacios-culturales-de-arica-se-sumaron-a-noche-de-museos/",
+      "author": "arica",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-16T15:53:08.000Z",
+      "image": "",
+      "event": {
+        "text": "13 de noviembre",
+        "start": "2026-11-13T12:00:00.000Z"
       }
     },
     {
@@ -1294,7 +1346,7 @@
       "image": "",
       "event": {
         "text": "17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -1320,7 +1372,7 @@
       "image": "",
       "event": {
         "text": "este lunes",
-        "start": "2026-11-16T12:00:00.000Z"
+        "start": "2026-11-23T12:00:00.000Z"
       }
     },
     {
@@ -2148,7 +2200,7 @@
       "image": "",
       "event": {
         "text": "este lunes",
-        "start": "2026-11-16T12:00:00.000Z"
+        "start": "2026-11-23T12:00:00.000Z"
       }
     },
     {
@@ -3056,7 +3108,7 @@
       "image": "",
       "event": {
         "text": "17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -3363,7 +3415,7 @@
       "image": "",
       "event": {
         "text": "17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -3489,7 +3541,7 @@
       "image": "",
       "event": {
         "text": "17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -3545,7 +3597,7 @@
       "image": "",
       "event": {
         "text": "17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -3575,7 +3627,7 @@
       "image": "",
       "event": {
         "text": "17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -3745,7 +3797,7 @@
       "image": "",
       "event": {
         "text": "17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -3771,7 +3823,7 @@
       "image": "",
       "event": {
         "text": "17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -4030,7 +4082,7 @@
       "image": "",
       "event": {
         "text": "el 17 de octubre",
-        "start": "2026-10-17T12:00:00.000Z"
+        "start": "2027-10-17T12:00:00.000Z"
       }
     },
     {
@@ -14131,7 +14183,7 @@
     "TEATRO": 96,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 64,
-    "PATRIMONIO": 378,
+    "PATRIMONIO": 382,
     "FOTOGRAFIA": 25,
     "CINE_MEDIOS": 87,
     "TERRITORIO": 88
@@ -14141,10 +14193,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 11,
+      "seremi-culturas": 189,
       "diario-el-centro": 108,
       "elmauleinforma": 130,
       "diariotalca": 59,
-      "seremi-culturas": 185,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
