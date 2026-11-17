@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T07:12:07.587Z",
+  "generatedAt": "2026-11-17T17:28:47.652Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -176,6 +176,72 @@
         "text": "17 de noviembre (Martes) · 12:00",
         "start": "2026-11-17T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-17-cae-banda-dedicada-al-trafico-de-drogas-en-linares",
+      "title": "Cae banda dedicada al tráfico de drogas en Linares",
+      "summary": "Un trabajo investigativo liderado por el Ministerio Público y desarrollado por detectives del Modelo Territorial Cero (MT-0) de la Brigada de Investigación Criminal (BICRIM) Linares, en coordinación con equipos MT-0 de otras jurisdicciones de la provincia, permitió desarticular una banda criminal de",
+      "link": "https://elmauleinforma.cl/cae-banda-dedicada-al-trafico-de-drogas-en-linares/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-17T00:43:44.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-16-feria-drop-anuncia-nueva-edicion-con-mas-de-50-stands-musica-y-entrada-liberada",
+      "title": "Feria Drop anuncia nueva edición con más de 50 stands, música y entrada liberada",
+      "summary": "Con una propuesta que combina vestuario, música y creatividad, la iniciativa busca fortalecer el consumo consciente y dinamizar los espacios del casco céntrico de la capital maulina. The post Feria Drop anuncia nueva edición con más de 50 stands, música y entrada liberada appeared first on Diario El",
+      "link": "https://www.diarioelcentro.cl/2026/11/16/feria-drop-anuncia-nueva-edicion-con-mas-de-50-stands-musica-y-entrada-liberada/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-16T23:23:11.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-16-ind-apunta-al-concierto-de-bts-por-mal-estado-de-cancha-del-estadio-nacional-y-c",
+      "title": "IND apunta al concierto de BTS por mal estado de cancha del Estadio Nacional y cambio del Chile-Colombia",
+      "summary": "A un día del encuentro entre Chile y Colombia, el organismo responsabilizó al concierto de BTS por el deterioro del césped y advirtió posibles sanciones contra DG Medios. The post IND apunta al concierto de BTS por mal estado de cancha del Estadio Nacional y cambio del Chile-Colombia appeared first ",
+      "link": "https://www.diarioelcentro.cl/2026/11/16/ind-apunta-al-concierto-de-bts-por-mal-estado-de-cancha-del-estadio-nacional-y-cambio-del-chile-colombia/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-16T22:12:19.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-16-presentacion-de-la-sinfonica-umag-hace-historia-en-puerto-toro",
+      "title": "Presentación de la Sinfónica UMAG hace historia en Puerto Toro",
+      "summary": "Por primera vez, la música selecta en vivo llegó al asentamiento humano más austral del planeta. La agrupación de cuerdas del elenco universitario deleitó a habitantes de la localidad, en un hito impulsado por el Ministerio de las Culturas, las Artes y el Patrimonio.",
+      "link": "https://www.cultura.gob.cl/actualidad/presentacion-de-la-sinfonica-umag-hace-historia-en-puerto-toro/",
+      "author": "magallanes",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-16T20:13:06.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-16-la-araucania-se-proyecta-como-destino-para-locaciones-de-peliculas-y-series-inte",
+      "title": "La Araucanía se proyecta como destino para locaciones de películas y series internacionales",
+      "summary": "Seis representantes de productoras de Australia, Canadá, España y Corea del Sur conocieron las locaciones, infraestructura y capacidades técnicas de la región, además de sostener encuentros con empresas audiovisuales locales.",
+      "link": "https://www.cultura.gob.cl/actualidad/la-araucania-se-proyecta-como-destino-para-locaciones-de-peliculas-y-series-internacionales/",
+      "author": "araucania",
+      "category": "CINE_MEDIOS",
+      "source": "seremi-culturas",
+      "date": "2026-11-16T20:12:44.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-16-tras-quedar-desierto-el-primer-proceso-talca-abre-nueva-licitacion-para-televisa",
+      "title": "Tras quedar desierto el primer proceso: Talca abre nueva licitación para televisar la Fiesta de la Independencia 2027",
+      "summary": "Tras el fallido proceso que buscaba concesionar el evento por tres años, la Corporación Municipal de Cultura abrió una nueva convocatoria con $800 millones y cambios en los requisitos para participar. The post Tras quedar desierto el primer proceso: Talca abre nueva licitación para televisar la Fies",
+      "link": "https://www.diarioelcentro.cl/2026/11/16/tras-quedar-desierto-el-primer-proceso-talca-abre-nueva-licitacion-para-televisar-la-fiesta-de-la-independencia-2027/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-11-16T20:07:19.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-16-nuevas-bibliotecas-en-chiguayante-y-florida-reflejan-la-reactivacion-de-proyecto",
@@ -14179,13 +14245,13 @@
   "counts": {
     "POESIA": 114,
     "LITERATURA": 52,
-    "MUSICA": 217,
+    "MUSICA": 219,
     "TEATRO": 96,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 64,
-    "PATRIMONIO": 382,
+    "PATRIMONIO": 385,
     "FOTOGRAFIA": 25,
-    "CINE_MEDIOS": 87,
+    "CINE_MEDIOS": 88,
     "TERRITORIO": 88
   },
   "feedStats": {
@@ -14193,9 +14259,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 11,
-      "seremi-culturas": 189,
-      "diario-el-centro": 108,
-      "elmauleinforma": 130,
+      "elmauleinforma": 131,
+      "diario-el-centro": 111,
+      "seremi-culturas": 191,
       "diariotalca": 59,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
