@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T06:35:43.893Z",
+  "generatedAt": "2026-11-18T17:02:59.698Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -160,6 +160,17 @@
         "text": "18 de noviembre (Miércoles) · 19:00",
         "start": "2026-11-18T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-17-teatro-y-circo-acercaron-experiencias-artisticas-a-mas-de-220-personas-de-alto-d",
+      "title": "Teatro y circo acercaron experiencias artísticas a más de 220 personas de Alto del Carmen",
+      "summary": "Con el propósito de ampliar el acceso a las artes, descentralizar la programación cultural y generar nuevas oportunidades de participación en las comunidades, la Seremi de las Culturas, las Artes y el Patrimonio de Atacama desarrolló diversas actividades en Alto del Carmen, beneficiando a más de 220",
+      "link": "https://www.cultura.gob.cl/programas/teatro-y-circo-acercaron-experiencias-artisticas-a-mas-de-220-personas-de-alto-del-carmen/",
+      "author": "atacama",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-17T21:05:38.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-17-carabineros-refuerza-la-seguridad-en-talca-con-patrullajes-montados-en-espacios-",
@@ -14323,19 +14334,19 @@
     "TEATRO": 98,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 64,
-    "PATRIMONIO": 388,
+    "PATRIMONIO": 389,
     "FOTOGRAFIA": 25,
     "CINE_MEDIOS": 88,
     "TERRITORIO": 89
   },
   "feedStats": {
     "sources": 54,
-    "alive": 48,
+    "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 11,
+      "seremi-culturas": 194,
       "elmauleinforma": 133,
       "diariotalca": 61,
-      "seremi-culturas": 193,
       "diario-el-centro": 111,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
@@ -14920,7 +14931,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": false
     }
   ]
