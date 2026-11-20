@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T06:25:16.073Z",
+  "generatedAt": "2026-11-20T16:49:01.980Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -128,6 +128,39 @@
         "text": "21 de noviembre (Sábado) · 11:00",
         "start": "2026-11-21T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-20-artistas-urbanos-transforman-muro-de-talca-con-personajes-del-universo-marvel",
+      "title": "Artistas urbanos transforman muro de Talca con personajes del universo Marvel",
+      "summary": "La iniciativa autogestionada busca acercar el graffiti a la comunidad y destacar el talento local, combinando distintos estilos artísticos en una intervención de gran formato. The post Artistas urbanos transforman muro de Talca con personajes del universo Marvel appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/19/artistas-urbanos-transforman-muro-de-talca-con-personajes-del-universo-marvel/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-20T00:15:13.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-19-ministro-de-las-culturas-participa-en-la-inauguracion-del-etmday-2026",
+      "title": "Ministro de las Culturas participa en la inauguración del EtMday 2026",
+      "summary": "En la jornada inaugural el secretario de Estado se reunió con la ministra de Ciencia Tecnología Conocimiento e Innovación, Ximena Lincolao; y con la diseñadora de moda y empresaria española Ágatha Ruiz de la Prada; entre otros.",
+      "link": "https://www.cultura.gob.cl/actualidad/ministro-de-las-culturas-participa-en-la-inauguracion-del-etmday-2026/",
+      "author": "prensa",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-19T22:34:59.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-19-mall-curico-convierte-fotos-con-el-viejito-pascuero-en-ayuda-solidaria-para-la-f",
+      "title": "Mall Curicó convierte fotos con el Viejito Pascuero en ayuda solidaria para la Fundación Hijos de María",
+      "summary": "Los recursos permitirán financiar equipamiento, talleres y experiencias educativas para los integrantes de la organización, que ya concretó importantes avances gracias a campañas anteriores. The post Mall Curicó convierte fotos con el Viejito Pascuero en ayuda solidaria para la Fundación Hijos de Ma",
+      "link": "https://www.diarioelcentro.cl/2026/11/19/mall-curico-convierte-fotos-con-el-viejito-pascuero-en-ayuda-solidaria-para-la-fundacion-hijos-de-maria/",
+      "author": "Diario El Centro Prensa",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-11-19T19:30:38.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-19-ministerio-de-las-culturas-anuncia-a-los-ganadores-de-los-premios-a-las-artes-es",
@@ -14498,9 +14531,9 @@
     "TEATRO": 102,
     "ARTES_VISUALES": 99,
     "ARTESANIAS": 64,
-    "PATRIMONIO": 396,
+    "PATRIMONIO": 398,
     "FOTOGRAFIA": 25,
-    "CINE_MEDIOS": 89,
+    "CINE_MEDIOS": 90,
     "TERRITORIO": 90
   },
   "feedStats": {
@@ -14508,8 +14541,8 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 9,
-      "seremi-culturas": 202,
-      "diario-el-centro": 116,
+      "diario-el-centro": 118,
+      "seremi-culturas": 203,
       "elmauleinforma": 135,
       "diariotalca": 62,
       "rincon-literario": 48,
