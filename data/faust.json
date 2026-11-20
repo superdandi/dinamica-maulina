@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T17:11:06.124Z",
+  "generatedAt": "2026-11-20T06:25:16.073Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -130,6 +130,17 @@
       }
     },
     {
+      "id": "2026-11-19-ministerio-de-las-culturas-anuncia-a-los-ganadores-de-los-premios-a-las-artes-es",
+      "title": "Ministerio de las Culturas anuncia a los ganadores de los Premios a las Artes Escénicas Nacionales Presidente de la República 2026",
+      "summary": "Ocho destacadas figuras de las artes escénicas fueron notificadas por el ministro de las Culturas en las categorías de teatro, danza, ópera, circo, títeres, autores, diseño escénico y artista emergente.",
+      "link": "https://www.cultura.gob.cl/actualidad/ministerio-de-las-culturas-anuncia-a-los-ganadores-de-los-premios-a-las-artes-escenicas-nacionales-presidente-de-la-republica-2026/",
+      "author": "alecaros",
+      "category": "TEATRO",
+      "source": "seremi-culturas",
+      "date": "2026-11-19T14:34:42.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-11-19-inauguracion-exposicion-las-que-no-se-dejaron-borrar-de-laura-rojbel",
       "title": "Inauguración exposición: “Las que no se dejaron borrar” de Laura Rojbel",
       "summary": "borrar” de Laura Rojbel · Laura Rojbel utiliza el collage con imágenes de revistas, fotos e historia del arte · para resigniﬁcar la representación femenina. Al extraer a las mujeres de sus · escenarios originales, les devuelve el protagonismo y la capacidad de narrar · su propia historia. “Las que n",
@@ -143,6 +154,21 @@
         "kind": "program",
         "text": "19 de noviembre (Jueves) · 12:00",
         "start": "2026-11-19T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-19-curico-esports-busca-organizar-el-torneo-de-free-fire-mas-grande-del-maule-revis",
+      "title": "Curicó Esports busca organizar el torneo de Free Fire más grande del Maule: revisa los detalles aquí",
+      "summary": "La competencia se realizará el 12 de diciembre en Mall Valle de Curicó y convocará a jugadores de distintas comunas. El ganador recibirá $100 mil en efectivo. The post Curicó Esports busca organizar el torneo de Free Fire más grande del Maule: revisa los detalles aquí appeared first on Diario El Cen",
+      "link": "https://www.diarioelcentro.cl/2026/11/19/curico-esports-busca-organizar-el-torneo-de-free-fire-mas-grande-del-maule-revisa-los-detalles-aqui/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-19T11:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "el 12 de diciembre",
+        "start": "2026-12-12T12:00:00.000Z"
       }
     },
     {
@@ -279,22 +305,6 @@
       "image": ""
     },
     {
-      "id": "2026-11-18-ciclo-de-cine-cuando-las-cosas-se-mueven",
-      "title": "Ciclo de cine: “Cuando las cosas se mueven”",
-      "summary": "Este ciclo propone un recorrido por distintas formas de la animación stop · motion, a través de películas construidas con plasticina, marionetas, · miniaturas y otros elementos físicos animados cuadro a cuadro. La selección · busca mostrar la diversidad expresiva de esta técnica, capaz de transitar ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "CINE_MEDIOS",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-18T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "18 de noviembre (Miércoles) · 19:00",
-        "start": "2026-11-18T12:00:00.000Z"
-      }
-    },
-    {
       "id": "2026-11-18-ministerio-de-la-culturas-y-cecrea-castro-invitan-a-descubrir-el-universo-en-la-",
       "title": "Ministerio de la Culturas y Cecrea Castro invitan a descubrir el universo en la IX Feria de Ciencias, Artes y Tecnologías 2026",
       "summary": "La iniciativa se realizará los días 18 y 19 de noviembre y reunirá a comunidades educativas de Chiloé en torno a la ciencia, el arte y la tecnología, con niñas, niños y jóvenes como protagonistas de experiencias de creación, investigación y experimentación.",
@@ -365,7 +375,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-19T12:00:00.000Z"
+        "start": "2026-11-26T12:00:00.000Z"
       }
     },
     {
@@ -1459,7 +1469,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-19T12:00:00.000Z"
+        "start": "2026-11-26T12:00:00.000Z"
       }
     },
     {
@@ -3235,7 +3245,7 @@
       "image": "",
       "event": {
         "text": "20 de octubre",
-        "start": "2026-10-20T12:00:00.000Z"
+        "start": "2027-10-20T12:00:00.000Z"
       }
     },
     {
@@ -3798,7 +3808,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-19T12:00:00.000Z"
+        "start": "2026-11-26T12:00:00.000Z"
       }
     },
     {
@@ -4024,7 +4034,7 @@
       "image": "",
       "event": {
         "text": "el 20 de octubre",
-        "start": "2026-10-20T12:00:00.000Z"
+        "start": "2027-10-20T12:00:00.000Z"
       }
     },
     {
@@ -4992,7 +5002,7 @@
       "image": "",
       "event": {
         "text": "el 20 de octubre",
-        "start": "2026-10-20T12:00:00.000Z"
+        "start": "2027-10-20T12:00:00.000Z"
       }
     },
     {
@@ -5699,7 +5709,7 @@
       "image": "",
       "event": {
         "text": "este jueves",
-        "start": "2026-11-19T12:00:00.000Z"
+        "start": "2026-11-26T12:00:00.000Z"
       }
     },
     {
@@ -6436,7 +6446,7 @@
       "image": "",
       "event": {
         "text": "el 20 de octubre",
-        "start": "2026-10-20T12:00:00.000Z"
+        "start": "2027-10-20T12:00:00.000Z"
       }
     },
     {
@@ -14485,7 +14495,7 @@
     "POESIA": 114,
     "LITERATURA": 52,
     "MUSICA": 221,
-    "TEATRO": 101,
+    "TEATRO": 102,
     "ARTES_VISUALES": 99,
     "ARTESANIAS": 64,
     "PATRIMONIO": 396,
@@ -14497,10 +14507,10 @@
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 10,
-      "diario-el-centro": 115,
+      "ext-utalca-programa": 9,
+      "seremi-culturas": 202,
+      "diario-el-centro": 116,
       "elmauleinforma": 135,
-      "seremi-culturas": 201,
       "diariotalca": 62,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
