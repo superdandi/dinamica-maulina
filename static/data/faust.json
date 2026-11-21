@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T06:15:46.615Z",
+  "generatedAt": "2026-11-21T15:59:13.807Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -128,6 +128,69 @@
         "text": "21 de noviembre (Sábado) · 11:00",
         "start": "2026-11-21T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-21-francisca-valenzuela-llega-a-talca-con-show-gratuito-este-domingo-en-la-feria-mi",
+      "title": "Francisca Valenzuela llega a Talca con show gratuito este domingo en la Feria Mi Barrio Emprende",
+      "summary": "El encuentro organizado por PFalimentos reunirá a emprendedores de 17 comunas del Maule este 21 y 22 de noviembre, con gastronomía, artesanía y actividades familiares. The post Francisca Valenzuela llega a Talca con show gratuito este domingo en la Feria Mi Barrio Emprende appeared first on Diario E",
+      "link": "https://www.diarioelcentro.cl/2026/11/20/francisca-valenzuela-llega-a-talca-con-show-gratuito-este-domingo-en-la-feria-mi-barrio-emprende/",
+      "author": "Patricio Mora",
+      "category": "ARTESANIAS",
+      "source": "diario-el-centro",
+      "date": "2026-11-21T00:26:31.000Z",
+      "image": "",
+      "event": {
+        "text": "22 de noviembre",
+        "start": "2026-11-22T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-20-dos-imputados-quedan-en-prision-preventiva-tras-incautacion-de-25-kilos-de-droga",
+      "title": "Dos imputados quedan en prisión preventiva tras incautación de 25 kilos de droga en el Maule",
+      "summary": "El operativo del OS7 de Carabineros comenzó en la Ruta 5 Sur y terminó en Río Claro. La droga fue avaluada en $240 millones y equivale a más de 45 mil dosis. The post Dos imputados quedan en prisión preventiva tras incautación de 25 kilos de droga en el Maule appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/20/dos-imputados-quedan-en-prision-preventiva-tras-incautacion-de-25-kilos-de-droga-en-el-maule/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-20T23:29:34.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-20-expo-bichos-sorprende-con-un-recorrido-gratuito-por-el-mundo-de-los-insectos-en-",
+      "title": "Expo Bichos sorprende con un recorrido gratuito por el mundo de los insectos en Alto Las Rastras",
+      "summary": "Un viaje al extraordinario mundo de los insectos es la propuesta de Expo Bichos, una muestra que abrió sus puertas este viernes 20 de noviembre en Alto Las Rastras, invitando a niños, jóvenes y adultos a descubrir de cerca la diversidad y la importancia de estas pequeñas especies para el equilibrio ",
+      "link": "https://elmauleinforma.cl/expo-bichos-sorprende-con-un-recorrido-gratuito-por-el-mundo-de-los-insectos-en-alto-las-rastras/",
+      "author": "Redacción El Maule Informa",
+      "category": "TERRITORIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-20T21:00:41.000Z",
+      "image": "",
+      "event": {
+        "text": "20 de noviembre",
+        "start": "2026-11-20T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-20-mas-de-240-actividades-culturales-podran-concretarse-tras-el-apoyo-del-gobierno-",
+      "title": "Más de 240 actividades culturales podrán concretarse tras el apoyo del Gobierno Regional",
+      "summary": "Con una inversión superior a los $1.000 millones, el Gobierno Regional del Maule realizó la ceremonia de entrega de certificados del Fondo Concursable FNDR 8% Cultura 2026. Apoyo que beneficia a 246 organizaciones de las 30 comunas de la región y alcanza directamente a más de 25 mil personas. La ini",
+      "link": "https://elmauleinforma.cl/mas-de-240-actividades-culturales-podran-concretarse-tras-el-apoyo-del-gobierno-regional/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-20T20:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-20-libro-orbitas-discontinuas-revela-la-trayectoria-de-las-editoriales-independient",
+      "title": "Libro Órbitas Discontinuas revela la trayectoria de las editoriales independientes del Biobío",
+      "summary": "El trabajo contempló numerosas entrevistas a agentes editoriales del gran Concepción y otras comunas de la región, abarcando el período comprendido entre 1990 y 2024. Este registro permitió reunir testimonios y antecedentes sobre el desarrollo del sector editorial independiente, dando origen a una p",
+      "link": "https://www.cultura.gob.cl/eventos-actividades/libro-orbitas-discontinuas-revela-la-trayectoria-de-las-editoriales-independientes-del-biobio/",
+      "author": "biobio",
+      "category": "LITERATURA",
+      "source": "seremi-culturas",
+      "date": "2026-11-20T19:17:19.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-20-mas-de-500-estudiantes-de-la-educacion-publica-se-acercan-al-arte-y-al-patrimoni",
@@ -14650,25 +14713,25 @@
   ],
   "counts": {
     "POESIA": 114,
-    "LITERATURA": 53,
+    "LITERATURA": 54,
     "MUSICA": 222,
     "TEATRO": 102,
     "ARTES_VISUALES": 99,
-    "ARTESANIAS": 64,
-    "PATRIMONIO": 404,
+    "ARTESANIAS": 65,
+    "PATRIMONIO": 405,
     "FOTOGRAFIA": 27,
-    "CINE_MEDIOS": 91,
-    "TERRITORIO": 90
+    "CINE_MEDIOS": 92,
+    "TERRITORIO": 91
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "seremi-culturas": 209,
-      "elmauleinforma": 138,
+      "diario-el-centro": 120,
+      "elmauleinforma": 140,
+      "seremi-culturas": 210,
       "diariotalca": 65,
-      "diario-el-centro": 118,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
