@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T15:59:13.807Z",
+  "generatedAt": "2026-11-21T21:35:45.640Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -128,6 +128,43 @@
         "text": "21 de noviembre (Sábado) · 11:00",
         "start": "2026-11-21T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-21-reportaje-la-vibrante-historia-del-vocalista-de-the-killers-y-el-teloneo-a-bill-",
+      "title": "REPORTAJE La vibrante historia del vocalista de The Killers y el teloneo a Bill Haley en Talca",
+      "summary": "“Me decían I Am González”, señala en relación al éxito musical de Tony Bennett que le gustaba cantar, agregando que “los temas de Paul Anka también me salían muy bien”. Es el recuerdo de Osvaldo González Navas, hoy con 85 años, médico pediatra broncopulmonar, pero en la juventud, vocalista del grupo",
+      "link": "https://diariotalca.cl/reportaje-la-vibrante-historia-del-vocalista-de-the-killers-y-el-teloneo-a-bill-haley-en-talca/",
+      "author": "Hernán Espinoza",
+      "category": "MUSICA",
+      "source": "diariotalca",
+      "date": "2026-11-21T09:00:46.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-21-zumbale-primo-pondra-ritmo-a-la-inauguracion-de-wine-maule-2026-la-gran-fiesta-d",
+      "title": "Zúmbale Primo pondrá ritmo a la inauguración de Wine Maule 2026, la gran fiesta del vino regional",
+      "summary": "¿Qué va a pasar? La ceremonia oficial, liderada por el Gobernador Pedro Pablo Álvarez-Salamanca, será a las 20:00 horas, en la explanada del Río Claro, en Talca Vino, música y sabores del Maule se darán cita este viernes en la jornada inaugural de Wine Maule 2026. Se trata de un encuentro impulsado ",
+      "link": "https://diariotalca.cl/zumbale-primo-pondra-ritmo-a-la-inauguracion-de-wine-maule-2026-la-gran-fiesta-del-vino-regional/",
+      "author": "Hernán Espinoza",
+      "category": "MUSICA",
+      "source": "diariotalca",
+      "date": "2026-11-21T09:00:33.000Z",
+      "image": "",
+      "event": {
+        "text": "este viernes",
+        "start": "2026-11-27T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-21-tren-de-navidad-de-la-utalca-llevara-regalos-y-alegria-a-ninos-y-ninas-del-ramal",
+      "title": "Tren de Navidad de la UTalca llevará regalos y alegría a niños y niñas del ramal",
+      "summary": "¿Cuál es el contexto? Desde 1991, el Tren de Navidad de la Universidad de Talca se ha convertido en una de las tradiciones más queridas de la Región del Maule. Año a año, esta iniciativa lleva el espíritu navideño a las distintas estaciones del ramal Talca-Constitución, compartiendo con los niños y ",
+      "link": "https://diariotalca.cl/tren-de-navidad-de-la-utalca-llevara-regalos-y-alegria-a-ninos-y-ninas-del-ramal/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-21T09:00:31.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-21-francisca-valenzuela-llega-a-talca-con-show-gratuito-este-domingo-en-la-feria-mi",
@@ -14714,11 +14751,11 @@
   "counts": {
     "POESIA": 114,
     "LITERATURA": 54,
-    "MUSICA": 222,
+    "MUSICA": 224,
     "TEATRO": 102,
     "ARTES_VISUALES": 99,
     "ARTESANIAS": 65,
-    "PATRIMONIO": 405,
+    "PATRIMONIO": 406,
     "FOTOGRAFIA": 27,
     "CINE_MEDIOS": 92,
     "TERRITORIO": 91
@@ -14728,10 +14765,10 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
+      "diariotalca": 68,
       "diario-el-centro": 120,
       "elmauleinforma": 140,
       "seremi-culturas": 210,
-      "diariotalca": 65,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
