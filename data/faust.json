@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T05:49:01.616Z",
+  "generatedAt": "2026-11-22T16:02:48.886Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -112,6 +112,28 @@
         "text": "23 de noviembre (Lunes) · 18:00",
         "start": "2026-11-23T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-22-folcloristas-linarenses-son-finalistas-de-importante-certamen-de-musica-chilena",
+      "title": "Folcloristas linarenses son finalistas de importante certamen de música chilena",
+      "summary": "“En la Huella de los Cielos”, obra inédita creada e interpretada por el Huaso Castillo y Mauricio Vega – “El Duo Cordillera”- se presentará en la gran final del género raíz folclórica de este evento organizado anualmente por el Ministerio de las Culturas, las Artes y el Patrimonio (a través del Fond",
+      "link": "https://elmauleinforma.cl/folcloristas-linarenses-son-finalistas-de-importante-certamen-de-musica-chilena/",
+      "author": "Redacción El Maule Informa",
+      "category": "MUSICA",
+      "source": "elmauleinforma",
+      "date": "2026-11-22T00:00:44.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-21-dia-mundial-de-la-television-honrar-lo-que-fue-conquistar-lo-que-viene",
+      "title": "Día Mundial de la Televisión: honrar lo que fue, conquistar lo que viene",
+      "summary": "Durante décadas fue EL lugar indiscutido para consumir contenidos, el punto de encuentro de todo tipo de audiencias y donde todas las marcas debían estar. Hoy, ese hábito trasciende completamente a la pantalla de un televisor. Lo que antes ocurría en el living de una casa se amplificó hacia un ecosi",
+      "link": "https://elmauleinforma.cl/dia-mundial-de-la-television-honrar-lo-que-fue-conquistar-lo-que-viene/",
+      "author": "Redacción El Maule Informa",
+      "category": "PATRIMONIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-21T21:00:29.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-21-taller-historia-del-arte-escuela-de-guias-para-el-patrimonio-artistico",
@@ -14766,11 +14788,11 @@
   "counts": {
     "POESIA": 114,
     "LITERATURA": 54,
-    "MUSICA": 225,
+    "MUSICA": 226,
     "TEATRO": 102,
     "ARTES_VISUALES": 99,
     "ARTESANIAS": 65,
-    "PATRIMONIO": 406,
+    "PATRIMONIO": 407,
     "FOTOGRAFIA": 27,
     "CINE_MEDIOS": 92,
     "TERRITORIO": 91
@@ -14780,9 +14802,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
+      "elmauleinforma": 142,
       "diario-el-centro": 121,
       "diariotalca": 68,
-      "elmauleinforma": 140,
       "seremi-culturas": 210,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
