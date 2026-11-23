@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T16:02:48.886Z",
+  "generatedAt": "2026-11-23T06:35:57.957Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -111,6 +111,84 @@
         "kind": "program",
         "text": "23 de noviembre (Lunes) · 18:00",
         "start": "2026-11-23T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-22-dominga-lopez-sorprende-en-miss-universo-con-traje-inspirado-en-la-gaviota-de-pl",
+      "title": "Dominga López sorprende en Miss Universo con traje inspirado en la gaviota de platino",
+      "summary": "La representante chilena desfiló con un vestuario inspirado en el emblemático galardón del Festival de Viña del Mar y recibió una ovación en Puerto Rico. The post Dominga López sorprende en Miss Universo con traje inspirado en la gaviota de platino appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/22/dominga-lopez-sorprende-en-miss-universo-con-traje-inspirado-en-la-gaviota-de-platino/",
+      "author": "Diario El Centro Prensa",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-22T14:48:55.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-22-lauta-y-marcianeke-protagonizaran-la-segunda-jornada-de-wine-maule-que-celebrara",
+      "title": "Lauta y Marcianeke protagonizarán la segunda jornada de Wine Maule, que celebrará el vino y la identidad regional",
+      "summary": "El vino, la música y las experiencias en torno a la identidad maulina seguirán siendo protagonistas este sábado 28 de noviembre en Wine Maule 2026, que vivirá su segunda jornada con una variada programación pensada para acercar la riqueza vitivinícola de la región a visitantes, familias y amantes de",
+      "link": "https://elmauleinforma.cl/lauta-y-marcianeke-protagonizaran-la-segunda-jornada-de-wine-maule-que-celebrara-el-vino-y-la-identidad-regional/",
+      "author": "Redacción El Maule Informa",
+      "category": "MUSICA",
+      "source": "elmauleinforma",
+      "date": "2026-11-22T13:57:09.000Z",
+      "image": "",
+      "event": {
+        "text": "28 de noviembre",
+        "start": "2026-11-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-22-jazz-swing-y-musica-chilena-concierto-gratuito-llega-a-curico",
+      "title": "Jazz, swing y música chilena: concierto gratuito llega a Curicó",
+      "summary": "La Chile Big Band se presentará el domingo 29 de noviembre en el Teatro Provincial de Curicó, con un repertorio que incluye clásicos internacionales y composiciones de su disco Navegando. The post Jazz, swing y música chilena: concierto gratuito llega a Curicó appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/22/jazz-swing-y-musica-chilena-concierto-gratuito-llega-a-curico/",
+      "author": "Diario El Centro Prensa",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-22T11:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "29 de noviembre",
+        "start": "2026-11-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-22-emotivo-acto-de-canto-y-abrazo-de-esperanza-en-torno-a-la-carcel-de-la-alameda-d",
+      "title": "Emotivo acto de canto y abrazo de esperanza en torno a la cárcel de la Alameda de Talca",
+      "summary": "¿Qué ocurrió? Con una importante convocatoria se llevó a cabo la tradicional actividad de canto y abrazo de esperanza en torno al edificio del Centro de Cumplimiento Penitenciario ubicado en la Alameda de Talca. ¿Cómo fue? En la esquina de las calles 2 Poniente con 3 Norte se realizó un desvío […] T",
+      "link": "https://diariotalca.cl/emotivo-acto-de-canto-y-abrazo-de-esperanza-en-torno-a-la-carcel-de-la-alameda-de-talca/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-22T09:10:08.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-22-reconocido-chef-frances-yann-yvin-realizo-charla-motivacional-a-personal-de-drea",
+      "title": "Reconocido chef francés Yann Yvin realizó charla motivacional a personal de Dreams Talca",
+      "summary": "¿Qué ocurrió? Hasta las instalaciones de Dreams Talca llegó el reconocido chef internacional y figura de la televisión chilena, Yann Yvin, para realizar una charla motivacional al personal de dicho recinto. ¿Cómo fue? La actividad fue encabezada por Daniel Gómez, gerente general de Dreams Talca, jun",
+      "link": "https://diariotalca.cl/reconocido-chef-frances-yann-yvin-realizo-charla-motivacional-a-personal-de-dreams-talca/",
+      "author": "Hernán Espinoza",
+      "category": "ARTES_VISUALES",
+      "source": "diariotalca",
+      "date": "2026-11-22T09:05:59.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-22-proyectar-el-conocimiento-es-proyectar-el-maule-por-sergio-rojas",
+      "title": "PROYECTAR EL CONOCIMIENTO ES PROYECTAR EL MAULE por Sergio Rojas",
+      "summary": "Este jueves 19 de noviembre, la Universidad Católica del Maule y el Gobierno Regional del Maule firmaron simbólicamente el convenio que da inicio a la ejecución del programa “Capacitación Planetario Maule: Divulgación Científica con Equidad Territorial”. Este acto formaliza la instalación del primer",
+      "link": "https://diariotalca.cl/proyectar-el-conocimiento-es-proyectar-el-maule-por-sergio-rojas/",
+      "author": "Hernán Espinoza",
+      "category": "ARTES_VISUALES",
+      "source": "diariotalca",
+      "date": "2026-11-22T09:00:08.000Z",
+      "image": "",
+      "event": {
+        "text": "19 de noviembre",
+        "start": "2026-11-19T12:00:00.000Z"
       }
     },
     {
@@ -2905,7 +2983,7 @@
       "image": "",
       "event": {
         "text": "23 de octubre",
-        "start": "2026-10-23T12:00:00.000Z"
+        "start": "2027-10-23T12:00:00.000Z"
       }
     },
     {
@@ -3702,7 +3780,7 @@
       "image": "",
       "event": {
         "text": "23 de octubre",
-        "start": "2026-10-23T12:00:00.000Z"
+        "start": "2027-10-23T12:00:00.000Z"
       }
     },
     {
@@ -4565,7 +4643,7 @@
       "image": "",
       "event": {
         "text": "23 de octubre",
-        "start": "2026-10-23T12:00:00.000Z"
+        "start": "2027-10-23T12:00:00.000Z"
       }
     },
     {
@@ -4591,7 +4669,7 @@
       "image": "",
       "event": {
         "text": "el domingo",
-        "start": "2026-11-22T12:00:00.000Z"
+        "start": "2026-11-29T12:00:00.000Z"
       }
     },
     {
@@ -5071,7 +5149,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-11-22T12:00:00.000Z"
+        "start": "2026-11-29T12:00:00.000Z"
       }
     },
     {
@@ -6229,7 +6307,7 @@
       "image": "",
       "event": {
         "text": "este domingo",
-        "start": "2026-11-22T12:00:00.000Z"
+        "start": "2026-11-29T12:00:00.000Z"
       }
     },
     {
@@ -14788,23 +14866,23 @@
   "counts": {
     "POESIA": 114,
     "LITERATURA": 54,
-    "MUSICA": 226,
+    "MUSICA": 228,
     "TEATRO": 102,
-    "ARTES_VISUALES": 99,
+    "ARTES_VISUALES": 101,
     "ARTESANIAS": 65,
-    "PATRIMONIO": 407,
+    "PATRIMONIO": 408,
     "FOTOGRAFIA": 27,
-    "CINE_MEDIOS": 92,
+    "CINE_MEDIOS": 93,
     "TERRITORIO": 91
   },
   "feedStats": {
     "sources": 54,
-    "alive": 48,
+    "alive": 47,
     "itemsPerSource": {
       "ext-utalca-programa": 8,
-      "elmauleinforma": 142,
-      "diario-el-centro": 121,
-      "diariotalca": 68,
+      "diario-el-centro": 123,
+      "elmauleinforma": 143,
+      "diariotalca": 71,
       "seremi-culturas": 210,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
@@ -15389,7 +15467,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": true,
+      "alive": false,
       "filter": false
     }
   ]
