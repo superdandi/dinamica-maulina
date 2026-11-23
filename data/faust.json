@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T06:35:57.957Z",
+  "generatedAt": "2026-11-23T19:58:19.576Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -114,6 +114,28 @@
       }
     },
     {
+      "id": "2026-11-22-fallece-a-los-89-anos-paolo-bulgari-figura-clave-del-lujo-italiano",
+      "title": "Fallece a los 89 años Paolo Bulgari, figura clave del lujo italiano",
+      "summary": "El empresario italiano falleció en Roma a los 89 años. Presidió Bvlgari desde 1984 y fue una figura clave en la expansión mundial de la prestigiosa casa de joyería. The post Fallece a los 89 años Paolo Bulgari, figura clave del lujo italiano appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/22/fallece-a-los-89-anos-paolo-bulgari-figura-clave-del-lujo-italiano/",
+      "author": "Yasmín Gómez",
+      "category": "ARTESANIAS",
+      "source": "diario-el-centro",
+      "date": "2026-11-22T23:00:00.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-22-nueva-funcion-de-instagram-permite-corregir-stories-publicadas",
+      "title": "Nueva función de Instagram permite corregir stories publicadas",
+      "summary": "La nueva herramienta permite corregir textos, cambiar música y agregar información durante los primeros 15 minutos, sin perder visualizaciones ni reacciones. The post Nueva función de Instagram permite corregir stories publicadas appeared first on Diario El Centro .",
+      "link": "https://www.diarioelcentro.cl/2026/11/22/nueva-funcion-de-instagram-permite-corregir-stories-publicadas/",
+      "author": "Diario El Centro Prensa",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-22T21:00:00.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-11-22-dominga-lopez-sorprende-en-miss-universo-con-traje-inspirado-en-la-gaviota-de-pl",
       "title": "Dominga López sorprende en Miss Universo con traje inspirado en la gaviota de platino",
       "summary": "La representante chilena desfiló con un vestuario inspirado en el emblemático galardón del Festival de Viña del Mar y recibió una ovación en Puerto Rico. The post Dominga López sorprende en Miss Universo con traje inspirado en la gaviota de platino appeared first on Diario El Centro .",
@@ -212,22 +234,6 @@
       "source": "elmauleinforma",
       "date": "2026-11-21T21:00:29.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-11-21-taller-historia-del-arte-escuela-de-guias-para-el-patrimonio-artistico",
-      "title": "Taller historia del arte: Escuela de Guías para el Patrimonio Artístico",
-      "summary": "el Patrimonio Artístico · Imparte: María José Cuello · La Galería de Arte Nuga hace una invitación para participar de un taller abierto · al público que busca fomentar la observación crítica y el diálogo a partir de la · Colección Pérez-Stephens. Esta actividad recorre hitos del arte nacional del · ",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "ARTES_VISUALES",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-21T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "21 de noviembre (Sábado) · 11:00",
-        "start": "2026-11-21T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-11-21-caravana-coca-cola-confirma-su-llegada-a-talca-revisa-la-fecha",
@@ -14866,10 +14872,10 @@
   "counts": {
     "POESIA": 114,
     "LITERATURA": 54,
-    "MUSICA": 228,
+    "MUSICA": 229,
     "TEATRO": 102,
-    "ARTES_VISUALES": 101,
-    "ARTESANIAS": 65,
+    "ARTES_VISUALES": 100,
+    "ARTESANIAS": 66,
     "PATRIMONIO": 408,
     "FOTOGRAFIA": 27,
     "CINE_MEDIOS": 93,
@@ -14877,10 +14883,10 @@
   },
   "feedStats": {
     "sources": 54,
-    "alive": 47,
+    "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 8,
-      "diario-el-centro": 123,
+      "ext-utalca-programa": 7,
+      "diario-el-centro": 125,
       "elmauleinforma": 143,
       "diariotalca": 71,
       "seremi-culturas": 210,
@@ -15467,7 +15473,7 @@
       "feed": "https://mav.utalca.cl/",
       "category": "PATRIMONIO",
       "author": "",
-      "alive": false,
+      "alive": true,
       "filter": false
     }
   ]
