@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T09:04:01.461Z",
+  "generatedAt": "2026-11-25T00:28:04.692Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -82,6 +82,17 @@
       }
     },
     {
+      "id": "2026-11-24-fallece-delfina-guzman-a-los-98-anos-chile-despide-a-una-de-sus-grandes-actrices",
+      "title": "Fallece Delfina Guzmán a los 98 años: Chile despide a una de sus grandes actrices",
+      "summary": "La emblemática intérprete desarrolló una trayectoria de siete décadas en el teatro, el cine y la televisión, con personajes inolvidables en teleseries como Sucupira y La Fiera. The post Fallece Delfina Guzmán a los 98 años: Chile despide a una de sus grandes actrices appeared first on Diario El Cent",
+      "link": "https://www.diarioelcentro.cl/2026/11/24/fallece-delfina-guzman-a-los-98-anos-chile-despide-a-una-de-sus-grandes-actrices/",
+      "author": "Patricio Mora",
+      "category": "TEATRO",
+      "source": "diario-el-centro",
+      "date": "2026-11-24T12:06:33.000Z",
+      "image": ""
+    },
+    {
       "id": "2026-11-24-quienes-interpretaran-al-publico-obras-musicales-de-los-grandes-maestros-y",
       "title": "quienes interpretarán al público obras musicales de los grandes maestros y",
       "summary": "pedagogos europeos, canadienses y chilenos, además de valses de diferentes · lugares de Europa del Este, así como tangos, teniendo en esta parte del · repertorio exponentes mundialmente conocidos como Piazzola y Gardel. · Centro de · Extensión · Curicó",
@@ -95,6 +106,36 @@
         "kind": "program",
         "text": "24 de noviembre (Martes) · 18:00",
         "start": "2026-11-24T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-24-parque-de-huilquilemu-de-la-ucm-abrira-sus-puertas-para-una-gala-lirica-coral",
+      "title": "Parque de Huilquilemu de la UCM abrirá sus puertas para una Gala Lírica Coral",
+      "summary": "¿Cuál fue el anuncio? La Universidad Católica del Maule (UCM) ofrecerá el próximo viernes 27 de noviembre, a las 20:30 horas la Gala Lírica Coral “Entre la Ópera y la Canción” que se desarrollará en el histórico Parque de la Villa Cultural Huilquilemu Hernán Correa de la Cerda, en Talca. El conciert",
+      "link": "https://diariotalca.cl/parque-de-huilquilemu-de-la-ucm-abrira-sus-puertas-para-una-gala-lirica-coral/",
+      "author": "Hernán Espinoza",
+      "category": "PATRIMONIO",
+      "source": "diariotalca",
+      "date": "2026-11-24T09:10:17.000Z",
+      "image": "",
+      "event": {
+        "text": "27 de noviembre",
+        "start": "2026-11-27T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-24-los-vasquez-cerraran-wine-maule-2026-con-una-gran-fiesta-musical-para-toda-la-fa",
+      "title": "Los Vásquez cerrarán Wine Maule 2026 con una gran fiesta musical para toda la familia",
+      "summary": "¿Qué va a pasar? Con música, tradiciones y una gran fiesta para toda la familia, Wine Maule 2026 despedirá este domingo 29 de noviembre sus tres jornadas, teniendo como gran atractivo el espectáculo de Los Vásquez, quienes llegarán al escenario principal para cerrar este encuentro que reúne lo mejor",
+      "link": "https://diariotalca.cl/los-vasquez-cerraran-wine-maule-2026-con-una-gran-fiesta-musical-para-toda-la-familia/",
+      "author": "Hernán Espinoza",
+      "category": "MUSICA",
+      "source": "diariotalca",
+      "date": "2026-11-24T09:00:46.000Z",
+      "image": "",
+      "event": {
+        "text": "29 de noviembre",
+        "start": "2026-11-28T12:00:00.000Z"
       }
     },
     {
@@ -155,22 +196,6 @@
       "source": "diario-el-centro",
       "date": "2026-11-23T12:00:00.000Z",
       "image": ""
-    },
-    {
-      "id": "2026-11-23-concierto-de-piano-de-alumnos-del-taller-de-profesora-luisa-zuniga",
-      "title": "Concierto de piano de alumnos del Taller de Profesora Luisa Zúñiga",
-      "summary": "de Profesora Luisa Zúñiga · Una hermosa invitación en torno a la música es la que hacen los alumnos del · taller de piano del Centro de Extensión de la Universidad de Talca, Curicó,",
-      "link": "https://mav.utalca.cl/archivos_publicos/documentos/programa_noviembre_2026.pdf",
-      "author": "",
-      "category": "MUSICA",
-      "source": "ext-utalca-programa",
-      "date": "2026-11-23T12:00:00.000Z",
-      "image": "",
-      "event": {
-        "kind": "program",
-        "text": "23 de noviembre (Lunes) · 18:00",
-        "start": "2026-11-23T12:00:00.000Z"
-      }
     },
     {
       "id": "2026-11-22-fallece-a-los-89-anos-paolo-bulgari-figura-clave-del-lujo-italiano",
@@ -690,7 +715,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-11-24T12:00:00.000Z"
+        "start": "2026-12-01T12:00:00.000Z"
       }
     },
     {
@@ -2967,7 +2992,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-11-24T12:00:00.000Z"
+        "start": "2026-12-01T12:00:00.000Z"
       }
     },
     {
@@ -3445,7 +3470,7 @@
       "image": "",
       "event": {
         "text": "25 de octubre",
-        "start": "2026-10-25T12:00:00.000Z"
+        "start": "2027-10-25T12:00:00.000Z"
       }
     },
     {
@@ -3538,7 +3563,7 @@
       "image": "",
       "event": {
         "text": "25 de octubre",
-        "start": "2026-10-25T12:00:00.000Z"
+        "start": "2027-10-25T12:00:00.000Z"
       }
     },
     {
@@ -4308,7 +4333,7 @@
       "image": "",
       "event": {
         "text": "25 de octubre",
-        "start": "2026-10-25T12:00:00.000Z"
+        "start": "2027-10-25T12:00:00.000Z"
       }
     },
     {
@@ -4934,7 +4959,7 @@
       "image": "",
       "event": {
         "text": "25 de octubre",
-        "start": "2026-10-25T12:00:00.000Z"
+        "start": "2027-10-25T12:00:00.000Z"
       }
     },
     {
@@ -6235,7 +6260,7 @@
       "image": "",
       "event": {
         "text": "este martes",
-        "start": "2026-11-24T12:00:00.000Z"
+        "start": "2026-12-01T12:00:00.000Z"
       }
     },
     {
@@ -14932,10 +14957,10 @@
     "POESIA": 114,
     "LITERATURA": 54,
     "MUSICA": 229,
-    "TEATRO": 102,
+    "TEATRO": 103,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 66,
-    "PATRIMONIO": 410,
+    "PATRIMONIO": 411,
     "FOTOGRAFIA": 27,
     "CINE_MEDIOS": 95,
     "TERRITORIO": 92
@@ -14944,11 +14969,11 @@
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
-      "ext-utalca-programa": 7,
-      "diario-el-centro": 128,
+      "ext-utalca-programa": 6,
+      "diario-el-centro": 129,
+      "diariotalca": 73,
       "seremi-culturas": 212,
       "elmauleinforma": 143,
-      "diariotalca": 71,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
       "poesia-maulina": 19,
