@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T00:28:04.692Z",
+  "generatedAt": "2026-11-25T18:32:05.770Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -80,6 +80,43 @@
         "text": "25 de noviembre (Miércoles) · 18:30",
         "start": "2026-11-25T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-24-con-degustacion-gratuita-de-ostras-licanten-se-prepara-para-recibir-una-nueva-fi",
+      "title": "Con degustación gratuita de ostras: Licantén se prepara para recibir una nueva fiesta turística y gastronómica este fin de semana",
+      "summary": "El encuentro se realizará este sábado 28 de noviembre en El Médano, con gastronomía marina, música en vivo, artesanías y actividades para toda la familia. The post Con degustación gratuita de ostras: Licantén se prepara para recibir una nueva fiesta turística y gastronómica este fin de semana appear",
+      "link": "https://www.diarioelcentro.cl/2026/11/24/con-degustacion-gratuita-de-ostras-licanten-se-prepara-para-recibir-una-nueva-fiesta-turistica-y-gastronomica-este-fin-de-semana/",
+      "author": "Patricio Mora",
+      "category": "MUSICA",
+      "source": "diario-el-centro",
+      "date": "2026-11-24T22:36:11.000Z",
+      "image": "",
+      "event": {
+        "text": "28 de noviembre",
+        "start": "2026-11-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-24-en-villarrica-seminario-sobre-educacion-artistica-promueve-el-arte-y-la-cultura-",
+      "title": "En Villarrica seminario sobre educación artística promueve el arte y la cultura como derechos desde la primera infancia",
+      "summary": "La iniciativa reunió a estudiantes de pedagogía, equipos educativos, académicas y agentes culturales para reflexionar sobre los diferentes lenguajes mediante los cuales niñas y niños se expresan, se relacionan y descubren el mundo.",
+      "link": "https://www.cultura.gob.cl/actualidad/en-villarrica-seminario-sobre-educacion-artistica-promueve-el-arte-y-la-cultura-como-derechos-desde-la-primera-infancia/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-24T20:56:02.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-24-nuevo-punto-biblioteca-en-pillanlelbun-fortalece-el-acceso-a-la-lectura-para-nin",
+      "title": "Nuevo Punto Biblioteca en Pillanlelbún fortalece el acceso a la lectura para niñas, niños y familias",
+      "summary": "La iniciativa, financiada por el Fondo del Libro y la Lectura del Ministerio de las Culturas, permitirá ampliar la colección bibliográfica disponible para la comunidad y acercar a los libros a vecinos y vecinas de la localidad.",
+      "link": "https://www.cultura.gob.cl/actualidad/nuevo-punto-biblioteca-en-pillanlelbun-fortalece-el-acceso-a-la-lectura-para-ninas-ninos-y-familias/",
+      "author": "araucania",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-24T16:57:00.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-24-fallece-delfina-guzman-a-los-98-anos-chile-despide-a-una-de-sus-grandes-actrices",
@@ -14956,11 +14993,11 @@
   "counts": {
     "POESIA": 114,
     "LITERATURA": 54,
-    "MUSICA": 229,
+    "MUSICA": 230,
     "TEATRO": 103,
     "ARTES_VISUALES": 100,
     "ARTESANIAS": 66,
-    "PATRIMONIO": 411,
+    "PATRIMONIO": 413,
     "FOTOGRAFIA": 27,
     "CINE_MEDIOS": 95,
     "TERRITORIO": 92
@@ -14970,9 +15007,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 6,
-      "diario-el-centro": 129,
+      "diario-el-centro": 130,
+      "seremi-culturas": 214,
       "diariotalca": 73,
-      "seremi-culturas": 212,
       "elmauleinforma": 143,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
