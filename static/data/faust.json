@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T07:31:54.998Z",
+  "generatedAt": "2026-11-26T18:14:38.261Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -64,6 +64,43 @@
         "text": "26 de noviembre",
         "start": "2026-11-26T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-26-espectaculos-gratuitos-y-talleres-talca-recibira-cuatro-dias-de-circo-con-el-fes",
+      "title": "Espectáculos gratuitos y talleres: Talca recibirá cuatro días de circo con el Festival Amalgama 2026",
+      "summary": "Entre el 26 y el 29 de noviembre, el encuentro ofrecerá espectáculos, talleres infantiles y cinco seminarios gratuitos en distintos espacios culturales de la capital maulina. The post Espectáculos gratuitos y talleres: Talca recibirá cuatro días de circo con el Festival Amalgama 2026 appeared first ",
+      "link": "https://www.diarioelcentro.cl/2026/11/25/espectaculos-gratuitos-y-talleres-talca-recibira-cuatro-dias-de-circo-con-el-festival-amalgama-2026/",
+      "author": "Patricio Mora",
+      "category": "PATRIMONIO",
+      "source": "diario-el-centro",
+      "date": "2026-11-26T01:00:00.000Z",
+      "image": "",
+      "event": {
+        "text": "el 29 de noviembre",
+        "start": "2026-11-28T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "2026-11-25-nidos-de-lectura-la-iniciativa-que-busca-fomentar-el-amor-por-los-libros-desde-l",
+      "title": "“Nidos de Lectura”, la iniciativa que busca fomentar el amor por los libros desde la primera infancia",
+      "summary": "Familias del jardín infantil “Manitos a la obra” participaron en talleres de mediación lectora para incorporar los libros, los juegos y la narración en la vida cotidiana de niños y niñas.",
+      "link": "https://www.cultura.gob.cl/programas/nidos-de-lectura-la-iniciativa-que-busca-fomentar-el-amor-por-los-libros-desde-la-primera-infancia/",
+      "author": "ohiggins",
+      "category": "PATRIMONIO",
+      "source": "seremi-culturas",
+      "date": "2026-11-25T20:29:17.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-25-fiscalia-apunta-a-que-el-cuerpo-hallado-en-el-rio-claro-corresponderia-al-joven-",
+      "title": "Fiscalía apunta a que el cuerpo hallado en el río Claro correspondería al joven desaparecido en Talca",
+      "summary": "El fiscal Héctor de la Fuente confirmó que las vestimentas fueron reconocidas por los familiares del joven desaparecido en Talca. Sin embargo, la identificación científica continúa pendiente. The post Fiscalía apunta a que el cuerpo hallado en el río Claro correspondería al joven desaparecido en Tal",
+      "link": "https://www.diarioelcentro.cl/2026/11/25/fiscalia-apunta-a-que-el-cuerpo-hallado-en-el-rio-claro-corresponderia-al-joven-desaparecido-en-talca/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-25T19:50:50.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-25-ministerio-de-las-culturas-impulsa-acceso-a-la-lectura-en-cholchol-con-nueva-gua",
@@ -15107,9 +15144,9 @@
     "TEATRO": 104,
     "ARTES_VISUALES": 101,
     "ARTESANIAS": 67,
-    "PATRIMONIO": 417,
+    "PATRIMONIO": 419,
     "FOTOGRAFIA": 27,
-    "CINE_MEDIOS": 97,
+    "CINE_MEDIOS": 98,
     "TERRITORIO": 92
   },
   "feedStats": {
@@ -15117,9 +15154,9 @@
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 5,
-      "seremi-culturas": 218,
+      "diario-el-centro": 135,
+      "seremi-culturas": 219,
       "elmauleinforma": 144,
-      "diario-el-centro": 133,
       "diariotalca": 75,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
