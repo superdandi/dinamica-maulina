@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T07:28:55.328Z",
+  "generatedAt": "2026-11-27T17:56:39.374Z",
   "items": [
     {
       "id": "2026-11-28-jueves-26-de-noviembre-19-30-horas-la-venganza-de-las-cantoras",
@@ -16,6 +16,28 @@
         "text": "29 de noviembre",
         "start": "2026-11-28T12:00:00.000Z"
       }
+    },
+    {
+      "id": "2026-11-27-armys-del-maule-celebraran-el-cumpleanos-de-jimin-con-evento-gratuito-en-talca",
+      "title": "ARMYs del Maule celebrarán el cumpleaños de Jimin con evento gratuito en Talca",
+      "summary": "La convocatoria también tendrá un componente solidario mediante una colecta de libros en buen estado, iniciativa que busca apoyar el acceso a la lectura de niños, niñas y jóvenes vulnerables. The post ARMYs del Maule celebrarán el cumpleaños de Jimin con evento gratuito en Talca appeared first on Di",
+      "link": "https://www.diarioelcentro.cl/2026/11/26/armys-del-maule-celebraran-el-cumpleanos-de-jimin-con-evento-gratuito-en-talca/",
+      "author": "Patricio Mora",
+      "category": "CINE_MEDIOS",
+      "source": "diario-el-centro",
+      "date": "2026-11-27T00:28:17.000Z",
+      "image": ""
+    },
+    {
+      "id": "2026-11-27-seminario-reunio-experiencias-publicas-privadas-y-comunitarias-para-fortalecer-l",
+      "title": "Seminario reunió experiencias públicas, privadas y comunitarias para fortalecer la conservación del ruil en el Maule",
+      "summary": "Con menos de 300 hectáreas de distribución natural y cerca de la mitad de su superficie conocida afectada por los incendios forestales de 2017, el ruil enfrenta un complejo desafío de conservación. Su recuperación y la necesidad de reconectar los bosques remanentes fueron los principales temas abord",
+      "link": "https://elmauleinforma.cl/seminario-reunio-experiencias-publicas-privadas-y-comunitarias-para-fortalecer-la-conservacion-del-ruil-en-el-maule/",
+      "author": "Redacción El Maule Informa",
+      "category": "TERRITORIO",
+      "source": "elmauleinforma",
+      "date": "2026-11-27T00:00:16.000Z",
+      "image": ""
     },
     {
       "id": "2026-11-26-talca-busca-reunir-a-miles-de-personas-en-el-brindis-mas-grande-de-chile-durante",
@@ -15241,17 +15263,17 @@
     "ARTESANIAS": 68,
     "PATRIMONIO": 424,
     "FOTOGRAFIA": 27,
-    "CINE_MEDIOS": 99,
-    "TERRITORIO": 92
+    "CINE_MEDIOS": 100,
+    "TERRITORIO": 93
   },
   "feedStats": {
     "sources": 54,
     "alive": 48,
     "itemsPerSource": {
       "ext-utalca-programa": 4,
-      "diario-el-centro": 136,
+      "diario-el-centro": 137,
+      "elmauleinforma": 148,
       "seremi-culturas": 222,
-      "elmauleinforma": 147,
       "diariotalca": 77,
       "rincon-literario": 48,
       "soymaule-agenda": 8,
